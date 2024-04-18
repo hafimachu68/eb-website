@@ -1,0 +1,43 @@
+.aboutus-header {
+    min-height: 480px;
+    width: 100%;
+    font-family: alata;
+    font-weight: 300;
+    background-image: url('./Aboutus.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .aboutoverlay {
+    min-height: 480px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    /* Set the background color with 60% opacity */
+    background-color: rgba(0, 0, 2, 0.6);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffff;
+  }
+  
+  
+  .al_bottom{
+    padding-top: 99px;
+
+  }
+  .ah{
+    font-size: 58px;
+
+  }
+
+  /* .apara{
+   padding-top: 60px;
+  } */
+  .abcontent{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif ;
+    padding-top: 46px;
+
+  }

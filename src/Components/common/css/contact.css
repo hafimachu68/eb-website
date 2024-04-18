@@ -1,0 +1,89 @@
+.contact-header {
+    min-height: 480px;
+    width: 100%;
+    font-family: alata;
+    font-weight: 300;
+    background-image: url('./cntct.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contact-overlay {
+    min-height: 480px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    /* Set the background color with 60% opacity */
+    /* background-color: rgba(0, 0, 2, 0.6); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 86px;
+    color: #ffff;
+  }
+
+  .cnlay{
+    background-color: #F3F8FF    ;
+    width: 100%;
+    height: 1024px;
+    border-radius: 7px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+.loc {
+    width: 20px;
+    height: 25px;
+}
+.tw{
+    margin-left: -42px !important;
+}
+.ytb{
+    margin-left: -90px !important;
+}
+.locate{
+    width: 568px;
+    height: 342px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+.cform{
+    width: 546px;
+    height: 841px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+.lc{
+    margin-top: -103px;
+}
+.phone{
+    width: 568px;
+    height: 340px;
+    background-image: url('./phone.png');
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.custom-form {
+    color: #989A9D  ;
+  }
+  
+  .submit-button {
+    float: right;
+    margin-top: -30px;
+    background: linear-gradient(to left,#193054 , #21457D );
+
+  }
+  .nm{
+    margin-top: 34px !important;
+  }
+  .input{
+    border: none ;
+    border-bottom: 1px solid #dee2e6 !important;
+    ;
+    border-radius: 0;
+    outline: none;
+  }

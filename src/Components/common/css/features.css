@@ -1,0 +1,245 @@
+.features {
+    margin-left: .508em;
+    margin-right: .508em;
+    margin-top: 1.2em;
+    margin-bottom: 6.5em;
+    font-size: 16px;
+    color: #ffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.t-head {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.fcloud {
+    width: 111.56px;
+    height: 89.2px;
+}
+
+.deploy {
+    width: 67.79px;
+    height: 62.64px;
+}
+
+.coins {
+    width: 58.15px;
+    height: 54.98px;
+}
+
+.lock {
+    width: 51.49px;
+    height: 67.58px;
+}
+
+.low {
+    width: 64.36px;
+    height: 51.49px;
+}
+
+.flight {
+    width: 51.8px;
+    height: 54.53px;
+}
+
+.overlay {
+    position: relative;
+    bottom: 27px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /* height: 394px; */
+    background: linear-gradient(#4D86D6 100%, #B4D2FC 100%);
+    border-top-right-radius: 95px;
+    border-top-left-radius: 95px;
+    overflow: hidden;
+    z-index: 1;
+}
+    
+/* .overlays {
+    position: relative;
+    bottom: 0px;
+    top: 76px;
+    width: 100%;
+    padding-left: 120px;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.over {
+    margin-left: 10px;
+} */
+
+.overlays {
+    position: relative;
+    bottom: 0px;
+    top: 76px;
+    width: calc(100% - 110px); 
+    margin-left: 110px; 
+    overflow: hidden;
+    z-index: 2;
+}
+
+.over {
+    margin-left: 0;
+    margin-right: 21px; }
+
+.fcloud1 {
+    /* width: 44px; */
+    height: 44px;
+    margin-top: 45px;
+}
+
+.bg {
+    position: relative;
+    background: linear-gradient(to top, #154992, #193054  );
+    height: 100%;
+    z-index: 0;
+}
+.feic {
+    font-size: 16px;
+    font-family: arial;
+    margin-top: 19px;
+}
+.flogo{
+
+        width: 23.33px;
+        height: 23.33px;
+        margin-right: 10px;
+    }
+
+
+/* Media Queries for Mobile Viewport */
+@media (max-width: 768px) {
+    .center {
+        text-align: center;
+    }
+
+    .col-md-4 {
+        flex: 100%; /* Make columns take half of the width */
+        max-width: 100%; /* Ensure columns take half of the width */
+        margin-bottom: 20px; /* Add some margin between columns */
+    }
+
+    
+
+    .fcloud1 {
+        width: 80px; /* Adjust overlay image width */
+        height: auto; /* Ensure aspect ratio is maintained */
+    }
+    
+    .mainB{
+        text-align: center;
+    }
+    .mainH{
+        text-align: center;
+        padding-left: 16px !important;
+    }
+    .mainimg{
+        width: 380px !important ;
+        margin-left: 57px !important;
+        height: 320px !important;
+    }
+
+    .overlay-box{
+        width: 476px !important;
+        height: 170px !important;
+    }
+    .overlays{
+        margin-left: -6px;
+        width: 100%;
+        margin-top: -220px;
+    }
+}
+
+.content{
+    padding-top: 150px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.mainH{
+    padding-left: 135px;
+}
+.sub{
+    font-size: 16px;
+    
+}
+.ex{
+    background-color: #FFFFFF;
+}
+.mainB{
+    padding-top: 51px;
+    padding-left: 35px;
+}
+.mainimg{
+    width: 1282px.02px;
+    height:726px    ;
+    margin-left:115px ;
+    padding-bottom: 40px;
+    padding-top: 40px;
+
+}
+.overlay-box {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(0deg, #D4E4FC, #E5F0FF, #FFFFFF);
+    border-radius: 5px;
+    /* border-top-left-radius: 5px; */
+    width: 200px;
+    height: 150px;
+}
+
+.overlay-box:hover {
+    border-top: 7px solid ;
+    border-top-color: #79C977; /* Change border color on hover */
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    transition: border-top-color 0.3s ease; /* Add transition for smooth effect */
+
+
+
+}
+.overlay-link {
+    display: block;
+    height: 100%;
+}
+.ot{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+    color: black;
+}
+.overlay-link.active .underline {
+    background-color: #c7dac7;
+    border-radius: 0.625em;
+    width: 2.5em;
+    height: 0.3125em;
+    margin: 12px 0 45px 0;
+}
+.overlay-link.active .overlay-box {
+    /* Add styles for the active overlay box */
+    border-top: 7px solid #79C977; /* Change border color for the active overlay */
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    transition: border-top-color 0.3s ease; /* Add transition for smooth effect */
+}
+
+
+.row-new {
+    filter:opacity(0); 
+    transition: filter 4s ease; 
+}
+
+/* .row-new:hover {
+    filter:opacity(1); 
+} */
+
+.row-new.transitioned {
+    filter: opacity(1);
+    transition: filter 3s ease;
+  }
+  

@@ -1,0 +1,76 @@
+.mobp{
+    padding: 35px;
+   margin-bottom: -40px;
+ }
+ 
+ .mbc{
+     padding: 60px;
+ }
+ .mbcc{
+     margin-top: -130px;
+ }
+ 
+ .mblay {
+     background-color: #ffff;
+     width: 100%;
+     height: 656px;
+     margin-top: 100px;
+     margin-bottom: 100px;
+ }
+ 
+ .mctc {
+     padding-top: 130px;
+     position: relative;
+ }
+ 
+ .mctc::before {
+     content: '';
+     position: absolute;
+     top: 69px;
+     left: 63px;
+     width: 91%;
+     height: 100%;
+     border-radius: 8px;
+     background-color: rgba(128, 128, 128, 0.5);
+     backdrop-filter: blur(10px); /* Apply blur effect */
+     z-index: 1;
+ }
+ 
+ .mctp {
+     margin-left: 200px;
+     position: relative; /* Ensure text content is on top of the overlay */
+     z-index: 2; /* Ensure text content is on top of the overlay */
+ }
+ 
+ .mcth {
+     margin-left: 200px;
+     font-size: 64px;
+     position: relative; /* Ensure text content is on top of the overlay */
+     z-index: 2; /* Ensure text content is on top of the overlay */
+ }
+ 
+ .mctb {
+     margin-left: 200px;
+     align-items: center;
+     justify-content: center;
+     background: linear-gradient(to right, #193054 0%, #21457D 80%);
+     border-radius: 5px;
+     color: white;
+     padding: 7px 5px;
+     border: none;
+     font-size: 16px;
+     cursor: pointer;
+     position: relative; /* Ensure button is on top of the overlay */
+     z-index: 2; /* Ensure button is on top of the overlay */
+ }
+ 
+ .mctbg {
+     height: 500px;
+     background-image: url('./mobpg2.png');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+     overflow: hidden;
+ }
+ 

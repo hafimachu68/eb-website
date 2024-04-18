@@ -1,0 +1,51 @@
+body {
+    overflow-x: hidden;
+}
+
+.ctbg {
+    background-color: #355F9A;
+    height: 500px;
+}
+
+.pg {
+    padding-top: 80px;
+}
+
+.ctc {
+    padding-top: 130px;
+}
+
+.ctpg {
+    padding-top: 128px;
+    padding-left: 50px;
+}
+
+.btgit {
+    background: linear-gradient(to left,#193054 , #79C977 ); 
+    color: white;
+    border: 1px;
+    padding: 15px;
+}
+
+.ctp {
+    margin-left: 100px;
+}
+
+.cth {
+    margin-left: 100px;
+    font-size: 64px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.ctb {
+    margin-left: 100px;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    background: linear-gradient(to right, #193054 0%, #21457D 80%);
+    border-radius: 5px;
+    color: white;
+    padding: 7px 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}

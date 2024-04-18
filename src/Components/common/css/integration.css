@@ -1,0 +1,82 @@
+.integrate {
+    padding-top: 140px;
+  }
+  
+  .build {
+    padding-top: 150px;
+    padding-bottom: 20px;
+  }
+  
+  .intbdy {
+    background-color: #d0e2fa;
+  }
+  
+  
+  
+  
+  .bempty {
+    background-color: #d9d9d9;
+    width: 100%;
+    height: 369px;
+  }
+  .circle {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .circle img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .bh{
+    background-color: white;
+  }
+  .zoomed {
+    transform: scale(1.1); /* Adjust the scaling factor as needed */
+  }
+  .white-bg {
+    background-color:#193054;
+  }
+  
+  .intbdy {
+    transition: background-color 2s ease, background-position 2s ease; /* Add background-position to the transition */
+  }
+  .arei{
+    
+      font-size: 18px;
+      font-weight: 400;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-top: 16px;
+  
+  }
+  .rint{
+    padding: 40px;
+  }
+  
+  .icint{
+    width: 23.33px;
+      height: 23.33px;
+      margin-right: 10px;
+  }
+  .h{
+    font-size: 64px;
+  }
+  
+  @media (max-width: 768px) {
+   .integrate{
+    padding-top: 0px ;
+   }
+   .circle img {
+    padding-top: 30px;
+  }
+  .rint{
+    text-align: center;
+  }
+  .h{
+    font-size: 40px;
+  }
+   
+  }
+  

@@ -1,0 +1,167 @@
+.teamview {
+    width: 100%;
+    height: 2797px;
+    /* background-image: url("./bg.png"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.cloud{
+    width: 240px;
+    height: 120px;
+}
+.cloud {
+    position: absolute;
+    animation: moveCloud linear infinite;
+    background-image: url("./cloud.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.clouds2 {
+    position: absolute;
+    animation: moveCloud linear infinite;
+    background-image: url("./cloud.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 120px;
+    height: 90px;
+}
+
+.cloud1 {
+    top: 100px;
+    left: -200px;
+    animation-duration: 20s; /* Faster animation */
+}
+.cloud12 {
+    top: 200px;
+    left: -200px;
+    animation-duration: 30s; /* Faster animation */
+}
+
+.cloud2 {
+    top: 828px; /* Adjusted position */
+    left: -400px;
+    animation-duration: 30s;
+}
+
+.cloud3 {
+    top: 1400px; /* Adjusted position */
+    left: -500px;
+    animation-duration: 30s; /* Slower animation */
+}
+.cloud4 {
+    top: 2200px; /* Adjusted position */
+    left: -500px;
+    animation-duration: 20s; /* Slower animation */
+}
+
+@keyframes moveCloud {
+    0% {
+        transform: translateX(-200px);
+    }
+    100% {
+        transform: translateX(calc(100% + 1300px));
+    }
+}
+
+/* .cardbg{
+    background: rgb(255,255,255);
+    background: linear-gradient(169deg, rgba(255,255,255,1) 2%, rgba(232,243,255,1) 100%);
+    }
+     */
+    .paddingcard{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+    background-color: #ffff;
+    box-shadow: 0px 3px 12px 0px rgba(0,0,0,0.15);
+    border-radius: 11PX;
+    }
+    .tmg{
+        margin-top: 150px ;
+    }
+    .txmg{
+        padding-bottom: 105px ;
+    }
+    
+    
+   /* .gy {
+            margin-left: 127px;
+            padding-left: 112px 
+    } */
+    
+   /* .kp{
+    margin-left: 70px;
+    padding-left: 170px 
+   } */
+
+   .ttxt{
+    font-family:Montserrat;
+   }
+   .contribute {
+    position: absolute;
+    top: -100px; 
+    /* left: 50%; */
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.5s, top 0.5s;
+  }
+  
+  .visible {
+    top: 50%;
+    opacity: 1;
+  }
+  
+  .contribute-wrapper {
+    position: relative;
+    height: 200px; /* Adjust as needed */
+  }
+
+   .contribute{
+    height: 540px;
+    width: 95%  ;
+   }
+
+   /* For Contributers1 (top image) */
+.contribute-1 {
+    height: 338px; /* height for first image */
+    width: 99%; /* width for first image */
+    margin-top: -84px; /* margin for first image */
+    animation: slideFromTop 1s ease forwards; /* animation for first image */
+    padding-left: 46px;
+  }
+  
+  /* For Contributers2 (bottom image) */
+  .contribute-2 {
+    height: 334px; /* height for second image */
+    width: 95%; /* width for second image */
+    margin-top: 140px; /* margin for second image */
+    animation: slideFromBottom 1s ease forwards; /* animation for second image */
+    padding-right: 23px;
+
+  }
+  
+  @keyframes slideFromTop {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideFromBottom {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  

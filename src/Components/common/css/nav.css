@@ -1,0 +1,163 @@
+.navbar {
+    padding: 1rem 2rem; /* Adjust padding as needed */
+  }
+  
+  .log {
+    margin-left: 8rem; /* Adjust margin as needed */
+  
+    /* Media query for smaller viewports */
+    @media (max-width: 768px) {
+      margin-left: 1rem; /* Adjust margin for smaller viewports */
+    }
+  }
+  
+  .navbar-toggler {
+    border: none;
+  }
+  
+  .logo-img {
+    max-width: 200px; /* Adjust maximum width for the logo */
+    height: auto;
+  }
+  
+  .navbar-nav {
+    margin-right: auto; /* Pushes the last element (submit button) to the right */
+  
+    /* Media query for smaller viewports */
+    @media (max-width: 768px) {
+      margin-right: 0; /* Remove right margin for smaller viewports */
+      margin-left: auto; /* Move navbar links to the left for smaller viewports */
+    }
+  }
+  
+  .demo {
+    margin-left: 1rem; /* Adjust margin as needed */
+  }
+  .link{
+    color: black !important;
+    text-decoration: none;
+  }
+  .btnav {
+    background: linear-gradient(to top,#193054 , #21457D );
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  .platform-menu {
+    width: 387px;
+    padding-bottom: 10px;
+  
+  }
+  .pv{
+    width: 24px;
+    height: 24px;
+  }
+  .po{
+    width: 24px;
+    height: 24px;
+  
+  }
+  .mv{
+    width: 14px;
+    height: 24px;
+    margin-right: 9px;
+  }
+  .platform-heading {
+    padding-top: 13px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+    margin-top: -8px;
+    background-image: linear-gradient(0deg, #FFFFFF  , #C9E0FF );
+  
+  }
+  
+  .udrop {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  .dropara {
+    margin-top: 0;
+    margin-left: 40px;
+    font-size: 14px;
+  }
+  .udropara {
+    margin-top: 0;
+    margin-left: 2px;
+    font-size: 14px;
+  }
+  .mbpara{
+    margin-left: 40px;
+    font-size: 14px;
+  }
+  
+  .platform-item {
+    display: flex;
+    align-items: center;
+    padding-left: 41px;
+  }
+  .usec-item {
+    display: flex;
+    align-items: center;
+    padding-left: 41px;
+    padding-top: 10px;
+  }
+  
+  .platform-item i {
+    margin-right: 10px;
+  }
+  
+  
+  .usecase-menu {
+    width: 400px;
+    padding-top: 50px;
+  }
+  
+  
+    .dropdown-menu hr {
+      border: none;
+      border-top: 2px solid #ccc; /* Adjust the color and thickness as needed */
+      margin: 7px 40px; /* Adjust the margin as needed */
+    }
+    /* Add this media query to adjust styles for smaller viewports */
+  @media (max-width: 768px) {
+  
+    .navbar-nav .dropdown-menu {
+      position: relative; /* Add relative positioning to dropdown menu */
+      width: auto; /* Adjust width as needed */
+      margin-top: 0; /* Remove margin top */
+      box-shadow: none; /* Remove box shadow */
+      border-radius: 3px; /* Remove border radius */
+      background-color: transparent; /* Set background color */
+    }
+    .btnav{
+      margin-top: 10px;
+    }
+    .nav-item{
+      margin-top: 15px;
+      border-bottom: 1px solid #ececec    ;
+    }
+    .demo{
+      border-bottom: none;
+    }
+    /* .dropdown-toggle {
+      white-space: nowrap;
+  }
+  .dropdown-toggle::after {
+      display: inline-block;
+      margin-left: .255em;
+      vertical-align: .255em;
+      content: ">";
+      border-top: none;
+      border-right: none;
+      padding-left: 170px;
+      border-bottom: none;
+      border-left: none;
+  } */
+  }
+  
+  
+  
