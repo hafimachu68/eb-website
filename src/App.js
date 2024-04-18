@@ -11,13 +11,13 @@ import Platform from './Pages/Platform';
 import Unsub from './Pages/Unsub';
 import Contact from './Pages/Contact';
 import Webform from './Pages/webform';
-// import Cooki from './Pages/Cooki';
+import Cooki from './Pages/Cooki';
 
 function App() {
   return (
     
       <div>
-       {/* <Cooki/> */}
+       <Cooki/>
        <BrowserRouter>
 
       <Routes>

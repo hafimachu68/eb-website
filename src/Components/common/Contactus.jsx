@@ -8,13 +8,16 @@ import cnt5  from '../images/cnt5.png'; // Import your logo file
 import cnt6  from '../images/cnt6.png'; // Import your logo file
 import cnt7  from '../images/cnt7.png'; // Import your logo file
 import Cform from './Cform';
+import background from '../images/cntct.png'; // Import your image
+import bg from '../images/phone.png'; // Import your image
+
 
 
 
 function Contactus() {
   return (
     <div>
-         <div className="contact-header">
+         <div className="contact-header"style={{backgroundImage: `url(${background})`}}>
       <div className="contact-overlay">
         <div className="container">
           <div className="row">
@@ -72,7 +75,7 @@ function Contactus() {
                     
                   </div>
                 </div>
-                <div className='container phone'>
+                <div className='container phone'style={{backgroundImage: `url(${bg})`}}>
                 <div className="contact-overlay">
         <div className="container lc">
           <div className="row">

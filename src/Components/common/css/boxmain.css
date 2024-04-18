@@ -18,21 +18,7 @@
     background: linear-gradient(#4D86D6 20%, #193054 80%);
   }
   
-  /* .right-box {
-    width: 954.25px;
-      height: 529px;
-      display: flex;
-      flex-direction: column;
-      border-radius: 15px;
-      justify-content: center;
-      align-items: center;
-      background-color: #193054;
-    transition: border-left-color 0.3s ease;
-  } */
   
-  /* .right-box.active {
-    border-left-color: transparent;
-  } */
   
   .heading {
     padding: 18px;
@@ -54,9 +40,7 @@
     padding: 20px;
     color: white;
   }
-  /* .main-heading{
-    font-size: 64px;
-  } */
+  
   
   .bxcontent {
     width: 100%;
@@ -89,27 +73,17 @@
   }
   
   
-  /* .bximg{
-    margin-top: 70px;
-    margin-left: 220px;
-    width: 366px;
-    height: 210px;
-  } */
+  
   .bxbtn {
     margin-top: -65px;
     width: 150px;
     height: 58px;
   }
-  /* .sub-heading,
-  .main-heading,
-  .paragraph {
-    margin-bottom: 10px;
-  } */
+  
   .sub-heading {
     font-size: 16px;
     font-weight: 400;
-    /* margin-top: -110px; */
-    /* margin-right: 745px; */
+    
   }
   button {
     margin-bottom: 10px;

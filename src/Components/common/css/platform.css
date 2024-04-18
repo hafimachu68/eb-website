@@ -3,24 +3,12 @@
     width: 100%;
     font-family: alata;
     font-weight: 300;
-    background-image: url('./plpg.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
   
-  /* .ploutoverlay {
-    min-height: 480px;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 300;
-    background-color: rgba(0, 0, 2, 0.6);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #ffff;
-  }
-   */
+  
   
   .pl_bottom{
     padding-top: 99px;
@@ -31,9 +19,7 @@
 
   }
 
-  /* .apara{
-   padding-top: 60px;
-  } */
+  
   .plcontent{
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif ;

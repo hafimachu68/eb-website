@@ -1,11 +1,13 @@
 import React from 'react'
 import './css/platform.css'; // Import the CSS file for styling
+import background from '../images/plpg.png'; // Import your image
+
 
 
 function Poverview() {
   return (
     <div>
-        <div className="platform-header">
+        <div className="platform-header"style={{backgroundImage: `url(${background})`}}>
       <div className="ploutoverlay">
         <div className="container">
           <div className="row">

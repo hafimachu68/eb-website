@@ -9,6 +9,10 @@ import Dona from '../images/DOna.png';
 import Vinayachandran from '../images/Vinayachandran.png';
 import Gayatri from '../images/Gayatri.png';
 import kp from '../images/KP.png';
+import backgroundImage from '../images/cloud.png'; // Import your image
+import background from '../images/bluebg.png'; // Import your image
+
+
 // import hafi from '../images/hafee.jpeg';
 
 import Contributers1 from '../images/c-1.png';
@@ -40,12 +44,12 @@ function ABteam() {
   }, []);
 
   return (
-    <section className="teamview">
-      <div className="cloud cloud1"></div>
-      <div className="cloud cloud12  "></div>
-      <div className="clouds2 cloud2"></div>
-      <div className="cloud cloud3"></div>
-      <div className="cloud cloud4"></div>
+    <section className="teamview"style={{backgroundImage: `url(${background})`}}>
+      <div className="cloud cloud1"  style={{backgroundImage: `url(${backgroundImage})`}}></div>
+      <div className="cloud cloud12"  style={{backgroundImage: `url(${backgroundImage})`}}></div>
+      <div className="clouds2 cloud2"  style={{backgroundImage: `url(${backgroundImage})`}}></div>
+      <div className="cloud cloud3"  style={{backgroundImage: `url(${backgroundImage})`}}></div>
+      <div className="cloud cloud4"  style={{backgroundImage: `url(${backgroundImage})`}}></div>
 
       <div className="container">
         <div className="row tmg" style={{ justifyContent: 'center' }}>

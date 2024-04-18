@@ -52,8 +52,7 @@
   
   .Abcontent {
     display: flex;
-    /* justify-content: space-between; */
-    /* align-items: center; */
+    
     height: 100%;
   }
   
@@ -91,22 +90,4 @@
   padding-bottom: 27px;
 }
   
-  /* .right img {
-    max-width: 100px;
-    height: auto;
-  } */
   
-/* .actc {
-    padding-top: 130px;
-}
-
-.actp {
-    margin-left: 120px;
-}
-
-.acth{
-    margin-left: 120px;
-    font-size: 64px;
-}
-
-*/

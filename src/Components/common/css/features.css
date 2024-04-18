@@ -58,19 +58,6 @@
     z-index: 1;
 }
     
-/* .overlays {
-    position: relative;
-    bottom: 0px;
-    top: 76px;
-    width: 100%;
-    padding-left: 120px;
-    overflow: hidden;
-    z-index: 2;
-}
-
-.over {
-    margin-left: 10px;
-} */
 
 .overlays {
     position: relative;
@@ -234,9 +221,6 @@
     transition: filter 4s ease; 
 }
 
-/* .row-new:hover {
-    filter:opacity(1); 
-} */
 
 .row-new.transitioned {
     filter: opacity(1);

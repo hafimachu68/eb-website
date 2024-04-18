@@ -29,6 +29,10 @@
     
     padding-left: 71px;
   }
+
+  .bck{
+    margin-top: 10px;
+  }
   @keyframes slide-up {
     from {
       transform: translateY(100%);
