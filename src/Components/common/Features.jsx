@@ -62,7 +62,7 @@ function Features() {
         <div
             ref={rowNewRef}
             className={`row row-new ${transitioned ? 'transitioned' : ''}`}
-            style={{ marginTop: '1.2em', marginBottom: '6.5em' }}
+            style={{ marginTop: '1.2em', marginBottom: '-3.5em' }}
           >            <div className="col-md-4 col-sm-6 pt-5 center">
               <img className='fcloud' src={cloud} alt="" />
               <h5 className="t-head " style={{ color: '#ffff' }}>Apps on Cloud</h5>

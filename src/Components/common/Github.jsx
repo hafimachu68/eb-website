@@ -19,9 +19,9 @@ function GitHub() {
           <button className='btn btgit fw-bold'><i className='ic'><FontAwesomeIcon icon={faGithub} /></i> Star us On GitHub</button>
         </div>
       </div>  
-      <div  style={{ padding: '10px', marginTop:'70px' }}>
+      {/* <div  style={{ padding: '10px', marginTop:'70px' }}>
          
-         </div>
+         </div> */}
     </div>
   )
 }

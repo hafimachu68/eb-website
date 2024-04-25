@@ -11,6 +11,8 @@
   }
   .mc{
     margin-left: 6px !important;
+    background-color: #263F82;
+    color: white;
   }
   .mfi{
     width:150px;
