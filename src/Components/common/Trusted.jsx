@@ -15,10 +15,14 @@ import zdiac from '../images/Rectangle 13.png';
 import liwa from '../images/Rectangle 14.png';
 import clinic7 from '../images/Rectangle 107.png';
 import technopark from '../images/Rectangle 122.png';
+import alarz from '../images/alarz.png';
+import dibba from '../images/dibba.png';
+import asha from '../images/asha.png';
+
 
 function Trusted() {
   return (
-    <div className="container mt-5 ">
+    <div className="container mt-2 ">
       <div className="trusted-sec-body">
         <img src={Start_up_Mission} className="trusted-img" alt="Start_up_Mission" />
         <img src={ehealth} className="trusted-img" alt="ehealth" />
@@ -33,6 +37,10 @@ function Trusted() {
         <img src={kudumbashri} className="trusted-img" alt="kudumbashri" />
         <img src={zdiac} className="trusted-img" alt="zdiac" />
         <img src={liwa} className="trusted-img" alt="liwa" />
+        <img src={alarz} className="trusted-img" alt="alarz" />
+        <img src={dibba} className="trusted-img" alt="dibba" />
+        <img src={asha} className="trusted-img" alt="asha" />
+
       </div>
     </div>
   );

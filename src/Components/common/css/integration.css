@@ -75,8 +75,13 @@
     text-align: center;
   }
   .h{
-    font-size: 40px;
+    font-size: 28px;
   }
-   
+   .intp{
+    letter-spacing: 1.5px;
+   }
+   .db{
+    padding-top: 30px;
+   }
   }
   

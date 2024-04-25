@@ -7,71 +7,12 @@ import doda from '../images/doda.png';
 import coins from '../images/wpf_coins.png';
 import lock from '../images/lock.png';
 import fluent from '../images/fluent.png';
-import flight from '../images/flight.png';
-import web from '../images/wformg.png';
-import report from '../images/reportg.png';
-import documents from '../images/docug.png';
-import api from '../images/apig.png';
-import mobapp from '../images/mobg.png';
-import mainimg from '../images/mainimg.png';
+import flight from '../images/flight.png'
 import feic from '../images/fe1.png';
 
 
 function Features() {
-  const overlayData = [
-    {
-      image: web,
-      path:'/webform',
-      imageA: mainimg,
-      text: 'Web Forms',
-      subheading: 'Sub Heading ',
-      mainHeading: 'Web Forms',
-      paragraph:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum',
-    },
-    {
-      image: report,
-      path:'/report',
-      imageA: mainimg,
-      text: 'Reports',
-      subheading: 'Sub Heading ',
-      mainHeading: 'Reports',
-      paragraph:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum',
-    },
-    {
-      image: documents,
-      path:'/documents',
-      imageA: mainimg,
-      text: 'Documents',
-      subheading: 'Sub Heading ',
-      mainHeading: 'Documents',
-      paragraph:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum',
-    },
-    {
-      image: api,
-      path:'/api',
-      imageA: mainimg,
-      text: 'APIs',
-      subheading: 'Sub Heading ',
-      mainHeading: 'APIs',
-      paragraph:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum',
-    },
-    {
-      image: mobapp,
-      path:'/mobileapp',
-      imageA: mainimg,
-      text: 'Mobile Apps',
-      subheading: 'Sub Heading ',
-      mainHeading: 'Mobile Apps',
-      paragraph:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum',
-    },
-  ];
-
-  const [activeOverlayIndex, setActiveOverlayIndex] = useState(0);
+  
   const [transitioned, setTransitioned] = useState(false);
   const rowNewRef = useRef(null);
 
@@ -102,9 +43,7 @@ function Features() {
     };
   }, []); // Empty dependency array to run effect only once
 
-  const handleOverlayHover = (index) => {
-    setActiveOverlayIndex(index);
-  };
+  
   return (
     <div>
       <div className="bg">
@@ -155,39 +94,8 @@ function Features() {
               <p className="features">Conventional modes of development & delivery are high effort-time–money exercises. Use our platform to express build complex business apps 10x faster.</p>
             </div>
           </div>
-        </div>
-        <Link to={overlayData[activeOverlayIndex].path}> {/* Wrap the entire overlay container */}
-          <div className="row overlays">
-            {overlayData.map((data, index) => (
-              <div className="col-md-2 over" key={index}>
-                <div
-                  className={`overlay-link ${index === activeOverlayIndex ? 'active' : ''}`}
-                  onMouseEnter={() => handleOverlayHover(index)}
-                >
-                  <div className="overlay-box text-center">
-                    <img className="fcloud1" src={data.image} alt="" />
-                    <p className="ot">{data.text}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </Link>
-        <div className="overlay">
-          <div className="row content">
-            <div className="col-md-6 mainH">
-              <p className="sub">{overlayData[activeOverlayIndex].subheading}</p>
-              <h1 className="fw-bold">{overlayData[activeOverlayIndex].mainHeading}</h1>
-              <p className="sub">{overlayData[activeOverlayIndex].paragraph}</p>
-            </div>
-            <div className="col-md-6 mainB">
-              <button className="btn ex">Explore</button>
-            </div>
-          </div>
-          <div className=" ">
-            <img className="mainimg" src={overlayData[activeOverlayIndex].imageA} alt="imga" />
-          </div>
-        </div>
+         </div>
+        
       </div>
     </div>
   );

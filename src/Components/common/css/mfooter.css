@@ -1,0 +1,55 @@
+.mcircle {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 50%;
+    border-color: white;
+    border: solid 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mfi{
+    width:150px;
+    height: 45px;
+    margin-left: -31px;
+    margin-top: -24px;
+  }
+  .mfm{
+    margin-left: 104px;
+    margin-top: -40px;
+  }
+  .mcol{
+    margin-left: 65px;
+  }
+  .mfp{
+    margin-left: -30px;
+    margin-top: 13px;  }
+  .mfr{
+    margin-left: 128px;
+    margin-top: -253px;
+}
+  
+.mfc{
+    margin-left: 255px;
+    margin-top: -253px;
+}
+.mft{
+  margin-left: 72px;
+}
+
+.mfpr{
+    margin-left: 147px;
+    margin-top: -46px;
+}
+.mfco{
+    margin-left: 226px;
+    margin-top: -46px;
+}
+
+.mcp{
+    font-size: 13px;
+    padding-top: 13px;
+    margin-left: 30px;
+}

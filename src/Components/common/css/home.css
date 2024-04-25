@@ -13,10 +13,10 @@
   
   .head {
     font-size: 62px;
-    /* font-weight: 700; */
     color: #193054;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
+    font-family: "Blinker", sans-serif;
+    font-weight: 700;
+    font-style: normal;  }
   .arpg {
     width: 340px;
     height: 70px;
@@ -37,6 +37,9 @@
     margin-right: 10px; /* Add spacing between the logo and text */
   }
   
+  .card{
+    background-color: transparent;
+  }
   .are {
     margin: 0; /* Reset margin for the text */
   }
@@ -79,14 +82,15 @@
       text-align: center;
     }
     .head{
-      font-size: 24px;
-      padding-top: 13px;
+      font-size: 32px;
+      /* padding-top: 10px; */
     }
     .are{
       font-size: 16px;
     }
     .para1{
-      padding-top: 0.5rem !important;
+      padding-top: 1.5rem !important;
+      font-size: 17px;
     }
     .cus{ 
       margin-top: -2em !important;
@@ -102,6 +106,12 @@
   }
   .rbpg{
     width: 343px;
+  }
+  #video-player {
+    width: 100% !important; /* Set width to 100% to make it responsive */
+    height: auto !important; /* Set height to auto to maintain aspect ratio */
+    max-width: 100% !important; /* Ensure video doesn't exceed container width */
+    max-height: 100% !important; /* Ensure video doesn't exceed container height */
   }
   }
   @media (max-width: 400px) {

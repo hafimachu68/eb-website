@@ -16,7 +16,7 @@ function Areyou() {
               </div>
               <p className="para1 pt-4">
               Build & run internal business process applications on the cloud 10x faster.<br/> 
-              Get the stability of Ready-Made software, and the flexibility of Custom software.              </p>
+              Get the stability of Ready-Made software, and the flexibility of Custom software.  </p>
               <a href="https://calendly.com/expressbase">
                 <button className="btn btnare text-light mt-4" type="submit">Book a Demo</button>
               </a>

@@ -1,0 +1,104 @@
+.carousel-card {
+    border: none;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    margin-top: -490px;
+}
+
+/* Customize the next arrow icon */
+.carousel-control-next-icon {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid black; /* Adjust color as needed */
+    display: none;
+}
+
+/* Customize the previous arrow icon */
+.carousel-control-prev-icon {
+    content: '';
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid black; /* Adjust color as needed */
+    display: none;
+
+}
+
+.mmg {
+    width: 350px;
+    margin-left: -10px;
+}
+
+.carousel-item.active .carousel-card {
+    border-top: 7px solid;
+    border-top-color: #79C977; /* Change border color */
+    /* border-top-right-radius: 5px; */
+    /* border-top-left-radius: 5px; */
+    transition: border-top-color 0.3s ease; /* Add transition for smooth effect */
+}
+
+.icon {
+    margin-left: 70px;
+}
+
+.mch {
+    margin-left: -120px;
+}
+
+.mbtn{
+    margin-left: 70px;
+}
+
+
+
+/* M carousel */
+
+.mbg{
+    background-color: #193054;
+    }
+
+.mbmg{
+    width: 226px;
+    margin-left: 115px;
+}
+
+.mflogo{
+    margin-top: -18px;
+    margin-left: -6px;
+}
+
+.muc{
+    margin-left: -165px;
+}
+
+.mmainh{
+    margin-top: .5rem;
+    font-family: "Blinker", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.custom-carousel .carousel-control-next-icon {
+    /* Your custom styles for the next arrow */
+    border-left-color:#ffff; /* Change the color to red as an example */
+    margin-top: -12px;
+    margin-left: 38px;  }
+  
+  .custom-carousel .carousel-control-prev-icon {
+    /* Your custom styles for the previous arrow */
+    border-right-color: #ffff; /* Change the color to red as an example */
+    margin-top: -20px;
+    margin-left: -44px;
+}
+.carousel-indicators {
+    display: none !important;
+  }
+ 

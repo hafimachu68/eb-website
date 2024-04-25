@@ -79,8 +79,9 @@ function Carouse() {
             <p className='feic'>Use Cases </p>
           </div>
           </div>                <div><h1 className="main-heading ">Quotation Management</h1></div>
-                <div className="paragraph">A bespoke application developed using low-code technology that redefines the process of creating, managing, and tracking quotations.  It empowers sales teams to streamline quotation workflows, improve accuracy, cuts down time & effort substantially and enhance customer satisfaction with ease.</div>
-                <div className="bxbtn-img-container">
+                <div className="paragraph">A bespoke application developed using low-code technology that redefines the process of creating, managing, and tracking quotations.  It empowers sales teams to streamline quotation workflows, improve accuracy, cuts down time & effort substantially and enhance customer satisfaction with ease.
+                </div>
+                 <div className="bxbtn-img-container">
                   <div className='bxbtn'><button className='bbtn'>Explore</button></div>
                   <div className='bximg'><img src={bimage1} alt="Your Image" /></div>
                 </div>

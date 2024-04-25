@@ -49,3 +49,32 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    .ctc{
+        padding-top: 27px;
+    }
+    .cth{
+        margin-left: 47px;
+        font-size: 30px;
+    }
+    .ctp{
+        margin-left: 42px;
+    }
+    .ctb{
+        margin-left: 42px ;
+    }
+    .ctpg{
+        padding-left: 162px;
+    }
+    .ctpg img{
+        width: 200px;
+    }
+    .ctbg{
+        height: 407px;
+        
+    }
+    .ctmg{
+        margin-top: -246px;
+    }
+}

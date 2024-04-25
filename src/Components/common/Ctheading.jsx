@@ -18,7 +18,7 @@ function Ctaheading() {
         </div>
         </div>
           </div>
-          <div className="col-md-5">
+          <div className="col-md-5 ctmg">
           <div className='ctpg'><img src={ctpg} alt="Your Image" /></div>
           </div>
         </div>

@@ -15,7 +15,8 @@ function Integration() {
       const wheelElement = wheelRef.current;
       const wheelOffsetTop = wheelElement.offsetTop;
       const scrollPosition = window.scrollY;
-      if (scrollPosition >= wheelOffsetTop && !showBackground) {
+      if (scrollPosition >= wheelOffsetTop  && !showBackground) {
+        console.log(wheelOffsetTop);
         setShowBackground(true);
         setTimeout(() => {
           setTransitioned(true); // Enable transition effect after trigger time
@@ -42,7 +43,7 @@ function Integration() {
                 <p className='arei'>INTEGRATIONS</p>
               </div> 
                <h1 className='fw-bold h'>Seamless<br/> Connectivity to<br/> External Systems</h1>
-            <p className=''>Effortless data exchange and communication with 3rd party/<br/>
+            <p className='pt-3 intp'>Effortless data exchange and communication with 3rd party/<br/>
             external systems like WhatsApp, SMTP Servers, SMS Gateways,<br/> Cloudinary etc.   </p>  
           </div>
           <div className="col-md-6 wheel" ref={wheelRef}>

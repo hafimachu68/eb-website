@@ -90,6 +90,9 @@
     font-family: arial;
     margin-top: 19px;
 }
+.fbg{
+    margin-top: -240px;
+}
 .flogo{
 
         width: 23.33px;
@@ -98,23 +101,21 @@
     }
 
 
-/* Media Queries for Mobile Viewport */
 @media (max-width: 768px) {
     .center {
         text-align: center;
+        padding-top: 0px !important;
     }
 
     .col-md-4 {
-        flex: 100%; /* Make columns take half of the width */
-        max-width: 100%; /* Ensure columns take half of the width */
-        margin-bottom: 20px; /* Add some margin between columns */
+        flex: 100%; 
+        max-width: 100%; 
+        margin-bottom: 20px; 
     }
 
-    
-
     .fcloud1 {
-        width: 80px; /* Adjust overlay image width */
-        height: auto; /* Ensure aspect ratio is maintained */
+        width: 80px; 
+        height: auto; 
     }
     
     .mainB{
@@ -126,7 +127,7 @@
     }
     .mainimg{
         width: 380px !important ;
-        margin-left: 57px !important;
+        margin-left: 5px !important;
         height: 320px !important;
     }
 
