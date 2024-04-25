@@ -37,7 +37,7 @@ function Mfooter() {
             </p>
             <div className="mb-3 py-2 mfp">
               <input type="email" className="input-field" placeholder="Enter your email" />
-              <button className="btn bclr" type="button">Subscribe</button>
+              <button className="btn bclr mc" type="button">Subscribe</button>
             </div>
           {/* </div> */}
           <div className="col-md-6 mfp ">
