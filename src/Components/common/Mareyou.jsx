@@ -2,7 +2,7 @@ import React from 'react';
 import './css/home.css';
 import logo from '../images/arpg.png'; // Import your logo file
 
-function Areyou() {
+function Mareyou() {
   return (
     <div>
       <div className="container">
@@ -35,4 +35,4 @@ function Areyou() {
   );
 }
 
-export default Areyou;
+export default Mareyou;

@@ -21,10 +21,13 @@
     border: 1px solid white;
     background-color: #193054;
     color: white;
-    border-radius: 4px;
-    padding: 10px;
+    border-radius: 15px;
+    padding: 7px;
+    padding-left: 25px;
     margin-left: 30px;
+    padding-right: 25px;
 }
+
   .pck{
     
     padding-left: 71px;

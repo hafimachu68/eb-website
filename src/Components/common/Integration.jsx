@@ -8,15 +8,15 @@ function Integration() {
   const [transitioned, setTransitioned] = useState(false);
   const [triggered, setTriggered] = useState(false); // State to track if trigger time has passed
   const wheelRef = useRef(null);
-  const triggerTime = 1000; // Trigger time in milliseconds
+  const triggerTime = 500; // Trigger time in milliseconds
+  const scrollTriggerOffset = 400; // Adjust this value to change when the transition starts
 
   useEffect(() => {
     const handleScroll = () => {
       const wheelElement = wheelRef.current;
       const wheelOffsetTop = wheelElement.offsetTop;
       const scrollPosition = window.scrollY;
-      if (scrollPosition >= wheelOffsetTop  && !showBackground) {
-        console.log(wheelOffsetTop);
+      if (scrollPosition >= wheelOffsetTop - scrollTriggerOffset && !showBackground) { // Adjusted scroll position condition
         setShowBackground(true);
         setTimeout(() => {
           setTransitioned(true); // Enable transition effect after trigger time
@@ -38,11 +38,11 @@ function Integration() {
       <div className="container ">
         <div className="row rint">
           <div className="col-md-6 integrate text-white ">
-          <div className="logo-container">
-                <img src={icint} alt="Logo" className="icint" /> {/* Insert your logo here */}
-                <p className='arei'>INTEGRATIONS</p>
-              </div> 
-               <h1 className='fw-bold h'>Seamless<br/> Connectivity to<br/> External Systems</h1>
+            <div className="logo-container">
+              <img src={icint} alt="Logo" className="icint" /> {/* Insert your logo here */}
+              <p className='arei'>INTEGRATIONS</p>
+            </div> 
+            <h1 className='fw-bold h'>Seamless<br/> Connectivity to<br/> External Systems</h1>
             <p className='pt-3 intp'>Effortless data exchange and communication with 3rd party/<br/>
             external systems like WhatsApp, SMTP Servers, SMS Gateways,<br/> Cloudinary etc.   </p>  
           </div>

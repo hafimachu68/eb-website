@@ -1,12 +1,14 @@
 import React from 'react'
 import './css/git.css';
 import ctpg  from '../images/ctpg.png'; // Import your logo file
+import background from '../images/CTAbg.png'; // Import your image
+
 
 
 
 function Ctaheading() {
   return (
-    <div className='ctbg'>
+    <div className='ctbg'style={{backgroundImage: `url(${background})`}}>
         <div className="row">
           <div className="col-md-7">
           <div className='text-white ctc'>

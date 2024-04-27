@@ -14,9 +14,9 @@
   }
   
   .trusted-img {
-    height: 62px; /* Adjust height as needed */
+    height: 62px; 
     width: 144px;
-    margin: 20px; /* Adjust margin as needed */
+    margin: 20px; 
   }
   
   /* Add this media query to adjust styles for smaller viewports */

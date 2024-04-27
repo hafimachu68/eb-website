@@ -15,6 +15,7 @@ import Mforms from '../Components/common/Mforms';
 import Mcarousel from '../Components/common/Mcarousel';
 import Forms from '../Components/common/Forms';
 import Mfooter from '../Components/common/Mfooter';
+import CenterMode from '../Components/common/Slickcarousel';
 
 function Home() {
   const [isMobile, setIsMobile] = useState(false);
@@ -47,7 +48,8 @@ function Home() {
         {isMobile ? <Mforms /> : <Forms />}
         <Integration/>
         <Exdb />
-        {isMobile ? <Mcarousel /> : <Carouse />}
+        {/* <CenterMode/> */}
+        {isMobile ? <Mcarousel /> : <CenterMode />}
         <GitHub />
         <Ctaheading />
         {isMobile ? <Mfooter /> : <Footer />}

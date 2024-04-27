@@ -7,7 +7,7 @@ import group143 from '../images/gp3.png';
 function Customer() {
   return (
     <div className="container">
-      <div className='cus' style={{marginTop: '5em'}}></div>
+      <div className='cus' style={{marginTop: '3em'}}></div>
       <div className="row justify-content-center">
         <div className=" cr col-12 col-md-4">
           <div className="card brd">

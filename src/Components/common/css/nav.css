@@ -3,14 +3,19 @@
   }
   
   .log {
-    margin-left: 8rem; /* Adjust margin as needed */
+    margin-left: 3rem; /* Adjust margin as needed */
   
     /* Media query for smaller viewports */
     @media (max-width: 768px) {
       margin-left: 1rem; /* Adjust margin for smaller viewports */
     }
   }
-  
+  .nav-link{
+    font-family: "Blinker", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black; 
+  }
   .navbar-toggler {
     border: none;
   }
@@ -31,14 +36,16 @@
   }
   
   .demo {
-    margin-left: 1rem; /* Adjust margin as needed */
+    margin-left: 8rem; /* Adjust margin as needed */
   }
   .link{
     color: black !important;
+    font-family: "Fira Sans", sans-serif;
     text-decoration: none;
   }
   .btnav {
     background: linear-gradient(to top,#193054 , #21457D );
+    font-family: "Blinker", sans-serif;
     font-weight: bold;
     padding: 10px;
   }
@@ -81,6 +88,7 @@
   
   .dropara {
     margin-top: 0;
+    font-family: "Fira Sans", sans-serif;
     margin-left: 40px;
     font-size: 14px;
   }

@@ -9,22 +9,17 @@ function Footer() {
     <div className='Fcolor'>
       <footer className="container">
         <section className="row d-flex justify-content-between p-4">
-          <div className="col-md-6 col-lg-4 mb-4">
+          <div className="col-md-6 col-lg-6 mb-4">
             {/* Content */}
             <img className='fimg' src={exlog} alt="" />
             <p className='mt-4 py-2'>
-              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              Here you can use rows and columns to organize your footer content.<br/> Lorem ipsum
               dolor sit amet, consectetur adipisicing elit.
             </p>
-            <div>
-              <h5 className='py-2'>
-                Subscribe to our newsletter
-              </h5>
-              <div className="mb-3 py-5">
-                <input type="email" className="input-field" placeholder="Enter your email" />
-                <button className="btn bclr " type="button">Subscribe</button>
+               <div className="mb-3 py-5">
+                <input type="email" className="input-field" placeholder="Your email address here" />
+                <button className="btn bclr " type="button">Subscribe to our Newsletter</button>
               </div>
-            </div>
             <div className="cp " >
               Copyright © 2023 EXPRESSbase. All rights reserved
             </div>

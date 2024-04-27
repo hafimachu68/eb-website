@@ -1,0 +1,67 @@
+.cslide {
+    width: 300px; /* Adjust width as needed */
+    height: 500px; /* Adjust height as needed */
+    background-color:#193054; /* Set background color */
+    padding: 20px; /* Add padding for spacing */
+    text-align: center; /* Center align content */
+  }
+  
+  .cslide img {
+    max-width: 100%;
+    max-height: 200px;
+    margin-left: -15px;
+    margin-top: 21px;
+  }
+  
+  /* Styling for active slide */
+  .slick-current .cslide {
+    width: 85% !important; /* Adjust width for active slide */
+    display: inline-block; /* Ensure proper display */
+    margin-left: 78px !important; /* Adjust margin for active slide */
+  }
+  .slideinside{
+    text-align: left;
+    margin-left: 55px;
+    margin-top: 20px;
+    color: white;
+}
+
+.cntrp{
+  margin-left: -374px;
+    font-size: 18px;
+    /* font-family: "Fira Sans", sans-serif; */
+    font-family: "Blinker", sans-serif;
+}
+ 
+.cntrh{
+  font-family: "Blinker", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 64px;
+}  
+
+.cntrpp{
+  font-size: 16px;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.cntrbtn{
+  background-color: #fbfbfb;
+    color: black;
+    padding: 14px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: "Blinker", sans-serif;
+
+}
+.cntrb{
+  margin-top: -135px;
+}
+.cntric{
+  margin-top: -20px;
+    margin-left: 15px;
+}
+
+.crmpg{
+  margin-top: -8px !important;
+}

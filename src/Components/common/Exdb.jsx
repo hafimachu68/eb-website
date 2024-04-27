@@ -1,7 +1,7 @@
 import React from 'react'
 import './css/home.css';
 import feic from '../images/rbic.png';
-import RBAC from '../images/RBAC.png';
+import RBAC from '../images/RBAC1.png';
 function Exdb() {
   return (
     <div>
@@ -13,7 +13,7 @@ function Exdb() {
             <p className='feic rb'>APPLICATION SECURITY </p>
           </div>
           <h3 className="head">Role Based Access Control (RBAC)</h3>
-          <p className=" rb pt-3">
+          <p className=" para1 pt-3">
           Role Based Access Control (RBAC) standard helps you authorize users by roles.<br/>
            Create unlimited roles by grouping permissions or even roles. </p>
      
