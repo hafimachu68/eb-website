@@ -51,12 +51,25 @@
 
 .mch {
     margin-left: -120px;
+    font-family: "Blinker", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
-
+.mmh{
+    font-family: "Blinker", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.mmp{
+    font-size: 18px;
+    font-family: "Fira Sans", sans-serif;
+}
 .mbtn{
-    margin-left: 70px;
+    margin-left: -3px;
 }
-
+.mbd{
+    padding-bottom: 15px;
+}
 
 
 /* M carousel */

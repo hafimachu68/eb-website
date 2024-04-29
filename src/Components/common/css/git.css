@@ -12,9 +12,11 @@ body {
 }
 
 
-.pg {
-    padding-top: 80px;
-}
+.pg{
+    margin-top: 80px !important;
+    padding-bottom: 80px !important;
+  }
+  
 
 .ctc {
     padding-top: 130px;
