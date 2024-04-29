@@ -7,7 +7,7 @@ import './css/mform.css';
 
 function Mcarousel() {
   return (
-    <div style={{ width: '100%', height: '68vh' }}>
+    <div >
       <Carousel className="custom-carousel" style={{ width: '100%', height: '100%' }}>
         <Carousel.Item>
           <Card className="mbg text-light">

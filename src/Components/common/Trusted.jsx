@@ -68,11 +68,12 @@ function Trusted() {
           <img src={alarz} className="trusted-img" alt="alarz" />
         </div>
         <div className="col-md-2">
-          <img src={dibba} className="trusted-img" alt="dibba" />
-        </div>
-        <div className="col-md-2">
           <img src={asha} className="trusted-img" alt="asha" />
         </div>
+        <div className="col-md-2">
+          <img src={dibba} className="trusted-img" alt="dibba" />
+        </div>
+        
       </div>
     </div>
   );

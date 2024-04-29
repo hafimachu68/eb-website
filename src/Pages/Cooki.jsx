@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './css/Cooki.css';
+import acceptIcon from '../Components/images/tick.png'; // Import your accept icon image
+import declineIcon from '../Components/images/wrong.png'; // Import your decline icon image
 
 const Cooki = ({ onAccept, onDecline }) => {
   // State to manage the visibility of the cookie alert
@@ -34,8 +36,12 @@ const Cooki = ({ onAccept, onDecline }) => {
             <p>We use cookies to personalize our website content, provide social media features, analyze how our site is used, and give you a better experience.</p>
           </div>
           <div className="col-md-4 bck">
-            <button className='ckbtn' onClick={handleAccept}> ✅ Accept</button>
-            <button className='ckbtn' onClick={handleDecline}> ❌ Decline</button>
+            <button className='ckbtn' onClick={handleAccept}>
+              <img className='cic' src={acceptIcon} alt="Accept" /> Accept
+            </button>
+            <button className='ckbtn' onClick={handleDecline}>
+              <img className='cic' src={declineIcon} alt="Decline" /> Decline
+            </button>
           </div>
         </div>
       </div>

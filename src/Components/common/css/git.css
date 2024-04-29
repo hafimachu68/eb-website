@@ -66,7 +66,7 @@ body {
     }
     .cth{
         margin-left: 47px;
-        font-size: 30px;
+        font-size: 45px;
     }
     .ctp{
         margin-left: 42px;
@@ -79,6 +79,8 @@ body {
     }
     .ctpg img{
         width: 200px;
+        margin-left: 30px;
+        margin-top: 25px;
     }
     .ctbg{
         height: 407px;
@@ -87,8 +89,8 @@ body {
     .ctmg{
         margin-top: -246px;
     }
-    .pg{
-        padding-top: 40px;
+    /* .pg{
+        padding-top: 305px;
 
-    }
+    } */
 }

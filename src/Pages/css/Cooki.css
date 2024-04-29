@@ -28,13 +28,15 @@
     padding-right: 25px;
 }
 
-  .pck{
-    
-    padding-left: 71px;
-  }
-
+.pck {
+  padding-left: 71px;
+  padding-top: 13px;
+}
+.cic{
+  margin-top: -5px;
+}
   .bck{
-    margin-top: 10px;
+    margin-top: 15px;
   }
   @keyframes slide-up {
     from {

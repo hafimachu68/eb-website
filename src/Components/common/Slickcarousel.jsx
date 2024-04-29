@@ -14,7 +14,7 @@ function CenterMode() {
     speed: 500
   };
   return (
-    <div className="slider-container">
+    <div className="slider-container pt-5">
       <Slider {...settings}>
         <div className="cslide">
           <div className="slideinside">

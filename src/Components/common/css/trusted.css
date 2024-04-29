@@ -19,14 +19,4 @@
     margin: 20px; 
   }
   
-  /* Add this media query to adjust styles for smaller viewports */
-  @media (max-width: 768px) {
-    .trusted-img {
-        width: calc(33.33% - 40px); /* Calculate width for three images in a row with 20px margin */
-        margin: 20px; /* Adjust margin as needed */
-    }
-    .trusted-sec-body{
-      margin-top: -80px ;
-    }
-  }
   

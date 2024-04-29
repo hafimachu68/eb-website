@@ -16,6 +16,8 @@ import Mcarousel from '../Components/common/Mcarousel';
 import Forms from '../Components/common/Forms';
 import Mfooter from '../Components/common/Mfooter';
 import CenterMode from '../Components/common/Slickcarousel';
+import Mareyou from '../Components/common/Mareyou';
+import Mtrusted from '../Components/common/Mtrusted';
 
 function Home() {
   const [isMobile, setIsMobile] = useState(false);
@@ -41,14 +43,13 @@ function Home() {
     <>
       <div className='rbg'>
         <Navbar />
-        <Areyou />
-        <Trusted />
+        {isMobile ? <Mareyou /> : <Areyou />}
+        {isMobile ? <Mtrusted /> : <Trusted />}
         <Customer />
         <Features />
         {isMobile ? <Mforms /> : <Forms />}
         <Integration/>
         <Exdb />
-        {/* <CenterMode/> */}
         {isMobile ? <Mcarousel /> : <CenterMode />}
         <GitHub />
         <Ctaheading />
