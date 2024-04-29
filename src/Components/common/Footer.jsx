@@ -30,8 +30,8 @@ function Footer() {
                 <h6 className=" fw-bold ">
                   Quick links
                 </h6>
-                <p>
-                  <a href="#!" className="text-reset">Forms</a>
+                <p className='pt-3'>
+                  <a href="#!" className="text-reset ">Forms</a>
                 </p>
                 <p>
                   <a href="#!" className="text-reset">Reporting </a>
@@ -50,7 +50,7 @@ function Footer() {
                 <h6 className=" fw-bold ">
                 Resources
                 </h6>
-                <p>
+                <p className='pt-3'>
                   <a href="#!" className="text-reset">FAQ</a>
                 </p>
                 <p>
@@ -64,8 +64,8 @@ function Footer() {
                 <h6 className=" fw-bold ">
                   Company
                 </h6>
-                <p>
-                  <a href="#!" className="text-reset">About us</a>
+                <p className='pt-3'>
+                  <a href="#!" className="text-reset ">About us</a>
                 </p>
                 <p>
                   <a href="#!" className="text-reset">Contact </a>
