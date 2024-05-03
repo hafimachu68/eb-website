@@ -76,6 +76,8 @@ body {
     .ctb{
         margin-left: 14px;
         margin-top: -2rem;
+        padding: 15px 25px;
+
     }
     .ctpg {
         padding-left: 0rem;
@@ -83,7 +85,7 @@ body {
     }
     .ctpg img{
         width: 332px;
-        margin-left: 16px;
+        margin-left: 14px;
         margin-top: 14px;
     
     }

@@ -13,7 +13,7 @@ function Mforms() {
     <Container className='mf'>
       <Row>
         <Col>
-          <Carousel interval={null}>
+          <Carousel className='mfcrsl'  interval={null}>
             <Carousel.Item>
               <Card className="carousel-card pt-4">
                 <Card.Body className="d-flex flex-column justify-content-between">

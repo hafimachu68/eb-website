@@ -1,6 +1,6 @@
 .teamview {
     width: 100%;
-    height: 2797px;
+    height: 2940px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,9 +92,15 @@
     font-style: normal;
     }
     .blp{
-      font-family: "Fira Sans", sans-serif;
-
-    }
+      
+        font-family: "Fira Sans", sans-serif !important;
+        font-weight: 400;
+        font-size: 19px;
+        font-style: normal;
+      }
+  .amt{
+    margin-top: -17px;
+  }
    
    .contribute {
     position: absolute;
@@ -120,21 +126,20 @@
    }
 
 .contribute-1 {
-    height: 301px; /* height for first image */
-    width: 92%; /* width for first image */
-    margin-top: -105px; /* margin for first image */
-    animation: slideFromTop 1s ease forwards; /* animation for first image */
-    padding-left: 46px;
+  height: 298px;
+  width: 100%;
+  margin-top: -87px;
+  animation: slideFromTop 1s ease forwards;
+  padding-left: 84px;
   }
   
   /* For Contributers2 (bottom image) */
   .contribute-2 {
-    height: 290px; /* height for second image */
-    width:86%; /* width for second image */
-    margin-top: 96px; /* margin for second image */
-    animation: slideFromBottom 1s ease forwards; /* animation for second image */
-    padding-right: 23px;
-
+    height: 300px;
+    width: 94%;
+    margin-top: 113px;
+    animation: slideFromBottom 1s ease forwards;
+    padding-left: 3px;
   }
   
   @keyframes slideFromTop {

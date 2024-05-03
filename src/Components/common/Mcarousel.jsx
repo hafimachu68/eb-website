@@ -12,7 +12,7 @@ function Mcarousel() {
         <Carousel.Item>
           <Card className="mbg text-light">
             <Card.Body>
-              <Row className='pt-2'>
+              <Row className='pt-3'>
                 <Col>
                   <img src={cric} alt="Web Forms Icon" className="mflogo" /> 
                 </Col>
@@ -32,7 +32,7 @@ function Mcarousel() {
         <Carousel.Item>
           <Card className="mbg text-light">
             <Card.Body>
-              <Row className='pt-2'>
+              <Row className='pt-3'>
                 <Col>
                   <img src={cric} alt="Web Forms Icon" className="mflogo" />
                 </Col>
@@ -52,7 +52,7 @@ function Mcarousel() {
         <Carousel.Item>
           <Card className="mbg text-light">
             <Card.Body>
-              <Row className='pt-2'>
+              <Row className='pt-3'>
                 <Col>
                   <img src={cric} alt="Web Forms Icon" className="mflogo" />
                 </Col>
@@ -72,7 +72,7 @@ function Mcarousel() {
         <Carousel.Item>
           <Card className="mbg text-light">
             <Card.Body>
-              <Row className='pt-2'>
+              <Row className='pt-3'>
                 <Col>
                   <img src={cric} alt="Web Forms Icon" className="mflogo" />
                 </Col>
@@ -83,7 +83,7 @@ function Mcarousel() {
               <Card.Title className='mmainh'>Quotation Management</Card.Title>
               <Card.Text>
                 A bespoke application developed using low-code technology that redefines the process of creating, managing, and tracking quotations.  It empowers sales teams to streamline quotation workflows, improve accuracy, cuts down time & effort substantially and enhance customer satisfaction with ease.
-              </Card.Text>
+              </Card.Text>  
               <Button variant="light">Explore</Button>
               <Card.Img className='mbmg' src={bimage1} alt="First slide" />
             </Card.Body>

@@ -1,7 +1,13 @@
 .carousel-card {
     border: none;
 }
+/* .mfcrsl {
+    height: 700px; 
+} */
 
+.carousel-item {
+    height: 100%; /* Ensure each carousel item takes the full height */
+}
 .carousel-control-next,
 .carousel-control-prev {
     opacity: 1.5;
@@ -59,7 +65,7 @@
     margin-top: -1.2rem;
 }
 .icon {
-    margin-left: 70px;
+    margin-left: 65px;
 }
 
 .mch {
@@ -92,8 +98,9 @@
     }
 
 .mbmg{
-    width: 226px;
-    margin-left: 21px;
+    width: 330px;
+    margin-left: -3px;
+    margin-top: 5%;
 }
 
 .mflogo{
@@ -115,14 +122,14 @@
 .custom-carousel .carousel-control-next-icon {
     /* Your custom styles for the next arrow */
     border-left-color:#ffff; /* Change the color to red as an example */
-    margin-top: 18rem !important;
-    margin-left: 38px !important;  }
+    margin-top: -5rem !important;
+    margin-left: 32px !important;  }
   
   .custom-carousel .carousel-control-prev-icon {
     /* Your custom styles for the previous arrow */
     border-right-color: #ffff; /* Change the color to red as an example */
-    margin-top: 17rem !important;
-    margin-left: -44px;
+    margin-top: -5rem !important;
+    margin-left: -37px  ;
 }
 .carousel-indicators {
     display: none !important;

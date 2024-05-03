@@ -1,6 +1,9 @@
 import React from 'react'
 import './css/platform.css'; // Import the CSS file for styling
 import background from '../images/plpg.png'; // Import your image
+import plfpg from '../images/plfpg.png'; // Import your image
+import logo from '../images/Group.png'; // Import your logo file
+
 
 
 
@@ -12,15 +15,22 @@ function Poverview() {
         <div className="container">
           <div className="row">
             <div className="col-md-12 text-white pl_bottom">
-              <h1 className="text-center ah fw-bold">True Multi-Tenant, Cloud-Native platform</h1>     
+            <div className="logo-container">
+              <img src={logo} alt="Logo" className="logo" /> {/* Insert your logo here */}
+              <p className='pare'>Tech Stack</p>
             </div>
+            <h3 className="phead">Open-source, Cloud-native Platform</h3>
+            <p className="ppara1 pt-4">
+           EXPRESSbase low-code platform is build using open-source technologies 
+           </p> 
+           <div className="plf"style={{backgroundImage: `url(${plfpg})`}}>
+           </div>
+           </div>
           </div>
         </div>
       </div>
     </div>
-    <div className="plcontent">
-      
-      </div>
+   
     </div>
   )
 }

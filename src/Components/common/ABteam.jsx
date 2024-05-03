@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './css/abteam.css';
-import Suresh from '../images/Sureshblk.png';
-import UnniHover from '../images/unni-original.png';
-import SureshHover from '../images/suresh-original.png';
-import unni from '../images/Unniblk.png';
+import Suresh from '../images/suresh1.png';
+import UnniHover from '../images/unni2.png';
+import SureshHover from '../images/suresh2.png';
+import unni from '../images/unni1.png';
 import Febin from '../images/Febin.png';
 import Dona from '../images/DOna.png';
 import Vinayachandran from '../images/Vinayachandran.png';
@@ -83,35 +83,35 @@ function ABteam() {
           <div className="row text-center blp  text-white">
             <div className="col-md-4 col-6 center" >
               <img className="team" src={Febin} alt="Febin Carlos" />
-              <h4 className="single-line"><b>Febin Carlos</b></h4>
-              <h4>Lead Developer</h4>
+              <p className="single-line">Febin Carlos</p>
+              <p>Lead Developer</p>
             </div>
             <div className="col-md-4 col-6 blp  center" >
               <img className="team" src={Dona} alt="Dona Jose" />
-              <h4 className="single-line"><b>Dona Jose</b></h4>
-              <h4>Lead Developer</h4>
+              <p className="single-line">Dona Jose</p>
+              <p className='amt'>Lead Developer</p>
             </div>
             <div className="col-md-4 col-6 blp  center" >
               <img className="team" src={Vinayachandran} alt="Vinayachandran V" />
-              <h4 className="single-line"><b>Vinayachandran V</b></h4>
-              <h4>Implementation Engineer</h4>
+              <p className="single-line">Vinayachandran V</p>
+              <p className='amt'>Implementation Engineer</p>
             </div>
           </div>
           <div className="row text-center text-white pt-5 ">
             <div className="col-md-4 col-6 center blp  gy" >
               <img className="team" src={Gayatri} alt="Gayatri Mayadas" />
-              <h4 className="single-line"><b>Gayatri Mayadas</b></h4>
-              <h4 className="single-line">UI/UX Designer</h4>
+              <p className="single-line">Gayatri Mayadas</p>
+              <p className='amt'>UI/UX Designer</p>
             </div>
             <div className="col-md-4 col-6 center blp kp " >
               <img className="team" src={kp} alt="Krishnaprasad K" />
-              <h4 className="single-line"><b>Krishnaprasad K</b></h4>
-              <h4>Implementation Executive</h4>
+              <p className="single-line">Krishnaprasad K</p>
+              <p className='amt'>Implementation Executive</p>
             </div>
             <div className="col-md-4 col-6 center blp  " >
               <img className="team" src={hafi} alt="Hafeeza Mashood" />
-              <h4 className="single-line"><b>Hafeeza Mashood</b></h4>
-              <h4>Jr. Software Developer</h4>
+              <p className="single-line">Hafeeza Mashood</p>
+              <p className='amt'>Jr. Software Developer</p>
             </div>
           </div>
           

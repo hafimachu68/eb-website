@@ -46,4 +46,19 @@
       transform: translateY(0);
     }
   }
+  @media (max-width: 768px) {
+    .bck {
+      margin-top: -7px !important;
+      padding-left: -10px !important;
+      margin-left: -8% !important;
+    }
+    .pck {
+      padding-left: 20px !important;
+      padding-top: 13px;
+    }
+  }
+  
+
+
+
   
