@@ -21,7 +21,7 @@ function ABmessages() {
             <h5 className='absupport'>Supported By</h5>
           </div>
         </div>
-        <div className="row mv_com eb_mis" style={{ justifyContent: 'center' }}>
+        <div className="row mv_com eb_mis" >
           <div className="col-md-10 col-md-offset-1 col-lg-offset-1 col-sm-offset-1 col-lg-10 col-sm-10 col-xs-12">
             <div className="loops darker">
               <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p> 
@@ -31,7 +31,7 @@ function ABmessages() {
                 </div>
               </div> 
             </div>
-            <div className="loops">
+            <div className="loops lighter">
               <div className="image-wrapp">
                 <img src={abm2} alt="img" className="rimg abm2" />                     
               </div>
@@ -43,7 +43,7 @@ function ABmessages() {
                 <img src={abm3} alt="img" className="limgk "  />
               </div>
             </div>
-            <div className="loops">
+            <div className="loops lighter">
               <div className="image-wrapp">
                 <img src={abm4} alt="img" className="rimg abm1"  />
               </div>
@@ -55,7 +55,7 @@ function ABmessages() {
                 <img  src={abm5}alt="img" className="  limg abm5"  />
               </div>
             </div>
-            <div className="loops">
+            <div className="loops lighter">
               <div className="image-wrapp">
                 <img  src={abm6} className="rimg abm6" alt="img"  />
               </div>

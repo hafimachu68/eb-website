@@ -37,12 +37,12 @@ function ABvdo() {
         </div>
         <div className="card cmg mx-3 " style={{ width: '18rem' }}>
           <img src={c1} className="card-img-top cvdo  " alt="..." />
-          <h5 className="card-title blp">8 startups are taking part in Flat6Labs latest cycle</h5>
+          <h5 className="card-title blp pt-4">8 startups are taking part in Flat6Labs latest cycle</h5>
           <a href="https://startupbahrain.com/features/8-startups-are-taking-part-in-flat6labs-latest-cycle-this-is-your-chance-to-meet-them/" className="btn abb">Read the full article</a>
         </div>
         <div className="card cmg mx-3 " style={{ width: '18rem' }}>
           <img src={c2} className="card-img-top cvdo " alt="..." />
-          <h5 className="card-title blp">Flat6Labs Bahrain cycle 2 Highlights</h5>
+          <h5 className="card-title blp pt-4">Flat6Labs Bahrain cycle 2 Highlights</h5>
           <button className="btn abb" onClick={() => toggleVideo('video1')}>Watch the video</button>
           {videos.video1 && (
             <div className="video-container" id="video1">
@@ -53,7 +53,7 @@ function ABvdo() {
         </div>
         <div className="card cmg mx-3 " style={{ width: '18rem' }}>
           <img src={c3} className="card-img-top  cvdo " alt="..." />
-          <h5 className="card-title blp">Flat6Labs Bahrain cycle 2 Highlights</h5>
+          <h5 className="card-title blp pt-4">Flat6Labs Bahrain cycle 2 Highlights</h5>
           <button className="btn abb" onClick={() => toggleVideo('video2')}>Watch the video</button>
           {videos.video2 && (
             <div className="video-container" id="video2">
@@ -62,9 +62,9 @@ function ABvdo() {
             </div>
           )}
         </div>
-        <div className="card cmg mx-3" style={{ width: '18rem' }}>
+        <div className="card cmg mx-3 " style={{ width: '18rem' }}>
           <img src={c4} className="card-img-top cvdo  " alt="..." />
-          <h5 className="card-title blp">Flat6Labs Bahrain Second Demo day</h5>
+          <h5 className="card-title blp pt-4">Flat6Labs Bahrain Second Demo day</h5>
           <button className="btn abb" onClick={() => toggleVideo('video3')}>Watch the video</button>
           {videos.video3 && (
             <div className="video-container" id="video3">

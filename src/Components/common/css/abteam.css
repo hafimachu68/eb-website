@@ -17,6 +17,8 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+
 .clouds2 {
     position: absolute;
     animation: moveCloud linear infinite;
@@ -38,13 +40,13 @@
 }
 
 .cloud2 {
-    top: 828px; /* Adjusted position */
+    top: 889px; /* Adjusted position */
     left: -400px;
     animation-duration: 30s;
 }
 
 .cloud3 {
-    top: 1400px; /* Adjusted position */
+    top: 1376px; /* Adjusted position */
     left: -500px;
     animation-duration: 30s; /* Slower animation */
 }
@@ -119,17 +121,17 @@
 
 .contribute-1 {
     height: 301px; /* height for first image */
-    width: 98%; /* width for first image */
-    margin-top: -84px; /* margin for first image */
+    width: 92%; /* width for first image */
+    margin-top: -105px; /* margin for first image */
     animation: slideFromTop 1s ease forwards; /* animation for first image */
     padding-left: 46px;
   }
   
   /* For Contributers2 (bottom image) */
   .contribute-2 {
-    height: 277px; /* height for second image */
-    width: 92%; /* width for second image */
-    margin-top: 113px; /* margin for second image */
+    height: 290px; /* height for second image */
+    width:86%; /* width for second image */
+    margin-top: 96px; /* margin for second image */
     animation: slideFromBottom 1s ease forwards; /* animation for second image */
     padding-right: 23px;
 

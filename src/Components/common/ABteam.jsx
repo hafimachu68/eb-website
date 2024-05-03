@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './css/abteam.css';
-import Suresh from '../images/Suresh.png';
-import UnniHover from '../images/org-unni.png';
-import SureshHover from '../images/org-suresh.png';
-import unni from '../images/Unni.png';
+import Suresh from '../images/Sureshblk.png';
+import UnniHover from '../images/unni-original.png';
+import SureshHover from '../images/suresh-original.png';
+import unni from '../images/Unniblk.png';
 import Febin from '../images/Febin.png';
 import Dona from '../images/DOna.png';
 import Vinayachandran from '../images/Vinayachandran.png';
