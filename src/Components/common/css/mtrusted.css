@@ -1,32 +1,31 @@
 /* Trusted.css */
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .trusted-sec-body {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .trusted-img {
-    height: 62px; /* Adjust height as needed */
-    width: 144px;
-    margin: 20px; /* Adjust margin as needed */
-  }
-  
-  /* Add this media query to adjust styles for smaller viewports */
-  @media (max-width: 768px) {
-    .trusted-img {
-        width: calc(33.33% - 40px); 
-        margin: 20px; /* Adjust margin as needed */
-    }
-    .trusted-sec-body{
-      margin-top: -80px ;
-    }
-  }
-  
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.mtrusted-sec-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -27%;
+}
+
+.trusted-img-wrapper {
+  width: calc(33.33% - 40px); /* Adjust width to fit three divs in one row */
+  margin: 20px; /* Adjust margin as needed */
+}
+
+.mtrusted-img {
+  width: 150%;
+  height: 100%;
+  object-fit: cover;
+  margin-left: -1rem;
+}
+.ict-image {
+  /* Add your specific styles for the Ict image here */
+ margin-top: -1rem;
+}

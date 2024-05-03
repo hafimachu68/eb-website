@@ -143,6 +143,7 @@
     }
     .btnav{
       margin-top: 10px;
+      margin-left: -7rem;
     }
     .nav-item{
       margin-top: 15px;
@@ -151,7 +152,12 @@
     .demo{
       border-bottom: none;
     }
-   
+   .logo-img{
+    margin-left: -1.9rem;
+   }
+   .navbar-toggler{
+    margin-left: -0.5rem;
+   }
   }
   
   

@@ -13,8 +13,8 @@ body {
 
 
 .pg{
-    margin-top: 80px !important;
-    padding-bottom: 80px !important;
+    margin-top: 15px !important;
+    padding-bottom: 40px !important;
   }
   
 
@@ -67,26 +67,28 @@ body {
         padding-top: 27px;
     }
     .cth{
-        margin-left: 47px;
+        margin-left: 17px;
         font-size: 45px;
     }
     .ctp{
-        margin-left: 42px;
+        margin-left: 17px;
     }
     .ctb{
-        margin-left: 27px ;
+        margin-left: 14px;
+        margin-top: -2rem;
     }
-    .ctpg{
-        padding-left: 9rem;
+    .ctpg {
+        padding-left: 0rem;
+        margin-top: 6rem;
     }
     .ctpg img{
-        width: 200px;
-        margin-left: 25px;
-        margin-top: 25px;
+        width: 332px;
+        margin-left: 16px;
+        margin-top: 14px;
+    
     }
-    .ctbg{
-        height: 407px;
-        
+    .ctbg {
+        height: 570px;
     }
     .ctmg{
         margin-top: -246px;

@@ -1,15 +1,20 @@
 .cmg{
     border: none !important;
+    background-color: white;
+    border-radius:12px
 }
 .bgc{
     background-color:rgb(183, 228, 247);
-    margin-top: -24px;
-
+    margin-top: -12px;
+    padding-top: 150px;
 }
-
+.cvdo{
+  width: 18rem;
+  margin-left: -12px;
+}
 .rf{
     padding-left: 24px;
-    padding-bottom: 40px;
+    padding-bottom: 120px;
 
 }
 .video-container {
@@ -45,9 +50,13 @@
 }
 
 .Abctbg {
-    background: linear-gradient(to right, #21457D, #56A3A6, #CAD49D);
-    height: 500px;
+    height: 450px;
     width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
   }
   
   .Abcontent {
@@ -57,25 +66,25 @@
   }
   
   .left {
-   padding-top: 100px;
+   padding-top: 85px;
     padding-right: 20px;
   }
   
-  .right {
+  .righta {
     
     padding: 20px;
   }
 
   .actp {
-    margin-left: 120px;
-}
+    font-family: "Fira Sans", sans-serif;
+  }
 
 .acth{
-    margin-left: 120px;
     font-size: 64px;
+    font-family: "Blinker", sans-serif;
+    font-weight: 700;
 }
 .actb {
-    margin-left: 120px;
     align-items: center; 
     justify-content: center; 
     background: linear-gradient(to right, #193054 0%, #21457D 80%);
@@ -85,9 +94,19 @@
     border: none;
     font-size: 16px;
     cursor: pointer;
+    font-family: "Blinker", sans-serif;
+
 } 
 .abmg1{
   padding-bottom: 27px;
 }
   
+.abb{
   
+  text-align: left;
+  font-weight: 600;
+}
+
+.abvh{margin-top: -90px;
+  margin-left: 15px;
+}  

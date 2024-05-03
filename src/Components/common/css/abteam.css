@@ -77,14 +77,23 @@
     }
     .txmg{
         padding-bottom: 105px ;
+       
     }
-    
-    
-   
+    .blh{
+      font-family: "Blinker", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    font-style: normal;
+    }
+    .blhic{
+      font-family: "Blinker", sans-serif;
+    font-style: normal;
+    }
+    .blp{
+      font-family: "Fira Sans", sans-serif;
 
-   .ttxt{
-    font-family:Montserrat;
-   }
+    }
+   
    .contribute {
     position: absolute;
     top: -100px; 
@@ -109,8 +118,8 @@
    }
 
 .contribute-1 {
-    height: 338px; /* height for first image */
-    width: 99%; /* width for first image */
+    height: 301px; /* height for first image */
+    width: 98%; /* width for first image */
     margin-top: -84px; /* margin for first image */
     animation: slideFromTop 1s ease forwards; /* animation for first image */
     padding-left: 46px;
@@ -118,9 +127,9 @@
   
   /* For Contributers2 (bottom image) */
   .contribute-2 {
-    height: 334px; /* height for second image */
-    width: 95%; /* width for second image */
-    margin-top: 140px; /* margin for second image */
+    height: 277px; /* height for second image */
+    width: 92%; /* width for second image */
+    margin-top: 113px; /* margin for second image */
     animation: slideFromBottom 1s ease forwards; /* animation for second image */
     padding-right: 23px;
 

@@ -12,8 +12,6 @@ import at2 from '../images/at2.png';
 import at3 from '../images/at3.png';
 import at4 from '../images/at4.png';
 
-
-
 function ABmessages() {
   return (
     <div className="m_v mt mb">
@@ -28,29 +26,39 @@ function ABmessages() {
             <div className="loops darker">
               <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p> 
               <div>
-                <img src={abm1} alt="img" className="right limg abm1" />
+                <div className="image-wrappers">
+                  <img src={abm1} alt="img" className=" limgs " />
+                </div>
               </div> 
             </div>
             <div className="loops">
-              <div>
+              <div className="image-wrapp">
                 <img src={abm2} alt="img" className="rimg abm2" />                     
               </div>
               <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
             </div>
             <div className="loops darker">
               <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>  
-              <img src={abm3} alt="img" className="right  limg abm1"  />
+              <div className="image-wrapperk">
+                <img src={abm3} alt="img" className="limgk "  />
+              </div>
             </div>
             <div className="loops">
-             <img src={abm4} alt="img" className="rimg abm1"  />
+              <div className="image-wrapp">
+                <img src={abm4} alt="img" className="rimg abm1"  />
+              </div>
               <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
             </div>
             <div className="loops darker">
               <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>  
-             <img  src={abm5}alt="img" className="right  limg abm5"  />
+              <div className="image-wrapper">
+                <img  src={abm5}alt="img" className="  limg abm5"  />
+              </div>
             </div>
             <div className="loops">
-            <img  src={abm6} className="rimg abm6" alt="img"  />
+              <div className="image-wrapp">
+                <img  src={abm6} className="rimg abm6" alt="img"  />
+              </div>
               <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
             </div>
           </div>

@@ -9,7 +9,9 @@ import Dona from '../images/DOna.png';
 import Vinayachandran from '../images/Vinayachandran.png';
 import Gayatri from '../images/Gayatri.png';
 import kp from '../images/KP.png';
+import hafi from '../images/hafi.png';
 import backgroundImage from '../images/cloud.png'; // Import your image
+import bic from '../images/bic.png'; // Import your image
 import background from '../images/bluebg.png'; // Import your image
 
 
@@ -53,9 +55,12 @@ function ABteam() {
 
       <div className="container">
         <div className="row tmg" style={{ justifyContent: 'center' }}>
+        <div className=" text-white text-center blhic">
+             <p className='feic'> <i> <img className='po me-3' src={bic} alt="" /> </i>What we offer </p>
+          </div>
           <div className='text-white text-center txmg'>
-            <h1>Our Team</h1>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+            <h1 className='blh'>Enterprise-Grade App Development </h1>
+            <p className='blp '> Tailored solutions with advanced capabilities for fast growing businesses </p>
           </div>
           <img 
             src={sureshHovered ? SureshHover : Suresh} 
@@ -74,44 +79,44 @@ function ABteam() {
           />
         </div>
         <div style={{ marginTop: '3em' }}></div>
-        <div className="containerp-5">
-          <div className="row text-center ttxt  text-white">
+        <div className="container ">
+          <div className="row text-center blp  text-white">
             <div className="col-md-4 col-6 center" >
               <img className="team" src={Febin} alt="Febin Carlos" />
               <h4 className="single-line"><b>Febin Carlos</b></h4>
               <h4>Lead Developer</h4>
             </div>
-            <div className="col-md-4 col-6 ttxt  center" >
+            <div className="col-md-4 col-6 blp  center" >
               <img className="team" src={Dona} alt="Dona Jose" />
               <h4 className="single-line"><b>Dona Jose</b></h4>
               <h4>Lead Developer</h4>
             </div>
-            <div className="col-md-4 col-6 ttxt  center" >
+            <div className="col-md-4 col-6 blp  center" >
               <img className="team" src={Vinayachandran} alt="Vinayachandran V" />
               <h4 className="single-line"><b>Vinayachandran V</b></h4>
               <h4>Implementation Engineer</h4>
             </div>
           </div>
           <div className="row text-center text-white pt-5 ">
-            <div className="col-md-4 col-6 center ttxt  gy" >
+            <div className="col-md-4 col-6 center blp  gy" >
               <img className="team" src={Gayatri} alt="Gayatri Mayadas" />
               <h4 className="single-line"><b>Gayatri Mayadas</b></h4>
               <h4 className="single-line">UI/UX Designer</h4>
             </div>
-            <div className="col-md-4 col-6 center ttxt kp " >
+            <div className="col-md-4 col-6 center blp kp " >
               <img className="team" src={kp} alt="Krishnaprasad K" />
               <h4 className="single-line"><b>Krishnaprasad K</b></h4>
               <h4>Implementation Executive</h4>
             </div>
-            <div className="col-md-4 col-6 center ttxt  " >
-              <img className="team" src={kp} alt="Hafeeza Mashood" />
+            <div className="col-md-4 col-6 center blp  " >
+              <img className="team" src={hafi} alt="Hafeeza Mashood" />
               <h4 className="single-line"><b>Hafeeza Mashood</b></h4>
               <h4>Jr. Software Developer</h4>
             </div>
           </div>
           
            <div style={{ marginTop: '5rem' }}></div>
-      <h3 className='text-white'><b>Contributers</b></h3>
+      <h3 className='text-white blhic'><b>Contributers</b></h3>
       <div className='mt-2 pt-4'></div>
       <div className="contribute-wrapper">
        <img className={`contribute ${contributersVisible ? 'visible' : ''} contribute-1`} src={Contributers1} alt="Contributors" />

@@ -4,7 +4,11 @@
 
 .carousel-control-next,
 .carousel-control-prev {
-    margin-top: -490px;
+    opacity: 1.5;
+    position: absolute;
+    top: 10%;
+    transform: translateY(-50%);
+    z-index: 1000;
 }
 
 /* Customize the next arrow icon */
@@ -16,7 +20,8 @@
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     border-left: 10px solid black; /* Adjust color as needed */
-    display: none;
+    
+    /* display: none; */
 }
 
 /* Customize the previous arrow icon */
@@ -28,23 +33,31 @@
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     border-right: 10px solid black; /* Adjust color as needed */
-    display: none;
+    /* display: none; */
 
 }
 
 .mmg {
-    width: 350px;
+    width: 315px;
     margin-left: -10px;
 }
 
 .carousel-item.active .carousel-card {
     border-top: 7px solid;
-    border-top-color: #79C977; /* Change border color */
-    /* border-top-right-radius: 5px; */
-    /* border-top-left-radius: 5px; */
-    transition: border-top-color 0.3s ease; /* Add transition for smooth effect */
-}
+    border-top-color: #79C977; 
+    
+    transition: border-top-color 0.3s ease; }
 
+/* .mf{
+    border-top: 8px solid;
+    border-top-color: #79C977;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    transition: border-top-color 0.3s ease;
+} */
+.slide{
+    margin-top: -1.2rem;
+}
 .icon {
     margin-left: 70px;
 }
@@ -65,7 +78,7 @@
     font-family: "Fira Sans", sans-serif;
 }
 .mbtn{
-    margin-left: -3px;
+    margin-left: -9.5rem;
 }
 .mbd{
     padding-bottom: 15px;
@@ -80,7 +93,7 @@
 
 .mbmg{
     width: 226px;
-    margin-left: 115px;
+    margin-left: 21px;
 }
 
 .mflogo{
@@ -89,7 +102,7 @@
 }
 
 .muc{
-    margin-left: -165px;
+    margin-left: -150px;
 }
 
 .mmainh{
@@ -102,13 +115,13 @@
 .custom-carousel .carousel-control-next-icon {
     /* Your custom styles for the next arrow */
     border-left-color:#ffff; /* Change the color to red as an example */
-    margin-top: -12px;
-    margin-left: 38px;  }
+    margin-top: 18rem !important;
+    margin-left: 38px !important;  }
   
   .custom-carousel .carousel-control-prev-icon {
     /* Your custom styles for the previous arrow */
     border-right-color: #ffff; /* Change the color to red as an example */
-    margin-top: -20px;
+    margin-top: 17rem !important;
     margin-left: -44px;
 }
 .carousel-indicators {

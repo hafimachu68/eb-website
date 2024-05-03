@@ -8,8 +8,8 @@ function Mfooter() {
   return (
     <div className='Fcolor'>
       <footer className="container">
-        <section className="row d-flex justify-content-between p-4">
-          {/* <div className="col-md-6 col-lg-4 mb-4"> */}
+        <div className=" p-4">
+          <div className="col-md-6 col-sm-12 mb-4">
             <div className="row align-items-center">
               <div className="col-md-6">
                 <img className=' mfi' src={exlog} alt="" />
@@ -31,15 +31,26 @@ function Mfooter() {
                 </div>
               </div>
             </div>
-            <p className='mt-4 py-2 mfp'>
-              Here you can use rows and columns to organize your footer content. Lorem ipsum
+            {/* <div className="mt-4 py-2 mfp ">
+            <p>
+              Here you can use rows and columns to organize your footer content. 
+              Lorem ipsum
               dolor sit amet, consectetur adipisicing elit.
             </p>
+            </div> */}
+           
+            <div className="mt-4 py-2 mfpp ">
+            <p>
+              Here you can use rows and columns to organize your footer content. 
+              Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+            </div>
             <div className="mb-3 py-2 mfp">
               <input type="email" className="input-field" placeholder="Enter your email" />
               <button className="btn  mc" type="button">Subscribe</button>
             </div>
-          {/* </div> */}
+          </div>
           <div className="col-md-6 mfp ">
             <div className="row fmrg">
               <div className="col-sm-6 col-md-4 mb-4">
@@ -83,7 +94,7 @@ function Mfooter() {
 
             </div>
           </div>
-        </section>
+        </div>
       </footer>
     </div>
   );

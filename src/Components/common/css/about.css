@@ -26,11 +26,16 @@
 
   }
   .ah{
-    font-size: 58px;
-
+    font-size: 64px;
+    font-family: "Blinker", sans-serif;
+    font-weight: 700;
+    font-style: normal;
   }
 
-  
+  .apara{
+    font-size: 16px;
+    font-family: "Fira Sans", sans-serif
+  }
   .abcontent{
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif ;

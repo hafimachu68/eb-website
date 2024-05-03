@@ -93,4 +93,54 @@
 .absupport {
     padding-bottom: 40px;
     margin-left: -88px;
+    font-family: "Blinker", sans-serif;
+    font-weight: 600;
+    font-style: normal
+}
+/* In your CSS file, e.g., abmessage.css */
+
+/* Style for the image wrapper */
+.image-wrappers {
+  width: 79%; /* Ensure the wrapper takes full width */
+  height: 36px; /* Set a fixed height for the wrapper */
+  overflow: hidden; /* Hide overflow to prevent distortion */
+}
+
+/* Style for the images inside the wrapper */
+.image-wrappers img {
+  width: 105%; /* Make the image cover full width */
+  height: 107%; /* Make the image cover full height */
+}
+.limgs{
+max-width: 188px !important;
+margin-top: -9px;
+}
+
+.image-wrapperk {
+  width: 17%; /* Ensure the wrapper takes full width */
+  height: 44px; /* Set a fixed height for the wrapper */
+  overflow: hidden; /* Hide overflow to prevent distortion */
+}
+
+/* Style for the images inside the wrapper */
+.image-wrapperk img {
+  width: 100%; /* Make the image cover full width */
+  height: 110%; /* Make the image cover full height */
+}
+.limgk{
+max-width: 160px !important;
+margin-top: -2px;
+}
+
+
+.image-wrapper {
+  width: 12%; /* Ensure the wrapper takes full width */
+  height: 50px; /* Set a fixed height for the wrapper */
+  overflow: hidden; /* Hide overflow to prevent distortion */
+}
+
+.image-wrapper img {
+  width: 100%; 
+  height: 100%; 
+  /* object-fit: cover;  */
 }

@@ -18,6 +18,8 @@ import Mfooter from '../Components/common/Mfooter';
 import CenterMode from '../Components/common/Slickcarousel';
 import Mareyou from '../Components/common/Mareyou';
 import Mtrusted from '../Components/common/Mtrusted';
+import Mexdb from '../Components/common/Mexdb';
+import Mintegration from '../Components/common/Mintegration';
 
 function Home() {
   const [isMobile, setIsMobile] = useState(false);
@@ -48,8 +50,8 @@ function Home() {
         <Customer />
         <Features />
         {isMobile ? <Mforms /> : <Forms />}
-        <Integration/>
-        <Exdb />
+        {isMobile ? <Mintegration /> : <Integration/>}
+        {isMobile ? <Mexdb/> : <Exdb />}
         {isMobile ? <Mcarousel /> : <CenterMode />}
         <GitHub />
         <Ctaheading />
