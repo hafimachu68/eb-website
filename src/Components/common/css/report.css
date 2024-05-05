@@ -11,6 +11,19 @@
     margin-top: 70px;
     margin-bottom: 10px;
 }
+.rcard{
+  width: 24rem;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+}
+.rfr{
+  width: 24rem;
+    margin-left: -1rem;
+    margin-top: -2rem;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
 
 .rc{
     margin-bottom: 150px;
@@ -62,9 +75,9 @@
     left: 63px;
     width: 91%;
     height: 90%;
-    border-radius: 8px;
-    background-color: rgba(128, 128, 128, 0.5);
-    backdrop-filter: blur(10px); /* Apply blur effect */
+    /* border-radius: 8px; */
+    background-color: rgb(137 131 209 / 50%);  
+      backdrop-filter: blur(10px); /* Apply blur effect */
     z-index: 1;
 }
 
@@ -98,7 +111,7 @@
 
 .rctbg {
     height: 500px;
-    /* background-image: url('./rpg4.png'); */
+    background-color: #B3DBFF;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -11,7 +11,7 @@ function Wfareyou() {
             <div className="text-md-center mb-4 mb-md-0">
               <div className="logo-container">
                 <img src={logo} alt="Logo" className="logo" /> {/* Insert your logo here */}
-                <p className='are'>Sub Heading</p>
+                <p className='pare'>Sub Heading</p>
               </div>
               <h3 className="head" style={{ color: '#193054' }}>Build & Deploy Enterprise class <br/>Forms 10x faster</h3>
               <div className="greenunderline"></div>

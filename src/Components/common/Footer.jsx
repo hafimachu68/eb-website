@@ -68,7 +68,7 @@ function Footer() {
                   <a href="#!" className="text-reset ">About us</a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">Contact </a>
+                  <a href="/contactus" className="text-reset">Contact </a>
                 </p>
               </div>
             </div>

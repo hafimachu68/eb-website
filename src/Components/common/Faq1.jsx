@@ -32,7 +32,7 @@ function Faq1() {
         <div className="text-md-center mb-4 mb-md-0">
           <div className="logo-container">
             <img src={logo} alt="Logo" className="logo" />
-            <p className='are'>Sub Heading</p>
+            <p className='pare'>Sub Heading</p>
           </div>
           <h3 className="head" style={{ color: '#193054' }}>FAQs</h3>
           <p className="para1 pt-4">

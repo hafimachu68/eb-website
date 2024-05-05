@@ -1,9 +1,11 @@
 .dctc {
-    padding-top: 130px;
+    padding-top: 40px;
     position: relative;
+    color: #193054;
+   
 }
 
-.dctc::before {
+/* .dctc::before {
     content: '';
     position: absolute;
     top: 71px;
@@ -14,7 +16,7 @@
     background-color: rgba(128, 128, 128, 0.5);
     backdrop-filter: blur(10px);
     z-index: 1;
-}
+} */
 .dctp {
     position: relative; /* Ensure text content is on top of the overlay */
     z-index: 2; /* Ensure text content is on top of the overlay */
@@ -22,20 +24,21 @@
 
 .dcth {
     font-size: 64px;
-    position: relative; /* Ensure text content is on top of the overlay */
-    z-index: 2; /* Ensure text content is on top of the overlay */
+    font-family: "Blinker", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 
-.dctbg {
+/* .dctbg {
     height: 500px;
-    /* background-image: url('./dpg1.png'); */
+    background-image: url('./dpg1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     overflow: hidden;
-}
+} */
 .doclay{
     width: 100%;
     height: 90px;

@@ -5,7 +5,7 @@ import wfimg from '../images/wfimg.png';
 function Wform() {
   return (
     <div className="wform-container">
-      <div className="wfoverlay"></div> {/* Transparent grey and black overlay */}
+      {/* <div className="wfoverlay"></div> Transparent grey and black overlay */}
       <div className="wform">
         <div className="wform-chat-container">
           <div className="chat-image fL">

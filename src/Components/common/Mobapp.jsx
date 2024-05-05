@@ -12,7 +12,7 @@ function Mobapp() {
             <div className="text-md-center mb-4 mb-md-0">
               <div className="logo-container">
                 <img src={logo} alt="Logo" className="logo" /> {/* Insert your logo here */}
-                <p className='are'>Sub Heading</p>
+                <p className='pare'>Sub Heading</p>
               </div>
               <h3 className="head" style={{ color: '#193054' }}>Main Heading</h3>
               <p className="para1 pt-4">
@@ -36,7 +36,7 @@ function Mobapp() {
           </div>
         </div>
         <div className="col-md-6 pt-5">
-          <div className="image-container">
+          <div className="image-container mimg">
             <img src={mobpg}  />
           </div>
         </div>

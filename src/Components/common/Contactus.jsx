@@ -22,7 +22,7 @@ function Contactus() {
         <div className="container">
           <div className="row">
             <div className="col-md-12 no-padd al_bottom">
-              <h1 className="ah fw-bold">Contact Us </h1>
+              <h1 className="ch fw-bold">Contact Us </h1>
               <p className="  " >
               Connect your database and turn your data into attractive tables, charts or <br/>
                portable reports using our futuristic Drag-n-Drop builders on the Cloud.              </p>

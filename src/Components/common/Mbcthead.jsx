@@ -7,7 +7,7 @@ import background from '../images/mobpg2.png'; // Import your image
 function Mbcthead() {
   return (
     <div>
-   <div className='mctbg'style={{backgroundImage: `url(${background})`}}>
+   <div className='mctbg'>
     <div className="row  mctc">
       <div className='col-md-7 text-white'>
         <h1 className='mcth py-3 '>CTA Heading</h1>
