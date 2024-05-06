@@ -106,7 +106,7 @@
     bottom: 0px;
     top: 76px;
     width: calc(100% - 110px); 
-    margin-left: 105px; 
+    margin-left: 8%; 
     overflow: hidden;
     z-index: 2;
 }

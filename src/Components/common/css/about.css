@@ -42,3 +42,29 @@
     padding-top: 46px;
 
   }
+
+  /* Media query for mobile devices */
+@media only screen and (max-width: 768px) {
+  .aboutus-header {
+    min-height: unset;
+        height: 35vh;
+        background-size: 125% 90%;
+  }
+
+  .aboutoverlay {
+    min-height: unset;
+    height: 33vh;
+    width: 100%; /* Set width to 100% for mobile devices */
+  }
+  .ah{
+    font-size: 25px;
+  }
+  .al_bottom{
+    padding-top: 55px;
+
+  }
+  .abcontent{
+    padding-top: 0;
+  }
+
+}

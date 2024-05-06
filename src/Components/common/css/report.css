@@ -31,10 +31,10 @@
 }
 .image-container {
   width: 608px;
-  height: 280px;
-  overflow: hidden;
-  border: 1px solid #ccc;
-  margin-top: 20px;
+    height: 350px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    margin-top: 17px;
 }
 
 .image-container img {
