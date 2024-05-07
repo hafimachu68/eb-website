@@ -25,7 +25,7 @@ function Mareyou() {
           <div className="">
             <div className="container pt-4 mt-3">
               <div id="">
-                <iframe id="" width="350px" height="310px" style={{marginLeft:'-4.7rem'}} src="https://www.youtube.com/embed/WNxuiFhrQUM?rel=0&showinfo=0" frameBorder="0" allowFullScreen></iframe>
+                <iframe id="" width="350px" height="310px" style={{marginLeft:'-5rem'}} src="https://www.youtube.com/embed/WNxuiFhrQUM?rel=0&showinfo=0" frameBorder="0" allowFullScreen></iframe>
               </div>
             </div>
           </div>

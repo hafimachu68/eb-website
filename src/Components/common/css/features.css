@@ -146,8 +146,7 @@
 @media (max-width: 768px) {
     .center {
         text-align: center;
-        padding-top: 0px !important;
-    }
+        margin-top: -2rem    }
 
     .col-md-4 {
         flex: 100%; 

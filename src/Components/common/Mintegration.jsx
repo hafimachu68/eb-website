@@ -42,7 +42,7 @@ function Mintegration() {
               <img src={icint} alt="Logo" className="icint" /> {/* Insert your logo here */}
               <p className='arei'>INTEGRATIONS</p>
             </div> 
-            <h1 className='fw-bold h'>Seamless<br/> Connectivity to<br/> External Systems</h1>
+            <h1 className='fw-bold h'>SeamlessConnectivity <br/>  to External Systems</h1>
             <p className='pt-3 intp'>Effortless data exchange and communication with 3rd party/
             external systems like WhatsApp, SMTP Servers, SMS Gateways, Cloudinary etc.   </p>  
           </div>

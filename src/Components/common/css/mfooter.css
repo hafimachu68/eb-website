@@ -9,20 +9,24 @@
     justify-content: center;
     align-items: center;
   }
+  .fl{
+    margin-left: 21px;
+    margin-top: 2rem;
+  }
   .mc{
-    margin-left: 205px !important;
+    margin-left: 215px !important;
     margin-top: -35px;    background-color: #263F82;
     color: white;
   }
   .mfi{
-    width: 136px;
-    height: 36px;
+    width: 200px;
+    height: 60px;
     margin-left: -31px;
     margin-top: -29px;
   }
   .mfm{
-    margin-left: 80px;
-    margin-top: -40px;
+    margin-left: 116px;
+    margin-top: -64px;
   }
   .mcol{
     margin-left: 65px;
@@ -45,20 +49,20 @@
     margin-top: -253px;
 }
 .mft{
-  margin-left: 72px;
+  margin-left: -34px;
 }
 
 .mfpr{
-    margin-left: 147px;
+    margin-left: 84px;
     margin-top: -46px;
 }
 .mfco{
-    margin-left: 226px;
+    margin-left: 183px;
     margin-top: -46px;
 }
 
 .mcp{
     font-size: 11px;
     padding-top: 13px;
-    margin-left: 45px;
+    /* margin-left: 45px; */
 }

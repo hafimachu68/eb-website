@@ -158,6 +158,14 @@
    .navbar-toggler{
     margin-left: -0.5rem;
    }
+   .navbar-toggler-icon{
+    margin-left: 120%;
+   }
+   .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow:none;
+}
   }
   
   

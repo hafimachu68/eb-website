@@ -1,6 +1,6 @@
 import React from 'react';
 import { Carousel, Card, Button, Col, Row } from 'react-bootstrap'; // Removed CarouselControl import
-import bimage1 from '../images/bxpg.png';
+import bimage1 from '../images/mcg.png';
 import cric from '../images/cric.png';
 import './css/mform.css';
 
@@ -11,7 +11,7 @@ function Mcarousel() {
       <Carousel  interval={null} className="custom-carousel" style={{ width: '100%', height: '100%' }}>
         <Carousel.Item>
           <Card className="mbg text-light">
-            <Card.Body>
+            <Card.Body className='cbm'>
               <Row className='pt-3'>
                 <Col>
                   <img src={cric} alt="Web Forms Icon" className="mflogo" /> 
@@ -31,7 +31,7 @@ function Mcarousel() {
         </Carousel.Item>
         <Carousel.Item>
           <Card className="mbg text-light">
-            <Card.Body>
+            <Card.Body className='cbm'>
               <Row className='pt-3'>
                 <Col>
                   <img src={cric} alt="Web Forms Icon" className="mflogo" />
@@ -51,7 +51,7 @@ function Mcarousel() {
         </Carousel.Item>
         <Carousel.Item>
           <Card className="mbg text-light">
-            <Card.Body>
+            <Card.Body className='cbm'>
               <Row className='pt-3'>
                 <Col>
                   <img src={cric} alt="Web Forms Icon" className="mflogo" />
@@ -71,7 +71,7 @@ function Mcarousel() {
         </Carousel.Item>
         <Carousel.Item>
           <Card className="mbg text-light">
-            <Card.Body>
+            <Card.Body className='cbm'>
               <Row className='pt-3'>
                 <Col>
                   <img src={cric} alt="Web Forms Icon" className="mflogo" />

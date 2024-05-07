@@ -10,26 +10,11 @@ function Mfooter() {
       <footer className="container">
         <div className=" p-4">
           <div className="col-md-6 col-sm-12 mb-4">
-            <div className="row align-items-center">
-              <div className="col-md-6">
+            <div className="align-items-center">
+              <div className="col-md-12">
                 <img className=' mfi' src={exlog} alt="" />
               </div>
-              <div className="col-md-6 mcol">
-                <div className='mfm row mb-3'>
-                  <a href="/" className="me-3 text-reset mcircle">
-                    <FontAwesomeIcon icon={faFacebookF} />
-                  </a>
-                  <a href="/" className="me-3 text-reset mcircle">
-                    <FontAwesomeIcon icon={faTwitter} />
-                  </a>
-                  <a href="/" className="me-3 text-reset mcircle">
-                    <FontAwesomeIcon icon={faLinkedin} />
-                  </a>
-                  <a href="/" className="me-3 text-reset mcircle">
-                    <FontAwesomeIcon icon={faYoutube} />
-                  </a>
-                </div>
-              </div>
+              
             </div>
             {/* <div className="mt-4 py-2 mfp ">
             <p>
@@ -73,21 +58,34 @@ function Mfooter() {
                 <p><a href="#!" className="text-reset">Contact</a></p>
               </div>
             </div>
-
+            <div className='mfm row mb-3'>
+                  <a href="/" className="me-3 text-reset mcircle">
+                    <FontAwesomeIcon icon={faFacebookF} />
+                  </a>
+                  <a href="/" className="me-3 text-reset mcircle">
+                    <FontAwesomeIcon icon={faTwitter} />
+                  </a>
+                  <a href="/" className="me-3 text-reset mcircle">
+                    <FontAwesomeIcon icon={faLinkedin} />
+                  </a>
+                  <a href="/" className="me-3 text-reset mcircle">
+                    <FontAwesomeIcon icon={faYoutube} />
+                  </a>
+                </div>
             <div className='fl row'>
               <div className='col-sm-6 col-md-4 mb-2 mft'>
                 <p className="me-3">
-                  <a href="#!" className="text-reset cp">Terms</a>
+                  <a href="#!" className="text-reset cp">Terms of Service</a>
                 </p>
               </div>
               <div className='col-sm-6 col-md-4 mb-2 mfpr'>
                 <p className="me-3">
-                  <a href="#!" className="text-reset cp ">Privacy</a>
+                  <a href="#!" className="text-reset cp ">Privacy Policy</a>
                 </p>
               </div>
               <div className='col-sm-6 col-md-4 mb-2 mfco'>
                 <p>
-                  <a href="#!" className="text-reset cp ">Cookies</a>
+                  <a href="#!" className="text-reset cp ">Cookie Policy</a>
                 </p>
               </div>
               <div className="mcp">Copyright © 2023 EXPRESSbase. All rights reserved</div>

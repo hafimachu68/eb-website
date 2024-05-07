@@ -1,9 +1,18 @@
 .carousel-card {
     border: none;
 }
-/* .mfcrsl {
-    height: 700px; 
-} */
+.mfcrsl {
+    /* height: 700px;  */
+    margin-top: -2.2rem !important;
+    position: relative;
+    background-color: #E5F0FF    ;
+    width: 113%;
+    margin-left: -7%;
+    border-radius: 8px;
+}
+.cbm{
+    margin-left: 6%;
+}
 
 .carousel-item {
     height: 100%; /* Ensure each carousel item takes the full height */
@@ -17,7 +26,6 @@
     z-index: 1000;
 }
 
-/* Customize the next arrow icon */
 .carousel-control-next-icon {
     content: '';
     display: inline-block;
@@ -25,12 +33,9 @@
     height: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-left: 10px solid black; /* Adjust color as needed */
-    
-    /* display: none; */
+    border-left: 10px solid black; 
 }
 
-/* Customize the previous arrow icon */
 .carousel-control-prev-icon {
     content: '';
     display: inline-block;
@@ -38,14 +43,14 @@
     height: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-right: 10px solid black; /* Adjust color as needed */
-    /* display: none; */
+    border-right: 10px solid black; 
 
 }
 
 .mmg {
-    width: 315px;
+    width: 350px;
     margin-left: -10px;
+    padding-bottom: 2rem;
 }
 
 .carousel-item.active .carousel-card {
@@ -98,9 +103,11 @@
     }
 
 .mbmg{
-    width: 330px;
-    margin-left: -3px;
-    margin-top: 5%;
+    width: 333px;
+    /* height: 112% !important; */
+    margin-left: -24px;
+    margin-top: 10%;
+    padding-bottom: 5rem;
 }
 
 .mflogo{
@@ -123,15 +130,20 @@
     /* Your custom styles for the next arrow */
     border-left-color:#ffff; /* Change the color to red as an example */
     margin-top: -5rem !important;
-    margin-left: 32px !important;  }
+    margin-left: 32px !important; 
+        display: none !important;
+
+ }
   
   .custom-carousel .carousel-control-prev-icon {
     /* Your custom styles for the previous arrow */
     border-right-color: #ffff; /* Change the color to red as an example */
     margin-top: -5rem !important;
     margin-left: -37px  ;
+        display: none !important;
+
 }
 .carousel-indicators {
-    display: none !important;
+    /* display: none !important; */
   }
  
