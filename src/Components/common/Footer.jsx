@@ -88,7 +88,7 @@ function Footer() {
               </a>
             </div>
             {/* Row for Terms, Privacy, and Cookies */}
-            <div className='fl row'>
+            <div className='flw row'>
               <div className='col-sm-6 col-md-4 mb-2'>
                 <p className="me-3">
                   <a href="#!" className="text-reset cp">Terms</a>

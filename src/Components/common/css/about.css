@@ -47,13 +47,13 @@
 @media only screen and (max-width: 768px) {
   .aboutus-header {
     min-height: unset;
-        height: 35vh;
-        background-size: 125% 90%;
-  }
+    height: 52vh;
+    background-size: 125% 100%;
+}
 
   .aboutoverlay {
     min-height: unset;
-    height: 33vh;
+    height: 52vh;
     width: 100%; /* Set width to 100% for mobile devices */
   }
   .ah{

@@ -11,8 +11,8 @@ function Aboutus() {
           <div className="container">
             <div className="row">
               <div className="col-md-12 no-padd al_bottom">
-                <h1 className="text-center ah fw-bold">Build & Deploy Enterprise class </h1>
-                <h1 className="text-center ah fw-bold">Forms 10x faster</h1>
+                <h1 className="text-center ah fw-bold">Helping businesses achieve<br/>operational excellence through </h1>
+                <h1 className="text-center ah fw-bold"> Internal Automation</h1>
               </div>
             </div>
           </div>
