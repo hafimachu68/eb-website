@@ -40,13 +40,13 @@
 }
 
 .cloud2 {
-    top: 889px; /* Adjusted position */
+    top: 772px; /* Adjusted position */
     left: -400px;
     animation-duration: 30s;
 }
 
 .cloud3 {
-    top: 1376px; /* Adjusted position */
+    top: 1262px; /* Adjusted position */
     left: -500px;
     animation-duration: 30s; /* Slower animation */
 }
@@ -75,10 +75,10 @@
     border-radius: 11PX;
     }
     .tmg{
-        margin-top: 150px ;
+        margin-top: 110px ;
     }
     .txmg{
-        padding-bottom: 105px ;
+        padding-bottom: 66px ;
        
     }
     .blh{
@@ -118,6 +118,7 @@
   .contribute-wrapper {
     position: relative;
     height: 200px; /* Adjust as needed */
+    margin-top: 4rem;
   }
 
    .contribute{

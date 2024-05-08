@@ -1,5 +1,3 @@
-// Trusted.jsx
-
 import React from 'react';
 import './css/mtrusted.css';
 import StartupMission from '../images/Rectangle 3.png';
@@ -20,33 +18,73 @@ import Dibba from '../images/dibba.png';
 import Asha from '../images/asha.png';
 
 function Mtrusted() {
-  const trustedImages = [
-    { src: StartupMission, alt: "StartupMission" },
-    { src: Ehealth, alt: "Ehealth" },
-    { src: Emc, alt: "Emc" },
-    { src: Kase, alt: "Kase" },
-    { src: Kdisc, alt: "Kdisc" },
-    { src: Ict, alt: "Ict" },
-    { src: Kssb, alt: "Kssb" },
-    { src: Kudumbashri, alt: "Kudumbashri" },
-    { src: Hoc, alt: "Hoc" },
-    { src: Zdiac, alt: "Zdiac" },
-    { src: Liwa, alt: "Liwa" },
-    { src: Clinic7, alt: "Clinic7" },
-    { src: Technopark, alt: "Technopark" },
-    { src: Alarz, alt: "Alarz" },
-    { src: Dibba, alt: "Dibba" },
-    { src: Asha, alt: "Asha" }
-  ];
-
   return (
     <div className="container">
-      <div className="mtrusted-sec-body">
-        {trustedImages.map((image, index) => (
-          <div key={index} className={`trusted-img-wrapper ${image.alt === "Ict" ? "ict-image" : ""}`}>
-            <img src={image.src} className="mtrusted-img" alt={image.alt} />
-          </div>
-        ))}
+      <div className="mtrusted-sec-body ">
+        {/* StartupMission */}
+        <div className="trusted-img-wrapper">
+          <img src={StartupMission} className="mtrusted-img tbody" alt="StartupMission" />
+        </div>
+        {/* Ehealth */}
+        <div className="trusted-img-wrapper">
+          <img src={Ehealth} className="mtrusted-img tbody" alt="Ehealth" />
+        </div>
+        {/* Emc */}
+        <div className="trusted-img-wrapper">
+          <img src={Emc} className="mtrusted-img tbody" alt="Emc" />
+        </div>
+        {/* Kase */}
+        <div className="trusted-img-wrapper">
+          <img src={Kase} className="mtrusted-img tbody" alt="Kase" />
+        </div>
+        {/* Kdisc */}
+        <div className="trusted-img-wrapper">
+          <img src={Kdisc} className="mtrusted-img tbody" alt="Kdisc" />
+        </div>
+        {/* Ict */}
+        <div className="trusted-img-wrapper ict-image">
+          <img src={Ict} className="mtrusted-img tbody" alt="Ict" />
+        </div>
+        {/* Kssb */}
+        <div className="trusted-img-wrapper">
+          <img src={Kssb} className="mtrusted-img tbody" alt="Kssb" />
+        </div>
+        {/* Kudumbashri */}
+        <div className="trusted-img-wrapper">
+          <img src={Kudumbashri} className="mtrusted-img tbody" alt="Kudumbashri" />
+        </div>
+        {/* Hoc */}
+        <div className="trusted-img-wrapper">
+          <img src={Hoc} className="mtrusted-img tbody" alt="Hoc" />
+        </div>
+        {/* Zdiac */}
+        <div className="trusted-img-wrapper">
+          <img src={Zdiac} className="mtrusted-img tbody" alt="Zdiac" />
+        </div>
+        {/* Liwa */}
+        <div className="trusted-img-wrapper">
+          <img src={Liwa} className="mtrusted-img tbody" alt="Liwa" />
+        </div>
+        {/* Clinic7 */}
+        <div className="trusted-img-wrapper">
+          <img src={Clinic7} className="mtrusted-img tbody" alt="Clinic7" />
+        </div>
+        {/* Technopark */}
+        <div className="trusted-img-wrapper">
+          <img src={Technopark} className="mtrusted-img tbody" alt="Technopark" />
+        </div>
+        {/* Alarz */}
+        <div className="trusted-img-wrapper">
+          <img src={Alarz} className="mtrusted-img tbody" alt="Alarz" />
+        </div>
+        {/* Dibba */}
+        <div className="trusted-img-wrapper">
+          <img src={Dibba} className="mtrusted-img tbody" alt="Dibba" />
+        </div>
+        {/* Asha */}
+        <div className="trusted-img-wrapper">
+          <img src={Asha} className="mtrusted-img tbody" alt="Asha" />
+        </div>
       </div>
     </div>
   );

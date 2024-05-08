@@ -24,8 +24,9 @@
   height: 100%;
   object-fit: cover;
   margin-left: -1rem;
-}
-.ict-image {
-  /* Add your specific styles for the Ict image here */
- margin-top: -1rem;
+  /* padding:  1rem; */
+  padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
 }

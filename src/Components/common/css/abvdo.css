@@ -14,7 +14,7 @@
 }
 .rf{
     padding-left: 33px;
-    padding-bottom: 120px;
+    padding-bottom: 80px;
 
 }
 .video-container {
@@ -90,8 +90,8 @@
     background: linear-gradient(to right, #193054 0%, #21457D 80%);
     border-radius: 5px;
     color: white;
-    padding: 7px 5px;
-    border: none;
+    padding: 18px 18px;
+        border: none;
     font-size: 16px;
     cursor: pointer;
     font-family: "Blinker", sans-serif;

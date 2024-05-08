@@ -37,14 +37,14 @@ function ABmessages() {
               </div> 
             </div>
             <div className="loops lighter">
-              <div className="image-wrapp">
+              <div className="image-wrapp abm2">
                 <img src={abm2} alt="img" className="rimg abm2" />                     
               </div>
-              <p className='abp'> Part of Leading MEA’s startup accelarator’s cycle-2</p>
+              <p className='abp abp2'> Part of Leading MEA’s startup accelarator’s cycle-2</p>
             </div>
             <div className="loops darker">
-              <p className='abp'>Member of the Startup-Incubation program, awarded $17k scale-up grant</p>  
-              <div className="image-wrapperk">
+              <p className='abp abp3'>Member of the Startup-Incubation program, awarded $17k scale-up grant</p>  
+              <div className="image-wrapperk abm3">
                 <img src={abm3} alt="img" className="limgk "  />
               </div>
             </div>
@@ -55,8 +55,8 @@ function ABmessages() {
               <p className='abp'> Part of NASSCOM’s 10k startups program, selected for Innotrek 2018.</p>
             </div>
             <div className="loops darker">
-              <p className='abp'> Winner of Hack for Health Hackathon by eHealth & KDISC</p>  
-              <div className="image-wrapper">
+              <p className='abp abp5'> Winner of Hack for Health Hackathon by eHealth & KDISC</p>  
+              <div className="image-wrapper abm55">
                 <img  src={abm5}alt="img" className="  limg abm5"  />
               </div>
             </div>
@@ -64,7 +64,7 @@ function ABmessages() {
               <div className="image-wrapp">
                 <img  src={abm6} className="rimg abm6" alt="img"  />
               </div>
-              <p className='abp'> Semi-finalist of the startup competition at GITEX 2021, Dubai</p>
+              <p className='abp abp6'> Semi-finalist of the startup competition at GITEX 2021, Dubai</p>
             </div>
           </div>
         </div>

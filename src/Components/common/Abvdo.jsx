@@ -72,6 +72,28 @@ function ABvdo() {
               <iframe className="fr" src="https://www.youtube.com/embed/A2A-kH7HRAg?si=UOzQ5e4eB2yrl2c0" frameBorder="0" allowFullScreen title="video2"></iframe>
             </div>
           )}
+            </div>
+        <div className="card cmg mx-3 mt-5 " style={{ width: '18rem' }}>
+          <img src={c4} className="card-img-top cvdo  " alt="..." />
+          <h5 className="card-title blp pt-4">Flat6Labs Bahrain Second Demo day</h5>
+          <button className="btn abb" onClick={() => toggleVideo('video3')}>Watch the video</button>
+          {videos.video3 && (
+            <div className="video-container" id="video3">
+              <button className="close-button" onClick={() => closeVideo('video3')}>&times;</button>
+              <iframe className="fr" src="https://www.youtube.com/embed/A2A-kH7HRAg?si=UOzQ5e4eB2yrl2c0" frameBorder="0" allowFullScreen title="video2"></iframe>
+            </div>
+          )}
+            </div>
+        <div className="card cmg mx-3 mt-5 " style={{ width: '18rem' }}>
+          <img src={c4} className="card-img-top cvdo  " alt="..." />
+          <h5 className="card-title blp pt-4">Flat6Labs Bahrain Second Demo day</h5>
+          <button className="btn abb" onClick={() => toggleVideo('video3')}>Watch the video</button>
+          {videos.video3 && (
+            <div className="video-container" id="video3">
+              <button className="close-button" onClick={() => closeVideo('video3')}>&times;</button>
+              <iframe className="fr" src="https://www.youtube.com/embed/A2A-kH7HRAg?si=UOzQ5e4eB2yrl2c0" frameBorder="0" allowFullScreen title="video2"></iframe>
+            </div>
+          )}
         </div>
       </div>
     </div>

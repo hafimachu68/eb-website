@@ -11,7 +11,7 @@ import Gayatri from '../images/Gayatri.png';
 import kp from '../images/KP.png';
 import hafi from '../images/hafi.png';
 import backgroundImage from '../images/cloud.png'; // Import your image
-import bic from '../images/bic.png'; // Import your image
+import bic from '../images/team.png'; // Import your image
 import background from '../images/bluebg.png'; // Import your image
 
 
@@ -56,11 +56,11 @@ function ABteam() {
       <div className="container">
         <div className="row tmg" style={{ justifyContent: 'center' }}>
         <div className=" text-white text-center blhic">
-             <p className='feic'> <i> <img className='po me-3' src={bic} alt="" /> </i>What we offer </p>
+             <p className='feic'> <i> <img className='po me-3' src={bic} alt="" /> </i>TEAM </p>
           </div>
           <div className='text-white text-center txmg'>
-            <h1 className='blh'>Enterprise-Grade App Development </h1>
-            <p className='blp '> Tailored solutions with advanced capabilities for fast growing businesses </p>
+            <h1 className='blh'>Fusion of expertise and fresh perspectives </h1>
+            {/* <p className='blp '> Tailored solutions with advanced capabilities for fast growing businesses </p> */}
           </div>
           <img 
             src={sureshHovered ? SureshHover : Suresh} 

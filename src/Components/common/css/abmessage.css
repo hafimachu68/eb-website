@@ -156,6 +156,25 @@ margin-top: -2px;
   height: 100%; 
   /* object-fit: cover;  */
 }
+
+.abm2{
+  margin-left: -2rem;
+}
+.abp2{
+  margin-left: -10rem;
+}.abm3{
+  margin-left: 9rem;
+}.abp3{
+  margin-left: -1rem;
+}.abm55{
+  margin-left: 17rem;
+}.abp5{
+  margin-left: -2rem;
+}.abp6{
+  margin-left: -3rem;
+}
+
+
 @media only screen and (max-width: 768px) {
   .absupport{
     margin-left: 0;
