@@ -135,6 +135,10 @@
 max-width: 188px !important;
 margin-top: -9px;
 }
+.limgs1{
+  max-width: 188px !important;
+
+}
 
 .image-wrapperk {
   width: 17%; /* Ensure the wrapper takes full width */
@@ -185,6 +189,9 @@ margin-top: -2px;
 }.abp6{
   margin-left: -3rem;
   width: 98%;
+}
+.abp66{
+  margin-left: -3rem;
 }
 
 

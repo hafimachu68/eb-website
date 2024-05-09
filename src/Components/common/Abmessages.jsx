@@ -32,7 +32,7 @@ function ABmessages() {
               <p className='abp'> Part of Leading LATAM’s startup accelarator’s Generation-21, got awarded $35k equity-free grant</p> 
               <div>
                 <div className="image-wrappers">
-                  <img src={abm1} alt="img" className=" limgs " />
+                  <img src={abm1} alt="img" className=" limgs1 " />
                 </div>
               </div> 
             </div>
@@ -64,7 +64,7 @@ function ABmessages() {
               <div className="image-wrapp">
                 <img  src={abm6} className="rimg abm6" alt="img"  />
               </div>
-              <p className='abp abp6'> Semi-finalist of the startup competition at GITEX 2021, Dubai</p>
+              <p className='abp abp66'> Semi-finalist of the startup competition at GITEX 2021, Dubai</p>
             </div>
           </div>
         </div>
