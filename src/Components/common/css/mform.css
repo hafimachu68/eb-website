@@ -6,10 +6,30 @@
     margin-top: -2.2rem !important;
     position: relative;
     background-color: #E5F0FF    ;
-    width: 113%;
+    width: 114%;
     margin-left: -7%;
     border-radius: 8px;
 }
+.mfclogo {
+    margin-top: -18px;
+    margin-left: 73px;
+}
+.mfuc {
+    margin-left: -50px;
+    font-weight: 700;
+    font-size: 22px;
+}
+.custom-carousel .carousel-item.active .card{
+    border-top: 7px solid;
+    border-top-color: #79C977;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+.custom-carousel .carousel-inner {
+   
+    border-radius: 8px;
+}
+  
 .cbm{
     margin-left: 6%;
 }
@@ -17,6 +37,9 @@
 .carousel-item {
     height: 100%; /* Ensure each carousel item takes the full height */
 }
+
+ .carousel-content{
+    margin-left: 1.5rem }
 .carousel-control-next,
 .carousel-control-prev {
     opacity: 1.5;
@@ -34,6 +57,7 @@
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     border-left: 10px solid black; 
+    display: none;
 }
 
 .carousel-control-prev-icon {
@@ -44,6 +68,7 @@
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     border-right: 10px solid black; 
+    display: none;
 
 }
 
@@ -90,7 +115,7 @@
     font-family: "Fira Sans", sans-serif;
 }
 .mbtn{
-    margin-left: -9.5rem;
+    margin-left: -9rem;
 }
 .mbd{
     padding-bottom: 15px;
@@ -102,11 +127,15 @@
 .mbg{
     background-color: #193054;
     }
+    .mfbg{
+background-color: #E5F0FF;
+border: none;        }    
+    
 
 .mbmg{
     width: 345px;
     /* height: 112% !important; */
-    margin-left: -36px;
+    margin-left: -31px;
     margin-top: 10%;
     padding-bottom: 5rem;
 }
@@ -117,7 +146,7 @@
 }
 
 .muc{
-    margin-left: -150px;
+    margin-left: -137px;
 }
 
 .mmainh{

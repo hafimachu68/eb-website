@@ -3,29 +3,25 @@
 import React from 'react';
 import './css/trusted.css';
 import Start_up_Mission from '../images/Rectangle 3.png';
-import ehealth from '../images/Rectangle 4.png';
-import emc from '../images/Rectangle 5.png';
 import kase from '../images/Rectangle 6.png';
 import kdisc from '../images/Rectangle 7.png';
-import ict from '../images/Rectangle 9.png';
 import kssb from '../images/Rectangle 10.png';
 import kudumbashri from '../images/Rectangle 11.png';
 import hoc from '../images/Rectangle 12.png';
 import zdiac from '../images/Rectangle 13.png';
 import liwa from '../images/Rectangle 14.png';
 import clinic7 from '../images/Rectangle 107.png';
-import technopark from '../images/Rectangle 122.png';
 import alarz from '../images/alarz.png';
 import dibba from '../images/dibba.png';
 import asha from '../images/asha.png';
-import at1 from '../images/liwaland.png';
-import at2 from '../images/rion.png';
-import at3 from '../images/ro.png';
-import at4 from '../images/htfc.png';
-import at5 from '../images/iconic.png';
-import at6 from '../images/ws.png';
+import at1 from '../images/liwalando.png';
+import at2 from '../images/riono.png';
+import at3 from '../images/rto.png';
+import at4 from '../images/hitec.png';
+import at5 from '../images/icon.png';
+import at6 from '../images/w2s.png';
 import at7 from '../images/fu.png';
-import at8 from '../images/tg.png';
+import at8 from '../images/tadaang.png';
 
 
 function Trusted() {

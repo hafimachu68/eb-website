@@ -17,8 +17,28 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
+.dp{
+  width: 131%;
 
-
+}
+.lp{
+  margin-left: -19px !important;
+}
+.k{
+  margin-left: -1rem;
+}
+.kp{
+  margin-left: -35px !important;
+}
+.msingle-line{
+  width: 145%;
+    margin-left: -14px;
+}
+.mteam{
+  
+    height: 8em;
+    width: 7em;
+}
 .clouds2 {
     position: absolute;
     animation: moveCloud linear infinite;
@@ -26,6 +46,10 @@
     background-size: contain;
     width: 120px;
     height: 90px;
+}
+.team:hover{
+  transform: scale(1.1); /* Adjust the scaling factor as needed */
+
 }
 
 .cloud1 {
@@ -101,7 +125,10 @@
   .amt{
     margin-top: -17px;
   }
-   
+  .mamt{
+    margin-top: -17px;
+    font-size: 15px;
+  }
    .contribute {
     position: absolute;
     top: -100px; 
@@ -119,6 +146,7 @@
     position: relative;
     height: 200px; /* Adjust as needed */
     margin-top: 4rem;
+    padding-left: 4rem;
   }
 
    .contribute{
@@ -128,19 +156,20 @@
 
 .contribute-1 {
   height: 298px;
-  width: 100%;
-  margin-top: -87px;
-  animation: slideFromTop 1s ease forwards;
-  padding-left: 84px;
+    width: 94%;
+    margin-top: -96px;
+    animation: slideFromTop 1s ease forwards;
+    padding-left: -26px;
   }
   
   /* For Contributers2 (bottom image) */
   .contribute-2 {
     height: 300px;
-    width: 94%;
+    width: 86%;
     margin-top: 113px;
     animation: slideFromBottom 1s ease forwards;
-    padding-left: 3px;
+    padding-left: 0px;
+    margin-left: -2rem;
   }
   
   @keyframes slideFromTop {
@@ -164,4 +193,47 @@
       opacity: 1;
     }
   }
-  
+  @media only screen and (max-width: 768px) {
+    .teamview{
+      margin-top: -4rem;
+    }
+    .blh{
+      font-size: 32px;
+    }
+    .blp .mcenter {
+      flex-basis: calc(50% - 20px) !important; /* Ensure each team member takes up 50% of the width with spacing */
+      max-width: calc(50% - 20px) !important; /* Adjusted maximum width */
+      margin-bottom: 20px; /* Add spacing between team members */
+    }
+    .mcenter {
+      margin-left: 0.4rem;
+  }
+  .contribute-wrapper{
+    padding-left: 0;
+  }
+  .teamview{
+    height: 2890px;
+  }
+  .contribute-1 {
+    height: 121px;
+    width: 114%;
+    margin-top: -96px;
+    animation: slideFromTop 1s ease forwards;
+    padding-left: 0;
+    margin-left: -20px;}
+    .contribute-2 {
+      height: 127px;
+      width: 110%;
+      margin-top: -10px;
+      animation: slideFromBottom 1s ease forwards;
+      padding-left: 0px;
+      margin-left: -1.8rem;
+  }
+  .cloud2 {
+    top: 914px;
+    
+}
+.contribute-wrapper{
+  margin-top: 0;
+}
+  }

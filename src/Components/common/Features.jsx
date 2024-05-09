@@ -51,7 +51,7 @@ function Features() {
         <div className="text-md-center mb-4 mb-md-0">
           <div className="logo-container">
             <img src={feic} alt="Logo" className="flogo" /> 
-            <p className='feic'>Cloud-native Low-code</p>
+            <p className='feic'>CLOUD-NATIVE LOW-CODE</p>
           </div>
           <h3 className="head text-white">Enterprise-Grade App Development</h3>
           <p className="para1 pt-3">

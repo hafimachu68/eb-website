@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './css/abteam.css';
-import Suresh from '../images/suresh1.png';
-import UnniHover from '../images/unni22.png';
-import SureshHover from '../images/suresh2.png';
-import unni from '../images/unni11.png';
+import Suresh from '../images/sm0.png';
+import UnniHover from '../images/um1.png';
+import SureshHover from '../images/sm1.png';
+import unni from '../images/um0.png';
 import Febin from '../images/Febin.png';
 import Dona from '../images/DOna.png';
 import Vinayachandran from '../images/Vinayachandran.png';
@@ -21,7 +21,7 @@ import Contributers1 from '../images/c-1.png';
 import Contributers2 from '../images/c-2.png';
 
 
-function ABteam() {
+function Mabteam() {
   const [sureshHovered, setSureshHovered] = useState(false);
   const [unniHovered, setUnniHovered] = useState(false);
   const [contributersVisible, setContributersVisible] = useState(false);
@@ -79,43 +79,40 @@ function ABteam() {
           />
         </div>
         <div style={{ marginTop: '3em' }}></div>
-        <div className="container ">
-          <div className="row text-center blp  text-white">
-            <div className="col-md-4 col-6 center" >
-              <img className="team" src={Febin} alt="Febin Carlos" />
-              <p className="single-line">Febin Carlos</p>
-              <p className='amt'>Lead Developer</p>
-            </div>
-            <div className="col-md-4 col-6 blp  center" >
-              <img className="team" src={Dona} alt="Dona Jose" />
-              <p className="single-line">Dona Jose</p>
-              <p className='amt'>Lead Developer</p>
-            </div>
-            <div className="col-md-4 col-6 blp  center" >
-              <img className="team" src={Vinayachandran} alt="Vinayachandran V" />
-              <p className="single-line">Vinayachandran V</p>
-              <p className='amt'>Implementation Engineer</p>
-            </div>
-          </div>
-          <div className="row text-center text-white pt-5 ">
-            <div className="col-md-4 col-6 center blp  gy" >
-              <img className="team" src={Gayatri} alt="Gayatri Mayadas" />
-              <p className="single-line">Gayatri Mayadas</p>
-              <p className='amt'>UI/UX Designer</p>
-            </div>
-            <div className="col-md-4 col-6 center blp " >
-              <img className="team" src={kp} alt="Krishnaprasad K" />
-              <p className="single-line">Krishnaprasad K</p>
-              <p className='amt'>Implementation Executive</p>
-            </div>
-            <div className="col-md-4 col-6 center blp  " >
-              <img className="team" src={hafi} alt="Hafeeza Mashood" />
-              <p className="single-line">Hafeeza Mashood</p>
-              <p className='amt'>Jr. Software Developer</p>
-            </div>
-          </div>
-          
-           <div style={{ marginTop: '5rem' }}></div>
+<div className="container ">
+  <div className="row text-center blp text-white">
+    <div className="col-md-6 col-12 blp  mcenter">
+      <img className="mteam k" src={Febin} alt="Febin Carlos" />
+      <p className="msingle-line kp">Febin Carlos</p>
+      <p className='mamt lp'>Lead Developer</p>
+    </div>
+   <div className="col-md-6 col-12 blp mcenter">
+      <img className="mteam" src={Dona} alt="Dona Jose" />
+      <p className="msingle-line">Dona Jose</p>
+      <p className='mamt dp'>Lead Developer</p>
+    </div> 
+    <div className="col-md-6 col-12 blp mcenter">
+      <img className="mteam k" src={Vinayachandran} alt="Vinayachandran V" />
+      <p className="single-line kp">Vinayachandran V</p>
+      <p className='mamt'>Implementation Engineer</p>
+    </div>
+    <div className="col-md-6 col-12 mcenter blp gy">
+      <img className="mteam" src={Gayatri} alt="Gayatri Mayadas" />
+      <p className="msingle-line">Gayatri Mayadas</p>
+      <p className='mamt'>UI/UX Designer</p>
+    </div>
+    <div className="col-md-6 col-12 mcenter blp ">
+      <img className="mteam k" src={kp} alt="Krishnaprasad K" />
+      <p className="msingle-line kp">Krishnaprasad K</p>
+      <p className='mamt'>Implementation Executive</p>
+    </div>
+    <div className="col-md-6 col-12 mcenter blp">
+      <img className="mteam" src={hafi} alt="Hafeeza Mashood" />
+      <p className="msingle-line">Hafeeza Mashood</p>
+      <p className='mamt'>Jr. Software Developer</p>
+    </div>
+  </div>
+     <div style={{ marginTop: '1rem' }}></div>
       <h3 className='text-white blhic'><b>Contributers</b></h3>
       <div className='mt-2 pt-4'></div>
       <div className="contribute-wrapper">
@@ -128,4 +125,4 @@ function ABteam() {
   );
 }
 
-export default ABteam;
+export default Mabteam;

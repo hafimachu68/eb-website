@@ -110,3 +110,23 @@
 .abvh{margin-top: -90px;
   margin-left: 15px;
 }  
+
+
+@media only screen and (max-width: 768px) {
+
+.bgc {
+ 
+  padding-top: 82px;
+}
+.cvdo{
+  margin-left: 0;
+}
+.rf {
+  padding-left: 7px;
+}
+}
+
+
+
+
+

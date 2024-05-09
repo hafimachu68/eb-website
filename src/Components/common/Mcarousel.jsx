@@ -8,7 +8,7 @@ import './css/mform.css';
 function Mcarousel() {
   return (
     <div>
-      <Carousel  interval={null} className="custom-carousel" style={{ width: '100%', height: '100%' }}>
+      <Carousel  interval={null} className="custom-carouse" style={{ width: '100%', height: '100%' }}>
         <Carousel.Item>
           <Card className="mbg text-light">
             <Card.Body className='cbm'>

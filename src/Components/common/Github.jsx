@@ -11,7 +11,7 @@ function GitHub() {
       <div className="container text-center pg">
       <div className="logo-container">
             <img src={feic} alt="Logo" className="flogo" /> 
-            <p className='feic rb'>Cloud-native Low-code  </p>
+            <p className='feic rb'>CLOUD-NATIVE LOW-CODE </p>
           </div>
           <h3 className="head">We are on GitHub!</h3>
           <p className=" rb pt-3">

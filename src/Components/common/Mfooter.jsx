@@ -75,20 +75,20 @@ function Mfooter() {
             <div className='fl row'>
               <div className='col-sm-6 col-md-4 mb-2 mft'>
                 <p className="me-3">
-                  <a href="#!" className="text-reset cp">Terms of Service</a>
+                  <a href="#!" className="text-reset mcp">Terms of Service</a>
                 </p>
               </div>
               <div className='col-sm-6 col-md-4 mb-2 mfpr'>
                 <p className="me-3">
-                  <a href="#!" className="text-reset cp ">Privacy Policy</a>
+                  <a href="#!" className="text-reset mcp ">Privacy Policy</a>
                 </p>
               </div>
               <div className='col-sm-6 col-md-4 mb-2 mfco'>
                 <p>
-                  <a href="#!" className="text-reset cp ">Cookie Policy</a>
+                  <a href="#!" className="text-reset mcp ">Cookie Policy</a>
                 </p>
               </div>
-              <div className="mcp">Copyright © 2023 EXPRESSbase. All rights reserved</div>
+              <div className="mccp">Copyright © 2023 EXPRESSbase. All rights reserved</div>
 
             </div>
           </div>

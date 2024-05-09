@@ -1,8 +1,8 @@
 import React from 'react';
 import './css/home.css';
-import group141 from '../images/rakesh.png';
-import group142 from '../images/ahmed.png';
-import group143 from '../images/gp3.png';
+import group141 from '../images/rak.png';
+import group142 from '../images/faz.png';
+import group143 from '../images/shy.png';
 
 function Customer() {
   return (

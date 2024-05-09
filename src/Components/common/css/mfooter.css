@@ -1,6 +1,6 @@
 .mcircle {
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     background-color: transparent;
     border-radius: 50%;
     border-color: white;
@@ -14,20 +14,25 @@
     margin-top: 2rem;
   }
   .mc{
-    margin-left: 215px !important;
+    margin-left: 225px !important;
     margin-top: -35px;    background-color: #263F82;
     color: white;
   }
   .mfi{
     width: 200px;
-    height: 49px;
+    height: 45px;
     margin-left: -31px;
     margin-top: -29px;
   }
   .mfm{
-    margin-left: 116px;
+    margin-left: 153px;
     margin-top: -64px;
   }
+  .mcp {
+    font-size: 12px;
+    padding-top: 167px;
+    margin-left: 22px;
+}
   .mcol{
     margin-left: 65px;
   }
@@ -54,14 +59,14 @@
 
 .mfpr{
     margin-left: 84px;
-    margin-top: -46px;
+    margin-top: -49px;
 }
 .mfco{
     margin-left: 183px;
-    margin-top: -46px;
+    margin-top: -49px;
 }
 
-.mcp{
+.mccp{
     font-size: 11px;
     padding-top: 13px;
     /* margin-left: 45px; */

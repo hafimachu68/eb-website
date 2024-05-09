@@ -28,7 +28,8 @@ function Mforms() {
                     </Row>
                     <div className="carousel-content pt-5">
                       <h5 className='mmh'>Build complex enterprise class Web Forms 10x faster</h5>
-                      <p className='mmp'> Create powerful multi-lingual, multi-currency enterprise web forms with built-in audit trail, infinite validations and RBAC security.</p>
+                      <p className='mmp'> Create powerful multi-lingual, multi-currency enterprise web forms with built-in audit trail, infinite validations and RBAC security.
+                      </p>
                     </div>
                   </div>
                   <div className="align-self-center mbd">
@@ -54,7 +55,8 @@ function Mforms() {
                     </Row>
                     <div className="carousel-content pt-5">
                       <h5 className='mmh'>Low-Code Reporting tools for Modern Businesses to accelerate decision making</h5>
-                      <p className='mmp'> Gain instant access to actionable insights, putting data at your fingertips for informed decision-making.</p>
+                      <p className='mmp'> Gain instant access to actionable insights, putting data at your fingertips for informed decision-making.
+                      </p>
                     </div>
                   </div>
                   <div className="align-self-center mbd">
@@ -80,7 +82,8 @@ function Mforms() {
                     </Row>
                     <div className="carousel-content pt-5">
                       <h5 className='mmh'>Document Management for business apps like never before</h5>
-                      <p className='mmp'>A document management system that seamlessly integrates into your business process. Say goodbye to toggling between platforms—manage documents in-context, ensuring seamless access to crucial information.</p>
+                      <p className='mmp'>A document management system that seamlessly integrates into your business process. Say goodbye to toggling between platforms—manage documents in-context, ensuring seamless access to crucial information.
+                      </p>
                     </div>
                   </div>
                   <div className="align-self-center mbd">
@@ -106,7 +109,8 @@ function Mforms() {
                     </Row>
                     <div className="carousel-content pt-5">
                       <h5 className='mmh'>Seamlessly Integrate with 3rd Party software</h5>
-                      <p className='mmp'> Efficiently integrate third-party applications into your workflow using our futuristic API builder. Simplify cross-platform connectivity and unlock new possibilities for productivity and growth.</p>
+                      <p className='mmp'> Efficiently integrate third-party applications into your workflow using our futuristic API builder. Simplify cross-platform connectivity and unlock new possibilities for productivity and growth.
+                      </p>
                     </div>
                   </div>
                   <div className="align-self-center mbd">
@@ -132,7 +136,8 @@ function Mforms() {
                     </Row>
                     <div className="carousel-content pt-5">
                       <h5 className='mmh'>Empower Your fast growing business with Internal Mobile Apps</h5>
-                      <p className='mmp'> Transform your organization's internal processes with our low-code mobile app platform. From task management to internal communications, our apps empower your team to collaborate seamlessly and stay productive from anywhere.</p>
+                      <p className='mmp'> Transform your organization's internal processes with our low-code mobile app platform. From task management to internal communications, our apps empower your team to collaborate seamlessly and stay productive from anywhere.
+                      </p>
                     </div>
                   </div>
                   <div className="align-self-center mbd">

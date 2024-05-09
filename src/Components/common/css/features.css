@@ -146,7 +146,7 @@
 @media (max-width: 768px) {
     .center {
         text-align: center;
-        margin-top: -2rem    }
+        margin-top: -3rem    }
 
     .col-md-4 {
         flex: 100%; 
@@ -284,5 +284,15 @@
 .row-new.transitioned {
     filter: opacity(1);
     transition: filter 3s ease;
+  }
+ 
+  @media (max-width: 1390px) {
+    .mainimg{
+        width: 1282px.02px;
+        height:726px    ;
+        margin-left:115px ;
+        
+    
+    }
   }
  
