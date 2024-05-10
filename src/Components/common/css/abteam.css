@@ -30,6 +30,11 @@
 .kp{
   margin-left: -35px !important;
 }
+.vn{
+  margin-left: -35px !important;
+  width: 145%;
+}
+
 .msingle-line{
   width: 145%;
     margin-left: -14px;

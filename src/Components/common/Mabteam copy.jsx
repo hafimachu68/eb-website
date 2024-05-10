@@ -93,7 +93,7 @@ function Mabteam() {
     </div> 
     <div className="col-md-6 col-12 blp mcenter">
       <img className="mteam k" src={Vinayachandran} alt="Vinayachandran V" />
-      <p className="single-line kp">Vinayachandran V</p>
+      <p className="single-line vn">Vinayachandran V</p>
       <p className='mamt'>Implementation Engineer</p>
     </div>
     <div className="col-md-6 col-12 mcenter blp gy">
