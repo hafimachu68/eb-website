@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../images/Group.png'; // Import your logo file
+import logo from '../images/rbic1.png'; // Import your logo file
 import host from '../images/RBAC1.png'; // Import your logo file
 
 import './css/platform.css'; // Import the CSS file for styling

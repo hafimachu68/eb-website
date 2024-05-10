@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import Navbar from '../Components/common/Navbar'
 import Footer from '../Components/common/Footer'
 import Poverview from '../Components/common/Poverview'
@@ -10,8 +10,27 @@ import Ptruly from '../Components/common/Ptruly'
 import Prbac from '../Components/common/Prbac'
 import Pctaheading from '../Components/common/Pctheading'
 import MPrbac from '../Components/common/MPrbac'
+import Mfooter from '../Components/common/Mfooter'
 
 function Platform() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkScreenWidth = () => {
+      setIsMobile(window.innerWidth < 768); // Adjust the breakpoint as needed
+    };
+
+    // Initial check
+    checkScreenWidth();
+
+    // Listen to window resize event
+    window.addEventListener('resize', checkScreenWidth);
+
+    // Cleanup
+    return () => {
+      window.removeEventListener('resize', checkScreenWidth);
+    };
+  }, []);
   return (
     <div className='rbg'>
         <Navbar/>
@@ -21,10 +40,10 @@ function Platform() {
         <Pfeatures/>
         <Pseamlessly/>
         <Ptruly/>
-        {/* <Prbac/> */}
-        <MPrbac/>
-        <Pctaheading/>
-        <Footer/>
+        {isMobile ? <MPrbac /> : <Prbac/>}
+        <Pctaheading/>        
+        {isMobile ? <Mfooter /> : <Footer />}
+
     </div>
   )
 }

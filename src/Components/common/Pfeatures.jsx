@@ -52,7 +52,7 @@ function Pfeatures() {
               <p className="pfeatures">No code platforms don’t work for complex requirements. Precisely why we are low-code. Put your existing skills to use, code in JavaScript, C# & SQL.</p>
             </div>
             <div className="col-md-4 col-sm-6 mb-2 center">
-              <img className='pdeploy' src={pf6} alt="" /><br /><br />
+              <img className='ppdeploy' src={pf6} alt="" /><br /><br />
               <h5 className="t-head" style={{ color: '#193054' }}>Multilocation</h5>
               <p className="pfeatures">Traditional development is costly and time-consuming. Build complex business apps 10x faster with our platform.</p>
             </div>
