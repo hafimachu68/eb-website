@@ -8,7 +8,7 @@ import background from '../images/CTAbg.png'; // Import your image
 
 function Pctaheading() {
   return (
-    <div className='ctbg'style={{backgroundImage: `url(${background})`}}>
+    <div className='pctbg'style={{backgroundImage: `url(${background})`}}>
         <div className="row">
           <div className="col-md-7">
           <div className='text-white ctc'>
@@ -23,9 +23,10 @@ function Pctaheading() {
         </div>
         </div>
           </div>
-          {/* <div className="col-md-5 ctmg">
-          <div className='ctpg'><img src={ctpg} alt="Your Image" /></div>
-          </div> */}
+          <div className="col-md-5 ctmg">
+          <div className='ctpg'>
+            <img src={ctpg} alt="Your Image" /></div>
+          </div>
         </div>
 
        

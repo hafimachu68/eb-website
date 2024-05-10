@@ -24,9 +24,8 @@ function Pfeatures() {
         </div>
         <div className="container text-center">
         <div
-            className='row '
-            style={{ marginTop: '1.2em', marginBottom: '6.5em' }}
-          >            <div className="col-md-4 col-sm-6 pt-4 center">
+            className='row sb ' >
+            <div className="col-md-4 col-sm-6 pt-4 center">
               <img className='pdeploy' src={pf1} alt="" />
               <h5 className="t-head da " style={{ color: '#193054' }}>Futuristic Builders</h5>
               <p className="pfeatures">Forget about the server infrastructure, leave it to us. Focus on your applications and business.

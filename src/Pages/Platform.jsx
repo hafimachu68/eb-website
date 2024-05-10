@@ -9,6 +9,7 @@ import Pseamlessly from '../Components/common/Pseamlessly'
 import Ptruly from '../Components/common/Ptruly'
 import Prbac from '../Components/common/Prbac'
 import Pctaheading from '../Components/common/Pctheading'
+import MPrbac from '../Components/common/MPrbac'
 
 function Platform() {
   return (
@@ -20,7 +21,8 @@ function Platform() {
         <Pfeatures/>
         <Pseamlessly/>
         <Ptruly/>
-        <Prbac/>
+        {/* <Prbac/> */}
+        <MPrbac/>
         <Pctaheading/>
         <Footer/>
     </div>

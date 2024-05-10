@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../images/Group.png'; // Import your logo file
-import host from '../images/wheel1.png'; // Import your logo file
+import host from '../images/pimg.png'; // Import your logo file
 
 import './css/platform.css'; // Import the CSS file for styling
 

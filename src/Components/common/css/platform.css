@@ -175,3 +175,83 @@
   .ptruly{
     margin-top: 6%;
   }
+  .sb{
+    margin-top: 1.2em;
+    margin-bottom: 6.5em;
+  }
+
+  @media (max-width: 768px) {
+  .phead{
+    font-size: 32px;
+  }
+  .plf{
+    width: 90%;
+    height: 165px;
+    margin-left: 1rem;
+  }
+  .platform-header{
+    min-height: 550px;
+  }
+  .card-description {
+    padding: 19px; /* Adjust padding for mobile devices */
+    font-size: 16px; /* Adjust font size for mobile devices */
+    overflow-y: auto; /* Add overflow property for scroll if necessary */
+    line-height: 1.6;
+  }
+  .colp {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+    margin-bottom: 2rem;
+}
+.plcontainer{
+  margin-top: -5rem;
+}
+.row-container {
+  display: flex;
+  flex-direction: column; /* Display as column on mobile */
+  align-items: center; /* Center align content */
+}
+
+.left-content, .right-content {
+  width: 100%; /* Make both left and right content take full width */
+  text-align: center; /* Center align text */
+  margin-bottom: 20px; /* Add margin between left and right content */
+}
+.ppleft {
+  margin-left: 22px;
+  line-height: 2;
+  width: 91%;
+  text-align: left;
+}
+.piright {
+  max-width: 97%;
+  height: auto;
+  margin-top: 0;
+  margin-left: 0;
+}
+.provideroverlay{
+  width: 99%;
+    height: 795px;
+}
+.sb{
+  margin-bottom: .5rem;
+}
+.psleft {
+  margin-left: 0;
+  max-width: 85%;
+  height: auto;
+  margin-top: 6%;
+}
+.psright {
+  max-width: 85%;
+  height: auto;
+  line-height: 2.5;
+  width: 91%;
+  text-align: left;
+  margin-top: 3%;
+  margin-left: 10%;
+}
+
+  }
+
