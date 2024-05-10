@@ -149,9 +149,10 @@
       margin-top: 15px;
       border-bottom: 1px solid #ececec    ;
     }
-    .demo{
+    .demo {
       border-bottom: none;
-    }
+      margin-left: 8rem;
+  }
    .logo-img{
     margin-left: -1.9rem;
    }
