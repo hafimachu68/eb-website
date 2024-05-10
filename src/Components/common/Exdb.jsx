@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/home.css';
-import feic from '../images/rbic.png';
+import feic from '../images/rbic1.png';
 import RBAC from '../images/RBAC1.png';
 function Exdb() {
   return (

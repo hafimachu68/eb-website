@@ -11,14 +11,17 @@
     border-radius: 8px;
 }
 .mfclogo {
-    margin-top: -18px;
+    margin-top: -3rem;
     margin-left: 73px;
+    width: 24px;
+    height: 24px;
 }
 .mfuc {
     margin-left: -50px;
     font-weight: 700;
-    font-size: 22px;
-}
+    font-size: 16px;
+    margin-top: -1.3rem;}
+
 .custom-carousel .carousel-item.active .card{
     border-top: 7px solid;
     border-top-color: #79C977;
@@ -32,6 +35,7 @@
   
 .cbm{
     margin-left: 6%;
+    margin-top: 1rem
 }
 
 .carousel-item {
