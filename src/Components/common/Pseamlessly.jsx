@@ -11,7 +11,7 @@ function Pseamlessly() {
         <div className="text-center ">
         <div className="logo-container">
           <img src={logo} alt="Logo" className="plogo" /> {/* Insert your logo here */}
-          <p className='pare'>Integrations</p>
+          <p className='pare mx-2'>INTEGRATION</p>
         </div>
         <h3 className="phead">Seamlessly Bridging Platforms</h3>
         <p className="ppara1 pt-4">

@@ -11,7 +11,7 @@ function Prbac() {
         <div className="text-center ">
         <div className="logo-container">
           <img src={logo} alt="Logo" className="logo" /> {/* Insert your logo here */}
-          <p className='pare'>Security</p>
+          <p className='pare'>SECURITY</p>
         </div>
         <h3 className="phead">Application Security using RBAC</h3>
         <p className="ppara1 pt-4">

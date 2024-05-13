@@ -94,17 +94,17 @@ function Mabteam() {
     <div className="col-md-6 col-12 blp mcenter">
       <img className="mteam k" src={Vinayachandran} alt="Vinayachandran V" />
       <p className="single-line vn">Vinayachandran V</p>
-      <p className='mamt'>Implementation Engineer</p>
+      <p className='mamt vn'>Implementation Engineer</p>
     </div>
-    <div className="col-md-6 col-12 mcenter blp gy">
+    <div className="col-md-6 col-12 mcenter blp ">
       <img className="mteam" src={Gayatri} alt="Gayatri Mayadas" />
       <p className="msingle-line">Gayatri Mayadas</p>
-      <p className='mamt'>UI/UX Designer</p>
+      <p className='mamt gy'>UI/UX Designer</p>
     </div>
     <div className="col-md-6 col-12 mcenter blp ">
       <img className="mteam k" src={kp} alt="Krishnaprasad K" />
       <p className="msingle-line kp">Krishnaprasad K</p>
-      <p className='mamt'>Implementation Executive</p>
+      <p className='mamt kp'>Implementation Executive</p>
     </div>
     <div className="col-md-6 col-12 mcenter blp">
       <img className="mteam" src={hafi} alt="Hafeeza Mashood" />

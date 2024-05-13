@@ -67,24 +67,24 @@ function Forms() {
 
   return (
     <div className='fbg'>
-      <div>
-        <div className="row overlays">
+      <div className=''>
+      </div>
+      {activeOverlayIndex !== null && (
+        <div className="overlay postion-relative">
+             <div className=" overlays ">
           {overlayData.map((data, index) => (
             <div className="col-md-2 over" key={index} onClick={() => handleClick(index)}>
-              <div className={`overlay-box text-center ${activeOverlayIndex === index ? 'active' : ''}`}>
+              <div className={` overlay-box text-center `}>
                 <img className="fcloud1" src={data.image} alt="" />
                 <p className="ot">{data.text}</p>
               </div>
             </div>
           ))}
         </div>
-      </div>
-      {activeOverlayIndex !== null && (
-        <div className="overlay">
           <div className="row content">
-            <div className=''>
-            <h1 className="fw-bold fmh">{overlayData[activeOverlayIndex].mainHeading}</h1>
-            </div>
+  
+            <h1 className="fw-bold fmh text-center">{overlayData[activeOverlayIndex].mainHeading}</h1>
+          
             <div className="col-md-6 mainH">
               {/* <p className="sub">{overlayData[activeOverlayIndex].subheading}</p> */}
               <p className="sub">{overlayData[activeOverlayIndex].paragraph}</p>

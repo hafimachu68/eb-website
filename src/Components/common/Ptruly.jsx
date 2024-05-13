@@ -11,7 +11,7 @@ function Ptruly() {
         <div className="text-center ">
         <div className="logo-container">
           <img src={logo} alt="Logo" className="logo" /> {/* Insert your logo here */}
-          <p className='pare'>Database</p>
+          <p className='pare'>DATABASE</p>
         </div>
         <h3 className="phead">Truly Multi-tenant Platform</h3>
         <p className="ppara1 pt-4">

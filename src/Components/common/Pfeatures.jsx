@@ -38,7 +38,7 @@ function Pfeatures() {
             </div>
             <div className="col-md-4 col-sm-6  pt-4 center ">
               <img className='pdeploy' src={pf3}alt="" /><br /><br />
-              <h5 className="t-head" style={{ color: '#193054' }}>deploy Anywhere</h5>
+              <h5 className="t-head" style={{ color: '#193054' }}>Deploy Anywhere</h5>
               <p className="pfeatures">Use our best-in-class developer studio to develop business apps that can run on web and  mobile.</p>
             </div>
             <div className="col-md-4 col-sm-6 mb-2 center">
@@ -53,7 +53,7 @@ function Pfeatures() {
             </div>
             <div className="col-md-4 col-sm-6 mb-2 center">
               <img className='ppdeploy' src={pf6} alt="" /><br /><br />
-              <h5 className="t-head" style={{ color: '#193054' }}>Multilocation</h5>
+              <h5 className="t-head" style={{ color: '#193054' }}>Multi Location</h5>
               <p className="pfeatures">Traditional development is costly and time-consuming. Build complex business apps 10x faster with our platform.</p>
             </div>
             <div className="col-md-4 col-sm-6 mb-2 center">

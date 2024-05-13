@@ -110,7 +110,7 @@
     }
   
     .img-fluid {
-        width: 92%;
+        width: 85%;
         height: auto;
         margin-left: -.5rem;
         margin-top: -1rem;
@@ -120,6 +120,8 @@
     margin-left: -0.9rem;
     line-height: 1.9;
     font-weight: 600;
+    font-family: "Fira Sans", sans-serif;
+
     }
   }
   

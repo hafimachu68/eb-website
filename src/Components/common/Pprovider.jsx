@@ -11,7 +11,7 @@ function Pprovider() {
         <div className="text-center ">
         <div className="logo-container">
           <img src={logo} alt="Logo" className="logo" /> {/* Insert your logo here */}
-          <p className='pare text-light'>Hosting</p>
+          <p className='pare text-light'>HOSTING</p>
         </div>
         <h3 className="phead text-light">Cloud Provider Agnostic Platform</h3>
         <p className="ppara1 pt-4 text-light">

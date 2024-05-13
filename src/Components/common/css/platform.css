@@ -1,11 +1,22 @@
 .platform-header {
-    min-height: 730px;
+    min-height: 665px;
     width: 100%;
     font-family: alata;
     font-weight: 300;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .ploutoverlay {
+    min-height: 665px;
+    width: 100%;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 300;
+    background-color: rgba(0, 0, 2, 0.6);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffff;
   }
   /* .pw{
     color: white !important;
@@ -77,6 +88,8 @@
     font-size: 20px;
     color: #193054;
     font-style: normal;
+    font-family: "Fira Sans", sans-serif;
+
   }
  .provideroverlay{
   background: linear-gradient(to bottom,#021125  , #406CAA  );
@@ -98,11 +111,10 @@
     height: 651px;
   }
   .logo {
-    width: 16.33px;
-    height: 16.33px;
+    width: 24.33px;
+    height: 24.33px;
     margin-right: 10px;
 }
-
   .plcontainer {
     display: flex;
     flex-wrap: wrap;
@@ -138,6 +150,8 @@
     padding: 60px;
     text-align: center;
     font-weight: 600;
+    font-family: "Fira Sans", sans-serif;
+
   }
   
   
@@ -156,6 +170,8 @@
     margin-top: 10%;
     width: 70%;
     line-height: 2;
+    font-family: "Fira Sans", sans-serif;
+
   }
   .psleft{
     margin-left: 20%;
@@ -167,15 +183,20 @@
     transform: scale(1.1); /* Adjust the scaling factor as needed */
 
   }
-  .ppdeploy {
-    width: 40.79px;
-    height: 60.64px;
-}
+  
+    .ppdeploy {
+      width: 38.79px;
+      height: 55.64px;
+  }
+
   .piright{
     max-width: 68%;
     height: auto;
     margin-top: 9%;
     margin-left: 5%;
+  }
+  .piright:hover{
+    transform: scale(1.1);
   }
   .psright {
     max-width: 62%;
@@ -185,6 +206,8 @@
     line-height: 2;
     color: #193054;
     font-weight: 600;
+    font-family: "Fira Sans", sans-serif;
+
 }
   .right-content {
     flex: 1;
@@ -213,7 +236,10 @@
     margin-left: 1rem;
   }
   .platform-header{
-    min-height: 550px;
+    min-height: 521px;
+  }
+  .ploutoverlay{
+    min-height: 521px;
   }
   .card-description {
     padding: 19px; /* Adjust padding for mobile devices */
@@ -244,8 +270,11 @@
 .ppleft {
   margin-left: 22px;
   line-height: 2;
-  width: 91%;
+  width: 91%;                                                       
   text-align: left;
+}
+.ppara1{
+  font-size: 18px;
 }
 .piright {
   max-width: 97%;
@@ -275,6 +304,8 @@
   margin-top: 3%;
   margin-left: 10%;
 }
-
+.ptruly {
+  margin-top: -6%;
+}
   }
 

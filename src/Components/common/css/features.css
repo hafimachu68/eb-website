@@ -27,8 +27,6 @@
     font-family: "Fira Sans", sans-serif;
 }
 .fmh{
-    width: 1100px;
-    margin-left: 116px;
     padding-bottom: 1.5rem;
     font-size: 64px;
     font-family: "Blinker", sans-serif;
@@ -61,9 +59,9 @@
     width: 67.79px;
     height: 62.64px;
 }
-.pdeploy{
-    width: 60.79px;
-    height: 60.64px;
+.pdeploy {
+    width: 55.79px;
+    height: 55.64px;
 }
 
 .coins {
@@ -96,24 +94,33 @@
     background: linear-gradient(#4D86D6 100%, #B4D2FC 100%);
     border-top-right-radius: 95px;
     border-top-left-radius: 95px;
-    overflow: hidden;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
     
 
 .overlays {
-    position: relative;
-    bottom: 0px;
-    top: 76px;
-    width: calc(100% - 110px); 
-    margin-left: 8%; 
-    overflow: hidden;
+    position: absolute;
+    transform: translateY(-50%);
     z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    /* width: 80%; */
+    /* padding-inline: 8%; */
+    left: 7%;
+    right: 7%;
+    
 }
 
 .over {
     margin-left: 0;
-    margin-right: 21px; }
+    display: flex;
+    justify-content: space-around;
+
+ }
 
 .fcloud1 {
     /* width: 44px; */
@@ -126,6 +133,7 @@
     background: linear-gradient(to top, #154992, #193054  );
     height: 100%;
     z-index: 0;
+    padding-bottom: 10%;
 }
 .feic {
     font-size: 16px;
@@ -133,7 +141,7 @@
     margin-top: 19px;
 }
 .fbg{
-    margin-top: -240px;
+    margin-top: -136px;
 }
 .flogo{
 
@@ -176,11 +184,7 @@
         width: 476px !important;
         height: 170px !important;
     }
-    .overlays{
-        margin-left: -6px;
-        width: 100%;
-        margin-top: -220px;
-    }
+
     .row-new.transitioned{
         margin-bottom: 0 !important;
         margin-top: .5em !important;    }
@@ -212,19 +216,16 @@
 }
 .mainB{
     padding-top: 3px;
-    padding-left: 35px;
+    padding-left: 20%;
 }
 .mainimg{
     width: 1282px.02px;
     height:726px    ;
-    margin-left:115px ;
     padding-bottom: 40px;
     padding-top: 40px;
 
 }
 .overlay-box {
-    position: relative;
-    overflow: hidden;
     background: linear-gradient(0deg, #D4E4FC, #E5F0FF, #FFFFFF);
     border-radius: 5px;
     /* border-top-left-radius: 5px; */
@@ -286,13 +287,5 @@
     transition: filter 3s ease;
   }
  
-  @media (max-width: 1390px) {
-    .mainimg{
-        width: 1282px.02px;
-        height:726px    ;
-        margin-left:115px ;
-        
-    
-    }
-  }
+ 
  
