@@ -28,7 +28,7 @@
   
   .wform-chat-container {
     width: 95%;
-    height: 555px;
+    height: 415px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -38,15 +38,16 @@
   
   .mi{
     height: 400px;
-    padding-right: 23px;
   
   }
   .mm{
-    padding-left: 100px;
+    padding-left: 56px;
     color: #193054;
-    width: 670px;
+    width: 42%;
     height: auto;
     text-align: center;
+    font-family: "Fira Sans", sans-serif;
+
 
   }
   .chat-message {
@@ -54,11 +55,13 @@
     width: 507px;
     height: auto;
     text-align: center;
+    font-family: "Fira Sans", sans-serif;
+
   }
   
   .chat-image {
     height: 400px;
-    padding-left: 95px;
+    padding-left: 35px;
   }
   
   .wflay {

@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/home.css';
-import logo from '../images/Group.png'; // Import your logo file
+import logo from '../images/wformg.png'; // Import your logo file
 
 function Wfareyou() {
   return (
@@ -11,14 +11,12 @@ function Wfareyou() {
             <div className="text-md-center mb-4 mb-md-0">
               <div className="logo-container">
                 <img src={logo} alt="Logo" className="logo" /> {/* Insert your logo here */}
-                <p className='pare'>Sub Heading</p>
+                <p className='pare'>Web Forms</p>
               </div>
-              <h3 className="head" style={{ color: '#193054' }}>Build & Deploy Enterprise class <br/>Forms 10x faster</h3>
+              <h3 className="head" style={{ color: '#193054' }}>Build complex enterprise class Web Forms 10x faster </h3>
               <div className="greenunderline"></div>
               <p className="para1 pt-4">
-                EXPRESSbase is a Platform on the cloud to build & run business applications 10x faster.<br/> 
-                Get the best of both worlds – stability of Ready-Made software, and flexibility of Custom software.
-              </p>
+              Create powerful multi-lingual, multi-currency enterprise web forms with built-in audit trail, infinite validations and RBAC security.</p>
               {/* <a href="https://calendly.com/expressbase">
                 <button className="btn btn-primary text-light mt-4" style={{ backgroundColor: '#0A142F' }} type="submit">Book a Demo</button>
               </a> */}

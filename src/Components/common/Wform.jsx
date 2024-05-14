@@ -12,18 +12,18 @@ function Wform() {
             <img src={wfimg} alt="" />
           </div>
           <div className="chat-message">
-            <h5>Build & Deploy Enterprise class <br/> Forms 10x faster</h5>
+            <h5>Plethora of controls & properties</h5>
             <div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <p>A rich array of controls and properties, providing developers with an extensive toolkit for application development. Developers can rapidly build sophisticated applications tailored to their specific requirements, all without delving deeply into traditional coding practices. This abundance of tools empowers developers to design, customize, and deploy applications efficiently, accelerating the development cycle and fostering innovation within organizations.    </p>
             </div>
           </div>
         </div>
         <div className="wform-divider"></div>
         <div className="wform-chat-container" >
           <div className=" mm  ">
-            <h5>Build & Deploy Enterprise class <br/> Forms 10x faster</h5>
+            <h5>Data pushers</h5>
             <div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <p>Send data from a single source form to multiple destination forms. For instance, push data from an invoice form to a journal voucher form. Similarly, from a salesman receipt form, send data to various destination forms like journal vouchers (cash receipts), stock adjustment forms (for shortages or excesses of issued stock), and more.        </p>
             </div>
           </div>
           <div className=" mi">
@@ -36,11 +36,23 @@ function Wform() {
             <img src={wfimg} alt="" />
           </div>
           <div className="chat-message ">
-            <h5>Build & Deploy Enterprise class <br/> Forms 10x faster</h5>
+            <h5>Import from Excel</h5>
             <div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+              <p>Migrating data from legacy systems can be complex, but leveraging Excel as an intermediary tool for exporting and importing data streamlines the process. Exporting data into Excel allows for easy manipulation and preparation, ensuring a smooth transition into EXPRESSbase using standard import formats like CSV or XLSX. This approach simplifies data migration, reduces the risk of errors, and enables effective participation from users of all technical levels.      </p>
             </div>
           </div>
+        </div>
+        <div className="wform-divider"></div>
+        <div className="wform-chat-container" >
+          <div className=" mm  ">
+            <h5>Constraints</h5>
+            <div>
+              <p>Implementing granular restrictions on create, edit, cancel, and delete actions for form submissions is critical beyond general application security measures. Business logic often requires specific conditions to be enforced, preventing certain actions based on contextual rules or workflow requirements. By applying these restrictions, organizations can ensure data integrity, regulatory compliance, and operational consistency within their applications. </p>
+            </div>
+          </div>
+          <div className=" mi">
+            <img src={wfimg} alt="" />
+          </div>  
         </div>
       </div>
     </div>

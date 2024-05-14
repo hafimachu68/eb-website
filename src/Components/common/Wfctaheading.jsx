@@ -6,12 +6,19 @@ function Wfctaheading() {
   return (
     <div className='ctbg'style={{ backgroundColor: '#B3DBFF' }}>
         <div className=' ctc'>
-        <h1 className= 'cth py-3' style={{color: '#193054' }}>CTA Heading</h1>
-        <p className=' ctp py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna<br/>
-          aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
-        <div className='py-3'>
-          <button className='btn ctb  fw-bold'>Contact Us</button>
+        <h1 className= 'cth py-3' style={{color: '#193054' }}>Get in touch for tailored solutions.</h1>
+        <div className="row">
+          <div className="col-md-8">
+          <p className=' ctp py-3'>Feel free to click  to get in touch with our friendly and knowledgeable team who are ready to assist you with any inquiries or support you may need. </p>
+
+          </div>
+          <div className="col-md-4">
+          <button className='btn wtb  fw-bold'>Contact</button>
+
+          </div>
+
         </div>
+        
         </div>
     </div>
   )
