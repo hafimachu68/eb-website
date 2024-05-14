@@ -141,6 +141,7 @@
       border-radius: 3px; /* Remove border radius */
       background-color: transparent; /* Set background color */
       border: none;
+      width: 120%;
     }
     .btnav{
       margin-top: 10px;

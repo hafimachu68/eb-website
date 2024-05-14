@@ -109,7 +109,7 @@ function Mabteam() {
     <div className="col-md-6 col-12 mcenter blp">
       <img className="mteam" src={hafi} alt="Hafeeza Mashood" />
       <p className="msingle-line">Hafeeza Mashood</p>
-      <p className='mamt'>Jr. Software Developer</p>
+      <p className='mamt gy'>Jr. Software Developer</p>
     </div>
   </div>
      <div style={{ marginTop: '1rem' }}></div>

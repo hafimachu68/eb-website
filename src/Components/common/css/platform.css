@@ -38,7 +38,8 @@
     height: auto;
     color: #193054;
     line-height: 2;
-    font-weight: 600;}
+    font-family: "Fira Sans", sans-serif;
+}
   .prright{
     max-width: 75%;
     height: auto;
@@ -85,7 +86,7 @@
 
   }
   .ppara1{
-    font-size: 20px;
+    font-size: 18px;
     color: #193054;
     font-style: normal;
     font-family: "Fira Sans", sans-serif;
@@ -149,7 +150,6 @@
   .card-description {
     padding: 60px;
     text-align: center;
-    font-weight: 600;
     font-family: "Fira Sans", sans-serif;
 
   }
@@ -185,7 +185,7 @@
   }
   
     .ppdeploy {
-      width: 38.79px;
+      width: 33.79px;
       height: 55.64px;
   }
 
@@ -205,7 +205,6 @@
     margin-left: 9%;
     line-height: 2;
     color: #193054;
-    font-weight: 600;
     font-family: "Fira Sans", sans-serif;
 
 }

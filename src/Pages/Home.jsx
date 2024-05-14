@@ -50,9 +50,9 @@ function Home() {
         {isMobile ? <Mtrusted /> : <Trusted />}
         <Customer />
         <Features />
-        {isMobile ? <Mfcarousel/> : <Forms />}
-        {isMobile ? <Mintegration /> : <Integration/>}
-        {isMobile ? <Mexdb/> : <Exdb />}
+        {isMobile ? <Mforms /> : <Forms />}
+        {isMobile ? <Mintegration /> : <Integration />}
+        {isMobile ? <Mexdb /> : <Exdb />}
         {isMobile ? <Mcarousel /> : <CenterMode />}
         <GitHub />
         <Ctaheading />

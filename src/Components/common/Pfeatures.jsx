@@ -32,7 +32,7 @@ function Pfeatures() {
                     </p>
             </div>
             <div className="col-md-4 col-sm-6  pt-4 center">
-            <img className="pdeploy" src={pf2} alt="" />
+            <img className="rdeploy" src={pf2} alt="" />
               <h5 className="t-head da" style={{ color: '#193054' }}>Low Code</h5>
               <p className="pfeatures">No-code platforms can't handle complex needs. That's why we're low-code. Use your skills: code in JavaScript, C#, & SQL</p>
             </div>
