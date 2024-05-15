@@ -116,7 +116,7 @@ function ABteam() {
           </div>
           
            <div style={{ marginTop: '5rem' }}></div>
-      <h3 className='text-white blhic'><b>Contributers</b></h3>
+      <h3 className='text-white blhic'><b>Contributors</b></h3>
       <div className='mt-2 pt-4'></div>
       <div className="contribute-wrapper">
        <img className={`contribute ${contributersVisible ? 'visible' : ''} contribute-1`} src={Contributers1} alt="Contributors" />

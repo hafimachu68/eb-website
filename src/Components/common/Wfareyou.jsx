@@ -11,7 +11,7 @@ function Wfareyou() {
             <div className="text-md-center mb-4 mb-md-0">
               <div className="logo-container">
                 <img src={logo} alt="Logo" className="logo" /> {/* Insert your logo here */}
-                <p className='pare'>Web Forms</p>
+                <p className='pare'>WEB FORMS</p>
               </div>
               <h3 className="head" style={{ color: '#193054' }}>Build complex enterprise class Web Forms 10x faster </h3>
               <div className="greenunderline"></div>

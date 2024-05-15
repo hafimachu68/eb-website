@@ -115,9 +115,15 @@
     font-style: normal;
 }
 .mmp{
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Fira Sans", sans-serif;
 }
+.mw{
+    font-size: 18px;
+    font-family: "Fira Sans", sans-serif;
+    padding-top: 1rem;
+}
+
 .mbtn{
     margin-left: -9rem;
 }
@@ -134,7 +140,10 @@
     .mfbg{
 background-color: #E5F0FF;
 border: none;        }    
-    
+.wbg {
+    background-color: #193054;
+    border-radius: 0;
+}
 
 .mbmg{
     width: 345px;
@@ -156,6 +165,7 @@ border: none;        }
 .mmainh{
     margin-top: .5rem;
     font-family: "Blinker", sans-serif;
+    font-size: 22px;
     font-weight: 700;
     font-style: normal;
 }
