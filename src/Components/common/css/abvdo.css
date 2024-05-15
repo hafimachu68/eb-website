@@ -17,6 +17,13 @@
     padding-bottom: 80px;
 
 }
+.vblp {
+  font-family: "Fira Sans", sans-serif !important;
+  font-weight: 700;
+  font-size: 19px;
+  font-style: normal;
+  color: #193054;
+}
 .video-container {
   position: absolute;
   top: 0;
