@@ -14,7 +14,7 @@ function Prbac() {
           <p className='pare'>SECURITY</p>
         </div>
         <h3 className="phead">Application Security using RBAC</h3>
-        <p className="ppara1 pt-4">
+        <p className="ppara1 pt-1">
         Unlimited Roles, Roles hierarchy, Constraints- Confirms to RBAC Standard   </p>  
        </div>
        <div className="row-container prrow">

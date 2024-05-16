@@ -44,6 +44,11 @@
     transition: background-color 2s ease, background-position 2s ease; 
     /* Add background-position to the transition */
   }
+  .intp{
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+
+  }
   .arei{
     
       font-size: 18px;
@@ -62,7 +67,7 @@
       margin-right: 10px;
   }
   .h{
-    font-size: 64px;
+    font-size: 62px;
   }
   
   @media (max-width: 768px) {
@@ -80,9 +85,7 @@
   .h{
     font-size: 24px;
   }
-   /* .intp{
-    letter-spacing: 1.5px;
-   } */
+   
    .db{
     padding-top: 0px;
    }

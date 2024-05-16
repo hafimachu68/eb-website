@@ -18,7 +18,10 @@
     backdrop-filter: blur(10px); /* Apply blur effect */
   
   }
-  
+.wfimg:hover{
+  transform: scale(1.1); /* Adjust the scaling factor as needed */
+
+}
   .wform {
     position: relative; /* Ensure overlay can be positioned relative to this */
     height: 1825px;

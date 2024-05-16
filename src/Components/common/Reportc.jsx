@@ -29,7 +29,7 @@ function Reportc() {
                  <iframe className='rfr' src="https://www.youtube.com/embed/b46KRZt_NIU?si=nbGtDABFvbqtWnS1" width="100%" height="300" title="iframe"></iframe>
                  <h5 className="card-title">Heading</h5>
                 <p className="card-text">Design & Generate simple to complex PDF reports
-that are portable, schedulable, embeddable & interlinkable..</p>
+   that are portable, schedulable, embeddable & interlinkable..</p>
               </div>
             </div>
           </div>

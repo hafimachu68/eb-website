@@ -14,7 +14,7 @@ function Pseamlessly() {
           <p className='pare mx-2'>INTEGRATION</p>
         </div>
         <h3 className="phead">Seamlessly Bridging Platforms</h3>
-        <p className="ppara1 pt-4">
+        <p className="ppara1 pt-1">
         Powering Productivity through Integrations to third-party systems/platforms        </p>  
        </div>
        <div className="row-container psrow">

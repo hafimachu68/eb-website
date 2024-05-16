@@ -14,7 +14,7 @@ function Pprovider() {
           <p className='pare text-light'>HOSTING</p>
         </div>
         <h3 className="phead text-light">Cloud Provider Agnostic Platform</h3>
-        <p className="ppara1 pt-4 text-light">
+        <p className="ppara1 pt-1 text-light">
         Battle-tested with  a variety of cloud providers       </p>  
        </div>
        <div className="row-container">

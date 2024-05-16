@@ -5,6 +5,7 @@ import Reportc from '../Components/common/Reportc'
 import Rimage from '../Components/common/Rimage'
 import './css/home-Pg.css'
 import Rctahead from '../Components/common/Rcthead'
+import Rbox from '../Components/common/Rbox'
 
 
 function Report() {
@@ -12,6 +13,7 @@ function Report() {
     <div className='rbg'>
         <Navbar/>
         <Reportc/>
+        <Rbox/>
         <Rimage/>
         <Rctahead/>
         <Footer/>

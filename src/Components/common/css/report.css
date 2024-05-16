@@ -89,7 +89,7 @@
 
 .rcth {
     margin-left: 200px;
-    font-size: 64px;
+    font-size: 62px;
     position: relative; /* Ensure text content is on top of the overlay */
     z-index: 2; /* Ensure text content is on top of the overlay */
 }

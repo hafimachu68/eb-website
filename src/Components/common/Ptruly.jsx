@@ -14,7 +14,7 @@ function Ptruly() {
           <p className='pare'>DATABASE</p>
         </div>
         <h3 className="phead">Truly Multi-tenant Platform</h3>
-        <p className="ppara1 pt-4">
+        <p className="ppara1 pt-1">
         Providing individualized database environments,   </p>  
        </div>
        <div className="row-container psrow">

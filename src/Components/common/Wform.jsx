@@ -9,7 +9,7 @@ function Wform() {
       <div className="wform">
         <div className="wform-chat-container">
           <div className="chat-image fL">
-            <img src={wfimg} alt="" />
+            <img className='wfimg' src={wfimg} alt="" />
           </div>
           <div className="chat-message">
             <h5>Plethora of controls & properties</h5>
@@ -27,13 +27,13 @@ function Wform() {
             </div>
           </div>
           <div className=" mi">
-            <img src={wfimg} alt="" />
+            <img className='wfimg' src={wfimg} alt="" />
           </div>  
         </div>
         <div className="wform-divider"></div>
         <div className="wform-chat-container">
           <div className="chat-image fL">
-            <img src={wfimg} alt="" />
+            <img className='wfimg' src={wfimg} alt="" />
           </div>
           <div className="chat-message ">
             <h5>Import from Excel</h5>
@@ -51,7 +51,7 @@ function Wform() {
             </div>
           </div>
           <div className=" mi">
-            <img src={wfimg} alt="" />
+            <img className='wfimg' src={wfimg} alt="" />
           </div>  
         </div>
       </div>

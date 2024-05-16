@@ -20,7 +20,7 @@ function Poverview() {
               <p className='pare text-light'>Tech Stack</p>
             </div> */}
             <h3 className="phead text-white">Build custom applications using Low-code</h3>
-            <p className="ppara1  text-light pt-4">
+            <p className="ppara1  text-light pt-3">
             EXPRESSbase is an advanced low-code platform that empowers business users to create custom database-driven applications 10x faster           </p> 
            <div className="plf"style={{backgroundImage: `url(${plfpg})`}}>
            </div>
