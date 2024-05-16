@@ -19,13 +19,11 @@ function Reportc() {
           </div>
         </div>
       </div>
-      {/* Row containing two cards */}
-      <div className="container">
+      {/* <div className="container">
         <div className="row rvdo ">
           <div className="col-md-6">
             <div className="card rcard"style={{ width: '24rem' }}>
               <div className="card-body">
-                {/* Card content here */}
                  <iframe className='rfr' src="https://www.youtube.com/embed/b46KRZt_NIU?si=nbGtDABFvbqtWnS1" width="100%" height="300" title="iframe"></iframe>
                  <h5 className="card-title">Heading</h5>
                 <p className="card-text">Design & Generate simple to complex PDF reports
@@ -36,7 +34,6 @@ function Reportc() {
           <div className="col-md-6">
             <div className="card rcard" style={{ width: '24rem' }}>
               <div className="card-body">
-                {/* Card content here */}
                 <iframe className='rfr' src="https://www.youtube.com/embed/H-58OZREz-g?si=lMo3lBTCatytfuvq"  width="100%" height="300" title="iframe"></iframe>
                 <h5 className="card-title">Heading</h5>
                 <p className="card-text">Fed up switching between too many browser tabs? Not Anymore. Our one of it's kind drill-view is the best solution.</p>
@@ -45,11 +42,11 @@ function Reportc() {
           </div>
         </div>
       </div>
-      <div>
-        <div className="container rplay">
+      <div> */}
+        {/* <div className="container rplay">
 
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
     </div>
   );
 }
