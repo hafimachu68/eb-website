@@ -51,8 +51,11 @@
   }
   
   .platform-menu {
-    width: 387px;
-    padding-bottom: 10px;
+    width: 525px;
+  
+  }
+  .rs-menu {
+    width: 350px;
   
   }
   .pv{
@@ -63,6 +66,12 @@
     width: 24px;
     height: 24px;
   
+  }
+  
+  .platform-text:hover{
+    padding:8px;
+    border-radius: 8px;
+    background-image: linear-gradient(to top, #FFFFFF  , #C9E0FF );
   }
   .mv{
     width: 14px;
@@ -89,7 +98,7 @@
   .dropara {
     margin-top: 0;
     font-family: "Fira Sans", sans-serif;
-    margin-left: 40px;
+    /* margin-left: 40px; */
     font-size: 14px;
   }
   .udropara {
@@ -110,7 +119,7 @@
   .usec-item {
     display: flex;
     align-items: center;
-    padding-left: 41px;
+    padding-left: 26px;
     padding-top: 10px;
   }
   
@@ -120,8 +129,8 @@
   
   
   .usecase-menu {
-    width: 400px;
-    padding-top: 50px;
+    width: 380px;
+    padding-top: 15px;
   }
   
   
