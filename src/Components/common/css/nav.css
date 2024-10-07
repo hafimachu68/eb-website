@@ -1,184 +1,204 @@
 .navbar {
-    padding: 1rem 2rem; /* Adjust padding as needed */
-  }
-  
-  .log {
-    margin-left: 3rem; /* Adjust margin as needed */
-  
-    /* Media query for smaller viewports */
-    @media (max-width: 768px) {
-      margin-left: 1rem; /* Adjust margin for smaller viewports */
-    }
-  }
-  .nav-link{
-    font-family: "Blinker", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: black; 
-  }
-  .navbar-toggler {
-    border: none;
-  }
-  
-  .logo-img {
-    max-width: 200px; /* Adjust maximum width for the logo */
-    height: auto;
-  }
-  
-  .navbar-nav {
-    margin-right: auto; /* Pushes the last element (submit button) to the right */
-  
-    /* Media query for smaller viewports */
-    @media (max-width: 768px) {
-      margin-right: 0; /* Remove right margin for smaller viewports */
-      margin-left: auto; /* Move navbar links to the left for smaller viewports */
-    }
-  }
-  
-  .demo {
-    margin-left: 11rem; /* Adjust margin as needed */
-  }
-  .link{
-    color: black !important;
-    font-family: "Fira Sans", sans-serif;
-    text-decoration: none;
-  }
-  .btnav {
-    background: linear-gradient(to top,#193054 , #21457D );
-    font-family: "Blinker", sans-serif;
-    font-weight: bold;
-    padding: 10px;
-  }
-  
-  .platform-menu {
-    width: 525px;
-  
-  }
-  .rs-menu {
-    width: 350px;
-  
-  }
-  .pv{
-    width: 24px;
-    height: 24px;
-  }
-  .po{
-    width: 24px;
-    height: 24px;
-  
-  }
-  
-  .platform-text:hover{
-    padding:8px;
-    border-radius: 8px;
-    background-image: linear-gradient(to top, #FFFFFF  , #C9E0FF );
-  }
-  .mv{
-    width: 14px;
-    height: 24px;
-    margin-right: 9px;
-  }
-  .platform-heading {
-    padding-top: 13px;
-    font-size: 16px;
-    font-weight: 400;
-    padding-bottom: 30px;
-    margin-top: -8px;
-    background-image: linear-gradient(0deg, #FFFFFF  , #C9E0FF );
-  
-  }
-  
-  .udrop {
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    margin-bottom: 0;
-  }
-  
-  .dropara {
-    margin-top: 0;
-    font-family: "Fira Sans", sans-serif;
-    /* margin-left: 40px; */
-    font-size: 14px;
-  }
-  .udropara {
-    margin-top: 0;
-    margin-left: 2px;
-    font-size: 14px;
-  }
-  .mbpara{
-    margin-left: 40px;
-    font-size: 14px;
-  }
-  
-  .platform-item {
-    display: flex;
-    align-items: center;
-    padding-left: 41px;
-  }
-  .usec-item {
-    display: flex;
-    align-items: center;
-    padding-left: 26px;
-    padding-top: 10px;
-  }
-  
-  .platform-item i {
-    margin-right: 10px;
-  }
-  
-  
-  .usecase-menu {
-    width: 380px;
-    padding-top: 15px;
-  }
-  
-  
-    .dropdown-menu hr {
-      border: none;
-      border-top: 2px solid #ccc; /* Adjust the color and thickness as needed */
-      margin: 7px 40px; /* Adjust the margin as needed */
-    }
-    /* Add this media query to adjust styles for smaller viewports */
-  @media (max-width: 768px) {
-  
-    .navbar-nav .dropdown-menu {
-      position: relative; /* Add relative positioning to dropdown menu */
-      width: auto; /* Adjust width as needed */
-      margin-top: 0; /* Remove margin top */
-      box-shadow: none; /* Remove box shadow */
-      border-radius: 3px; /* Remove border radius */
-      background-color: transparent; /* Set background color */
-      border: none;
-      width: 120%;
-    }
-    .btnav{
-      margin-top: 10px;
-      margin-left: -7rem;
-    }
-    .nav-item{
-      margin-top: 15px;
-      border-bottom: 1px solid #ececec    ;
-    }
-    .demo {
-      border-bottom: none;
-      margin-left: 8rem;
-  }
-   .logo-img{
-    margin-left: -1.9rem;
-   }
-   .navbar-toggler{
-    margin-left: -0.5rem;
-   }
-   .navbar-toggler-icon{
-    margin-left: 120%;
-   }
-   .navbar-toggler:focus {
-    text-decoration: none;
-    outline: 0;
-    box-shadow:none;
+  padding: 1rem 2rem; /* Adjust padding as needed */
 }
+
+.log {
+  margin-left: 3rem; /* Adjust margin as needed */
+
+  /* Media query for smaller viewports */
+  @media (max-width: 768px) {
+    margin-left: 1rem; /* Adjust margin for smaller viewports */
   }
-  
-  
-  
+}
+.nav-link{
+  font-family: "Blinker", sans-serif !important;
+  font-weight: 400;
+  font-style: normal;
+  color: black; 
+}
+.link{
+  font-family: "Blinker", sans-serif !important;
+  font-weight: 600;
+  color: black; 
+}
+.navbar-toggler {
+  border: none;
+}
+
+.logo-img {
+  max-width: 200px; /* Adjust maximum width for the logo */
+  height: auto;
+}
+
+.navbar-nav {
+  margin-right: auto; /* Pushes the last element (submit button) to the right */
+
+  /* Media query for smaller viewports */
+  @media (max-width: 768px) {
+    margin-right: 0; /* Remove right margin for smaller viewports */
+    margin-left: auto; /* Move navbar links to the left for smaller viewports */
+  }
+}
+
+.demo {
+  margin-left: 11rem; /* Adjust margin as needed */
+}
+.link{
+  color: black !important;
+  font-family: "Fira Sans", sans-serif;
+  text-decoration: none;
+}
+.btnav {
+  background: linear-gradient(to top,#193054 , #21457D );
+  font-family: "Blinker", sans-serif;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.platform-menu {
+  width: 525px;
+
+}
+.rs-menu {
+  width: 350px;
+
+}
+.pv{
+  width: 24px;
+  height: 24px;
+}
+.po{
+  width: 24px;
+  height: 24px;
+
+}
+.platform-text{
+  /* padding: 3px; */
+
+  border-radius: 8px;
+}
+
+.platform-item:hover {
+  padding: 3px;
+  border-radius: 8px;
+  background-image: linear-gradient(to top, #FFFFFF, #C9E0FF);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow */
+}
+.us-item:hover {
+  padding: 8px;
+  border-radius: 8px;
+  background-image: linear-gradient(to top, #FFFFFF, #C9E0FF);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow */
+}
+
+.mv{
+  width: 14px;
+  height: 24px;
+  margin-right: 9px;
+}
+.platform-heading {
+  padding-top: 13px;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 30px;
+  margin-top: -8px;
+  background-image: linear-gradient(0deg, #FFFFFF  , #C9E0FF );
+
+}
+
+.udrop {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.dropara {
+  margin-top: 0;
+  font-family: "Fira Sans", sans-serif;
+  /* margin-left: 40px; */
+  font-size: 14px;
+}
+.udropara {
+  margin-top: 0;
+  margin-left: 2px;
+  font-size: 14px;
+}
+.mbpara{
+  margin-left: 40px;
+  font-size: 14px;
+}
+
+.platform-item {
+  display: flex;
+  /* align-items: center;
+  padding-left: 41px; */
+}
+.usec-item {
+  display: flex;
+  align-items: center;
+  padding-left: 26px;
+  padding-top: 10px;
+}
+
+.platform-item i {
+  margin-right: 10px;
+  padding: 3px;
+
+}
+
+
+.usecase-menu {
+  width: 380px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+
+  .dropdown-menu hr {
+    border: none;
+    border-top: 2px solid #ccc; /* Adjust the color and thickness as needed */
+    margin: 7px 40px; /* Adjust the margin as needed */
+  }
+  /* Add this media query to adjust styles for smaller viewports */
+@media (max-width: 768px) {
+
+  .navbar-nav .dropdown-menu {
+    position: relative; /* Add relative positioning to dropdown menu */
+    width: auto; /* Adjust width as needed */
+    margin-top: 0; /* Remove margin top */
+    box-shadow: none; /* Remove box shadow */
+    border-radius: 3px; /* Remove border radius */
+    background-color: transparent; /* Set background color */
+    border: none;
+    width: 120%;
+  }
+  .btnav{
+    margin-top: 10px;
+    margin-left: -7rem;
+  }
+  .nav-item{
+    margin-top: 15px;
+    border-bottom: 1px solid #ececec    ;
+  }
+  .demo {
+    border-bottom: none;
+    margin-left: 8rem;
+}
+ .logo-img{
+  margin-left: -1.9rem;
+ }
+ .navbar-toggler{
+  margin-left: -0.5rem;
+ }
+ .navbar-toggler-icon{
+  margin-left: 120%;
+ }
+ .navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow:none;
+}
+}
+
+

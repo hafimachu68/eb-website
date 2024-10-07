@@ -12,6 +12,13 @@ import Unsub from './Pages/Unsub';
 import Contact from './Pages/Contact';
 import Webform from './Pages/webform';
 import Cooki from './Pages/Cooki';
+import Chatbot from './Pages/chatbot';
+import Use1 from './Pages/Usecase1';
+import Use2 from './Pages/Usecase2.jsx';
+import Use3 from './Pages/Usecase3.jsx';
+import Use4 from './Pages/Usecase4.jsx';
+import Privacy from './Pages/Privacy.jsx';
+import Terms from './Pages/Termsandcondition.jsx';
 
 function App() {
   return (
@@ -31,9 +38,17 @@ function App() {
         <Route path='/documents' element={<Documents/>} />
         <Route path='/api' element={<Api/>} />
         <Route path='/mobileapp' element={<Mobile/>} />
+        <Route path='/chatbot' element={<Chatbot/>} />
         <Route path='/faq' element={<Faq/>} />
+        <Route path='/Usecase1' element={<Use1/>} />
+        <Route path='/Usecase2' element={<Use2/>} />
+        <Route path='/Usecase3' element={<Use3/>} />
+        <Route path='/Usecase4' element={<Use4/>} />
         <Route path='/platform' element={<Platform/>} />
         <Route path='/unsubscribe' element={<Unsub/>} />
+        <Route path='/privacyandpolicy' element={<Privacy/>} />
+        <Route path='/termsandcodition' element={<Terms/>} />
+
         <Route path='/contactus' element={<Contact/>} />
 
         </Routes>

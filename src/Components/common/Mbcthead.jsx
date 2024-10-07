@@ -1,24 +1,33 @@
 import React from 'react'
 import './css/mob.css';
-import background from '../images/mobpg2.png'; // Import your image
-
+import ctpg  from '../images/ctpg.png'; // Import your logo file
+import background from '../images/CTAbg.png'; // Import your image
 
 
 function Mbcthead() {
   return (
-    <div>
-   <div className='mctbg'>
-    <div className="row  mctc">
-      <div className='col-md-7 text-white'>
-        <h1 className='mcth py-3 '>CTA Heading</h1>
-        <p className='mctp py-3'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut  commodo </p>
-      </div>
-      <div className='col-md-3 d-flex align-items-center justify-content-center py-3'>
-        <button className='btn mctb fw-bold'>Contact Us</button>
-      </div>
+    <div className='ctbg'style={{backgroundImage: `url(${background})`}}>
+        <div className="row">
+          <div className="col-md-7">
+          <div className='text-white ctc'>
+        <h1 className= 'cth py-3'>Book a Demo</h1>
+        <div className="ctp pb-5">
+        <p className=' '>E-meet our engineers who will demonstrate diverse solutions built using the EXPRESSbase Platform. Share your requirements with our team and gain valuable insights to refine your strategies.
+          </p>
+        </div>
+       
+        <div className='pb-4'>
+          <button className='btn ctb  fw-bold'>Schedule</button>
+        </div>
+        </div>
+          </div>
+          <div className="col-md-5 ctmg">
+          <div className='ctpg'><img src={ctpg} alt="Your Image" /></div>
+          </div>
+        </div>
+
+       
     </div>
-  </div>
-  </div>
   )
 }
 

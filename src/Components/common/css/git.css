@@ -1,7 +1,13 @@
 body {
     overflow-x: hidden;
+    /* width: 102%; */
 }
-
+.cursor {
+    font-weight: 100;
+    font-size: 4.5rem;
+    color: black;
+  }
+  
 .ctbg {
     height: 500px;
     background-position: center;
@@ -9,6 +15,16 @@ body {
     background-size: cover;
     position: relative;
     overflow: hidden;
+}
+.rctbg1 {
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    width: 109%;
+    min-width: 109%;
 }
 .wctbg {
     height: 410px;
@@ -35,11 +51,16 @@ body {
     padding-top: 80px;
     padding-left: 50px;
 }
+.rctpg {
+    padding-top: 80px;
+}
+
 
 .btgit {
-    background: linear-gradient(to left,#193054 , #79C977 ); 
+    background: linear-gradient(to right,#216CD6 , #79B1FF ); 
     color: white;
     border: 1px;
+    border-radius: 4rem;
     padding: 15px;
 }
 
@@ -60,10 +81,10 @@ body {
     margin-left: 100px;
     align-items: center; /* Center vertically */
     justify-content: center; /* Center horizontally */
-    background: linear-gradient(to right, #193054 0%, #21457D 80%);
-    border-radius: 5px;
-    color: white;
-    padding: 18px 35px;
+    background: linear-gradient(to left, #DCE9FD 0%, #C8DDFF 80%);
+    border-radius: 4rem;
+    color: #193054;
+    padding: 15px 58px;
     border: none;
     font-family: "Fira Sans", sans-serif;
     font-style: normal;
@@ -126,3 +147,28 @@ body {
         height: 600px;
     }
 }
+
+
+.gcontainer {
+    /* Centering the content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh; /* Full height to center vertically */
+}
+
+.glass-box {
+    background: linear-gradient(180deg, rgba(207, 227, 255, 0.75) 0%, rgba(170, 205, 255, 0.75) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Semi-transparent border for the glass effect */
+    border-radius: 3rem; /* Rounded corners */
+    backdrop-filter: blur(10px); /* Creates the frosted glass effect */
+    padding: 40px; /* Padding inside the box */
+    width: 80%; /* Width of the box */
+    max-width: 600px; /* Maximum width */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    overflow: hidden; /* Ensure content stays within the rounded corners */
+    text-align: center;
+}
+
+

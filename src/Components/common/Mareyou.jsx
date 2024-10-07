@@ -9,14 +9,14 @@ function Mareyou() {
         <div className=" p-5 ">
           <div className=" full">
             <div className="text-md-center mb-4 mb-md-0 mare">
-            <h3 className="head">Business Automation Applications </h3>
+            <h3 className="head">Business Applications </h3>
               <div className="logo-container">
               <p className='are'>that evolves at </p>
                 <img src={logo} alt="Logo" className="arpg" /> {/* Insert your logo here */}
               </div>
               <p className="para1 pt-4">
               Build & run internal business process applications on the cloud 10x faster.<br/> 
-              Get the stability of Ready-Made software, and the flexibility of Custom software.  </p>
+              Get the stability of Ready-Made software,<br/> and the flexibility of Custom software.  </p>
               <a href="https://calendly.com/expressbase">
                 <button className="btn btnare text-light mt-4" type="submit">Book a Demo</button>
               </a>

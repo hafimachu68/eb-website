@@ -10,6 +10,8 @@ import mob from '../images/mobd.png'; // Import your logo file
 import faq from '../images/faq.png'; // Import your logo file
 import blog from '../images/blog.png'; // Import your logo file
 import Wiki from '../images/wiki.png'; // Import your logo file
+import cb from '../images/cb.png'; // Import your logo file
+
 
 
 function Navbar() {
@@ -107,6 +109,18 @@ function Navbar() {
             </div>
           </li>
         </div>
+        <div className="col-6">
+          <li className="platform-item my-2">
+            <div className="platform-text">
+              <h6 className="hedrop">
+                <a className='link' href="/chatbot">
+                  <i><img className='pv' src={cb} alt="" /></i>Chat Bots
+                </a>
+              </h6>
+              <p className='dropara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+            </div>
+          </li>
+        </div>
       </div>
     </div>
   </ul>
@@ -118,27 +132,33 @@ function Navbar() {
   </a>
   <ul className="dropdown-menu usecase-menu" aria-labelledby="navbarDropdown2">
     <li className="usec-item">
-      <div className="platform-text">
-        <h6 className="udrop">Usecase</h6>
+      <div className="platform-text  us-item">
+      <a className='link' href="/Usecase1">
+      <h6 className="udrop">Usecase 1</h6>
+      </a>
         <p className='udropara'>Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit, sed do eiusmod</p>
       </div>
     </li>
     <li className="usec-item">
-      <div className="platform-text">
-        <h6 className="udrop">Usecase</h6>
-        <p className='udropara'>Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit, sed do eiusmod</p>
+      <div className="platform-text us-item">
+      <a className='link' href="/Usecase2">
+      <h6 className="udrop">Usecase 2</h6>
+      </a>        <p className='udropara'>Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit, sed do eiusmod</p>
       </div>
     </li>
     <li className="usec-item ">
-      <div className="platform-text">
-        <h6 className="udrop">Usecase 3</h6>
-        <p className='udropara'>Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit, sed do eiusmod</p>
+      <div className="platform-text us-item">
+      <a className='link' href="/Usecase3">
+      <h6 className="udrop">Usecase 3</h6>
+      </a>          <p className='udropara'>Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit, sed do eiusmod</p>
       </div>
     </li>
     <li className="usec-item ">
-      <div className="platform-text">
-        <h6 className="udrop">Usecase 4</h6>
-        <p className='udropara'>Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit, sed do eiusmod</p>
+      <div className="platform-text us-item">
+      <a className='link' href="/Usecase4">
+      <h6 className="udrop">Usecase 4</h6>
+      </a>        
+       <p className='udropara'>Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit, sed do eiusmod</p>
       </div>
     </li>
   </ul>

@@ -54,6 +54,19 @@ function Wform() {
             <img className='wfimg' src={wfimg} alt="" />
           </div>  
         </div>
+        <div className="wform-divider"></div>
+        <div className="wform-chat-container">
+          <div className="chat-image fL">
+            <img className='wfimg' src={wfimg} alt="" />
+          </div>
+          <div className="chat-message ">
+            <h5>Audit Trails</h5>
+            <div>
+              <p>
+              An audit trail is crucial for tracking and documenting all user actions and changes within the system. It ensures accountability, transparency, and security by providing a detailed log of data access, modifications, and deletions, which is essential for regulatory compliance, security incident investigations, and maintaining data integrity. Audit trails also enable businesses to monitor user behavior effectively and enhance governance and risk management practices.                 </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

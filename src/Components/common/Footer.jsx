@@ -91,12 +91,12 @@ function Footer() {
             <div className='flw row'>
               <div className='col-sm-6 col-md-4 mb-2'>
                 <p className="me-3">
-                  <a href="#!" className="text-reset cp">Terms  of Service</a>
+                  <a href="/termsandcodition" className="text-reset cp">Terms  of Service</a>
                 </p>
               </div>
               <div className='col-sm-6 col-md-4 mb-2'>
                 <p className="me-3">
-                  <a href="#!" className="text-reset cp">Privacy Policy</a>
+                  <a href="/privacyandpolicy" className="text-reset cp">Privacy Policy</a>
                 </p>
               </div>
               <div className='col-sm-6 col-md-4 mb-2'>

@@ -46,6 +46,7 @@
     margin-top: -8%;
     margin-left: 9%;
   }
+  
   .ps{
     margin-top: -4rem
   }
@@ -115,46 +116,91 @@
     width: 24.33px;
     height: 24.33px;
     margin-right: 10px;
+}/* Glass Effect */
+.glass-effect {
+  background: linear-gradient(180deg, rgba(207, 227, 255, 0.75) 0%, rgba(170, 205, 255, 0.75) 100%);
+  backdrop-filter: blur(10px); /* Apply the blur effect for glassmorphism */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+  transition: transform 0.3s ease;
+  width: 300px; /* Fixed width */
+  height: 400px; /* Fixed height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
 }
-  .plcontainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 9rem;
-  }
-  
-  .rows {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-  }
-  
-  .colp {
-    flex: 0 0 calc(50% - 10px); /* Two columns with a gap of 20px between them */
-    margin-bottom: 20px;
-  }
-  
-  .cards {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    align-items: center;
-    overflow: hidden;
-    border: none;
-  }
-  
-  .cards img {
-    width: 80px; /* Set the desired width for the icon */
-    height: 80px; /* Set the desired height for the icon */
-  }
-  
-  .card-description {
-    padding: 60px;
-    text-align: center;
-    font-family: "Fira Sans", sans-serif;
+.mglass-effect {
+  background: linear-gradient(180deg, rgba(207, 227, 255, 0.75) 0%, rgba(170, 205, 255, 0.75) 100%);
+  backdrop-filter: blur(10px); /* Apply the blur effect for glassmorphism */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+  transition: transform 0.3s ease;
+  height: 400px; /* Fixed height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+}
 
+.glass-effect:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Container adjustments */
+.plcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Columns for three cards per row */
+.colp {
+  flex: 0 0 calc(33.333% - 20px); /* Three columns per row */
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ensure all cards are the same size */
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: none;
+  overflow: hidden;
+  border-radius: 10px;
+  width: 100%; /* Make card fill its parent container */
+  height: 100%; /* Make card fill its parent container */
+}
+
+.cards img {
+  width: 80px;
+  height: 80px;
+}
+
+.card-description {
+  padding: 20px;
+  font-family: "Fira Sans", sans-serif;
+  color: #193054;
+  flex-grow: 1; /* Make the description take up available space */
+}
+
+/* Adjust for the last row with two cards */
+@media (max-width: 768px) {
+  .colp {
+    flex: 0 0 calc(50% - 10px); /* Two columns for smaller screens */
   }
-  
-  
+}
+
+/* Center the last row if it has fewer than 3 cards */
+.prow:last-child {
+  justify-content: center; /* Center the last row */
+}
+
   
   .row-container {
     display: flex;
@@ -175,6 +221,11 @@
   }
   .psleft{
     margin-left: 20%;
+    max-width: 80%;
+    height: auto;
+    margin-top: 1%;
+  }
+  .wsleft{
     max-width: 80%;
     height: auto;
     margin-top: 1%;
@@ -208,9 +259,32 @@
     font-family: "Fira Sans", sans-serif;
 
 }
+.wsright {
+  max-width: 62%;
+  height: auto;
+  margin-top: -8%;
+  margin-left: 25%;
+  line-height: 2;
+  color: #193054;
+  font-family: "Fira Sans", sans-serif;
+
+}
   .right-content {
     flex: 1;
   }
+  /* Initial state: content is off-screen (right) */
+.iright-content {
+  opacity: 0; /* Initially hidden */
+  transform: translateX(-100%); /* Move out of view to the left */
+  transition: transform 0.8s ease-out, opacity 0.8s ease-out; /* Smooth transition */
+}
+
+/* When visible, bring content into view */
+.iright-content.show {
+  opacity: 1;
+  transform: translateX(0); /* Move content back into place */
+}
+
   
   .image {
     max-width: 100%;

@@ -4,6 +4,7 @@
     background-color:#193054; /* Set background color */
     padding: 20px; /* Add padding for spacing */
     text-align: center; /* Center align content */
+    border-radius: 1%;
   }
   
   .cslide img {
@@ -64,4 +65,20 @@
 
 .crmpg{
   margin-top: -8px !important;
+}
+
+/* Add styles for previous and next slides (non-active slides) */
+.slick-slide {
+  transition: all 0.5s ease; /* Smooth transition for effects */
+}
+
+.slick-slide:not(.slick-current) .cslide {
+  filter: brightness(0.5) blur(2px); /* Adjust brightness and blur */
+  opacity: 0.7; /* Optional: reduce opacity */
+}
+
+/* Styling for active slide to make it prominent */
+.slick-current .cslide {
+  filter: brightness(1) blur(0); /* Ensure no blur or brightness effect on the active slide */
+  opacity: 1; /* Full opacity for active slide */
 }

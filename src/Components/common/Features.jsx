@@ -9,6 +9,7 @@ import lock from '../images/lock.png';
 import fluent from '../images/fluent.png';
 import flight from '../images/flight.png'
 import feic from '../images/fe1.png';
+import Forms from './Forms';
 
 
 function Features() {
@@ -53,8 +54,8 @@ function Features() {
             <img src={feic} alt="Logo" className="flogo" /> 
             <p className='feic'>CLOUD-NATIVE LOW-CODE</p>
           </div>
-          <h3 className="head text-white">Enterprise-Grade App Development</h3>
-          <p className="para1 pt-3">
+          <h3 className="head btxt">Enterprise-Grade App Development</h3>
+          <p className="para1 btxt pt-3">
           Tailored solutions with advanced capabilities for fast growing businesses </p>
         </div>
         </div>
@@ -95,7 +96,7 @@ function Features() {
             </div>
           </div>
          </div>
-        
+        <Forms/>
       </div>
     </div>
   );

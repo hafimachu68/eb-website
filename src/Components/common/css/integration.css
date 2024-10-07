@@ -1,6 +1,17 @@
 .integrate {
-    padding-top: 27px;
-  }
+  padding-top: 27px;
+  text-align: left;
+  color: #193054;
+  opacity: 0; /* Initially hidden */
+  transform: translateX(-100%); /* Move out of view to the left */
+  transition: transform 0.8s ease-out, opacity 0.8s ease-out; /* Smooth transition */
+}
+
+.integrate.in-view {
+  opacity: 1; /* Make it visible */
+  transform: translateX(0); /* Slide into view */
+}
+
   
   .build {
     padding-top: 150px;
@@ -9,6 +20,8 @@
   
   .intbdy {
     background-color: #d0e2fa;
+    border-radius: 3rem;
+
   }
   
   
@@ -36,18 +49,24 @@
   .zoomed {
     transform: scale(1.1); /* Adjust the scaling factor as needed */
   }
-  .white-bg {
+  /* .white-bg {
     background-color:#193054;
   }
-  
+   */
   .intbdy {
     transition: background-color 2s ease, background-position 2s ease; 
     /* Add background-position to the transition */
   }
   .intp{
     font-family: "Fira Sans", sans-serif;
-    font-size: 18px;
+    font-size: 14px;
+    font-weight: 400;
 
+  }
+  .inth{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
   }
   .arei{
     
@@ -65,6 +84,8 @@
     width: 23.33px;
       height: 23.33px;
       margin-right: 10px;
+      filter: brightness(0) saturate(100%) invert(12%) sepia(5%) saturate(5612%) hue-rotate(231deg) brightness(94%) contrast(106%);
+
   }
   .h{
     font-size: 62px;
@@ -93,4 +114,17 @@
     margin-top: -1.5rem;
   }
   }
-  
+  .intglass-box {
+    background: linear-gradient(180deg, rgba(207, 227, 255, 0.75) 0%, rgba(170, 205, 255, 0.75) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 3rem;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    width: 80%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-left: 9%;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}

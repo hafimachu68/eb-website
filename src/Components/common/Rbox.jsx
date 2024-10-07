@@ -1,47 +1,128 @@
-import React, { useState } from 'react';
-import './css/rbox.css'; // Import your CSS file
-import op1 from '../images/G31.png'; // Import your logo file
-import op2 from '../images/G32.png'; // Import your logo file
-import op3 from '../images/G33.png'; // Import your logo file
-import op4 from '../images/G34.png'; // Import your logo file
-import op5 from '../images/G35.png'; // Import your logo file
-import op6 from '../images/G36.png'; // Import your logo file
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import './css/features.css';
 
-const options = [
-  { id: 1, text: 'Unlimited dashboards', imgSrc: op1 },
-  { id: 2, text: 'Pdf Reports', imgSrc: op2 },
-  { id: 3, text: 'Table View', imgSrc: op3 },
-  { id: 4, text: 'Chart View', imgSrc: op4 },
-  { id: 5, text: 'Map Views', imgSrc: op5 },
-  { id: 6, text: 'Calenders', imgSrc: op6 },
-];
+import chart from '../images/chart.svg';
+import charts from '../images/Charts.jpeg';
+
+import dash from '../images/dash.svg';
+import Calender from '../images/Calender.jpeg';
+
+import pdf from '../images/dr.svg';
+import PDF from '../images/PDF.jpeg';
+
+import map from '../images/map.svg';
+
+import tab from '../images/table.svg';
+import cal from '../images/cal.svg';
+import tab1 from '../images/PDFuser.jpeg';
+import dashb from '../images/Dashboard.jpeg';
+import wfimg from '../images/Gdibba.jpg';
+
+
+
+import mainimg from '../images/mainimg.png';
+
 
 function Rbox() {
-  const [selectedOption, setSelectedOption] = useState(options[0]);
+  const overlayData = [
+    {
+      image: pdf,
+      path: '/webform',
+      imageA: PDF,
+      imageB: wfimg,
+      text: 'PDF',
+      mainHeading: 'Build complex enterprise class Web Forms 10x faster',
+      paragraph: 'Create powerful multi-lingual,multi-currency enterprise web forms with built-in audit trail, infinite validations and RBAC security.',
+    },
+    {
+      image: dash,
+      path: '/report',
+      imageA: dashb,
+      imageB: wfimg,
+      text: 'Dashboards',
+      mainHeading: 'Low-Code Reporting tools for Modern Businesses to accelerate decision making',
+      paragraph: 'Gain instant access to actionable insights, putting data at your fingertips for informed decision-making.',
+    },
+    {
+      image: chart,
+      path: '/documents',
+      imageA: charts,
+      imageB: wfimg,
+      text: 'Charts',
+      mainHeading: 'Document Management for business apps like never before',
+      paragraph: 'A document management system that seamlessly integrates into your business process. Say goodbye to toggling between platforms—manage documents in-context,  ensuring seamless access to crucial information.',
+    },
+    {
+      image: map,
+      path: '/api',
+      imageA: mainimg,
+      imageB: wfimg,
+      text: 'Map View',
+      mainHeading: 'Seamlessly Integrate with 3rd Party software',
+      paragraph: 'Efficiently integrate third-party applications into your workflow using our futuristic API builder. Simplify cross-platform connectivity and unlock new possibilities for productivity and growth.',
+    },
+    {
+      image: tab,
+      imageB: wfimg,
+      imageA: tab1,
+      text: 'Table View',
+      mainHeading: 'Empower Your fast growing business with Internal Mobile Apps',
+      paragraph: 'Transform your organization\'s internal processes with our low-code mobile app platform. From task management to internal communications, our apps empower your team to collaborate seamlessly and stay productive from anywhere.',
+    },
+    {
+      image:  cal ,
+      imageB: wfimg,
+      imageA: Calender,
+      text: 'Calender',
+      mainHeading: 'Empower Your fast growing business with Internal Mobile Apps',
+      paragraph: 'Transform your organization\'s internal processes with our low-code mobile app platform. From task management to internal communications, our apps empower your team to collaborate seamlessly and stay productive from anywhere.',
+    },
+  ];
+
+  const [activeOverlayIndex, setActiveOverlayIndex] = useState(0);
+
+  const handleClick = (index) => {
+    setActiveOverlayIndex(index);
+  };
+
+  useEffect(() => {
+    // Set default content to Web Forms when component mounts
+    setActiveOverlayIndex(0);
+  }, []); // Empty dependency array ensures it only runs once
 
   return (
     <div>
-    <div className="rcontainer">
-      <div className="rleft-column">
-        <img src={selectedOption.imgSrc} alt={selectedOption.text} />
-      </div>
-      <div className="rright-column">
-        {options.map(option => (
-          <div 
-            key={option.id} 
-            className={`option ${selectedOption.id === option.id ? 'active' : ''}`} 
-            onClick={() => setSelectedOption(option)}
-          >
-            {option.text}
+      <div className=''></div>
+      {activeOverlayIndex !== null && (
+        <div className="">
+          <div className="overlays">
+            {overlayData.map((data, index) => (
+              <div className="col-md-2 over" key={index} onClick={() => handleClick(index)}>
+                <div className={`overlay-box text-center ${activeOverlayIndex === index ? 'active' : ''}`}>
+                  <img className="rcloud1" src={data.image} alt="" />
+                  <p className="rot">{data.text}</p>
+                </div>
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
-    </div>
-    <div  style={{ padding: '10px', marginTop:'170px' }}>
+          <div className="rdiv">
+          <div className="row content">
+          <div className="">
+            <img className="mainimg" src={overlayData[activeOverlayIndex].imageA} alt="imga" />
+          </div>
+          <div className="">
+            <img className="mainimg" src={overlayData[activeOverlayIndex].imageB} alt="imga" />
+          </div>
+            
+          </div>
          
-    </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
+
 
 export default Rbox;

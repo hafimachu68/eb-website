@@ -2,11 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import './css/features.css';
 
-import web from '../images/wformg.png';
-import report from '../images/reportg.png';
-import documents from '../images/docug.png';
-import api from '../images/apig.png';
-import mobapp from '../images/mobg.png';
+import web from '../images/wformg1.svg';
+import report from '../images/reportg1.svg';
+import documents from '../images/documents1.svg';
+import api from '../images/apig1.svg';
+import mobapp from '../images/mobg1.svg';
 import mainimg from '../images/mainimg.png';
 
 function Forms() {
@@ -68,17 +68,21 @@ function Forms() {
     <div className='fbg'>
       <div className=''></div>
       {activeOverlayIndex !== null && (
-        <div className="overlay postion-relative">
+        <div className="">
           <div className="overlays">
             {overlayData.map((data, index) => (
               <div className="col-md-2 over" key={index} onClick={() => handleClick(index)}>
                 <div className={`overlay-box text-center ${activeOverlayIndex === index ? 'active' : ''}`}>
-                  <img className="fcloud1" src={data.image} alt="" />
+                <div className="hover-container">
+                <img className="fcloud1" src={data.image} alt="" />
                   <p className="ot">{data.text}</p>
+                  </div>
+                  
                 </div>
               </div>
             ))}
           </div>
+          <div className="rdiv">
           <div className="row content">
             <h1 className="fw-bold fmh ">{overlayData[activeOverlayIndex].mainHeading}</h1>
             <div className="col-md-6 mainH">
@@ -92,6 +96,7 @@ function Forms() {
           </div>
           <div className="">
             <img className="mainimg" src={overlayData[activeOverlayIndex].imageA} alt="imga" />
+          </div>
           </div>
         </div>
       )}

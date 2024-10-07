@@ -16,7 +16,9 @@
     color:#193054    ;
     font-family: "Fira Sans", sans-serif;
 }
-
+.btxt{
+   color:white;
+}
 .da{
     margin-top: 25px;
 }
@@ -28,12 +30,13 @@
 }
 .fmh {
     padding-bottom: 1.5rem;
-    font-size: 62px;
+    font-size: 50px;
     font-family: "Blinker", sans-serif;
     font-weight: 700;
     font-style: normal;
     padding-left: 8rem;
-    width: 80%;
+    width: 93%;
+    margin-left: -5%;
 }
 /* .mainH h1 {
     width: 848px;
@@ -50,7 +53,7 @@
 }
 
 .overlay-box.active {
-    border-top: 7px solid #79C977; /* Change border color for the active overlay */
+    border-bottom: 7px solid #79C977; /* Change border color for the active overlay */
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
     transition: border-top-color 0.3s ease; /* Add transition for smooth effect */
@@ -109,12 +112,13 @@
     
 
 .overlays {
-    position: absolute;
-    transform: translateY(-50%);
+    /* position: absolute;
+    transform: translateY(-50%); */
     z-index: 2;
     display: flex;
     justify-content: space-around;
-    /* width: 80%; */
+    width: 90%;
+    margin-left: 5%;
     /* padding-inline: 8%; */
     left: 7%;
     right: 7%;
@@ -132,7 +136,24 @@
     /* width: 44px; */
     height: 44px;
     margin-top: 45px;
+    transition: filter 0.3s ease, border 0.3s ease; /* Smooth transition for the hover effect */
+
+
 }
+.rcloud1 {
+    /* width: 44px; */
+    height: 44px;
+    margin-top: 45px;
+    filter: brightness(0) saturate(100%);
+
+}
+.hover-container:hover .ot{
+    color: #B6D4FF;
+  }
+  
+  .hover-container:hover .fcloud1 {
+    filter: brightness(0) saturate(100%) invert(82%) sepia(21%) saturate(443%) hue-rotate(168deg) brightness(95%) contrast(95%);
+    }
 
 .bg {
     position: relative;
@@ -197,13 +218,13 @@
 }
 
 .content{
-    padding-top: 150px;
+    padding-top: 60px;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 .mainH{
-    padding-left: 135px;
+    padding-left: 66px;
 }
 .sub{
     font-size: 16px;
@@ -225,15 +246,17 @@
     padding-left: 20%;
 }
 .mainimg{
-    width: 1282px.02px;
+    width: 90%;
+    margin-left: 3.5%;
     height:726px    ;
     padding-bottom: 40px;
     padding-top: 40px;
 
 }
+
 .overlay-box {
-    background: linear-gradient(0deg, #D4E4FC, #E5F0FF, #FFFFFF);
-    border-radius: 5px;
+    /* background: linear-gradient(0deg, #D4E4FC, #E5F0FF, #FFFFFF); */
+    /* border-radius: 5px; */
     /* border-top-left-radius: 5px; */
     width: 200px;
     height: 150px;
@@ -248,13 +271,19 @@
 
 
 } */
-.overlay-box:hover {
-    /* background: linear-gradient (to bottom, #4D86D6 0%, #B4D2FC 70%); */
-    background: linear-gradient(to bottom,  #4D86D6    0%,  #FFFFFF 100%);
-
-    
-    transition: border-top-color 0.3s ease; /* Add transition for smooth effect */
+/* Default icon style */
+.overlay-box img {
+    transition: filter 0.3s ease;
   }
+  
+  /* Change icon color on hover */
+  /* .overlay-box:hover img {
+    filter: brightness(0) saturate(100%) invert(82%) sepia(21%) saturate(443%) hue-rotate(168deg) brightness(95%) contrast(95%);
+  }
+  .ot:hover{
+color: #B6D4FF;
+  } */
+  
 .overlay-link {
     display: block;
     height: 100%;
@@ -264,7 +293,14 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     margin-top: 10px;
-    color: black;
+    color: white;
+}
+.rot{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+    color: #193054;
 }
 .overlay-link.active .underline {
     background-color: #c7dac7;
@@ -293,5 +329,13 @@
     transition: filter 3s ease;
   }
  
+
+  .rdiv {
+    margin-left: 3%;
+    border: 2px solid white;
+    border-radius: 2%;
+    width: 94%;
+    padding-bottom: 3%;
+}
  
  

@@ -10,8 +10,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border-right: 2px solid #000; */
-    /* border-radius: 8px; */
+    border: 2px solid #000;
+    border-radius: 8px;
 
 
   }
@@ -19,7 +19,6 @@
   .rleft-column img {
     max-width: 100%;
     max-height: 100%;
-    margin-left: 2rem;
   }
   
   .rright-column {
@@ -28,12 +27,12 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    border-top: 2px solid #000;
-    border-radius: 8px;
+    /* border: 2px solid #000;
+    border-radius: 8px; */
   }
   
   .option {
-    padding: 23.5px 20px;
+    padding: 42.5px 20px;
     cursor: pointer;
     width: 100%;
     color: #193054;
