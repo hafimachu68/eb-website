@@ -146,6 +146,9 @@ body {
     .pctbg {
         height: 600px;
     }
+    .mgb{
+        width: 91% !important;
+    }
 }
 
 

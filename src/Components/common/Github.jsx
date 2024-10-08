@@ -40,7 +40,7 @@ function GitHub() {
 
   return (
     <div className="gcontainer">
-      <div className="glass-box"> {/* Glass effect box */}
+      <div className="glass-box mgb"> {/* Glass effect box */}
         <h3 className="head">
           {displayedText} {/* Display typed text */}
           <span className="cursor">{isCursorVisible ? '|' : ' '}</span> {/* Blinking cursor */}

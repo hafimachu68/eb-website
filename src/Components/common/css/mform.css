@@ -96,6 +96,9 @@
     border-top-left-radius: 5px;
     transition: border-top-color 0.3s ease;
 } */
+ .mf{
+    padding: 0 !important;
+ }
 .slide{
     margin-top: -1.2rem;
 }
@@ -194,5 +197,6 @@ border: none;        }
         margin-left: 0px;
         padding-bottom: 2rem;
     }
+    
 }
 

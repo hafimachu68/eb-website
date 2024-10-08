@@ -50,7 +50,6 @@ function Home() {
         {isMobile ? <Mtrusted /> : <Trusted />}
         <Customer />
         <Features />
-        {/* {isMobile ? <Mforms /> : <Forms />} */}
         {isMobile ? <Mintegration /> : <Integration />}
         {isMobile ? <Mexdb /> : <Exdb />}
         {isMobile ? <Mcarousel /> : <CenterMode />}

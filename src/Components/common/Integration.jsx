@@ -19,7 +19,6 @@ function Integration() {
       const wheelOffsetTop = wheelElement.offsetTop;
       const scrollPosition = window.scrollY;
       if (scrollPosition >= wheelOffsetTop - scrollTriggerOffset && !showBackground) {
-        setShowBackground(true);
         setTimeout(() => {
           setTransitioned(true); // Enable transition effect after trigger time
           setTriggered(true); // Set triggered to true after trigger time

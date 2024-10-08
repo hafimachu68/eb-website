@@ -10,9 +10,29 @@ import fluent from '../images/fluent.png';
 import flight from '../images/flight.png'
 import feic from '../images/fe1.png';
 import Forms from './Forms';
+import Mforms from './Mforms';
 
 
 function Features() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkScreenWidth = () => {
+      setIsMobile(window.innerWidth < 768); // Adjust the breakpoint as needed
+    };
+
+    // Initial check
+    checkScreenWidth();
+
+    // Listen to window resize event
+    window.addEventListener('resize', checkScreenWidth);
+
+    // Cleanup
+    return () => {
+      window.removeEventListener('resize', checkScreenWidth);
+    };
+  }, []);
+
   
   const [transitioned, setTransitioned] = useState(false);
   const rowNewRef = useRef(null);
@@ -96,8 +116,8 @@ function Features() {
             </div>
           </div>
          </div>
-        <Forms/>
-      </div>
+        {isMobile ? <Mforms/> : <Forms />}
+        </div>
     </div>
   );
 }

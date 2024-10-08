@@ -215,6 +215,9 @@
     .row-new.transitioned{
         margin-bottom: 0 !important;
         margin-top: .5em !important;    }
+        .bg{
+            padding: 0 !important;
+        }
 }
 
 .content{
