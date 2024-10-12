@@ -40,6 +40,5 @@
     overflow: hidden;
 } */
 .doclay{
-    width: 100%;
-    height: 90px;
+    padding: 8rem;
 }

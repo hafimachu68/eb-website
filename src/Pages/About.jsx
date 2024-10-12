@@ -14,6 +14,7 @@ import Ctaheading from '../Components/common/Ctheading.jsx'
 import Mfooter from '../Components/common/Mfooter.jsx'
 import Mactaheading from '../Components/common/Mactheading.jsx'
 import Mmessage from '../Components/common/Mmessage.jsx';
+import MNavbar from '../Components/common/MNavbar.jsx';
 
 
 function About() {
@@ -37,7 +38,7 @@ function About() {
   }, []);
   return (
     <div className='rbg'>
-        <Navbar/>
+        {isMobile ? <MNavbar/>:<Navbar />}
         <Aboutus/>
         {isMobile ? <Mabmessages /> : <ABmessages />}
         {isMobile ? <Mabteam /> : <ABteam />}

@@ -15,17 +15,16 @@ function Mfareyou() {
               </div>
             <h3 className="head text-center">Build complex enterprise class Web Forms  10x faster </h3>
               <p className="para1 pt-4">
-              Build & run internal business process applications on the cloud 10x faster.<br/> 
-              Get the stability of Ready-Made software, and the flexibility of Custom software.  </p>
+              Create powerful multi-lingual, multi-currency enterprise web forms with built-in audit trail, infinite validations and RBAC security. </p>
               <a href="https://calendly.com/expressbase">
                 <button className="btn btnare text-light mt-4" type="submit">Book a Demo</button>
               </a>
             </div>
           </div>
           <div className="">
-            <div className="container pt-4 mt-3">
+            <div className="container-fluid pt-4 mt-3">
               <div id="">
-                <iframe id="" width="350px" height="310px" style={{marginLeft:'-5rem'}} src="https://www.youtube.com/embed/WNxuiFhrQUM?rel=0&showinfo=0" frameBorder="0" allowFullScreen></iframe>
+                <iframe id="" width="100%" height="250px"  src="https://www.youtube.com/embed/WNxuiFhrQUM?rel=0&showinfo=0" frameBorder="0" allowFullScreen></iframe>
               </div>
             </div>
           </div>

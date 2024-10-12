@@ -338,9 +338,14 @@
 .wsleft{
   margin-left: 0;
 }
+.iright-content {
+  opacity: 1;
+  transform: translateX(0);
+}
 .wsright{
   margin-top: 0;
-  /* margin-left: 21px; */
+  margin-left: 0;
+  max-width: 100%;
 }
 .row-container {
   display: flex;

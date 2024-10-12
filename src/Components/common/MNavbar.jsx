@@ -1,20 +1,54 @@
-import React from 'react';
+import React, { useState } from 'react'; 
 import './css/nav.css';
 import group8 from '../images/eblogo.png';
-import pv from '../images/pv.png'; // Import your logo file
-import web from '../images/wform.png'; // Import your logo file
-import dument from '../images/docub.png'; // Import your logo file
-import report from '../images/reportd.png'; // Import your logo file
-import api from '../images/apid.png'; // Import your logo file
-import mob from '../images/mobd.png'; // Import your logo file
-import faq from '../images/faq.png'; // Import your logo file
-import blog from '../images/blog.png'; // Import your logo file
-import Wiki from '../images/wiki.png'; // Import your logo file
-import cb from '../images/cb.png'; // Import your logo file
-
-
+import pv from '../images/pv.png';
+import web from '../images/wform.png';
+import dument from '../images/docub.png';
+import report from '../images/reportd.png';
+import api from '../images/apid.png';
+import mob from '../images/mobd.png';
+import faq from '../images/faq.png';
+import blog from '../images/blog.png';
+import Wiki from '../images/wiki.png';
+import cb from '../images/cb.png';
+import DropdownContent from './DropdownContent';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Import FontAwesome
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons'; // Import the Chevron right icon
 
 function MNavbar() {
+  const [activeDropdown, setActiveDropdown] = useState(null);
+
+  const handleDropdownClick = (dropdownName) => {
+    setActiveDropdown(dropdownName);
+  };
+
+  const handleBack = () => {
+    setActiveDropdown(null);
+  };
+
+  const platformItems = [
+    { name: 'Platform Overview', link: '/platform', icon: <img className='po' src={pv} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { name: 'Web Forms', link: '/webform', icon: <img className='pv' src={web} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { name: 'Documents', link: '/documents', icon: <img className='pv' src={dument} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { name: 'Reports', link: '/report', icon: <img className='pv' src={report} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { name: 'APIs', link: '/api', icon: <img className='pv' src={api} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { name: 'Mobile Apps', link: '/mobileapp', icon: <img className='mv' src={mob} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { name: 'Chat Bots', link: '/chatbot', icon: <img className='pv' src={cb} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+  ];
+
+  const usecaseItems = [
+    { name: 'Usecase 1', link: '/Usecase1', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { name: 'Usecase 2', link: '/Usecase2', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { name: 'Usecase 3', link: '/Usecase3', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { name: 'Usecase 4', link: '/Usecase4', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+  ];
+
+  const resourceItems = [
+    { name: 'FAQs', link: '/faq', icon: <img className='pv' src={faq} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { name: 'Blog', link: '/blog', icon: <img className='pv' src={blog} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { name: 'Wiki', link: '/wiki', icon: <img className='pv' src={Wiki} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+  ];
+
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
@@ -25,181 +59,42 @@ function MNavbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav text-left mb-2 mb-lg-0">
-          <li className="nav-item dropdown mx-4">
-  <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Platform
-  </a>
-  <ul className="dropdown-menu platform-menu" aria-labelledby="navbarDropdown1">
-    <div className="container">
-      <div className="row">
-        <div className="col-6">
-          <li className="platform-item my-2">
-            <div className="platform-text">
-              <h6 className="hedrop">
-                <a className='link' href="/platform">
-                  <i><img className='po' src={pv} alt="" /></i>Platform Overview
+          {activeDropdown === null ? (
+            <ul className="navbar-nav text-left mb-2 mb-lg-0">
+              <li className="nav-item mx-4">
+                <a className="nav-link mnav-link" href="#" onClick={() => handleDropdownClick('platform')}>
+                  Platform <FontAwesomeIcon icon={faChevronRight} />
                 </a>
-              </h6>
-              <p className='dropara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-            </div>
-          </li>
-        </div>
-        <div className="col-6">
-          <li className="platform-item my-2">
-            <div className="platform-text">
-              <h6 className="hedrop">
-                <a className='link' href="/webform">
-                  <i><img className='pv' src={web} alt="" /></i>Web Forms
+              </li>
+              <li className="nav-item mx-4">
+                <a className="nav-link mnav-link" href="#" onClick={() => handleDropdownClick('usecases')}>
+                  Usecases <FontAwesomeIcon icon={faChevronRight} />
                 </a>
-              </h6>
-              <p className='dropara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-            </div>
-          </li>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-6">
-          <li className="platform-item my-2">
-            <div className="platform-text">
-              <h6 className="hedrop">
-                <a className='link' href="/documents">
-                  <i><img className='pv' src={dument} alt="" /></i>Documents
+              </li>
+              <li className="nav-item mx-4">
+                <a className="nav-link  active" aria-current="page" href="/about">About Us</a>
+              </li>
+              <li className="nav-item mx-4">
+                <a className="nav-link" href="#">Pricing</a>
+              </li>
+              <li className="nav-item mx-4">
+                <a className="nav-link mnav-link" href="#" onClick={() => handleDropdownClick('resources')}>
+                  Resources <FontAwesomeIcon icon={faChevronRight} />
                 </a>
-              </h6>
-              <p className='dropara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-            </div>
-          </li>
-        </div>
-        <div className="col-6">
-          <li className="platform-item my-2">
-            <div className="platform-text">
-              <h6 className="hedrop">
-                <a className='link' href="/report">
-                  <i><img className='pv' src={report} alt="" /></i>Reports
-                </a>
-              </h6>
-              <p className='dropara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-            </div>
-          </li>
-        </div>
-      </div>
-      <div className="row">
-        <div className="col-6">
-          <li className="platform-item my-2">
-            <div className="platform-text">
-              <h6 className="hedrop">
-                <a className='link' href="/api">
-                  <i><img className='pv' src={api} alt="" /></i>APIs
-                </a>
-              </h6>
-              <p className='dropara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-            </div>
-          </li>
-        </div>
-        <div className="col-6">
-          <li className="platform-item my-2">
-            <div className="platform-text">
-              <h6 className="hedrop">
-                <a className='link' href="/mobileapp">
-                  <i><img className='mv' src={mob} alt="" /></i>Mobile Apps
-                </a>
-              </h6>
-              <p className='dropara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-            </div>
-          </li>
-        </div>
-        <div className="col-6">
-          <li className="platform-item my-2">
-            <div className="platform-text">
-              <h6 className="hedrop">
-                <a className='link' href="/chatbot">
-                  <i><img className='pv' src={cb} alt="" /></i>Chat Bots
-                </a>
-              </h6>
-              <p className='dropara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
-            </div>
-          </li>
-        </div>
-      </div>
-    </div>
-  </ul>
-</li>
-
-     <li className="nav-item dropdown mx-4">
-  <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Usecases
-  </a>
-  <ul className="dropdown-menu usecase-menu" aria-labelledby="navbarDropdown2">
-    <li className="usec-item pt-3">
-      <div className="platform-text  us-item">
-      <a className='link' href="/Usecase1">
-      <h6 className="udrop">Usecase 1</h6>
-      </a>
-        <p className='udropara'>Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit, sed do eiusmod</p>
-      </div>
-    </li>
-    <li className="usec-item pt-3">
-      <div className="platform-text us-item">
-      <a className='link' href="/Usecase2">
-      <h6 className="udrop">Usecase 2</h6>
-      </a>        <p className='udropara'>Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit, sed do eiusmod</p>
-      </div>
-    </li>
-    <li className="usec-item pt-3 ">
-      <div className="platform-text us-item">
-      <a className='link' href="/Usecase3">
-      <h6 className="udrop">Usecase 3</h6>
-      </a>          <p className='udropara'>Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit, sed do eiusmod</p>
-      </div>
-    </li>
-    <li className="usec-item pt-3 ">
-      <div className="platform-text us-item">
-      <a className='link' href="/Usecase4">
-      <h6 className="udrop">Usecase 4</h6>
-      </a>        
-       <p className='udropara'>Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit, sed do eiusmod</p>
-      </div>
-    </li>
-  </ul>
-</li>
-      <li className="nav-item mx-4">
-              <a className="nav-link active" aria-current="page"href="/about">About Us</a>
-            </li>
-            <li className="nav-item mx-4">
-              <a className="nav-link" href="#">Pricing</a>
-            </li>
-            <li className="nav-item dropdown mx-4">
-              <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-               Resources
-              </a>
-              <ul className="dropdown-menu usecase-menu" aria-labelledby="navbarDropdown1">
-                <li className="usec-item my-2">
-                  <div className="platform-text rs-text">
-                    <h6 className="hedrop"> <a className='link' href="/faq">   <i> <img className='pv' src={faq} alt="" /> </i>FAQs</a></h6>
-                    <p className='dropara'>Lorem ipsum dolor sit amet, consectetur <br/>adipiscing elit, sed do eiusmod</p>
-                  </div>
-                </li>
-                <li className="usec-item my-2">
-                  <div className="platform-text rs-text">
-                    <h6 className="hedrop">  <i> <img className='pv' src={blog} alt="" /> </i>Blog</h6>
-                    <p className='dropara'>Lorem ipsum dolor sit amet, consectetur <br/>adipiscing elit, sed do eiusmod</p>
-                  </div>
-                </li>
-                <li className="usec-item  my-2">
-                  <div className="platform-text rs-text">
-                    <h6 className="hedrop">  <i> <img className='pv' src={Wiki} alt="" /> </i>Wiki</h6>
-                    <p className='dropara'>Lorem ipsum dolor sit amet, consectetur <br/>adipiscing elit, sed do eiusmod</p>
-                  </div>
-                </li>
-                
-             
-              </ul>
-            </li>
-            <li className="nav-item demo">
-              <button className="btn btnav text-light" type="submit">Book A Demo</button>
-            </li>
-          </ul>
+              </li>
+              <li className="nav-item demo">
+                <button className="btn btnav text-light" type="submit">Book A Demo</button>
+              </li>
+            </ul>
+          ) : (
+            activeDropdown === 'platform' ? (
+              <DropdownContent title="Platform" items={platformItems} onBack={handleBack} />
+            ) : activeDropdown === 'usecases' ? (
+              <DropdownContent title="Usecases" items={usecaseItems} onBack={handleBack} />
+            ) : activeDropdown === 'resources' ? (
+              <DropdownContent title="Resources" items={resourceItems} onBack={handleBack} />
+            ) : null
+          )}
         </div>
       </div>
     </nav>

@@ -11,6 +11,7 @@ import Prbac from '../Components/common/Prbac'
 import Pctaheading from '../Components/common/Pctheading'
 import MPrbac from '../Components/common/MPrbac'
 import Mfooter from '../Components/common/Mfooter'
+import MNavbar from '../Components/common/MNavbar';
 
 function Platform() {
   const [isMobile, setIsMobile] = useState(false);
@@ -33,7 +34,7 @@ function Platform() {
   }, []);
   return (
     <div className='rbg'>
-        <Navbar/>
+        {isMobile ? <MNavbar/>:<Navbar />}
         <Poverview/>
         <Platformsrc/>
         <Pprovider/>

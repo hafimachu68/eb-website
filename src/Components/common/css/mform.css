@@ -54,6 +54,10 @@
     margin-left: 11%;
     margin-top: 1rem
 }
+.wcbm{
+    margin-left: 4%;
+    margin-top: 1rem
+}
 
 .carousel-item {
     height: 100%; /* Ensure each carousel item takes the full height */
@@ -195,14 +199,23 @@
 background-color: #E5F0FF;
 border: none;        }    
 .wbg {
-    background-color: #193054;
+    background-color:#DDEAFF;
+    color: black;
     border-radius: 0;
+    border: none;
 }
 
 .mbmg{
     width: 325px;
     /* height: 112% !important; */
     margin-left: -31px;
+    margin-top: 10%;
+    padding-bottom: 5rem;
+}
+.mwbmg{
+    width: 100%;
+        /* height: 112% !important; */
+    /* margin-left: -31px; */
     margin-top: 10%;
     padding-bottom: 5rem;
 }
