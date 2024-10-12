@@ -18,59 +18,59 @@ function Footer() {
               Here you can use rows and columns to organize your footer content.<br/> Lorem ipsum
               dolor sit amet, consectetur adipisicing elit.
             </p>
-               <div className="mb-3 py-5">
-                <input type="email" className="input-field" placeholder="Your email address here" />
-                <button className="btn bclr " type="button">Subscribe to our Newsletter</button>
-              </div>
-            <div className="cp " >
-            Copyright © {currentYear} EXPRESSbase. All rights reserved
+            <div className="mb-3 py-5">
+              <input type="email" className="input-field" placeholder="Your email address here" />
+              <button className="btn bclr" type="button">Subscribe to our Newsletter</button>
+            </div>
+            <div className="cp">
+              Copyright © {currentYear} EXPRESSbase. All rights reserved
             </div>
           </div>
-          <div className="col-md-6 ">
+          <div className="col-md-6">
             <div className="row fmrg">
               <div className="col-sm-6 col-md-4 mb-4">
-                <h6 className=" fw-bold ">
+                <h6 className="fw-bold">
                   Quick links
                 </h6>
                 <p className='pt-3'>
-                  <a href="#!" className="text-reset ">Forms</a>
+                  <a href="/webform" className="text-reset">Forms</a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">Reporting </a>
+                  <a href="/report" className="text-reset">Reporting</a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">API</a>
+                  <a href="/api" className="text-reset">API</a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">Documents</a>
+                  <a href="/documents" className="text-reset">Documents</a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">Mobile Apps</a>
+                  <a href="/mobileapp" className="text-reset">Mobile Apps</a>
                 </p>
               </div>
               <div className="col-sm-6 col-md-4 mb-2">
-                <h6 className=" fw-bold ">
-                Resources
+                <h6 className="fw-bold">
+                  Resources
                 </h6>
                 <p className='pt-3'>
-                  <a href="#!" className="text-reset">FAQ</a>
+                  <a href="/faq" className="text-reset">FAQ</a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">Blog</a>
+                  <a href="/blog" className="text-reset">Blog</a>
                 </p>
                 <p>
-                  <a href="#!" className="text-reset">Wiki</a>
+                  <a href="/wiki" className="text-reset">Wiki</a>
                 </p>
               </div>
               <div className="col-sm-6 col-md-4 mb-2">
-                <h6 className=" fw-bold ">
+                <h6 className="fw-bold">
                   Company
                 </h6>
                 <p className='pt-3'>
-                  <a href="#!" className="text-reset ">About us</a>
+                  <a href="/about" className="text-reset">About us</a>
                 </p>
                 <p>
-                  <a href="/contactus" className="text-reset">Contact </a>
+                  <a href="/contactus" className="text-reset">Contact</a>
                 </p>
               </div>
             </div>
@@ -89,11 +89,11 @@ function Footer() {
                 <FontAwesomeIcon icon={faYoutube} />
               </a>
             </div>
-            {/* Row for Terms, Privacy, and Cookies */}
+            
             <div className='flw row'>
               <div className='col-sm-6 col-md-4 mb-2'>
                 <p className="me-3">
-                  <a href="/termsandcodition" className="text-reset cp">Terms  of Service</a>
+                  <a href="/termsandcodition" className="text-reset cp">Terms of Service</a>
                 </p>
               </div>
               <div className='col-sm-6 col-md-4 mb-2'>
