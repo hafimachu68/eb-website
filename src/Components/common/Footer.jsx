@@ -5,6 +5,8 @@ import exlog from '../images/exlog.png';
 import './css/footer.css';
 
 function Footer() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className='Fcolor'>
       <footer className="container">
@@ -21,7 +23,7 @@ function Footer() {
                 <button className="btn bclr " type="button">Subscribe to our Newsletter</button>
               </div>
             <div className="cp " >
-              Copyright © 2023 EXPRESSbase. All rights reserved
+            Copyright © {currentYear} EXPRESSbase. All rights reserved
             </div>
           </div>
           <div className="col-md-6 ">
