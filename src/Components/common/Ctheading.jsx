@@ -19,7 +19,10 @@ function Ctaheading() {
         </div>
        
         <div className='pb-4'>
+        <a href="https://zcal.co/sureba73">
+
           <button className='btn ctb  fw-bold'>Schedule</button>
+          </a>
         </div>
         </div>
           </div>

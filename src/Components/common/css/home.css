@@ -124,12 +124,15 @@
       text-align: center;
       margin-top: -2.5rem;
     }
+    .frame{
+      padding: 0 !important;
+    }
     .head{
       font-size: 28px;
       /* padding-top: 10px; */
     }
     .are{
-      font-size: 20px;
+      font-size: 18px;
     }
     .para1{
       padding-top: 1.5rem !important;
@@ -169,7 +172,7 @@
 
   .mare{
     width: 22rem;
-    margin-left: -4rem;
+    /* margin-left: -4rem; */
   }
  
   }

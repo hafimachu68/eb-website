@@ -5,7 +5,7 @@ import logo from '../images/arpg.png'; // Import your logo file
 function Areyou() {
   return (
     <div>
-      <div className="container">
+      <div className="container ">
         <div className=" p-5">
           <div className=" full">
             <div className="text-md-center mb-4 mb-md-0 mare">
@@ -17,8 +17,8 @@ function Areyou() {
               <p className="para1 pt-4">
               Build & run internal business process applications on the cloud 10x faster.<br/> 
               Get the stability of Ready-Made software, and the flexibility of Custom software.  </p>
-              <a href="https://calendly.com/expressbase">
-                <button className="btn btnare text-light mt-4" type="submit">Book a Demo</button>
+              <a href="https://zcal.co/sureba73">
+              <button className="btn btnare text-light mt-4" type="submit">Book a Demo</button>
               </a>
             </div>
           </div>

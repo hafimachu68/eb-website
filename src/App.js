@@ -46,7 +46,7 @@ function App() {
         <Route path='/Usecase4' element={<Use4/>} />
         <Route path='/platform' element={<Platform/>} />
         <Route path='/unsubscribe' element={<Unsub/>} />
-        <Route path='/privacyandpolicy' element={<Privacy/>} />
+        <Route path='/privacypolicy' element={<Privacy/>} />
         <Route path='/termsandcodition' element={<Terms/>} />
 
         <Route path='/contactus' element={<Contact/>} />

@@ -25,6 +25,14 @@ function Mtrusted() {
   return (
     <div className="container">
       <div className="mtrusted-sec-body">
+      <div className="trusted-img-wrapper">
+          <img src={at1} className="mtrusted-img mtbody tbody" alt="asha" />
+        </div>
+        <div className="trusted-img-wrapper">
+          <img src={at2} className="mtrusted-img mtbody tbody" alt="asha" />
+        </div><div className="trusted-img-wrapper">
+          <img src={at3} className="mtrusted-img mtbody tbody" alt="asha" />
+        </div>
         {/* Start_up_Mission */}
         <div className="trusted-img-wrapper">
           <img src={Start_up_Mission} className="mtrusted-img mtbody tbody" alt="Start_up_Mission" />
@@ -73,14 +81,7 @@ function Mtrusted() {
         <div className="trusted-img-wrapper">
           <img src={asha} className="mtrusted-img mtbody tbody" alt="asha" />
         </div>
-        <div className="trusted-img-wrapper">
-          <img src={at1} className="mtrusted-img mtbody tbody" alt="asha" />
-        </div>
-        <div className="trusted-img-wrapper">
-          <img src={at2} className="mtrusted-img mtbody tbody" alt="asha" />
-        </div><div className="trusted-img-wrapper">
-          <img src={at3} className="mtrusted-img mtbody tbody" alt="asha" />
-        </div>
+       
         
         {/* at4 */}
         <div className="trusted-img-wrapper">

@@ -98,7 +98,7 @@ function Footer() {
               </div>
               <div className='col-sm-6 col-md-4 mb-2'>
                 <p className="me-3">
-                  <a href="/privacyandpolicy" className="text-reset cp">Privacy Policy</a>
+                  <a href="/privacypolicy" className="text-reset cp">Privacy Policy</a>
                 </p>
               </div>
               <div className='col-sm-6 col-md-4 mb-2'>

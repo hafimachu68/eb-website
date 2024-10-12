@@ -5,8 +5,8 @@ import logo from '../images/arpg.png'; // Import your logo file
 function Mareyou() {
   return (
     <div>
-      <div className="container ">
-        <div className=" p-5 ">
+      <div className="container-fluid mt-5 ">
+        <div className=" pt-5 ">
           <div className=" full">
             <div className="text-md-center mb-4 mb-md-0 mare">
             <h3 className="head">Business Automation Applications </h3>
@@ -24,9 +24,9 @@ function Mareyou() {
           </div>
            
           <div className="">
-            <div className="container pt-4 mt-3">
-              <div id="">
-                <iframe id="" width="350px" height="310px" style={{marginLeft:'-5rem'}} src="https://www.youtube.com/embed/WNxuiFhrQUM?rel=0&showinfo=0" frameBorder="0" allowFullScreen></iframe>
+            <div className="container mt-3">
+              <div className='frame'>
+                <iframe id="" width="100%" height="310px"  src="https://www.youtube.com/embed/WNxuiFhrQUM?rel=0&showinfo=0" frameBorder="0" allowFullScreen></iframe>
               </div>
             </div>
           </div>

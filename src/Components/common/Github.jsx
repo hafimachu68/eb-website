@@ -49,9 +49,11 @@ function GitHub() {
           100% Open-Source Low-Code cloud-native Platform
         </p>
         <div className="py-3">
+          <a href='https://github.com/expressbasesystems'>
           <button className="btn btgit fw-bold">
             <i className="ic"><FontAwesomeIcon icon={faGithub} /></i> Star us On GitHub
           </button>
+          </a>
         </div>
       </div>
     </div>

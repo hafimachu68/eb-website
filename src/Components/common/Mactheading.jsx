@@ -18,7 +18,9 @@ function Mactaheading() {
         </div>
        
         <div className='pb-4'>
-          <button className='btn ctb  fw-bold'>Book a Demo</button>
+        <a href="https://zcal.co/sureba73">
+       <button className='btn ctb  fw-bold'>Book a Demo</button>
+          </a>
         </div>
         </div>
           </div>
