@@ -1,30 +1,37 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './css/Cooki.css';
-import acceptIcon from '../Components/images/tick.png'; // Import your accept icon image
-import declineIcon from '../Components/images/wrong.png'; // Import your decline icon image
+import acceptIcon from '../Components/images/tick.png';
+import declineIcon from '../Components/images/wrong.png';
 
 const Cooki = ({ onAccept, onDecline }) => {
-  // State to manage the visibility of the cookie alert
-  const [showAlert, setShowAlert] = useState(true);
+  const [showAlert, setShowAlert] = useState(false);
+
+  // Check if a cookie preference is already set
+  useEffect(() => {
+    const cookieConsent = localStorage.getItem('cookieConsent');
+    if (!cookieConsent) {
+      setShowAlert(true); // Show the alert if there's no preference set
+    }
+  }, []);
 
   // Function to handle cookie acceptance
   const handleAccept = () => {
     document.cookie = "myCookieName=cookieValue; path=/";
+    localStorage.setItem('cookieConsent', 'accepted');
     if (typeof onAccept === 'function') {
-      onAccept(); // Call the onAccept function passed from the parent component if it's a function
+      onAccept();
     }
-    // Hide the cookie alert
-    setShowAlert(false);
+    setShowAlert(false); // Hide the cookie alert
   };
 
   // Function to handle cookie decline
   const handleDecline = () => {
     document.cookie = "myCookieName=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+    localStorage.setItem('cookieConsent', 'declined');
     if (typeof onDecline === 'function') {
-      onDecline(); // Call the onDecline function passed from the parent component if it's a function
+      onDecline();
     }
-    // Hide the cookie alert
-    setShowAlert(false);
+    setShowAlert(false); // Hide the cookie alert
   };
 
   // Render the cookie alert only if showAlert state is true

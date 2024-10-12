@@ -8,3 +8,27 @@
  .useimg{
     width: 100%;
  }
+.us1{
+   padding: 3rem !important;
+
+}
+.usevdo{
+   padding-top: 3rem !important;
+
+}
+
+ @media (max-width: 768px) {
+   .usevdo{
+      padding-top: 0 !important;
+      padding-bottom: 2rem;
+   margin-top: 0 !important;
+   }
+   .use1{
+      font-size: 28px;
+   }
+.us1{
+   padding: 0 !important;
+   text-align: center;
+}
+
+ }

@@ -28,12 +28,7 @@ function Home() {
 
   useEffect(() => {
     const checkScreenWidth = () => {
-      const userAgent = navigator.userAgent || navigator.vendor;
-      const isAndroid = /android/i.test(userAgent);
-      const actualWidth = window.innerWidth * window.devicePixelRatio;
-
-      // Use different breakpoints for Android or fallback
-      setIsMobile(isAndroid ? actualWidth < 820 : window.innerWidth < 768);
+      setIsMobile(window.innerWidth < 768); // Adjust the breakpoint as needed
     };
 
     // Initial check
@@ -51,7 +46,7 @@ function Home() {
   return (
     <>
       <div className='rbg'>
-        {isMobile ? <MNavbar /> : <Navbar />}
+        {isMobile ? <MNavbar/>:<Navbar />}
 
         {isMobile ? <Mareyou /> : <Areyou />}
         {isMobile ? <Mtrusted /> : <Trusted />}

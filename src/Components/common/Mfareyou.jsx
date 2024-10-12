@@ -5,8 +5,8 @@ import logo from '../images/wformg.png'; // Import your logo file
 function Mfareyou() {
   return (
     <div>
-      <div className="container ">
-        <div className=" p-5 ">
+      <div className="container-fluid ">
+        <div className=" py-5 ">
           <div className=" full">
             <div className="text-md-center mb-4 mb-md-0 mare">
             <div className="logo-container">

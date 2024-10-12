@@ -9,6 +9,7 @@ import Mactaheading from '../Components/common/Mactheading'
 import Mfooter from '../Components/common/Mfooter'
 import Mfareyou from '../Components/common/Mfareyou'
 import MFcarousels from '../Components/common/MFcarousels';
+import MNavbar from '../Components/common/MNavbar';
 
 
 function Webform() {
@@ -32,7 +33,7 @@ function Webform() {
   }, []);
   return (
     <div className='rbg'>
-        <Navbar/>
+        {isMobile ? <MNavbar/>:<Navbar />}
         {isMobile ? <Mfareyou/> : <Wfareyou/>}
         {isMobile ? <MFcarousels/> : <Wform/>}
         {isMobile ? <Mactaheading/> : <Wfctaheading />}
