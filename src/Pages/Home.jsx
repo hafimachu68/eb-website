@@ -21,6 +21,7 @@ import Mtrusted from '../Components/common/Mtrusted';
 import Mexdb from '../Components/common/Mexdb';
 import Mintegration from '../Components/common/Mintegration';
 import Mfcarousel from '../Components/common/Mfcarousel';
+import MNavbar from '../Components/common/MNavbar';
 
 function Home() {
   const [isMobile, setIsMobile] = useState(false);
@@ -45,7 +46,8 @@ function Home() {
   return (
     <>
       <div className='rbg'>
-        <Navbar />
+        {isMobile ? <MNavbar/>:<Navbar />}
+
         {isMobile ? <Mareyou /> : <Areyou />}
         {isMobile ? <Mtrusted /> : <Trusted />}
         <Customer />

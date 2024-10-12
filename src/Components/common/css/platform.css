@@ -7,6 +7,10 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .white-logo {
+    filter: invert(1);
+  }
+  
   .ploutoverlay {
     min-height: 665px;
     width: 100%;
@@ -194,6 +198,9 @@
   .colp {
     flex: 0 0 calc(50% - 10px); /* Two columns for smaller screens */
   }
+  .provideroverlay{
+    margin-top: 0;
+  }
 }
 
 /* Center the last row if it has fewer than 3 cards */
@@ -226,9 +233,11 @@
     margin-top: 1%;
   }
   .wsleft{
+    
     max-width: 80%;
     height: auto;
-    margin-top: 1%;
+    margin-top: -3%;
+    margin-left: 35%
   }
   .wheeleft:hover{
     transform: scale(1.1); /* Adjust the scaling factor as needed */
@@ -326,8 +335,12 @@
     flex-basis: auto;
     margin-bottom: 2rem;
 }
-.plcontainer{
-  margin-top: -5rem;
+.wsleft{
+  margin-left: 0;
+}
+.wsright{
+  margin-top: 0;
+  /* margin-left: 21px; */
 }
 .row-container {
   display: flex;

@@ -12,7 +12,7 @@ import kp from '../images/KP.png';
 import hafi from '../images/hafi.png';
 import backgroundImage from '../images/cloud.png'; // Import your image
 import bic from '../images/team.png'; // Import your image
-import background from '../images/bluebg.png'; // Import your image
+import background from '../images/bg-blue.svg'; // Import your image
 
 
 // import hafi from '../images/hafee.jpeg';

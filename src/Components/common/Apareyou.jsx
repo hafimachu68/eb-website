@@ -65,7 +65,7 @@ function Apareyou() {
           </div>
         </div>
         <div className="wform-divider"></div>
-        <div className="wform-chat-container" >
+        <div className="wform-chat-container pb-5" >
           <div className=" mm  ">
             <div>
             <p>

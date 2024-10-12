@@ -1,14 +1,31 @@
 .carousel-card {
     border: none;
 }
+
+.arrow-btn {
+    background: none;
+    border: none;
+    margin-top: -5%;
+    font-size: 36px; /* Large font size for the angle brackets */
+    color: white;    /* White color for angle brackets */
+    cursor: pointer;
+  }
+ 
+  
+  .arrow-btn:hover {
+    color: #f8f9fa; /* Slight hover effect */
+  }
+  
 .mfcrsl {
     /* height: 700px;  */
     margin-top: -2.2rem !important;
     position: relative;
     background-color: #E5F0FF    ;
-    width: 114%;
-    margin-left: -7%;
-    border-radius: 8px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    /* width: 114%; */
+    /* margin-left: -7%; */
+    /* border-radius: 8px; */
 }
 .mfclogo {
     margin-top: -3rem;
@@ -34,14 +51,17 @@
 }
   
 .cbm{
-    margin-left: 6%;
+    margin-left: 11%;
     margin-top: 1rem
 }
 
 .carousel-item {
     height: 100%; /* Ensure each carousel item takes the full height */
 }
+.cit{
+    color: white;
 
+}
  .carousel-content{
     margin-left: 1.5rem }
 .carousel-control-next,
@@ -83,7 +103,7 @@
     padding-bottom: 2rem;
 }
 
-.carousel-item.active .carousel-card {
+.carousel-item .carousel-card {
     border-top: 7px solid;
     border-top-color: #79C977; 
     
@@ -103,22 +123,52 @@
     margin-top: -1.2rem;
 }
 .icon {
-    margin-left: 65px;
+    margin-left: 36%;
+    margin-top: 22%;
+        width: 24px;
+}
+.dicon {
+    margin-left: 60%;
+    margin-top: 28%;
+        width: 24px;
+}
+.aicon {
+    margin-left: 59%;
+    margin-top: 20%;   
+
+}
+.ricon {
+    margin-left: 59%;
+    margin-top: 20%;   
+
+}
+
+.mric{
+    width: 20px;
+    margin-top: 21%;
 }
 
 .mch {
-    margin-left: -120px;
+    margin-left: -55%;
     font-family: "Blinker", sans-serif;
-    font-weight: 700;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
     font-style: normal;
 }
+.mfcrsl .icon, .mfcrsl .ricon {
+    filter: brightness(0) invert(1); /* Makes the icons white */
+  }
+  
 .mmh{
     font-family: "Blinker", sans-serif;
     font-weight: 700;
     font-style: normal;
+    color: white;
 }
 .mmp{
     font-size: 16px;
+    color: white;
     font-family: "Fira Sans", sans-serif;
 }
 .mw{
@@ -129,6 +179,7 @@
 
 .mbtn{
     margin-left: -9rem;
+    border-radius: 2rem;
 }
 .mbd{
     padding-bottom: 15px;
@@ -149,7 +200,7 @@ border: none;        }
 }
 
 .mbmg{
-    width: 345px;
+    width: 325px;
     /* height: 112% !important; */
     margin-left: -31px;
     margin-top: 10%;
@@ -162,7 +213,7 @@ border: none;        }
 }
 
 .muc{
-    margin-left: -137px;
+    margin-left: -100%;
 }
 
 .mmainh{

@@ -44,12 +44,13 @@ function Pseamlessly() {
        </div>
        <div className="row-container psrow">
        <div className="left-content">
-       <p className='wsright'>EXPRESSbase seamlessly integrates with various third-party systems such as WhatsApp and Twilio for sending notifications, Google Drive and Dropbox for file storage, Google and Facebook for authentication, and Google Maps for location tracking.    </p>
+       <img src={host}alt="Image"  className="wsleft wheeleft" />
 
           </div>
           <div className={`right-content iright-content ${isVisible ? 'show' : ''}`} // Apply 'show' class when visible
      ref={rightContentRef}>
-            <img src={host}alt="Image"  className="wsleft wheeleft" />
+             <p className='wsright'>EXPRESSbase seamlessly integrates with various third-party systems such as WhatsApp and Twilio for sending notifications, Google Drive and Dropbox for file storage, Google and Facebook for authentication, and Google Maps for location tracking.    </p>
+
             </div>
          
         </div>

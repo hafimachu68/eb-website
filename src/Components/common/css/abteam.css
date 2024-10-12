@@ -127,6 +127,15 @@
         font-size: 19px;
         font-style: normal;
       }
+      .svblp{
+      
+        font-family: "Fira Sans", sans-serif !important;
+        font-weight: bold;
+        font-size: 16px;
+        font-style: normal;
+        margin-left: 20px;
+        color: #193054;
+        }
   .amt{
     margin-top: -17px;
   }
@@ -217,7 +226,7 @@
     padding-left: 0;
   }
   .teamview{
-    height: 2890px;
+    height: 100%;
   }
   .contribute-1 {
     height: 107px;

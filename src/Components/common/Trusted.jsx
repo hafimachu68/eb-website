@@ -29,71 +29,71 @@ function Trusted() {
     <div className="container trcont">
       {/* First Row */}
       <div className="row"> 
-        <div className="col-md-2 tbody ">
+        <div className="col-md-2 tbody mx-3 ">
           <img src={Start_up_Mission} className="trusted-img " alt="Start_up_Mission" />
         </div>
-        <div className="col-md-2 tbody">
+        <div className="col-md-2 tbody mx-3">
           <img src={clinic7} className="trusted-img " alt="ehealth" />
         </div>
-        <div className="col-md-2 tbody "> 
+        <div className="col-md-2 tbody mx-3"> 
           <img src={hoc} className="trusted-img " alt="emc" />
         </div>
-        <div className="col-md-2 tbody tbody">
+        <div className="col-md-2 tbody tbody mx-3">
           <img src={alarz} className="trusted-img " alt="kase" />
         </div>
-        <div className="col-md-2 tbody ">
+        <div className="col-md-2 tbody mx-3 ">
           <img src={kdisc} className="trusted-img" alt="kdisc" />
         </div>
       </div>
 
       {/* Second Row */}
       <div className="row">
-        <div className="col-md-2 tbody ">
-          <img src={at1} className="trusted-img " alt="ict" />
+        <div className="col-md-2 tbody mx-3 ">
+          <img src={at1} className="trusted-img mx-3 " alt="ict" />
         </div>
-        <div className="col-md-2 tbody ">
-          <img src={dibba} className="trusted-img " alt="kssb" />
+        <div className="col-md-2 tbody mx-3">
+          <img src={dibba} className="trusted-img mx-3" alt="kssb" />
         </div>
-        <div className="col-md-2 tbody ">
-          <img src={asha} className="trusted-img " alt="kudumbashri" />
+        <div className="col-md-2 tbody mx-3 ">
+          <img src={asha} className="trusted-img mx-3 " alt="kudumbashri" />
         </div>
-        <div className="col-md-2 tbody ">
+        <div className="col-md-2 tbody mx-3 ">
           <img src={at2} className="trusted-img " alt="hoc" />
         </div>
-        <div className="col-md-2  tbody ">
+        <div className="col-md-2  tbody mx-3 ">
           <img src={kssb} className="trusted-img " alt="zdiac" />
         </div>
       </div>
 
       {/* Third Row */}
       <div className="row">
-        <div className="col-md-2 tbody  ">
+        <div className="col-md-2 tbody mx-3  ">
           <img src={liwa} className="trusted-img " alt="liwa" />
         </div>
-        <div className="col-md-2 tbody  ">
+        <div className="col-md-2 tbody mx-3 ">
           <img src={at3} className="trusted-img" alt="clinic7" />
         </div>
-        <div className="col-md-2 tbody  ">
+        <div className="col-md-2 tbody mx-3  ">
           <img src={at4} className="trusted-img" alt="technopark" />
         </div>
-        <div className="col-md-2  tbody ">
+        <div className="col-md-2  tbody mx-3 ">
           <img src={kudumbashri} className="trusted-img " alt="alarz" />
         </div>
-        <div className="col-md-2  tbody ">
+        <div className="col-md-2  tbody mx-3 ">
           <img src={zdiac} className="trusted-img " alt="asha" />
         </div>
       </div>
 
       {/* Fourth Row */}
       <div className="row">
-        <div className="col-md-2 tbody  ">
+        <div className="col-md-2 tbody mx-3  ">
           <img src={at5} className="trusted-img " alt="dibba" />
         </div>
         {/* Add empty columns if necessary to maintain alignment */}
-        <div className="col-md-2  tbody">          <img src={kase} className="trusted-img " alt="dibba" /></div>
-        <div className="col-md-2 tbody">          <img src={at6} className="trusted-img " alt="dibba" /></div>
-        <div className="col-md-2 tbody">          <img src={at7} className="trusted-img"  alt="dibba" /></div>
-        <div className="col-md-2 tbody">          <img src={at8} className="trusted-img " alt="dibba" /></div>
+        <div className="col-md-2  tbody  mx-3 ">          <img src={kase} className="trusted-img " alt="dibba" /></div>
+        <div className="col-md-2 tbody  mx-3 ">          <img src={at6} className="trusted-img " alt="dibba" /></div>
+        <div className="col-md-2 tbody  mx-3 ">          <img src={at7} className="trusted-img"  alt="dibba" /></div>
+        <div className="col-md-2 tbody  mx-3 ">          <img src={at8} className="trusted-img " alt="dibba" /></div>
       </div>
     </div>
   );

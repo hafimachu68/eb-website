@@ -120,7 +120,7 @@ body {
     .ctb{
         margin-left: 14px;
         margin-top: -2rem;
-        padding: 15px 25px;
+        padding: 14px 12px;
 
     }
     .ctpg {
@@ -128,16 +128,23 @@ body {
         margin-top: 6rem;
     }
     .ctpg img{
-        width: 332px;
-        margin-left: 14px;
+        width: 85%;
+        /* margin-left: 14px; */
         margin-top: 14px;
     
     }
     .ctbg {
         height: 570px;
     }
+    .ctc{
+        margin-left: 4%;
+    }
     .ctmg{
         margin-top: -246px;
+        text-align: center
+    }
+    .gcontainer{
+        height:50vh !important;
     }
     /* .pg{
         padding-top: 305px;

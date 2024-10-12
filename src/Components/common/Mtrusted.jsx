@@ -1,89 +1,106 @@
 import React from 'react';
 import './css/mtrusted.css';
-import StartupMission from '../images/Rectangle 3.png';
-import Ehealth from '../images/Rectangle 4.png';
-import Emc from '../images/Rectangle 5.png';
-import Kase from '../images/Rectangle 6.png';
-import Kdisc from '../images/Rectangle 7.png';
-import Ict from '../images/Rectangle 9.png';
-import Kssb from '../images/Rectangle 10.png';
-import Kudumbashri from '../images/Rectangle 11.png';
-import Hoc from '../images/Rectangle 12.png';
-import Zdiac from '../images/Rectangle 13.png';
-import Liwa from '../images/Rectangle 14.png';
-import Clinic7 from '../images/Rectangle 107.png';
-import Technopark from '../images/Rectangle 122.png';
-import Alarz from '../images/alarz.png';
-import Dibba from '../images/dibba.png';
-import Asha from '../images/asha.png';
+import Start_up_Mission from '../images/Rectangle 3.png';
+import kase from '../images/Rectangle 6.png';
+import kdisc from '../images/Rectangle 7.png';
+import kssb from '../images/Rectangle 10.png';
+import kudumbashri from '../images/Rectangle 11.png';
+import hoc from '../images/Rectangle 12.png';
+import zdiac from '../images/Rectangle 13.png';
+import liwa from '../images/Rectangle 14.png';
+import clinic7 from '../images/Rectangle 107.png';
+import alarz from '../images/alarz.png';
+import dibba from '../images/dibba.png';
+import asha from '../images/asha.png';
+import at1 from '../images/liwalando.png';
+import at2 from '../images/riono.png';
+import at3 from '../images/rto.png';
+import at4 from '../images/hitec.png';
+import at5 from '../images/icon.png';
+import at6 from '../images/w2s.png';
+import at7 from '../images/fu.png';
+import at8 from '../images/tadaang.png';
 
 function Mtrusted() {
   return (
     <div className="container">
-      <div className="mtrusted-sec-body ">
-        {/* StartupMission */}
+      <div className="mtrusted-sec-body">
+        {/* Start_up_Mission */}
         <div className="trusted-img-wrapper">
-          <img src={StartupMission} className="mtrusted-img tbody" alt="StartupMission" />
+          <img src={Start_up_Mission} className="mtrusted-img mtbody tbody" alt="Start_up_Mission" />
         </div>
-        {/* Ehealth */}
+        {/* kase */}
         <div className="trusted-img-wrapper">
-          <img src={Ehealth} className="mtrusted-img tbody" alt="Ehealth" />
+          <img src={kase} className="mtrusted-img mtbody tbody" alt="kase" />
         </div>
-        {/* Emc */}
+        {/* kdisc */}
         <div className="trusted-img-wrapper">
-          <img src={Emc} className="mtrusted-img tbody" alt="Emc" />
+          <img src={kdisc} className="mtrusted-img mtbody tbody" alt="kdisc" />
         </div>
-        {/* Kase */}
+        {/* kssb */}
         <div className="trusted-img-wrapper">
-          <img src={Kase} className="mtrusted-img tbody" alt="Kase" />
+          <img src={kssb} className="mtrusted-img mtbody tbody" alt="kssb" />
         </div>
-        {/* Kdisc */}
+        {/* kudumbashri */}
         <div className="trusted-img-wrapper">
-          <img src={Kdisc} className="mtrusted-img tbody" alt="Kdisc" />
+          <img src={kudumbashri} className="mtrusted-img mtbody tbody" alt="kudumbashri" />
         </div>
-        {/* Ict */}
-        <div className="trusted-img-wrapper ict-image">
-          <img src={Ict} className="mtrusted-img tbody" alt="Ict" />
-        </div>
-        {/* Kssb */}
+        {/* hoc */}
         <div className="trusted-img-wrapper">
-          <img src={Kssb} className="mtrusted-img tbody" alt="Kssb" />
+          <img src={hoc} className="mtrusted-img mtbody tbody" alt="hoc" />
         </div>
-        {/* Kudumbashri */}
+        {/* zdiac */}
         <div className="trusted-img-wrapper">
-          <img src={Kudumbashri} className="mtrusted-img tbody" alt="Kudumbashri" />
+          <img src={zdiac} className="mtrusted-img mtbody tbody" alt="zdiac" />
         </div>
-        {/* Hoc */}
+        {/* liwa */}
         <div className="trusted-img-wrapper">
-          <img src={Hoc} className="mtrusted-img tbody" alt="Hoc" />
+          <img src={liwa} className="mtrusted-img mtbody tbody" alt="liwa" />
         </div>
-        {/* Zdiac */}
+        {/* clinic7 */}
         <div className="trusted-img-wrapper">
-          <img src={Zdiac} className="mtrusted-img tbody" alt="Zdiac" />
+          <img src={clinic7} className="mtrusted-img mtbody tbody" alt="clinic7" />
         </div>
-        {/* Liwa */}
+        {/* alarz */}
         <div className="trusted-img-wrapper">
-          <img src={Liwa} className="mtrusted-img tbody" alt="Liwa" />
+          <img src={alarz} className="mtrusted-img mtbody tbody" alt="alarz" />
         </div>
-        {/* Clinic7 */}
+        {/* dibba */}
         <div className="trusted-img-wrapper">
-          <img src={Clinic7} className="mtrusted-img tbody" alt="Clinic7" />
+          <img src={dibba} className="mtrusted-img mtbody tbody" alt="dibba" />
         </div>
-        {/* Technopark */}
+        {/* asha */}
         <div className="trusted-img-wrapper">
-          <img src={Technopark} className="mtrusted-img tbody" alt="Technopark" />
+          <img src={asha} className="mtrusted-img mtbody tbody" alt="asha" />
         </div>
-        {/* Alarz */}
         <div className="trusted-img-wrapper">
-          <img src={Alarz} className="mtrusted-img tbody" alt="Alarz" />
+          <img src={at1} className="mtrusted-img mtbody tbody" alt="asha" />
         </div>
-        {/* Dibba */}
         <div className="trusted-img-wrapper">
-          <img src={Dibba} className="mtrusted-img tbody" alt="Dibba" />
+          <img src={at2} className="mtrusted-img mtbody tbody" alt="asha" />
+        </div><div className="trusted-img-wrapper">
+          <img src={at3} className="mtrusted-img mtbody tbody" alt="asha" />
         </div>
-        {/* Asha */}
+        
+        {/* at4 */}
         <div className="trusted-img-wrapper">
-          <img src={Asha} className="mtrusted-img tbody" alt="Asha" />
+          <img src={at4} className="mtrusted-img mtbody tbody" alt="at4" />
+        </div>
+        {/* at5 */}
+        <div className="trusted-img-wrapper">
+          <img src={at5} className="mtrusted-img mtbody tbody" alt="at5" />
+        </div>
+        {/* at6 */}
+        <div className="trusted-img-wrapper">
+          <img src={at6} className="mtrusted-img mtbody tbody" alt="at6" />
+        </div>
+        {/* at7 */}
+        <div className="trusted-img-wrapper at78 ">
+          <img src={at7} className="mtrusted-img mtbody  tbody" alt="at7" />
+        </div>
+        {/* at8 */}
+        <div className="trusted-img-wrapper at87">
+          <img src={at8} className="mtrusted-img mtbody  tbody" alt="at8" />
         </div>
       </div>
     </div>

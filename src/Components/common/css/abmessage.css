@@ -278,7 +278,7 @@ margin-top: -2px;
 
 .tbody:hover {
   background-color: white;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Change box shadow on hover for more depth */
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); Change box shadow on hover for more depth */
   transition: box-shadow 0.3s ease; /* Smooth transition for box shadow */
 }
 

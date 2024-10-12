@@ -39,12 +39,8 @@ function Mexdb() {
               <p className='feic rb'>APPLICATION SECURITY </p>
             </div>
             <h3 className="head">Role Based Access Control (RBAC)</h3>
-            <p className=" para1 pt-3">
-              Role Based Access Control (RBAC) standard helps you authorize users by roles.<br/>
-              Create unlimited roles by grouping permissions or even roles. 
-            </p>
-
-            <div className="rbac pt-5">
+          
+            <div className="rbac pt-4">
               <img
                 ref={imageRef}
                 className={`rbpg ${isVisible ? 'fade-in' : ''}`}

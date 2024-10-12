@@ -8,6 +8,22 @@
     margin-top: -12px;
     padding-top: 150px;
 }
+
+.custom-carousel .carousel-indicators {
+  margin-bottom: -3rem;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.abb {
+  align-self: flex-end;
+  margin-top: auto;
+}
+
 .cvdo{
   width: 18rem;
   margin-left: -12px;
@@ -31,12 +47,29 @@
   width: 100%;
   height: 100%;
 }
+.mvideo-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 106%;
+  height: 100%;
+}
 .card {
   position: relative;
+
+
+}
+.wf{
+  background: linear-gradient(to bottom, #154992, #193054  );
+
 }
 
 .fr{
   width: 288px !important;
+  height: 213px !important;
+}
+.vmfr{
+  width: 94% !important;
   height: 213px !important;
 }
 
@@ -44,6 +77,17 @@
   position: absolute;
   top: -8px;
   right: 0;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 1;
+}
+.mclose-button {
+  position: absolute;
+  top: -11px;
+  right: 7px;
   background: none;
   border: none;
   color: white;
@@ -112,6 +156,8 @@
   
   text-align: left;
   font-weight: 600;
+  align-self: flex-end;
+  margin-top: auto;
 }
 
 .abvh{margin-top: -90px;
@@ -127,6 +173,7 @@
 }
 .cvdo{
   margin-left: 0;
+  width:100%;
 }
 .rf {
   padding-left: 7px;

@@ -10,7 +10,7 @@ function Pprovider() {
     <div className='provideroverlay text-white text-cente pt-5'> 
         <div className="text-center ">
         <div className="logo-container">
-          <img src={logo} alt="Logo" className="logo" /> {/* Insert your logo here */}
+          <img src={logo} alt="Logo" className="logo  white-logo" /> {/* Insert your logo here */}
           <p className='pare text-light'>HOSTING</p>
         </div>
         <h3 className="phead text-light">Cloud Provider Agnostic Platform</h3>

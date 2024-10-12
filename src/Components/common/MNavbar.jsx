@@ -14,7 +14,7 @@ import cb from '../images/cb.png'; // Import your logo file
 
 
 
-function Navbar() {
+function MNavbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
@@ -206,4 +206,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default MNavbar;

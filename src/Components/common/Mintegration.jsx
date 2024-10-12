@@ -57,19 +57,22 @@ function Mintegration () {
   }, []);
 
   return (
-    <div className={`bh intglass-box ${showBackground ? 'white-bg' : ''}`}>
+    <div >
       <div className="container">
-        <div className="row rint">
+        <div className="row rint mt-5">
           <div className="col-md-6 integrate" ref={integrateRef}>
             <div className="logo-container mic">
               <img src={icint} alt="Logo" className="icint" /> {/* Insert your logo here */}
               <p className='marei'>INTEGRATIONS</p>
             </div> 
-            <h1 className='fw-bold minth'>Seamless<br/> Connectivity to External Systems</h1>
+            <h2 className='fw-bold minthh'>Seamless Connectivity to <br/> External Systems</h2>
+            <div className="inpd">
             <p className='pt-3 intp'>
-              Effortless data exchange and communication with 3rd party/<br/>
-              external systems like WhatsApp, SMTP Servers, SMS Gateways,<br/> Cloudinary etc.
+              Effortless data exchange and communication with 3rd party/
+              external systems like WhatsApp, SMTP Servers, SMS Gateways, Cloudinary etc.
             </p>
+            </div>
+           
           </div>
           <div className="col-md-6 wheel" ref={wheelRef}>
             <div
