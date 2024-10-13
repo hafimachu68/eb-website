@@ -17,7 +17,7 @@ const DropdownContent = ({ title, items, onBack }) => {
         {items.map((item, index) => (
           <li key={index} className="nav-item dropdown mx-4 dropdown-item">
             <a className='nav-link  link' href={item.link}>
-              <i>{item.icon}</i> {item.name}
+              <i className='px-3'>{item.icon}</i> {item.name}
             </a>
             <p className='dropara'>{item.description}</p>
           </li>

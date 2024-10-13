@@ -44,7 +44,7 @@ function MNavbar() {
   ];
 
   const resourceItems = [
-    { name: 'FAQs', link: 'faq', icon: <img className='pv' src={faq} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { name: 'FAQs', link: 'faq', icon: <img className='pv ' src={faq} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
     { name: 'Blog', link: 'blog', icon: <img className='pv' src={blog} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
     { name: 'Wiki', link: 'wiki', icon: <img className='pv' src={Wiki} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
   ];
