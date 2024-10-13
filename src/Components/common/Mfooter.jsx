@@ -31,21 +31,21 @@ function Mfooter() {
               <div className="col-sm-6 col-md-4 mb-4">
                 <h6 className="fw-bold">Quick links</h6>
                 <p><a href="/webform" className="text-reset">Forms</a></p>
-                <p><a href="/report" className="text-reset">Reporting</a></p>
-                <p><a href="/api" className="text-reset">API</a></p>
+                <p><a href="report" className="text-reset">Reporting</a></p>
+                <p><a href="api" className="text-reset">API</a></p>
                 <p><a href="/documents" className="text-reset">Documents</a></p>
-                <p><a href="/mobileapp" className="text-reset">Mobile Apps</a></p>
+                <p><a href="mobileapp" className="text-reset">Mobile Apps</a></p>
               </div>
               <div className="col-sm-6 col-md-4 mb-2 mfr">
                 <h6 className="fw-bold">Resources</h6>
-                <p><a href="/faq" className="text-reset">FAQ</a></p>
-                <p><a href="/blog" className="text-reset">Blog</a></p>
-                <p><a href="/wiki" className="text-reset">Wiki</a></p>
+                <p><a href="faq" className="text-reset">FAQ</a></p>
+                <p><a href="blog" className="text-reset">Blog</a></p>
+                <p><a href="wiki" className="text-reset">Wiki</a></p>
               </div>
               <div className="col-sm-6 col-md-4 mb-2 mfc">
                 <h6 className="fw-bold">Company</h6>
                 <p><a href="/about" className="text-reset">About us</a></p>
-                <p><a href="/contactus" className="text-reset">Contact</a></p>
+                <p><a href="contactus" className="text-reset">Contact</a></p>
               </div>
             </div>
             <div className='mfm row mb-3'>
@@ -75,7 +75,7 @@ function Mfooter() {
               </div>
               <div className='col-sm-6 col-md-4 mb-2 mfco'>
                 <p>
-                  <a href="/cookiepolicy" className="text-reset mcp">Cookie Policy</a>
+                  <a href="cookiepolicy" className="text-reset mcp">Cookie Policy</a>
                 </p>
               </div>
               <div className="mccp">Copyright © 2023 EXPRESSbase. All rights reserved</div>
