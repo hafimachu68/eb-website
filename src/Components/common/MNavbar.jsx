@@ -30,23 +30,23 @@ function MNavbar() {
     { name: 'Platform Overview', link: '/platform', icon: <img className='po' src={pv} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
     { name: 'Web Forms', link: '/webform', icon: <img className='pv' src={web} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
     { name: 'Documents', link: '/documents', icon: <img className='pv' src={dument} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-    { name: 'Reports', link: 'report', icon: <img className='pv' src={report} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-    { name: 'APIs', link: 'api', icon: <img className='pv' src={api} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-    { name: 'Mobile Apps', link: 'mobileapp', icon: <img className='mv' src={mob} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-    { name: 'Chat Bots', link: 'chatbot', icon: <img className='pv' src={cb} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { name: 'Reports',  icon: <img className='pv' src={report} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { name: 'APIs',  icon: <img className='pv' src={api} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { name: 'Mobile Apps', icon: <img className='mv' src={mob} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { name: 'Chat Bots', icon: <img className='pv' src={cb} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
   ];
 
   const usecaseItems = [
     { name: 'Usecase 1', link: '/Usecase1', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-    { name: 'Usecase 2', link: 'Usecase2', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-    { name: 'Usecase 3', link: 'Usecase3', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-    { name: 'Usecase 4', link: 'Usecase4', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { name: 'Usecase 2',  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { name: 'Usecase 3',  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { name: 'Usecase 4', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
   ];
 
   const resourceItems = [
-    { name: 'FAQs', link: 'faq', icon: <img className='pv ' src={faq} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-    { name: 'Blog', link: 'blog', icon: <img className='pv' src={blog} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-    { name: 'Wiki', link: 'wiki', icon: <img className='pv' src={Wiki} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { name: 'FAQs', icon: <img className='pv ' src={faq} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { name: 'Blog',  icon: <img className='pv' src={blog} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { name: 'Wiki',  icon: <img className='pv' src={Wiki} alt="" />, description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
   ];
 
   return (
