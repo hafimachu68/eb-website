@@ -7,14 +7,19 @@ import report from '../images/reportg1.svg';
 import documents from '../images/documents1.svg';
 import api from '../images/apig1.svg';
 import mobapp from '../images/mobg1.svg';
+import WF from '../images/Web1.png';
+import repo from '../images/Reports.png';
+import docu from '../images/Docu.png';
+import api1 from '../images/API1.png';
 import mainimg from '../images/mainimg.png';
+
 
 function Forms() {
   const overlayData = [
     {
       image: web,
       path: '/webform',
-      imageA: mainimg,
+      imageA: WF,
       text: 'Web Forms',
       mainHeading: 'Build complex enterprise class Web Forms 10x faster',
       paragraph: 'Create powerful multi-lingual,multi-currency enterprise web forms with built-in audit trail, infinite validations and RBAC security.',
@@ -22,7 +27,7 @@ function Forms() {
     {
       image: report,
       path: '/report',
-      imageA: mainimg,
+      imageA: repo,
       text: 'Reports',
       mainHeading: 'Low-Code Reporting tools for Modern Businesses to accelerate decision making',
       paragraph: 'Gain instant access to actionable insights, putting data at your fingertips for informed decision-making.',
@@ -30,7 +35,7 @@ function Forms() {
     {
       image: documents,
       path: '/documents',
-      imageA: mainimg,
+      imageA: docu,
       text: 'Documents',
       mainHeading: 'Document Management for business apps like never before',
       paragraph: 'A document management system that seamlessly integrates into your business process. Say goodbye to toggling between platforms—manage documents in-context,  ensuring seamless access to crucial information.',
@@ -38,7 +43,7 @@ function Forms() {
     {
       image: api,
       path: '/api',
-      imageA: mainimg,
+      imageA: api1,
       text: 'APIs',
       mainHeading: 'Seamlessly Integrate with 3rd Party software',
       paragraph: 'Efficiently integrate third-party applications into your workflow using our futuristic API builder. Simplify cross-platform connectivity and unlock new possibilities for productivity and growth.',

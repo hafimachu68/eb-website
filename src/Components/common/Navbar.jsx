@@ -41,7 +41,8 @@ function Navbar() {
                   <i><img className='po' src={pv} alt="" /></i>Platform Overview
                 </a>
               </h6>
-              <p className='dropara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+              <p className='dropara'>
+              Build custom applications using Low-code technology empowering your business                </p>
             </div>
           </li>
         </div>
@@ -53,7 +54,8 @@ function Navbar() {
                   <i><img className='pv' src={web} alt="" /></i>Web Forms
                 </a>
               </h6>
-              <p className='dropara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+              <p className='dropara'>
+              Create powerful multi-lingual, multi-currency enterprise web forms.                </p>
             </div>
           </li>
         </div>
@@ -67,7 +69,8 @@ function Navbar() {
                   <i><img className='pv' src={dument} alt="" /></i>Documents
                 </a>
               </h6>
-              <p className='dropara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+              <p className='dropara'>
+              A document management system that seamlessly integrates into your business process.                </p>
             </div>
           </li>
         </div>
@@ -79,7 +82,8 @@ function Navbar() {
                   <i><img className='pv' src={report} alt="" /></i>Reports
                 </a>
               </h6>
-              <p className='dropara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+              <p className='dropara'>
+              Gain instant access to actionable insights, putting data at your fingertips for informed decision-making.                </p>
             </div>
           </li>
         </div>
@@ -93,7 +97,8 @@ function Navbar() {
                   <i><img className='pv' src={api} alt="" /></i>APIs
                 </a>
               </h6>
-              <p className='dropara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+              <p className='dropara'>
+              Efficiently integrate third-party applications into your workflow using our futuristic API builder.                 </p>
             </div>
           </li>
         </div>
@@ -105,7 +110,8 @@ function Navbar() {
                   <i><img className='mv' src={mob} alt="" /></i>Mobile Apps
                 </a>
               </h6>
-              <p className='dropara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+              <p className='dropara'>
+              Transform your organization's internal processes with our low-code mobile app platform.                </p>
             </div>
           </li>
         </div>
@@ -117,7 +123,8 @@ function Navbar() {
                   <i><img className='pv' src={cb} alt="" /></i>Chat Bots
                 </a>
               </h6>
-              <p className='dropara'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+              <p className='dropara'>
+              Elevate customer interactions with our low-code chatbot tool.                 </p>
             </div>
           </li>
         </div>
@@ -134,31 +141,31 @@ function Navbar() {
     <li className="usec-item pt-3">
       <div className="platform-text  us-item">
       <a className='link' href="/Usecase1">
-      <h6 className="udrop">Usecase 1</h6>
+      <h6 className="udrop">Usecase 01</h6>
       </a>
-        <p className='udropara'>Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit, sed do eiusmod</p>
+        <p className='udropara'>A cutting-edge attendance management solution designed with the efficiency and simplicity in mind. </p>
       </div>
     </li>
     <li className="usec-item pt-3">
       <div className="platform-text us-item">
       <a className='link' href="/Usecase2">
-      <h6 className="udrop">Usecase 2</h6>
-      </a>        <p className='udropara'>Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit, sed do eiusmod</p>
+      <h6 className="udrop">Usecase 02</h6>
+      </a>        <p className='udropara'>A van sales management mobile app that can be easily customized, using low-code technology. </p>
       </div>
     </li>
     <li className="usec-item pt-3 ">
       <div className="platform-text us-item">
       <a className='link' href="/Usecase3">
-      <h6 className="udrop">Usecase 3</h6>
-      </a>          <p className='udropara'>Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit, sed do eiusmod</p>
+      <h6 className="udrop">Usecase 03</h6>
+      </a>          <p className='udropara'>A dynamic customer relationship management (CRM) application,  meticulously crafted using low-code technology. </p>
       </div>
     </li>
     <li className="usec-item pt-3 ">
       <div className="platform-text us-item">
       <a className='link' href="/Usecase4">
-      <h6 className="udrop">Usecase 4</h6>
+      <h6 className="udrop">Usecase 04</h6>
       </a>        
-       <p className='udropara'>Lorem ipsum dolor sit amet, consectetur adipiscing<br/> elit, sed do eiusmod</p>
+       <p className='udropara'>A bespoke application developed using low-code technology that redefines the process of creating, managing, and tracking quotations.</p>
       </div>
     </li>
   </ul>
@@ -177,19 +184,19 @@ function Navbar() {
                 <li className="usec-item my-2">
                   <div className="platform-text rs-text">
                     <h6 className="hedrop"> <a className='link' href="/faq">   <i> <img className='pv' src={faq} alt="" /> </i>FAQs</a></h6>
-                    <p className='dropara'>Lorem ipsum dolor sit amet, consectetur <br/>adipiscing elit, sed do eiusmod</p>
+                    {/* <p className='dropara'>Lorem ipsum dolor sit amet, consectetur <br/>adipiscing elit, sed do eiusmod</p> */}
                   </div>
                 </li>
                 <li className="usec-item my-2">
                   <div className="platform-text rs-text">
                     <h6 className="hedrop">  <i> <img className='pv' src={blog} alt="" /> </i>Blog</h6>
-                    <p className='dropara'>Lorem ipsum dolor sit amet, consectetur <br/>adipiscing elit, sed do eiusmod</p>
+                    {/* <p className='dropara'>Lorem ipsum dolor sit amet, consectetur <br/>adipiscing elit, sed do eiusmod</p> */}
                   </div>
                 </li>
                 <li className="usec-item  my-2">
                   <div className="platform-text rs-text">
                     <h6 className="hedrop">  <i> <img className='pv' src={Wiki} alt="" /> </i>Wiki</h6>
-                    <p className='dropara'>Lorem ipsum dolor sit amet, consectetur <br/>adipiscing elit, sed do eiusmod</p>
+                    {/* <p className='dropara'>Lorem ipsum dolor sit amet, consectetur <br/>adipiscing elit, sed do eiusmod</p> */}
                   </div>
                 </li>
                 

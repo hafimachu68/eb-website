@@ -1,7 +1,13 @@
 import React from "react";
 import Slider from "react-slick";
 import "./css/centerMode.css"; // Import the CSS file
-import bimage1 from '../images/bxpg.png';
+import bimage1 from '../images/QM.png';
+import bimage2 from '../images/CRM.png';
+import bimage3 from '../images/VSA.png';
+// import bimage4 from '../images/Docu.png';
+import bimage5 from '../images/AM.png';
+
+
 import cric from '../images/cric.png';
 
 function CenterMode() {
@@ -34,7 +40,7 @@ function CenterMode() {
               <button className="btn cntrbtn" >Explore</button>
             </div>
             <div className="col">
-              <img src={bimage1} alt="Image 1" />
+              <img src={bimage5} alt="Image 1" />
             </div>
           
           </div>
@@ -58,7 +64,7 @@ function CenterMode() {
               <button className="btn cntrbtn" >Explore</button>
             </div>
             <div className="col">
-              <img src={bimage1} alt="Image 1" />
+              <img src={bimage3} alt="Image 1" />
             </div>
           
           </div>
@@ -105,7 +111,7 @@ function CenterMode() {
               <button className="btn cntrbtn" >Explore</button>
             </div>
             <div className="col">
-              <img className="crmpg"  src={bimage1} alt="Image 1" />
+              <img className="crmpg"  src={bimage2} alt="Image 1" />
             </div>
           
           </div>

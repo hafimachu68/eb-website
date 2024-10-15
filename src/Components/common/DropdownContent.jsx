@@ -13,7 +13,7 @@ const DropdownContent = ({ title, items, onBack }) => {
           <FontAwesomeIcon icon={faChevronLeft} />
         </span>
       </div>
-      <ul className="navbar-nav text-left mb-2 mb-lg-0 mt-4">
+      <ul className="navbar-nav text-left mb-2 mb-lg-0 ">
         {items.map((item, index) => (
           <li key={index} className="nav-item dropdown mx-4 dropdown-item">
             <a className='nav-link  link' href={item.link}>

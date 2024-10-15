@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/git.css';
-import ctpg  from '../images/ctpg.png'; // Import your logo file
+import ctpg  from '../images/calendly.png'; // Import your logo file
 import background from '../images/CTAbg.png'; // Import your image
 
 
@@ -27,7 +27,7 @@ function Ctaheading() {
         </div>
           </div>
           <div className="col-md-5 ctmg">
-          <div className='ctpg'><img src={ctpg} alt="Your Image" /></div>
+          <div className='ctpg '><img src={ctpg} className='ctpimg mt-4 p-3' alt="Your Image" /></div>
           </div>
         </div>
 

@@ -7,6 +7,11 @@ body {
     font-size: 4.5rem;
     color: black;
   }
+  .ctpimg{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 2rem;
+}
   
 .ctbg {
     height: 500px;
