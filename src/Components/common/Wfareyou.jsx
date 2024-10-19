@@ -22,13 +22,13 @@ function Wfareyou() {
               </a> */}
             </div>
           </div>
-          <div className="pt-3">
+          {/* <div className="pt-3">
             <div className="container pt-4 mt-3">
               <div id="video-container">
                 <iframe id="video-player" width="100%" height="568px" src="https://www.youtube.com/embed/WNxuiFhrQUM?rel=0&showinfo=0" frameBorder="0" allowFullScreen></iframe>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

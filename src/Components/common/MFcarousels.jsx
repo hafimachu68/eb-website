@@ -1,11 +1,11 @@
 import React from 'react';
 import { Carousel, Card, Button, Col, Row } from 'react-bootstrap'; // Removed CarouselControl import
-import bimage1 from '../images/wfimg1.png';
-import bimage2 from '../images/wfimg2.png';
-import bimage3 from '../images/wfimg3.png';
-import bimage4 from '../images/wfimg4.png';
-import bimage5 from '../images/wfimg5.png';
 import './css/mform.css';
+import bimage1 from '../images/fm.png';
+import bimage2 from '../images/fm2.png';
+import bimage3 from '../images/f3.png';
+import bimage4 from '../images/f4.png';
+import bimage5  from '../images/f5.png';
 
 
 function MFcarousels() {

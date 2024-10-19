@@ -1,6 +1,6 @@
 body {
     overflow-x: hidden;
-    /* width: 102%; */
+    width: 102%;
 }
 .cursor {
     font-weight: 100;
@@ -10,9 +10,12 @@ body {
   .ctpimg{
     width: 100%;
     object-fit: contain;
-    border-radius: 2rem;
+    /* border-radius: 2rem; */
 }
-  
+  .rcti{
+    margin-top: 6rem !important;
+    margin-left: -2%;
+  }
 .ctbg {
     height: 500px;
     background-position: center;
@@ -53,8 +56,10 @@ body {
 }
 
 .ctpg {
-    padding-top: 80px;
-    padding-left: 50px;
+    /* padding-top: 80px;
+    padding-left: 50px; */
+width: 80%;
+padding: 1rem;
 }
 .rctpg {
     padding-top: 80px;

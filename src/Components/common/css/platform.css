@@ -1,5 +1,5 @@
 .platform-header {
-    min-height: 665px;
+    min-height: 535px;
     width: 100%;
     font-family: alata;
     font-weight: 300;
@@ -12,7 +12,7 @@
   }
   
   .ploutoverlay {
-    min-height: 665px;
+    min-height: 535px;
     width: 100%;
     font-family: "Fira Sans", sans-serif;
     font-weight: 300;
@@ -83,7 +83,7 @@
     font-style: normal;
 }
   .pl_bottom{
-    padding-top: 59px;
+    padding-top: 12%;
     text-align: center;
   }
   .ph{

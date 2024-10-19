@@ -16,9 +16,8 @@ function Mfooter() {
               </div>
             </div>
             <div className="mt-4 py-2 mfpp">
-              <p>
-                Here you can use rows and columns to organize your footer content. 
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              <p style={{width:'73%'}}>
+              ExpressBase Systems specializes in low-code solutions, offering customizable  CRM, ERP, mobile apps,  chatbot integrations and many more to streamline operations and boost efficiency.
               </p>
             </div>
             <div className="mb-3 py-2 mfp">

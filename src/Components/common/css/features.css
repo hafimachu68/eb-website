@@ -16,6 +16,24 @@
     color:#193054    ;
     font-family: "Fira Sans", sans-serif;
 }
+.rb{
+    width: 77% !important;
+    margin-left: 12% !important;
+    
+}
+.rbb{
+    width: 80% !important;
+    margin-left: 11% !important;
+    background: linear-gradient(to bottom,#FFFFFF,#C9E0FF    );
+
+}
+.rbimg{
+    width: 85%;
+    height: 600px;
+    margin-left: 7.5%;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
 /* Initially hide elements */
 .row.sb {
     opacity: 0;
@@ -277,10 +295,11 @@ color: black;
 
 }
 .rmainimg{
-    width: 93%;
-    margin-left: 3.5%;
-    padding-bottom: 40px;
-    padding-top: 40px;
+  
+        width: 85%;
+        margin-left: 7.5%;
+        padding-bottom: 40px;
+        padding-top: 40px;
 
 }
 

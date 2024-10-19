@@ -1,8 +1,10 @@
 import React from 'react'
-import logo from '../images/Group.png'; // Import your logo file
 import wfimg from '../images/Gdibba.jpg';
 import './css/usecase.css';
-import CenterMode from './Slickcarousel';
+import amt from '../images/vs.png';
+import icu from '../images/icu.svg';
+import ict from '../images/ict.svg';
+import icd from '../images/icd.svg';
 
 function Usec2() {
   return (
@@ -11,10 +13,10 @@ function Usec2() {
         <div className="p-5">
           <div className="">
             <div className="text-md-center mb-4 mb-md-0">
-              <div className="logo-container">
-                <img src={logo} alt="Logo" className="logo" /> {/* Insert your logo here */}
-                <p className='pare'>Sub Heading</p>
-              </div>
+            <div className="logo-container">
+            <img src={icu} alt="Logo" className="logo" /> {/* Insert your logo here */}
+            <p className='pare'>Use Case 02</p>
+          </div>
               <h3 className="head" style={{ color: '#193054' }}>Custom Van Sales App</h3>
               <div className="greenunderline"></div>
               <p className="para1 pt-4">
@@ -23,21 +25,28 @@ function Usec2() {
             </div>
           </div>
           <div className="pt-5">
-            <div className="container pt-4 mt-3">
-              <div style={{ width: '138%', marginLeft: '-15%' }}>
-                <CenterMode />
+            <div className="container pt-4 mt-3 ">
+              <div className="text-center">
+              <img src={amt}alt="Image" style={{ width: '80%' }} />
+
               </div>
 
+
               <div className='pt-5'style={{ marginTop:'7%' }}>
-                <h2 className='use1'>Challenges faced</h2>
+              <div className="logo-container">
+               <img src={ict} alt="Logo" className="logo " style={{ width: '48px',height:'48px', }} /> {/* Insert your logo here */}
+               <h2 className='use1 '>Challenges faced</h2>
+               </div>                
                 <p className="para1 pt-2">
                   Dibba Modern Bakery, a prominent bakery in Dubai, faced significant challenges in managing its extensive production and distribution network. With deliveries to numerous stores and hotels, keeping track of sales invoices and inventory for each customer had become a complex task. First, frequent connectivity issues in remote areas hindered sales representatives from accessing real-time data and updating sales information on the go. Second, the inefficiency of their existing van sales app impacted the productivity of the sales team, leading to customer dissatisfaction. Lastly, the app lacked integration with the company’s inventory management system, resulting in discrepancies between stock levels and orders. These collective challenges significantly hindered the effectiveness of Dibba Modern Bakery’s van sales operations, affecting both sales performance and customer service quality.
                 </p>
               </div>
 
               <div className='pt-5'>
-                <h2 className='use1'>How our Custom Van Sales app helped them?</h2>
-                <p className="pt-2">
+              <div className="logo-container">
+               <img src={icd} alt="Logo" className="logo"  style={{ width: '48px',height:'48px', marginTop:'-2%' }}/> {/* Insert your logo here */}
+               <h2 className='use1 '>How our Custom Van Sales app helped them?</h2>
+               </div>                  <p className="pt-2">
                   To address the challenges faced by Dibba Modern Bakery, ExpressBase Systems provided a customized software solution. Here are the key components:
                 </p>
                 <ol className="">

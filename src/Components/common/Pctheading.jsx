@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/git.css';
-import ctpg  from '../images/ctpg.png'; // Import your logo file
+import ctpg  from '../images/calendly.png'; // Import your logo file
 import background from '../images/CTAbg.png'; // Import your image
 
 
@@ -9,7 +9,7 @@ import background from '../images/CTAbg.png'; // Import your image
 function Pctaheading() {
   return (
     <div className='pctbg'style={{backgroundImage: `url(${background})`}}>
-        <div className="row">
+        <div className="row mb-5">
           <div className="col-md-7">
           <div className='text-white ctc'>
         <h1 className= 'cth py-3'>We're just a click away! </h1>
@@ -19,13 +19,17 @@ function Pctaheading() {
         </div>
        
         <div className='pb-4'>
+        <a href="https://zcal.co/sureba73">
+
           <button className='btn ctb  fw-bold'>Contact Us</button>
+          </a>
         </div>
         </div>
           </div>
-          <div className="col-md-5 ctmg">
-          <div className='ctpg'>
-            <img src={ctpg} alt="Your Image" /></div>
+          <div className="col-md-5 ctmg mt-5">
+          <div className='ctpg ' style={{marginTop:"6rem"}} >
+            <img src={ctpg} className='ctpimg ' alt="Your Image" />
+            </div>
           </div>
         </div>
 

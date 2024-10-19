@@ -9,7 +9,7 @@ import background from '../images/CTAbg.png'; // Import your image
 function Ctaheading() {
   return (
     <div className='ctbg'style={{backgroundImage: `url(${background})`}}>
-        <div className="row">
+        <div className="row"  style={{marginTop:'-3rem'}}>
           <div className="col-md-7">
           <div className='text-white ctc'>
         <h1 className= 'cth py-3'>Book a Demo</h1>
@@ -27,7 +27,7 @@ function Ctaheading() {
         </div>
           </div>
           <div className="col-md-5 ctmg">
-          <div className='ctpg '><img src={ctpg} className='ctpimg mt-4 p-3' alt="Your Image" /></div>
+          <div className='ctpg'  style={{marginTop:'6rem'}}><img src={ctpg} className='ctpimg mt-4 p-3' alt="Your Image" /></div>
           </div>
         </div>
 

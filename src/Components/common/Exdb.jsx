@@ -37,7 +37,7 @@ function Exdb() {
           <div className="text-md-center mb-4 mb-md-0">
             <div className="logo-container">
               <img src={feic} alt="Logo" className="flogo" />
-              <p className='feic rb'>APPLICATION SECURITY </p>
+              <p className='feic '>APPLICATION SECURITY </p>
             </div>
             <h3 className="head">Role Based Access Control (RBAC)</h3>
             {/* <p className=" para1 pt-3">

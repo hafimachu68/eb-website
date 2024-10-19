@@ -2,7 +2,16 @@
     padding: 35px;
    margin-bottom: -40px;
  }
- 
+ .mhead{
+  font-size: 44px;
+    color: #193054;
+    font-family: "Blinker", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+ }
+ .rm{
+  margin-left: -25px;
+ }
  .mbc{
      padding: 60px;
      border: none;
@@ -10,7 +19,16 @@
      text-align: center;
  }
  .mimg{
-    margin-top: 45px !important;
+    margin-top: 25px !important;
+ }
+ .mobg{
+  width: 100%;
+   object-fit: contain;
+
+ }
+ .mog{
+  width: 100%;
+    overflow: hidden;
  }
  .mbcc{
      margin-top: -130px;
@@ -124,3 +142,8 @@
     }
   }
   
+
+  .flex{
+    display: flex;
+    justify-content: space-around !important;
+  }

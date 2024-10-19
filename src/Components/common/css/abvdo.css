@@ -119,10 +119,11 @@
   .left {
    padding-top: 85px;
     padding-right: 20px;
+    width: 130%;
   }
   
   .righta {
-    
+    width: 100%;
     padding: 20px;
   }
 
@@ -149,9 +150,11 @@
 
 } 
 .abmg1{
-  padding-bottom: 27px;
+  padding-top: 27px;
 }
-  
+  .ctb1{
+    margin-top: -3rem;
+  }
 .abb{
   
   text-align: left;

@@ -1,7 +1,7 @@
 import React from 'react';
 import './css/abvdo.css'; // Import your CSS file
 import traimg from '../images/traimg.png';
-import trlmg from '../images/trlmg.png';
+import trlmg from '../images/calendly.png';
 
 function ABcthead() {
   return (

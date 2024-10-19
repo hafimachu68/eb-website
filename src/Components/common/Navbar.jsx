@@ -180,20 +180,20 @@ function Navbar() {
               <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                Resources
               </a>
-              <ul className="dropdown-menu usecase-menu" aria-labelledby="navbarDropdown1">
-                <li className="usec-item my-2">
+              <ul className="dropdown-menu uecase-menu" aria-labelledby="navbarDropdown1">
+                <li className="rsec-item my-2">
                   <div className="platform-text rs-text">
                     <h6 className="hedrop"> <a className='link' href="/faq">   <i> <img className='pv' src={faq} alt="" /> </i>FAQs</a></h6>
                     {/* <p className='dropara'>Lorem ipsum dolor sit amet, consectetur <br/>adipiscing elit, sed do eiusmod</p> */}
                   </div>
                 </li>
-                <li className="usec-item my-2">
+                <li className="rsec-item my-2">
                   <div className="platform-text rs-text">
                     <h6 className="hedrop">  <i> <img className='pv' src={blog} alt="" /> </i>Blog</h6>
                     {/* <p className='dropara'>Lorem ipsum dolor sit amet, consectetur <br/>adipiscing elit, sed do eiusmod</p> */}
                   </div>
                 </li>
-                <li className="usec-item  my-2">
+                <li className="rsec-item  my-2">
                   <div className="platform-text rs-text">
                     <h6 className="hedrop">  <i> <img className='pv' src={Wiki} alt="" /> </i>Wiki</h6>
                     {/* <p className='dropara'>Lorem ipsum dolor sit amet, consectetur <br/>adipiscing elit, sed do eiusmod</p> */}

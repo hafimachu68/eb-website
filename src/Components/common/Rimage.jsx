@@ -16,7 +16,7 @@ function Rimage() {
       <div className="row">
         <div className="col-md-6">
           <div className="pt-5 me-4">
-            <div className={`rm form-check radio-box ${selectedImage === 'image1' ? 'checked' : ''}`} id="radio1">
+            <div className={`form-check radio-box ${selectedImage === 'image1' ? 'checked' : ''}`} id="radio1">
               <input
                 className="form-check-input"
                 type="radio"

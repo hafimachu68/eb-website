@@ -4,16 +4,16 @@ import ctpg  from '../images/calendly.png'; // Import your logo file
 import background from '../images/CTAbg.png'; // Import your image
 
 
-function Mbcthead() {
+function FQcthead() {
   return (
     <div className='ctbg'style={{backgroundImage: `url(${background})`}}>
         <div className="row">
           <div className="col-md-7">
           <div className='text-white ctc'>
-        <h1 className= 'cth py-3'>Book a Demo</h1>
+        <h1 className= 'cth py-3'>Still have questions?</h1>
         <div className="ctp pb-5">
-        <p className=' '>E-meet our engineers who will demonstrate diverse solutions built using the EXPRESSbase Platform. Share your requirements with our team and gain valuable insights to refine your strategies.
-          </p>
+        <p className=' '>
+        Cant find answers to your questions? Get in touch with our experts!          </p>
         </div>
        
         <div className='pb-4'>
@@ -33,4 +33,4 @@ function Mbcthead() {
   )
 }
 
-export default Mbcthead
+export default FQcthead

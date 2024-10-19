@@ -2,7 +2,10 @@ import React from 'react';
 import logo from '../images/Group.png'; // Import your logo file
 import wfimg from '../images/Gdibba.jpg';
 import './css/usecase.css';
-
+import amt from '../images/vs.png';
+import icu from '../images/icu.svg';
+import ict from '../images/ict.svg';
+import icd from '../images/icd.svg';
 function Usec4() {
   return (
     <div>
@@ -10,10 +13,10 @@ function Usec4() {
         <div className="p-5">
           <div className="">
             <div className="text-md-center mb-4 mb-md-0">
-              <div className="logo-container">
-                <img src={logo} alt="Logo" className="logo" /> {/* Insert your logo here */}
-                <p className='pare'>Sub Heading</p>
-              </div>
+            <div className="logo-container">
+            <img src={icu} alt="Logo" className="logo" /> {/* Insert your logo here */}
+            <p className='pare'>Use Case 04</p>
+          </div>
               <h3 className="head" style={{ color: '#193054' }}>Quotation Management</h3>
               <div className="greenunderline"></div>
               <p className="pt-4">

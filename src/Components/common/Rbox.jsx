@@ -96,7 +96,7 @@ function Rbox() {
       <div className=''></div>
       {activeOverlayIndex !== null && (
         <div className="">
-          <div className="overlays">
+          <div className="overlays rb ">
             {overlayData.map((data, index) => (
               <div className="col-md-2 over" key={index} onClick={() => handleClick(index)}>
                 <div className={`overlay-box text-center ${activeOverlayIndex === index ? 'active' : ''}`}>
@@ -106,10 +106,10 @@ function Rbox() {
               </div>
             ))}
           </div>
-          <div className="rdiv">
-          <div className="row content">
+          <div className="rdiv rbb">
+          <div className="row ">
           <div className="">
-            <img className="mainimg" src={overlayData[activeOverlayIndex].imageA} alt="imga" />
+            <img className="rbimg" src={overlayData[activeOverlayIndex].imageA} alt="imga" />
           </div>
           <div className="">
             <img className="rmainimg" src={overlayData[activeOverlayIndex].imageB} alt="imga" />
