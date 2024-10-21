@@ -55,6 +55,11 @@
     font-family: "Blinker", sans-serif;
 
 }
+.cntrbtn:hover{
+  background: linear-gradient(to top, #DCE9FD , #C8DDFF );
+  color: black;
+  
+  }
 .cntrb{
   margin-top: -135px;
 }

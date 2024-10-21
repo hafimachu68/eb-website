@@ -14,10 +14,10 @@ function Footer() {
           <div className="col-md-6 col-lg-6 mb-4">
             {/* Content */}
             <img className='fimg' src={exlog} alt="" />
-            <p className='mt-4 py-2' style={{width:'73%'}}>
+            <p className='mt-4 py-2 para1' style={{width:'77%',lineHeight:'2'}}>
             ExpressBase Systems specializes in low-code solutions, offering customizable  CRM, ERP, mobile apps,  chatbot integrations and many more to streamline operations and boost efficiency.
             </p>
-            <div className="mb-3 py-5">
+            <div  style={{paddingTop:'5rem'}}>
               <input type="email" className="input-field" placeholder="Your email address here" />
               <button className="btn bclr" type="button">Subscribe to our Newsletter</button>
             </div>

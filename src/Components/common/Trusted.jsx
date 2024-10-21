@@ -26,9 +26,9 @@ import at8 from '../images/tadaang.png';
 
 function Trusted() {
   return (
-    <div className="container trcont">
+    <div className="container">
       {/* First Row */}
-      <div className="row"> 
+      <div className="row justify-content-center"> 
         <div className="col-md-2 tbody mx-3 ">
           <img src={Start_up_Mission} className="trusted-img " alt="Start_up_Mission" />
         </div>
@@ -47,7 +47,7 @@ function Trusted() {
       </div>
 
       {/* Second Row */}
-      <div className="row">
+      <div className="row justify-content-center">
         <div className="col-md-2 tbody mx-3 ">
           <img src={at1} className="trusted-img mx-3 " alt="ict" />
         </div>
@@ -66,7 +66,7 @@ function Trusted() {
       </div>
 
       {/* Third Row */}
-      <div className="row">
+      <div className="row justify-content-center">
         <div className="col-md-2 tbody mx-3  ">
           <img src={liwa} className="trusted-img " alt="liwa" />
         </div>
@@ -85,7 +85,7 @@ function Trusted() {
       </div>
 
       {/* Fourth Row */}
-      <div className="row">
+      <div className="row justify-content-center">
         <div className="col-md-2 tbody mx-3  ">
           <img src={at5} className="trusted-img " alt="dibba" />
         </div>

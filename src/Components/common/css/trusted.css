@@ -30,5 +30,5 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.3s ease;
-    margin: 10px; /* Add margin to create space between each column */
+    margin: 1rem; /* Add margin to create space between each column */
   }

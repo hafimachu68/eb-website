@@ -269,12 +269,7 @@ margin-top: -2px;
 .mtrusted-item{
   padding: 1rem;
 }
-.tbody {
-  border: 1px solid transparent;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding a box shadow for a 3D look */
-  transition: box-shadow 0.3s ease; /* Smooth transition for box shadow */
-}
+
 
 .tbody:hover {
   background-color: white;
