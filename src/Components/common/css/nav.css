@@ -2,6 +2,20 @@
   padding: 1rem 2rem; /* Adjust padding as needed */
 }
 
+/* Set the maximum width for the list item */
+.nav-item.mn {
+  max-width: 300px; /* Adjust this value as needed */
+  white-space: normal; /* Allow the text to wrap */
+}
+
+/* Optional: You can add styling to the paragraph for better control */
+.dropara {
+  margin-top: 5px;
+  font-size: 14px; /* Adjust the font size as needed */
+  line-height: 1.5; /* Improve readability */
+}
+
+
 .log {
   margin-left: 3rem; /* Adjust margin as needed */
 
@@ -55,7 +69,7 @@
 }
 
 .demo {
-  margin-left: 11rem; /* Adjust margin as needed */
+  margin-left: 7rem; /* Adjust margin as needed */
 }
 .link{
   color: black !important;
@@ -315,4 +329,42 @@
 .dropara {
   color: gray; /* Style as needed */
   font-size: 13px; /* Adjust size as needed */
+}
+.navbar {
+  padding: 1rem; /* Adjust padding as needed */
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between; /* Reduce gap between logo and nav content */
+  align-items: center; /* Center items vertically */
+  max-width: 1200px; /* Set a max-width to prevent stretching */
+  margin: 0 auto; /* Center the container */
+}
+
+.navbar-collapse {
+  flex-grow: 0; /* Prevents the navbar-collapse from taking extra space */
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center; /* Center nav items */
+  margin-left: auto; /* Pushes the nav items to the right */
+}
+
+.logo-img {
+  margin-right: 1rem; /* Reduce the right margin to decrease the gap */
+}
+
+
+
+@media (max-width: 768px) {
+  .container-fluid {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+  }
 }

@@ -15,7 +15,7 @@ const DropdownContent = ({ title, items, onBack }) => {
       </div>
       <ul className="navbar-nav text-left mb-2 mb-lg-0 ">
         {items.map((item, index) => (
-          <li key={index} className="nav-item dropdown mx-4 dropdown-item">
+          <li key={index} className="nav-item dropdown mx-4 dropdown-item mn">
             <a className='nav-link  link' href={item.link}>
               <i className='px-3'>{item.icon}</i> {item.name}
             </a>

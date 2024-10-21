@@ -26,82 +26,82 @@ function Mtrusted() {
     <div className="container">
       <div className="mtrusted-sec-body">
       <div className="trusted-img-wrapper">
-          <img src={at1} className="mtrusted-img mtbody tbody" alt="asha" />
+          <img src={at1} className="mtrusted-img mtbody " alt="asha" />
         </div>
         <div className="trusted-img-wrapper">
-          <img src={at2} className="mtrusted-img mtbody tbody" alt="asha" />
+          <img src={at2} className="mtrusted-img mtbody " alt="asha" />
         </div><div className="trusted-img-wrapper">
-          <img src={at3} className="mtrusted-img mtbody tbody" alt="asha" />
+          <img src={at3} className="mtrusted-img mtbody " alt="asha" />
         </div>
         {/* Start_up_Mission */}
         <div className="trusted-img-wrapper">
-          <img src={Start_up_Mission} className="mtrusted-img mtbody tbody" alt="Start_up_Mission" />
+          <img src={Start_up_Mission} className="mtrusted-img mtbody " alt="Start_up_Mission" />
         </div>
         {/* kase */}
         <div className="trusted-img-wrapper">
-          <img src={kase} className="mtrusted-img mtbody tbody" alt="kase" />
+          <img src={kase} className="mtrusted-img mtbody " alt="kase" />
         </div>
         {/* kdisc */}
         <div className="trusted-img-wrapper">
-          <img src={kdisc} className="mtrusted-img mtbody tbody" alt="kdisc" />
+          <img src={kdisc} className="mtrusted-img mtbody " alt="kdisc" />
         </div>
         {/* kssb */}
         <div className="trusted-img-wrapper">
-          <img src={kssb} className="mtrusted-img mtbody tbody" alt="kssb" />
+          <img src={kssb} className="mtrusted-img mtbody " alt="kssb" />
         </div>
         {/* kudumbashri */}
         <div className="trusted-img-wrapper">
-          <img src={kudumbashri} className="mtrusted-img mtbody tbody" alt="kudumbashri" />
+          <img src={kudumbashri} className="mtrusted-img mtbody " alt="kudumbashri" />
         </div>
         {/* hoc */}
         <div className="trusted-img-wrapper">
-          <img src={hoc} className="mtrusted-img mtbody tbody" alt="hoc" />
+          <img src={hoc} className="mtrusted-img mtbody " alt="hoc" />
         </div>
         {/* zdiac */}
         <div className="trusted-img-wrapper">
-          <img src={zdiac} className="mtrusted-img mtbody tbody" alt="zdiac" />
+          <img src={zdiac} className="mtrusted-img mtbody " alt="zdiac" />
         </div>
         {/* liwa */}
         <div className="trusted-img-wrapper">
-          <img src={liwa} className="mtrusted-img mtbody tbody" alt="liwa" />
+          <img src={liwa} className="mtrusted-img mtbody " alt="liwa" />
         </div>
         {/* clinic7 */}
         <div className="trusted-img-wrapper">
-          <img src={clinic7} className="mtrusted-img mtbody tbody" alt="clinic7" />
+          <img src={clinic7} className="mtrusted-img mtbody " alt="clinic7" />
         </div>
         {/* alarz */}
         <div className="trusted-img-wrapper">
-          <img src={alarz} className="mtrusted-img mtbody tbody" alt="alarz" />
+          <img src={alarz} className="mtrusted-img mtbody " alt="alarz" />
         </div>
         {/* dibba */}
         <div className="trusted-img-wrapper">
-          <img src={dibba} className="mtrusted-img mtbody tbody" alt="dibba" />
+          <img src={dibba} className="mtrusted-img mtbody " alt="dibba" />
         </div>
         {/* asha */}
         <div className="trusted-img-wrapper">
-          <img src={asha} className="mtrusted-img mtbody tbody" alt="asha" />
+          <img src={asha} className="mtrusted-img mtbody " alt="asha" />
         </div>
        
         
         {/* at4 */}
         <div className="trusted-img-wrapper">
-          <img src={at4} className="mtrusted-img mtbody tbody" alt="at4" />
+          <img src={at4} className="mtrusted-img mtbody " alt="at4" />
         </div>
         {/* at5 */}
         <div className="trusted-img-wrapper">
-          <img src={at5} className="mtrusted-img mtbody tbody" alt="at5" />
+          <img src={at5} className="mtrusted-img mtbody " alt="at5" />
         </div>
         {/* at6 */}
         <div className="trusted-img-wrapper">
-          <img src={at6} className="mtrusted-img mtbody tbody" alt="at6" />
+          <img src={at6} className="mtrusted-img mtbody " alt="at6" />
         </div>
         {/* at7 */}
         <div className="trusted-img-wrapper at78 ">
-          <img src={at7} className="mtrusted-img mtbody  tbody" alt="at7" />
+          <img src={at7} className="mtrusted-img mtbody  " alt="at7" />
         </div>
         {/* at8 */}
         <div className="trusted-img-wrapper at87">
-          <img src={at8} className="mtrusted-img mtbody  tbody" alt="at8" />
+          <img src={at8} className="mtrusted-img mtbody" alt="at8" />
         </div>
       </div>
     </div>

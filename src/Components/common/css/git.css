@@ -1,6 +1,6 @@
 body {
     overflow-x: hidden;
-    width: 102%;
+    width: 100%;
 }
 .cursor {
     font-weight: 100;
@@ -119,6 +119,7 @@ padding: 1rem;
 @media (max-width: 768px) {
     .ctc{
         padding-top: 27px;
+        margin-top: 1rem;
     }
     .cth{
         margin-left: 17px;
@@ -134,13 +135,13 @@ padding: 1rem;
 
     }
     .ctpg {
-        padding-left: 0rem;
-        margin-top: 6rem;
+        padding-left: 0rem !important;
+        width: 100%;
+        margin-top: -3rem !important;
     }
     .ctpg img{
-        width: 85%;
-        /* margin-left: 14px; */
-        margin-top: 14px;
+        width: 100%;
+        margin-left: 6px;
     
     }
     .ctbg {
@@ -149,10 +150,7 @@ padding: 1rem;
     .ctc{
         margin-left: 4%;
     }
-    .ctmg{
-        margin-top: -246px;
-        text-align: center
-    }
+    
     .gcontainer{
         height:50vh !important;
     }

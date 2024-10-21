@@ -1,7 +1,10 @@
 .carousel-card {
     border: none;
 }
-
+.mcc{
+    margin-left: 1%;
+    margin-top: 1rem;
+}
 .arrow-btn {
     background: none;
     border: none;
@@ -209,6 +212,13 @@ border: none;        }
     width: 325px;
     /* height: 112% !important; */
     margin-left: -31px;
+    margin-top: 10%;
+    padding-bottom: 5rem;
+}
+.mcmg{
+    width: 366px;
+    /* height: 112% !important; */
+    /* margin-left: -31px; */
     margin-top: 10%;
     padding-bottom: 5rem;
 }

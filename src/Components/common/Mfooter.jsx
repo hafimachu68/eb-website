@@ -16,7 +16,7 @@ function Mfooter() {
               </div>
             </div>
             <div className="mt-4 py-2 mfpp">
-              <p style={{width:'73%'}}>
+              <p style={{width: '100%',lineHeight: '2'}}>
               ExpressBase Systems specializes in low-code solutions, offering customizable  CRM, ERP, mobile apps,  chatbot integrations and many more to streamline operations and boost efficiency.
               </p>
             </div>

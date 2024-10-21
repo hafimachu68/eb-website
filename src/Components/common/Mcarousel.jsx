@@ -2,7 +2,11 @@ import React, { useRef } from 'react';
 import { Carousel, Card, Button, Col, Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
-import bimage1 from '../images/mcg.png';
+import bimage1 from '../images/QM.png';
+import bimage2 from '../images/CRM.png';
+import bimage3 from '../images/VSA.png';
+// import bimage4 from '../images/Docu.png';
+import bimage5 from '../images/AM.png';
 import cric from '../images/cric.png';
 import './css/mform.css';
 
@@ -26,7 +30,7 @@ function Mcarousel() {
       <Carousel ref={carouselRef} interval={null} className="custom-carouse" style={{ width: '100%', height: '100%' }}>
         <Carousel.Item>
           <Card className="mbg text-light">
-            <Card.Body className='cbm'>
+            <Card.Body className='mcc'>
               <Row className='pt-3'>
                 <Col>
                   <img src={cric} alt="Web Forms Icon" className="mflogo" />
@@ -40,14 +44,14 @@ function Mcarousel() {
                 A cutting-edge attendance management solution designed with efficiency and simplicity in mind. Whether you're a small business, educational institution, or large corporation, this solution empowers you to effortlessly monitor attendance, streamline administrative tasks, and enhance productivity.
               </Card.Text>
               <Button variant="light">Explore</Button>
-              <Card.Img className='mbmg' src={bimage1} alt="First slide" />
+              <Card.Img className='mcmg' src={bimage1} alt="First slide" />
             </Card.Body>
           </Card>
         </Carousel.Item>
 
         <Carousel.Item>
           <Card className="mbg text-light">
-            <Card.Body className='cbm'>
+            <Card.Body className='mcc'>
               <Row className='pt-3'>
                 <Col>
                   <img src={cric} alt="Web Forms Icon" className="mflogo" />
@@ -61,14 +65,14 @@ function Mcarousel() {
                 A van sales management mobile app that can be easily customized, using low-code technology. Ideal for businesses in the distribution and retail sectors, it empowers sales teams to efficiently process orders, manage sales, and enhance customer satisfaction on the go. It works offline too!
               </Card.Text>
               <Button variant="light">Explore</Button>
-              <Card.Img className='mbmg' src={bimage1} alt="First slide" />
+              <Card.Img className='mcmg' src={bimage2} alt="First slide" />
             </Card.Body>
           </Card>
         </Carousel.Item>
 
         <Carousel.Item>
           <Card className="mbg text-light">
-            <Card.Body className='cbm'>
+            <Card.Body className='mcc'>
               <Row className='pt-3'>
                 <Col>
                   <img src={cric} alt="Web Forms Icon" className="mflogo" />
@@ -82,14 +86,14 @@ function Mcarousel() {
                 A bespoke application developed using low-code technology that redefines the process of creating, managing, and tracking quotations. It empowers sales teams to streamline quotation workflows, improve accuracy, cuts down time & effort substantially, and enhance customer satisfaction with ease.
               </Card.Text>
               <Button variant="light">Explore</Button>
-              <Card.Img className='mbmg' src={bimage1} alt="First slide" />
+              <Card.Img className='mcmg' src={bimage3} alt="First slide" />
             </Card.Body>
           </Card>
         </Carousel.Item>
 
         <Carousel.Item>
           <Card className="mbg text-light">
-            <Card.Body className='cbm'>
+            <Card.Body className='mcc'>
               <Row className='pt-3'>
                 <Col>
                   <img src={cric} alt="Web Forms Icon" className="mflogo" />
@@ -103,7 +107,7 @@ function Mcarousel() {
                 A dynamic customer relationship management (CRM) application, meticulously crafted using low-code technology. With its intuitive interface and robust features, it transformed the client’s approach to customer management, enabling them to build stronger relationships, streamline sales processes, and drive effective growth strategies.
               </Card.Text>  
               <Button variant="light">Explore</Button>
-              <Card.Img className='mbmg' src={bimage1} alt="First slide" />
+              <Card.Img className='mcmg' src={bimage5} alt="First slide" />
             </Card.Body>
           </Card>
         </Carousel.Item>
@@ -114,7 +118,7 @@ function Mcarousel() {
         variant="none"
         className="carousel-control-prev arrow-btn"
         onClick={handlePrev}
-        style={{ position: 'absolute', left: '0', transform: 'translateY(-50%)' }}
+        style={{ position: 'absolute', left: '-1rem', transform: 'translateY(-50%)' ,  marginTop: '-1rem' }}
       >
         <FontAwesomeIcon icon={faChevronLeft} />
       </Button>
@@ -124,7 +128,7 @@ function Mcarousel() {
         variant="none"
         className="carousel-control-next arrow-btn"
         onClick={handleNext}
-        style={{ position: 'absolute' , right: '0', transform: 'translateY(-50%)' }}
+        style={{ position: 'absolute' , right: '0', transform: 'translateY(-50%)', marginTop: '-1rem' }}
       >
         <FontAwesomeIcon icon={faChevronRight} />
       </Button>
