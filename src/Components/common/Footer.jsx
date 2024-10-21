@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faTwitter, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faTwitter, faLinkedin, faYoutube ,faInstagramSquare} from '@fortawesome/free-brands-svg-icons';
 import exlog from '../images/exlog.png';
 import './css/footer.css';
 
@@ -10,7 +10,7 @@ function Footer() {
   return (
     <div className='Fcolor'>
       <footer className="container">
-        <section className="row d-flex justify-content-between p-4">
+        <section className="row d-flex justify-content-between p-5 mt-2">
           <div className="col-md-6 col-lg-6 mb-4">
             {/* Content */}
             <img className='fimg' src={exlog} alt="" />
@@ -86,6 +86,9 @@ function Footer() {
               </a>
               <a href="/" className="me-3 text-reset circle-icon">
                 <FontAwesomeIcon icon={faYoutube} />
+              </a>
+              <a href="/" className="me-3 text-reset circle-icon">
+                <FontAwesomeIcon icon={faInstagramSquare} />
               </a>
             </div>
             

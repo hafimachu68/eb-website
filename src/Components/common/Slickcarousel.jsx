@@ -24,14 +24,18 @@ function CenterMode() {
       <Slider {...settings}>
         <div className="cslide">
           <div className="slideinside">
-          <div className="row ">
+          {/* <div className="row ">
           <div className="col cntric">
           <img src={cric} alt="Icon 1" />          
             </div>
             <div className="col">
             <p className="cntrp"> Use Cases</p>          
              </div>
-           </div>
+           </div> */}
+             <div className="clogo-container">
+                <img src={cric} alt="Logo" className="clogo" /> {/* Insert your logo here */}
+                <p className='cpare'>Use Cases</p>
+              </div>
            <h1 className="cntrh">Attendance Management</h1>
           <p className="cntrpp">A cutting-edge attendance management solution designed with the efficiency and simplicity in mind. Whether you're a small business, educational institution, or large corporation, this solution empowers you to effortlessly monitor attendance, streamline administrative tasks, and enhance productivity.
           </p>
@@ -40,7 +44,7 @@ function CenterMode() {
               <button className="btn cntrbtn" >Explore</button>
             </div>
             <div className="col">
-              <img src={bimage5} alt="Image 1" />
+              <img  className="crmpg" src={bimage5} alt="Image 1" />
             </div>
           
           </div>
@@ -64,7 +68,7 @@ function CenterMode() {
               <button className="btn cntrbtn" >Explore</button>
             </div>
             <div className="col">
-              <img src={bimage3} alt="Image 1" />
+              <img   className="crmpg" src={bimage3} alt="Image 1" />
             </div>
           
           </div>
@@ -88,7 +92,7 @@ function CenterMode() {
               <button className="btn cntrbtn" >Explore</button>
             </div>
             <div className="col">
-              <img src={bimage1} alt="Image 1" />
+              <img  className="crmpg" src={bimage1} alt="Image 1" />
             </div>
           
           </div>

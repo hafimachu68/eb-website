@@ -75,6 +75,12 @@
     font-family: "Blinker", sans-serif;
     margin-top: 1rem;
   }
+  .cpare{
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffff;
+    font-family: "Blinker", sans-serif;
+  }
   .phead {
     font-size: 62px;
     color: #193054;
@@ -120,7 +126,14 @@
     width: 24.33px;
     height: 24.33px;
     margin-right: 10px;
-}/* Glass Effect */
+}
+.clogo {
+  width: 24.33px;
+  height: 24.33px;
+  margin-right: 5px;
+}
+
+/* Glass Effect */
 .glass-effect {
   background: linear-gradient(180deg, rgba(207, 227, 255, 0.75) 0%, rgba(170, 205, 255, 0.75) 100%);
   backdrop-filter: blur(10px); /* Apply the blur effect for glassmorphism */

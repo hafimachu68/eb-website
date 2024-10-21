@@ -59,6 +59,9 @@
     display: inline-flex; /* or inline-block */
     align-items: center; /* Align items vertically */
   }
+  .clogo-container {
+    display: inline-flex; /* or inline-block */
+  }
   
   .logo {
     width: 16.33px; /* Adjust width as needed */
