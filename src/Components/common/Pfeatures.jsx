@@ -92,7 +92,7 @@ function Pfeatures() {
             </div>
 
             <div className="col-md-4 col-sm-6 mb-2 center">
-              <img className="pdeploy" src={pf6} alt="" /><br /><br />
+              <img className="mpdeploy" src={pf6} alt="" /><br /><br />
               <h5 className="t-head" style={{ color: '#193054' }}>Multi Location</h5>
               <p className="pfeatures">
                 Traditional development is costly and time-consuming. Build complex business apps 10x faster with our platform.

@@ -54,6 +54,12 @@ body {
 .ctc {
     padding-top: 130px;
 }
+.pctc {
+    padding-top: 2rem;
+}
+pbctc {
+    padding-bottom: 2rem!important;
+}
 
 .ctpg {
     /* padding-top: 80px;

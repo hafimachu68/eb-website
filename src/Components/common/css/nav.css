@@ -334,7 +334,7 @@
   padding: 1rem; /* Adjust padding as needed */
 }
 
-.container-fluid {
+.nav-fluid {
   display: flex;
   justify-content: space-between; /* Reduce gap between logo and nav content */
   align-items: center; /* Center items vertically */

@@ -62,7 +62,7 @@ function Platformsrc() {
       <div className="container plcontainer">
         <div className="row prow">
           {cardData.map((card, index) => (
-            <div className="col colp" key={index}>
+            <div className="col colp p-4" key={index}>
               <div className="card cards glass-effect">
                 <img src={card.logo} alt={`Image ${index + 1}`} />
                 <div className="card-description">{card.description}</div>
