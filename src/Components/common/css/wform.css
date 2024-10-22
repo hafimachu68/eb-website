@@ -31,29 +31,33 @@
 
 }
 .wfimg{
-  width: 100%;
+  width: 80%;
 }
   .wform {
     margin-top: 4%;
   }
   
   .wform-chat-container {
-    width: 95%;
-    height: 335px;
-    display: flex;
     align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    height: 335px;
     justify-content: space-between;
     padding: 3%;
-        box-sizing: border-box;
+    width: 95%;
+    margin-left: 2rem;
   }
-  
+  .mwfimg {
+    width: 80%;
+    margin-left: 8rem;
+}
   .mi{
 width: 50%;  
   }
   .mm{
     padding-left: 56px;
     color: #193054;
-    width: 42%;
+    width: 55%;
     height: auto;
     /* text-align: center; */
     font-family: "Fira Sans", sans-serif;
@@ -66,7 +70,7 @@ width: 50%;
     
   .chat-message {
     color: #193054;
-    width: 507px;
+    width: 680px;
     height: auto;
     text-align: right;
     font-family: "Fira Sans", sans-serif;

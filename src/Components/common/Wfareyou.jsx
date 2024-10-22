@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/home.css';
-import logo from '../images/wformg.png'; // Import your logo file
+import logo from '../images/wform.png'; // Import your logo file
 
 function Wfareyou() {
   return (

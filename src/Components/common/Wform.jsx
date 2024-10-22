@@ -31,7 +31,7 @@ function Wform() {
             </div>
           </div>
           <div className=" mi">
-            <img className='wfimg' src={wfimg2} alt="" />
+            <img className='mwfimg' src={wfimg2} alt="" />
           </div>  
         </div>
         <div className="wform-divider"></div>
@@ -55,7 +55,7 @@ function Wform() {
             </div>
           </div>
           <div className=" mi">
-            <img className='wfimg' src={wfimg4} alt="" />
+            <img className='mwfimg' src={wfimg4} alt="" />
           </div>  
         </div>
         <div className="wform-divider"></div>

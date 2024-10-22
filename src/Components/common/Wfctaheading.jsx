@@ -17,7 +17,7 @@ function Wfctaheading() {
           <div className="col-md-4">
           <a href="https://zcal.co/sureba73">
 
-          <button className='btn wtb  fw-bold'>Contact</button>
+          <button className='btn ctb  fw-bold'>Contact</button>
          </a>
           </div>
 
