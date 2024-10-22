@@ -111,10 +111,10 @@ function Rbox() {
           <div className="">
             <img className="rbimg" src={overlayData[activeOverlayIndex].imageA} alt="imga" />
           </div>
-          <div className="">
+          {/* <div className="">
             <img className="rmainimg" src={overlayData[activeOverlayIndex].imageB} alt="imga" />
           </div>
-            
+             */}
           </div>
          
           </div>

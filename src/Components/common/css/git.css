@@ -25,14 +25,14 @@ body {
     overflow: hidden;
 }
 .rctbg1 {
-    height: 500px;
+    height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     overflow: hidden;
-    width: 109%;
-    min-width: 109%;
+    /* width: 109%; */
+    min-width: 100%;
 }
 .wctbg {
     height: 410px;
@@ -52,7 +52,7 @@ body {
   
 
 .ctc {
-    padding-top: 130px;
+    padding-top: 5rem;
 }
 .pctc {
     padding-top: 2rem;

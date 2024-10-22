@@ -5,6 +5,13 @@
     height: 2500px;
     position: relative; /* Position relative to contain absolute positioned overlay */
   }
+  .awform-container {
+    /* background-image: url(webbg.png); */
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    position: relative; /* Position relative to contain absolute positioned overlay */
+  }
   .dform-container{
     background-size: cover;
     width: 100%;
@@ -71,6 +78,14 @@ width: 50%;
   .chat-message {
     color: #193054;
     width: 680px;
+    height: auto;
+    text-align: right;
+    font-family: "Fira Sans", sans-serif;
+
+  }
+  .dchat-message {
+    color: #193054;
+    width: 50%;
     height: auto;
     text-align: right;
     font-family: "Fira Sans", sans-serif;

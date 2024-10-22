@@ -1,7 +1,7 @@
 import React from 'react';
 import './css/git.css';
 import background from '../images/webg.png'; // Import your image
-import ctpg  from '../images/calendly.png'; // Import your logo file
+import ctpg  from '../images/mcta.png'; // Import your logo file
 
 
 
@@ -23,7 +23,7 @@ function Rctahead() {
     </div>
       </div>
       <div className="col-md-5 ctmg rcti">
-          <div className='ctpg '>
+          <div className='ctpg mt-4 '>
             <img src={ctpg} className='ctpimg ' alt="Your Image" />
             </div>
           </div>

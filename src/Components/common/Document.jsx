@@ -1,6 +1,8 @@
 import React from 'react'
 import './css/documents.css';
 import wfimg from '../images/wfimg.png';
+import dument from '../images/docub.png'; // Import your logo file
+
 
 
 
@@ -8,8 +10,13 @@ function Document() {
   return (
     <div>
         <div className='dctbg'>
-    <div className=" dctc">
+    <div className=" dctc text-center">
+    <div className="logo-container">
+                <img src={dument} alt="Logo" className="icint" /> {/* Insert your logo here */}
+                <p className='pare'>DOCUMENT</p>
+              </div>
       <div>
+      
         <h1 className='dcth py-3 text-center'>Document Management for business apps <br/>
         like never before</h1>
         <p className='para1 pt-3 pb-5 text-center'>A document management system that seamlessly integrates into your business process. Say goodbye to toggling between platforms—manage documents in- <br/>context,  ensuring seamless access to crucial information.</p>
@@ -23,7 +30,7 @@ function Document() {
           <div className="chat-image fL">
             <img className='wfimg' src={wfimg} alt="" />
           </div>
-          <div className="chat-message">
+          <div className="dchat-message">
             <div>
               <p>
               Centralized Access: Keep all your documents in one place, accessible anytime, anywhere.               
@@ -39,7 +46,7 @@ function Document() {
             Enhanced Collaboration: Work together seamlessly with team members, no matter where they are.               </p>            </div>
           </div>
           <div className=" mi">
-            <img className='wfimg' src={wfimg} alt="" />
+            <img className='mwfimg' src={wfimg} alt="" />
           </div>  
         </div>
         <div className="wform-divider"></div>
@@ -47,7 +54,7 @@ function Document() {
           <div className="chat-image fL">
             <img className='wfimg' src={wfimg} alt="" />
           </div>
-          <div className="chat-message ">
+          <div className="dchat-message ">
             <div>
             <p>
             Secure Storage: Rest easy knowing your documents are protected with top-notch security measures.               </p>            </div>
@@ -61,7 +68,7 @@ function Document() {
             Automated Workflows: Simplify your processes with automated document routing and approval.               </p>            </div>
           </div>
           <div className=" mi">
-            <img className='wfimg' src={wfimg} alt="" />
+            <img className='mwfimg' src={wfimg} alt="" />
           </div>  
         </div>
       </div>

@@ -32,7 +32,7 @@ function Apareyou() {
        
       </div>
     </div>
-    <div className="wform-container " style={{ marginTop:'6rem' }} >
+    <div className="awform-container " style={{ marginTop:'6rem' }} >
       {/* <div className="wfoverlay"></div> Transparent grey and black overlay */}
       <div className="wform mt-3">
         <div className="wform-chat-container ">
@@ -57,7 +57,7 @@ function Apareyou() {
             </div>
           </div>
           <div className=" mi">
-            <img className='wfimg' src={wfimg2} alt="" />
+            <img className='mwfimg' src={wfimg2} alt="" />
           </div>  
         </div>
         <div className="wform-divider"></div>
