@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/abvdo.css'; // Import your CSS file
-import traimg from '../images/calendly.png';
+import traimg from '../images/mcta.png';
 import background from '../images/CTAbg.png'; // Import your image
 
 function ABcthead() {
@@ -12,12 +12,12 @@ function ABcthead() {
         <p className='actp py-2'>Schedule Your Demo with EXPRESSbase now. </p> 
          <div className='py-2'>
           <a href="https://zcal.co/sureba73">
-          <button className='btn actb  fw-bold'>Book a Demo</button>
+          <button className='btn actb fw-bold'>Book a Demo</button>
           </a>
         </div>
         </div>
         <div className="righta">
-            <div className='abmg1' >
+            <div className='abmg11' >
             <img src={traimg} className='ctpimg p-5 mt-3' alt="Traimg" />
             </div>
         </div>

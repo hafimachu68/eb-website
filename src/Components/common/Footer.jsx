@@ -1,7 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebookF, faTwitter, faLinkedin, faYoutube ,faInstagramSquare} from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faTwitter, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import exlog from '../images/exlog.png';
+import insta from '../images/insta.svg';
 import './css/footer.css';
 
 function Footer() {
@@ -87,8 +89,9 @@ function Footer() {
               <a href="/" className="me-3 text-reset circle-icon">
                 <FontAwesomeIcon icon={faYoutube} />
               </a>
+              
               <a href="/" className="me-3 text-reset circle-icon">
-                <FontAwesomeIcon icon={faInstagramSquare} />
+             <img src={insta} alt="Instagram" />
               </a>
             </div>
             

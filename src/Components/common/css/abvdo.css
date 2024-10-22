@@ -5,10 +5,22 @@
 }
 .bgc{
     background-color:rgb(183, 228, 247);
-    margin-top: -12px;
-    padding-top: 150px;
+    /* margin-top: -12px;
+    padding-top: 150px; */
 }
+.actb:hover{
+  background: #193054;
+  color: #ffffff;
+  
+  }
+  .abmg11{
+   padding-top: 2rem;
+  }
+.avd{
 
+padding-top: 1rem !important;
+padding-bottom: 1rem !important;
+}
 .custom-carousel .carousel-indicators {
   margin-bottom: -3rem;
 }
@@ -19,17 +31,13 @@
   height: 100%;
 }
 
-.abb {
-  align-self: flex-end;
-  margin-top: auto;
-}
 
 .cvdo{
   width: 18rem;
-  margin-left: -12px;
+  /* margin-left: -12px; */
 }
 .rf{
-    padding-left: 33px;
+    /* padding-left: 33px; */
     padding-bottom: 80px;
 
 }
@@ -38,6 +46,7 @@
   font-weight: 700;
   font-size: 19px;
   font-style: normal;
+  margin-left: 12px;
   color: #193054;
 }
 .video-container {
@@ -137,16 +146,15 @@
     font-weight: 700;
 }
 .actb {
-    align-items: center; 
-    justify-content: center; 
-    background: linear-gradient(to right, #193054 0%, #21457D 80%);
-    border-radius: 5px;
-    color: white;
-    padding: 18px 18px;
-        border: none;
-    font-size: 16px;
-    cursor: pointer;
-    font-family: "Blinker", sans-serif;
+  background: linear-gradient(to left, #DCE9FD 0%, #C8DDFF 80%);
+  border-radius: 4rem;
+  color: #193054;
+  padding: 15px 20px;
+  border: none;
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  cursor: pointer;
 
 } 
 .abmg1{
@@ -157,9 +165,9 @@
   }
 .abb{
   
-  text-align: left;
+  text-align: right;
   font-weight: 600;
-  align-self: flex-end;
+  align-self: flex-start;
   margin-top: auto;
 }
 

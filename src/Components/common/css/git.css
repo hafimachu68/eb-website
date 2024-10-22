@@ -107,6 +107,10 @@ padding: 1rem;
     font-size: 16px;
     cursor: pointer;
 }
+.ctb:hover{
+    background:  #193054;;
+    color: #ffff;
+}
 .wtb {
     margin-left: 100px;
     align-items: center;

@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/git.css';
-import ctpg  from '../images/calendly.png'; // Import your logo file
+import ctpg  from '../images/mcta.png'; // Import your logo file
 import background from '../images/CTAbg.png'; // Import your image
 
 
@@ -8,7 +8,7 @@ import background from '../images/CTAbg.png'; // Import your image
 
 function Pctaheading() {
   return (
-    <div className='pctbg'style={{backgroundImage: `url(${background})`}}>
+    <div className='pctbg pt-4'style={{backgroundImage: `url(${background})`}}>
         <div className="row" style={{paddingBottom:'2rem'}}>
           <div className="col-md-7 ">
           <div className='text-white pctc'>

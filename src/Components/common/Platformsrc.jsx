@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../images/Group.png'; 
+import logo from '../images/tsk.svg'; 
 import logo1 from '../images/pl1.png'; 
 import logo2 from '../images/pl2.png'; 
 import logo3 from '../images/pl3.png'; 
