@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import './css/features.css';
 
 import web from '../images/wformg1.svg';
@@ -12,7 +11,6 @@ import repo from '../images/Reports.png';
 import docu from '../images/Docu.png';
 import api1 from '../images/API1.png';
 import mainimg from '../images/mainimg.png';
-
 
 function Forms() {
   const overlayData = [
@@ -78,30 +76,29 @@ function Forms() {
             {overlayData.map((data, index) => (
               <div className="col-md-2 over" key={index} onClick={() => handleClick(index)}>
                 <div className={`overlay-box text-center ${activeOverlayIndex === index ? 'active' : ''}`}>
-                <div className="hover-container">
-                <img className="fcloud1" src={data.image} alt="" />
-                  <p className="ot">{data.text}</p>
+                  <div className="hover-container">
+                    <img className="fcloud1" src={data.image} alt="" />
+                    <p className="ot">{data.text}</p>
                   </div>
-                  
                 </div>
               </div>
             ))}
           </div>
           <div className="rdiv">
-          <div className="row content">
-            <h1 className="fw-bold fmh ">{overlayData[activeOverlayIndex].mainHeading}</h1>
-            <div className="col-md-6 mainH">
-              <p className="sub">{overlayData[activeOverlayIndex].paragraph}</p>
+            <div className="row content">
+              <h1 className="fw-bold fmh ">{overlayData[activeOverlayIndex].mainHeading}</h1>
+              <div className="col-md-6 mainH">
+                <p className="sub">{overlayData[activeOverlayIndex].paragraph}</p>
+              </div>
+              <div className="col-md-6 mainB">
+                <a href={overlayData[activeOverlayIndex].path}>
+                  <button className="btn ex">Explore</button>
+                </a>
+              </div>
             </div>
-            <div className="col-md-6 mainB">
-              <Link to={overlayData[activeOverlayIndex].path}>
-                <button className="btn ex">Explore</button>
-              </Link>
+            <div className="">
+              <img className="mainimg" src={overlayData[activeOverlayIndex].imageA} alt="imga" />
             </div>
-          </div>
-          <div className="">
-            <img className="mainimg" src={overlayData[activeOverlayIndex].imageA} alt="imga" />
-          </div>
           </div>
         </div>
       )}

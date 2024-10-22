@@ -160,14 +160,17 @@ function Navbar() {
       </a>          <p className='udropara'>A dynamic customer relationship management (CRM) application,  meticulously crafted using low-code technology. </p>
       </div>
     </li>
-    <li className="usec-item pt-3 ">
-      <div className="platform-text us-item">
-      <a className='link' href="/Usecase4">
+    <li className="usec-item pt-3" style={{ opacity: 0.5, pointerEvents: 'none', cursor: 'not-allowed' }}>
+  <div className="platform-text us-item">
+    <a className="link" href="#">
       <h6 className="udrop">Usecase 04</h6>
-      </a>        
-       <p className='udropara'>A bespoke application developed using low-code technology that redefines the process of creating, managing, and tracking quotations.</p>
-      </div>
-    </li>
+    </a>        
+    <p className="udropara">
+      A bespoke application developed using low-code technology that redefines the process of creating, managing, and tracking quotations.
+    </p>
+  </div>
+</li>
+
   </ul>
 </li>
       <li className="nav-item mx-4">

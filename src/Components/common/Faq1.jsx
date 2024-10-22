@@ -30,10 +30,6 @@ function Faq1() {
     <div>
       <div className="container pt-5">
         <div className="text-md-center mb-4 mb-md-0">
-          <div className="logo-container">
-            <img src={logo} alt="Logo" className="logo" />
-            <p className='pare'>Sub Heading</p>
-          </div>
           <h3 className="head" style={{ color: '#193054' }}>FAQs</h3>
           <p className="para1 pt-4">
             Connect your database and turn your data into attractive tables, charts, or portable reports using our futuristic Drag-n-Drop builders on the Cloud.

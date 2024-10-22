@@ -34,8 +34,8 @@ function ABvdo() {
   return (
     <div className="container-fluid bgc avh">
       <div className="container pt-5">
-        <div className="text-center mb-4">
-          <h5 className='fw-bold'>Featured Stories</h5>
+        <div className="text-center mb-5">
+          <h3 className='fw-bold'>Featured Stories</h3>
         </div>
         <div className="row justify-content-center">
           {/* First Row */}

@@ -1,19 +1,16 @@
 .faq {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 50px;
-    overflow-y: auto;
-    width: 1020px;
-     height: 534px;
-     background-Color: #B8D5FE;
-     border-radius: 10px;
-     margin-left:190px;
-     margin-bottom: 300px;
-     margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px;
+  overflow-y: auto;
+  width: 1020px;
+  height: 534px;
+  background-color: #B8D5FE;
+  border-radius: 10px;
+  margin: 75px auto 300px auto; /* Center the FAQ box */
+}
 
-    }
-  
   
   .question {
     display: flex;

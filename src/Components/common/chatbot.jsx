@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/mob.css';
-import logo from '../images/Group.png'; // Import your logo file
+import logo from '../images/cb.png'; // Import your logo file
 import mobpg from '../images/chg.png';
 
 function Chat() {
@@ -9,8 +9,8 @@ function Chat() {
       <div className="container pt-5">
         <div className="text-md-center mb-4 mb-md-0">
           <div className="logo-container">
-            <img src={logo} alt="Logo" className="logo" /> {/* Insert your logo here */}
-            <p className='pare'>Sub Heading</p>
+            <img src={logo} alt="Logo" className="pv" /> {/* Insert your logo here */}
+            <p className='pare mx-2'>Chat Bot</p>
           </div>
           <h3 className="head" style={{ color: '#193054' }}>Experience Seamless Interactions with Our Smart Bot</h3>
           <p className="para1 pt-4">

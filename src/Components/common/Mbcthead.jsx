@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/mob.css';
-import ctpg  from '../images/calendly.png'; // Import your logo file
+import ctpg  from '../images/mcta.png'; // Import your logo file
 import background from '../images/CTAbg.png'; // Import your image
 
 
@@ -23,7 +23,7 @@ function Mbcthead() {
         </div>
         </div>
           </div>
-          <div className="col-md-5 ctmg "style={{marginTop:"8rem"}} >
+          <div className="col-md-5 ctmg "style={{marginTop:"5rem"}} >
           <div className='ctpg'><img src={ctpg} alt="Your Image" className='ctpimg ' /></div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/mob.css';
-import ctpg  from '../images/calendly.png'; // Import your logo file
+import ctpg  from '../images/mcta.png'; // Import your logo file
 import background from '../images/CTAbg.png'; // Import your image
 
 
@@ -9,7 +9,7 @@ function FQcthead() {
     <div className='ctbg'style={{backgroundImage: `url(${background})`}}>
         <div className="row">
           <div className="col-md-7">
-          <div className='text-white ctc'>
+          <div className='text-white fctc'>
         <h1 className= 'cth py-3'>Still have questions?</h1>
         <div className="ctp pb-5">
         <p className=' '>

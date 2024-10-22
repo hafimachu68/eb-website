@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/mob.css';
-import logo from '../images/Group.png'; // Import your logo file
+import logo from '../images/mobd.png'; // Import your logo file
 import mobpg from '../images/bin.png';
 import mobp from '../images/mg.png';
 
@@ -12,8 +12,8 @@ function Mobapp() {
         <div className="container pt-5">
             <div className="text-md-center mb-4 mb-md-0">
               <div className="logo-container">
-                <img src={logo} alt="Logo" className="logo" /> {/* Insert your logo here */}
-                <p className='pare'>Sub Heading</p>
+                <img src={logo} alt="Logo" className="mv" /> {/* Insert your logo here */}
+                <p className='pare'>Mobile App</p>
               </div>
               <h3 className="head" style={{ color: '#193054' }}>Empower Your fast growing business with Internal Mobile Apps</h3>
               <p className="para1 pt-4">
