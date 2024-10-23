@@ -43,14 +43,14 @@ function ABvdo() {
             <div className="card cmg" style={{ width: '18rem' }}>
               <img src={c1} className="card-img-top cvdo" alt="..." />
               <h5 className="card-title vblp pt-4">8 startups are taking part in Flat6Labs latest cycle</h5>
-              <a href="https://startupbahrain.com/features/8-startups-are-taking-part-in-flat6labs-latest-cycle-this-is-your-chance-to-meet-them/" className="btn abb"style={{ marginTop: '-6px' }}>Read the full article</a>
+              <a href="https://startupbahrain.com/features/8-startups-are-taking-part-in-flat6labs-latest-cycle-this-is-your-chance-to-meet-them/" className="btn abb"style={{ paddingBottom: '1rem'}}>Read the full article</a>
             </div>
           </div>
           <div className="col-md-4 d-flex justify-content-center mb-4">
             <div className="card cmg" style={{ width: '18rem' }}>
               <img src={c2} className="card-img-top cvdo" alt="..." />
               <h5 className="card-title vblp pt-4">Flat6Labs Bahrain cycle 2 Highlights</h5>
-              <button className="btn abb" style={{ marginTop: '-6px' }} onClick={() => toggleVideo('video1')}>Watch the video</button>
+              <button className="btn abb" style={{ paddingBottom: '1rem' }} onClick={() => toggleVideo('video1')}>Watch the video</button>
               {videos.video1 && (
                 <div className="video-container" id="video1">
                   <button className="close-button" onClick={() => closeVideo('video1')}>&times;</button>
@@ -63,7 +63,7 @@ function ABvdo() {
             <div className="card cmg" style={{ width: '18rem' }}>
               <img src={c3} className="card-img-top cvdo" alt="..." />
               <h5 className="card-title vblp pt-4">Flat6Labs Bahrain cycle 2 Highlights</h5>
-              <button className="btn abb" style={{ marginTop: '-6px' }} onClick={() => toggleVideo('video2')}>Watch the video</button>
+              <button className="btn abb" style={{ paddingBottom: '1rem' }} onClick={() => toggleVideo('video2')}>Watch the video</button>
               {videos.video2 && (
                 <div className="video-container" id="video2">
                   <button className="close-button" onClick={() => closeVideo('video2')}>&times;</button>
@@ -79,7 +79,7 @@ function ABvdo() {
             <div className="card cmg" style={{ width: '18rem' }}>
               <img src={f6b} className="card-img-top cvdo" alt="..." />
               <h5 className="card-title vblp pt-4">Flat6Labs Bahrain Second Demo day</h5>
-              <button className="btn abb" style={{ marginTop: '-6px' }} onClick={() => toggleVideo('video3')}>Watch the video</button>
+              <button className="btn abb" style={{ paddingBottom: '1rem' }} onClick={() => toggleVideo('video3')}>Watch the video</button>
               {videos.video3 && (
                 <div className="video-container" id="video3">
                   <button className="close-button" onClick={() => closeVideo('video3')}>&times;</button>
@@ -92,7 +92,7 @@ function ABvdo() {
             <div className="card cmg" style={{ width: '18rem' }}>
               <img src={f6n} className="card-img-top cvdo" alt="..." />
               <h5 className="card-title vblp pt-4">NASSCOM Innotrek 2018: Meet The 40 Startups</h5>
-              <button className="btn abb" style={{ marginTop: '-6px' }} onClick={() => toggleVideo('video3')}>Read more</button>
+              <button className="btn abb" style={{ paddingBottom: '1rem'}} onClick={() => toggleVideo('video3')}>Read more</button>
               {videos.video3 && (
                 <div className="video-container" id="video3">
                   <button className="close-button" onClick={() => closeVideo('video3')}>&times;</button>
@@ -105,7 +105,7 @@ function ABvdo() {
             <div className="card cmg" style={{ width: '18rem' }}>
               <img src={c4} className="card-img-top cvdo" alt="..." />
               <h5 className="card-title vblp pt-4">8 startups are taking part in Flat6Labs latest cycle</h5>
-              <button className="btn abb" style={{ marginTop: '-6px' }} onClick={() => toggleVideo('video3')}>Read more</button>
+              <button className="btn abb" style={{ paddingBottom: '1rem' }} onClick={() => toggleVideo('video3')}>Read more</button>
               {videos.video3 && (
                 <div className="video-container" id="video3">
                   <button className="close-button" onClick={() => closeVideo('video3')}>&times;</button>
