@@ -10,7 +10,7 @@ function Reportc() {
         <div className="p-5">
           <div className="text-md-center mb-4 mb-md-0">
             <div className="logo-container">
-              <img src={logo} alt="Logo" className="logo" /> {/* Insert your logo here */}
+              <img src={logo} alt="Logo" className="logo lf" /> {/* Insert your logo here */}
               <p className='pare'>REPORTS</p>
             </div>
             <h3 className="head">Low-Code Reporting tools for Modern Businesses to accelerate decision making</h3>

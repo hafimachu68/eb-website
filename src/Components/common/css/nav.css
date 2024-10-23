@@ -108,10 +108,22 @@
 .pv{
   width: 24px;
   height: 24px;
+  filter: invert(26%) sepia(29%) saturate(4616%) hue-rotate(186deg) brightness(35%) contrast(95%);
+
+}
+.wpv{
+  width: 24px;
+  height: 24px;
+
+}
+.lf{
+  filter: invert(26%) sepia(29%) saturate(4616%) hue-rotate(186deg) brightness(35%) contrast(95%);
+
 }
 .po{
   width: 24px;
   height: 24px;
+  filter: invert(26%) sepia(29%) saturate(4616%) hue-rotate(186deg) brightness(35%) contrast(95%);
 
 }
 .platform-text{
@@ -159,6 +171,8 @@
   width: 14px;
   height: 24px;
   margin-right: 9px;
+  filter: invert(26%) sepia(29%) saturate(4616%) hue-rotate(186deg) brightness(35%) contrast(95%);
+
 }
 .platform-heading {
   padding-top: 13px;
@@ -187,6 +201,8 @@
   margin-top: 0;
   margin-left: 2px;
   font-size: 14px;
+  font-weight: 400 ;
+color: gray;
 }
 .mbpara{
   margin-left: 40px;
@@ -296,9 +312,7 @@
   background-color: #0056b3;
 }
 
-.dropara {
-  color: gray; /* Style as needed */
-}
+
 .dropdown-content {
   padding: 20px;
   background-color:#EBF6FF; /* Match the navbar background */
@@ -329,6 +343,7 @@
 .dropara {
   color: gray; /* Style as needed */
   font-size: 13px; /* Adjust size as needed */
+  font-weight: 400;
 }
 .navbar {
   padding: 1rem; /* Adjust padding as needed */

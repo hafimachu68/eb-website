@@ -17,7 +17,7 @@ function Apareyou() {
         <div className="">
           <div className="text-md-center mb-4 mb-md-0">
             <div className="logo-container">
-              <img src={api} alt="Logo" className="logo" /> {/* Insert your logo here */}
+              <img src={api} alt="Logo lf" className="logo" /> {/* Insert your logo here */}
               <p className='pare'>APIs</p>
             </div>
             <h3 className="head" style={{ color: '#193054' }}>Low-Code API Solutions for Modern Businesses to Simplify Integration</h3>

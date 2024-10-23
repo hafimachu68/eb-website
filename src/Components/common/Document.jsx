@@ -12,7 +12,7 @@ function Document() {
         <div className='dctbg'>
     <div className=" dctc text-center">
     <div className="logo-container">
-                <img src={dument} alt="Logo" className="icint" /> {/* Insert your logo here */}
+                <img src={dument} alt="Logo" className="icint lf" /> {/* Insert your logo here */}
                 <p className='pare'>DOCUMENT</p>
               </div>
       <div>
