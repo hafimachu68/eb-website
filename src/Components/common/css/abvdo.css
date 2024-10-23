@@ -75,7 +75,7 @@ padding-bottom: 1rem !important;
 
 .fr{
   width: 288px !important;
-  height: 213px !important;
+  height: 223px !important;
 }
 .vmfr{
   width: 94% !important;
@@ -168,7 +168,6 @@ padding-bottom: 1rem !important;
   text-align: right;
   font-weight: 600;
   align-self: flex-start;
-  margin-top: auto;
 }
 
 .abvh{margin-top: -90px;
