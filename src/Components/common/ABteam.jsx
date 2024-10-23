@@ -56,7 +56,7 @@ function ABteam() {
       <div className="container">
         <div className="row tmg" style={{ justifyContent: 'center' }}>
         <div className=" text-white text-center blhic">
-             <p className='feic'> <i> <img className='po me-3' src={bic} alt="" /> </i>TEAM </p>
+             <p className='feic'> <i> <img className='to me-3' src={bic} alt="" /> </i>TEAM </p>
           </div>
           <div className='text-white text-center txmg'>
             <h1 className='blh'>Fusion of expertise and fresh perspectives </h1>

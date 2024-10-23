@@ -331,10 +331,10 @@
     margin-left: 1rem;
   }
   .platform-header{
-    min-height: 521px;
+    min-height: 355px;
   }
   .ploutoverlay{
-    min-height: 521px;
+    min-height: 355px;
   }
   .card-description {
     padding: 19px; /* Adjust padding for mobile devices */

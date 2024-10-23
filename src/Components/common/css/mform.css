@@ -2,7 +2,7 @@
     border: none;
 }
 .mcc{
-    margin-left: 1%;
+    margin-left: 7%;
     margin-top: 1rem;
 }
 .arrow-btn {
@@ -216,7 +216,7 @@ border: none;        }
     padding-bottom: 5rem;
 }
 .mcmg{
-    width: 366px;
+    width: 100%;
     /* height: 112% !important; */
     /* margin-left: -31px; */
     margin-top: 10%;
@@ -225,7 +225,7 @@ border: none;        }
 .mwbmg{
     width: 100%;
         /* height: 112% !important; */
-    /* margin-left: -31px; */
+    margin-left: -1rem;
     margin-top: 10%;
     padding-bottom: 5rem;
 }

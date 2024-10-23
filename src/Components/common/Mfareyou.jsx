@@ -23,13 +23,13 @@ function Mfareyou() {
               </a>
             </div>
           </div>
-          <div className="">
+          {/* <div className="">
             <div className="container-fluid pt-4 mt-3">
               <div id="">
                 <iframe id="" width="100%" height="250px"  src="https://www.youtube.com/embed/WNxuiFhrQUM?rel=0&showinfo=0" frameBorder="0" allowFullScreen></iframe>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

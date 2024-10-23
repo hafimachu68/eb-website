@@ -52,7 +52,7 @@ body {
   
 
 .ctc {
-    padding-top: 5rem;
+    padding-top: 8rem;
 }
 .pctc {
     padding-top: 2rem;
@@ -146,12 +146,12 @@ padding: 1rem;
     }
     .ctpg {
         padding-left: 0rem !important;
-        width: 100%;
-        margin-top: -3rem !important;
+        width: 80%;
+        margin-top: -1rem !important;
     }
     .ctpg img{
         width: 100%;
-        margin-left: 6px;
+        margin-left: 1rem;
     
     }
     .ctbg {

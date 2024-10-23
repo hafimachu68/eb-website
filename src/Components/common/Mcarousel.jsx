@@ -118,7 +118,7 @@ function Mcarousel() {
         variant="none"
         className="carousel-control-prev arrow-btn"
         onClick={handlePrev}
-        style={{ position: 'absolute', left: '-1rem', transform: 'translateY(-50%)' ,  marginTop: '-1rem' }}
+        style={{ position: 'absolute', left: '-1%', transform: 'translateY(-50%)' ,  marginTop: '-2rem' }}
       >
         <FontAwesomeIcon icon={faChevronLeft} />
       </Button>
@@ -128,7 +128,7 @@ function Mcarousel() {
         variant="none"
         className="carousel-control-next arrow-btn"
         onClick={handleNext}
-        style={{ position: 'absolute' , right: '0', transform: 'translateY(-50%)', marginTop: '-1rem' }}
+        style={{ position: 'absolute' , right: '0', transform: 'translateY(-50%)', marginTop: '-2rem' }}
       >
         <FontAwesomeIcon icon={faChevronRight} />
       </Button>

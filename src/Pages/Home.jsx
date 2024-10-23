@@ -27,26 +27,34 @@ function Home() {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    const checkScreenWidth = () => {
-      setIsMobile(window.innerWidth < 768); // Adjust the breakpoint as needed
+    const isMobileDevice = () => {
+      // Check for mobile devices based on user agent and screen size
+      return (
+        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ||
+        window.innerWidth < 768
+      );
     };
 
-    // Initial check
-    checkScreenWidth();
+    // Initial mobile check
+    setIsMobile(isMobileDevice());
 
-    // Listen to window resize event
-    window.addEventListener('resize', checkScreenWidth);
+    // Listen to window resize event and update mobile state
+    const handleResize = () => {
+      setIsMobile(isMobileDevice());
+    };
+    
+    window.addEventListener('resize', handleResize);
 
-    // Cleanup
+    // Cleanup on component unmount
     return () => {
-      window.removeEventListener('resize', checkScreenWidth);
+      window.removeEventListener('resize', handleResize);
     };
   }, []);
 
   return (
     <>
       <div className='rbg'>
-        {isMobile ? <MNavbar/>:<Navbar />}
+        {isMobile ? <MNavbar /> : <Navbar />}
 
         {isMobile ? <Mareyou /> : <Areyou />}
         {isMobile ? <Mtrusted /> : <Trusted />}

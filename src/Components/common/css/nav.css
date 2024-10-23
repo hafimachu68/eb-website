@@ -126,6 +126,11 @@
   filter: invert(26%) sepia(29%) saturate(4616%) hue-rotate(186deg) brightness(35%) contrast(95%);
 
 }
+.to{
+  width: 24px;
+  height: 24px;
+
+}
 .platform-text{
   /* padding: 3px; */
 
@@ -274,12 +279,7 @@ color: gray;
  .logo-img{
   margin-left: -1.9rem;
  }
- .navbar-toggler{
-  margin-left: -0.5rem;
- }
- .navbar-toggler-icon{
-  margin-left: 120%;
- }
+ 
  .navbar-toggler:focus {
   text-decoration: none;
   outline: 0;
@@ -289,15 +289,7 @@ color: gray;
 
 
 
-.dropdown-content {
-  padding: 20px;
-  background-color: white;
-  position: absolute; /* or fixed, depending on your design */
-  top: 60px; /* Adjust according to your navbar height */
-  left: 0;
-  width: 100%;
-  z-index: 1000; /* To make sure it appears above other elements */
-}
+
 
 .back-button {
   background-color: #007bff;
@@ -317,7 +309,7 @@ color: gray;
   padding: 20px;
   background-color:#EBF6FF; /* Match the navbar background */
   position: absolute; /* or fixed, depending on your design */
-  top: 60px; /* Adjust according to your navbar height */
+  top: 0; /* Adjust according to your navbar height */
   left: 0;
   width: 100%;
   z-index: 1000; /* To make sure it appears above other elements */
@@ -373,13 +365,13 @@ color: gray;
 
 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .container-fluid {
     flex-direction: column;
-    align-items: center;
   }
   .navbar-nav {
     flex-direction: column;
     width: 100%;
   }
-}
+} */
+

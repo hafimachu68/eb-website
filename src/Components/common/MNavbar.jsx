@@ -17,6 +17,7 @@ import { faChevronRight } from '@fortawesome/free-solid-svg-icons'; // Import th
 
 function MNavbar() {
   const [activeDropdown, setActiveDropdown] = useState(null);
+  
 
   const handleDropdownClick = (dropdownName) => {
     setActiveDropdown(dropdownName);
@@ -28,7 +29,7 @@ function MNavbar() {
 
   const platformItems = [
     { name: 'Platform Overview', link: '/platform', icon: <img className='po' src={pv} alt="" />, description: 'Build custom applications using Low-code technology empowering your business' },
-    { name: 'Web Forms', link: '/webform', icon: <img className='pv' src={web} alt="" />, description: 'Create powerful multi-lingual, multi-currency enterprise web forms.' },
+    { name: 'Web Forms', link: '/webform', icon: <img className='wpv' src={web} alt="" />, description: 'Create powerful multi-lingual, multi-currency enterprise web forms.' },
     { name: 'Documents', link: '/documents', icon: <img className='pv' src={dument} alt="" />, description: 'A document management system that seamlessly integrates into your business process.' },
     { name: 'Reports', icon: <img className='pv' src={report} alt="" />, description: 'Gain instant access to actionable insights, putting data at your fingertips for informed decision-making.' },
     { name: 'APIs', icon: <img className='pv' src={api} alt="" />, description: 'Efficiently integrate third-party applications into your workflow using our futuristic API builder.' },

@@ -1,6 +1,7 @@
 import React from 'react';
 import './css/home.css';
-import logo from '../images/docug.png'; // Import your logo file
+import logo from '../images/docub.png'; // Import your logo file
+
 import MDcarousels from './MDcarousels';
 
 function Mdareyou() {
@@ -11,7 +12,7 @@ function Mdareyou() {
           <div className=" full">
             <div className="text-md-center mb-4 mb-md-0 mare">
             <div className="logo-container">
-                <img src={logo} alt="Logo" className="logo" /> {/* Insert your logo here */}
+                <img src={logo} alt="Logo" className="logo lf" /> {/* Insert your logo here */}
                 <p className='pare'>Documents </p>
               </div>
             <h3 className="head text-center">Document Management for business apps </h3>

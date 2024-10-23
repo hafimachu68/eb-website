@@ -1,6 +1,6 @@
 import React from 'react'
 import './css/git.css';
-import ctpg  from '../images/ctpg.png'; // Import your logo file
+import ctpg  from '../images/mcta.png'; // Import your logo file
 import background from '../images/CTAbg.png'; // Import your image
 
 

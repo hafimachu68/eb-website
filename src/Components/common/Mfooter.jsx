@@ -2,6 +2,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTwitter, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import exlog from '../images/exlog.png';
+import insta from '../images/insta.svg';
+
 import './css/mfooter.css';
 
 function Mfooter() {
@@ -48,17 +50,20 @@ function Mfooter() {
               </div>
             </div>
             <div className='mfm row mb-3'>
-              <a href="/" className="me-3 text-reset mcircle">
+              <a href="https://www.facebook.com/expressbase" className="me-3 text-reset mcircle">
                 <FontAwesomeIcon icon={faFacebookF} />
               </a>
-              <a href="/" className="me-3 text-reset mcircle">
+              <a href="https://x.com/expressbasesys" className="me-3 text-reset mcircle">
                 <FontAwesomeIcon icon={faTwitter} />
               </a>
-              <a href="/" className="me-3 text-reset mcircle">
+              <a href="https://www.linkedin.com/company/expressbase-systems-private-limited/" className="me-3 text-reset mcircle">
                 <FontAwesomeIcon icon={faLinkedin} />
               </a>
-              <a href="/" className="me-3 text-reset mcircle">
+              <a href="https://www.youtube.com/@expressbase2443" className="me-3 text-reset mcircle">
                 <FontAwesomeIcon icon={faYoutube} />
+              </a>
+              <a href="https://www.instagram.com/expressbasesys?igsh=MWRyYWRlN3l4NDRldg==" className="me-3 text-reset mcircle">
+              <img src={insta} alt="Instagram" />
               </a>
             </div>
             <div className='fl row'>
