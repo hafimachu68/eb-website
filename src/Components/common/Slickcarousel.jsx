@@ -90,7 +90,7 @@ function CenterMode() {
                 </button>
               </div>
               <div className="col">
-                <img className="crmpg" src={bimage1} alt="Image 1" />
+                <img className="crmpg" src={bimage5} alt="Image 1" />
               </div>
             </div>
           </div>
