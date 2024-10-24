@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../images/Group.png'; // Import your logo file
-import wfimg from '../images/Gdibba.jpg';
+import wfimg from '../images/ats1.png';
 import amt from '../images/amt.png';
 import icu from '../images/icu.svg';
 import ict from '../images/ict.svg';
@@ -40,7 +40,7 @@ function Usec1() {
                <h2 className='use1 '>Challenges faced</h2>
                </div>          
                  <p className="para1 pt-2">
-                 The most pressing issue is the inaccuracy in time tracking, which leads to discrepancies in recorded working hours, causing problems with payroll and employee dissatisfaction. Additionally, the software lacks integration capabilities with other HR and payroll systems, resulting in redundant data entry and a higher risk of errors. This inefficiency increases the administrative burden on the HR team. Furthermore, the user interface is outdated and not user-friendly, making it difficult for employees and HR staff to navigate and use effectively.                 </p>  
+                 Liwa Autogarages, with nearly six branches across Dubai, faced several challenges with their existing attendance management system. The main issue was the inaccurate tracking of employee working hours, including overtime and compensatory offs, which often led to payroll discrepancies. Additionally, the lack of integration between their current system and other HR processes made managing attendance across multiple branches cumbersome and inefficient. The outdated interface further complicated usage for both employees and HR staff, leading to frequent errors and frustration. These challenges negatively affected operational efficiency and employee satisfaction, making it difficult for Liwa Autogarages to manage attendance accurately across their branches.                 </p>  
                  </div>
                  <div className='pt-5'>
                  <div className="logo-container">
@@ -48,7 +48,7 @@ function Usec1() {
                <h2 className='use1 '>How our Attendance Management Software helped them?</h2>
                </div>  
                  <p className="para1 pt-2">
-                 To address the challenges faced by XYZ, ExpressBase developed a custom attendance management software tailored to their specific needs. This solution offers comprehensive tracking of compensatory offs, overtime, and special overtime, ensuring accurate timekeeping and reporting. The system integrates seamlessly with a punching machine, automatically recording all punches and storing the data in a centralized database. This allows for real-time access to detailed attendance reports, streamlining payroll processes and enhancing overall operational efficiency. The user-friendly interface ensures ease of use for both employees and HR staff, reducing errors and improving user experience. With this customized solution, Hair O Craft can now manage attendance more effectively and accurately, fostering a more organized and productive work environment.                 </p>  
+                 To address the challenges faced by Liwa Autogarages, ExpressBase developed a custom attendance management software specifically tailored to their multi-branch operations in Dubai. The solution accurately tracks employee working hours, including overtime, special overtime, and compensatory offs, ensuring precise payroll processing. Integrated with punching machines at each branch, the system automatically records attendance data and stores it in a centralized database, offering real-time access to detailed reports. A standout feature of the solution is its ability to manage mid-month employee transfers between branches. This ensures that punch-in and punch-out data for transferred employees are seamlessly updated and accessible across branches, without disrupting payroll or attendance tracking. The user-friendly interface improves ease of use for both employees and HR staff, reducing errors and enhancing efficiency. With this tailored software, Liwa Autogarages can now manage attendance with precision, streamline operations, and maintain control across their six branches.                  </p>  
                  </div>
 
                  <div className="pt-5">

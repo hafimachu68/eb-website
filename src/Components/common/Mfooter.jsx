@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTwitter, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import exlog from '../images/exlog.png';
 import insta from '../images/insta.svg';
+import x from '../images/x.svg';
+
 
 import './css/mfooter.css';
 
@@ -54,7 +56,7 @@ function Mfooter() {
                 <FontAwesomeIcon icon={faFacebookF} />
               </a>
               <a href="https://x.com/expressbasesys" className="me-3 text-reset mcircle">
-                <FontAwesomeIcon icon={faTwitter} />
+              <img src={x} alt="Instagram" />
               </a>
               <a href="https://www.linkedin.com/company/expressbase-systems-private-limited/" className="me-3 text-reset mcircle">
                 <FontAwesomeIcon icon={faLinkedin} />

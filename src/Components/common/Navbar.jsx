@@ -7,7 +7,7 @@ import dument from '../images/docub.png'; // Import your logo file
 import report from '../images/reportd.png'; // Import your logo file
 import api from '../images/apid.png'; // Import your logo file
 import mob from '../images/mobd.png'; // Import your logo file
-import faq from '../images/faq.png'; // Import your logo file
+import faq from '../images/faq.svg'; // Import your logo file
 import blog from '../images/blog.png'; // Import your logo file
 import Wiki from '../images/wiki.png'; // Import your logo file
 import cb from '../images/cb.png'; // Import your logo file
@@ -146,7 +146,7 @@ function Navbar() {
                 <li className="usec-item pt-3">
                   <a className='link' href="/Usecase1">
                     <div className="platform-text us-item">
-                      <h6 className="udrop">Usecase 01</h6>
+                      <h6 className="udrop">Use case 01</h6>
                       <p className='udropara'>A cutting-edge attendance management solution designed with the efficiency and simplicity in mind.</p>
                     </div>
                   </a>
@@ -154,7 +154,7 @@ function Navbar() {
                 <li className="usec-item pt-3">
                   <a className='link' href="/Usecase2">
                     <div className="platform-text us-item">
-                      <h6 className="udrop">Usecase 02</h6>
+                      <h6 className="udrop">Use case 02</h6>
                       <p className='udropara'>A van sales management mobile app that can be easily customized, using low-code technology.</p>
                     </div>
                   </a>
@@ -162,7 +162,7 @@ function Navbar() {
                 <li className="usec-item pt-3">
                   <a className='link' href="/Usecase3">
                     <div className="platform-text us-item">
-                      <h6 className="udrop">Usecase 03</h6>
+                      <h6 className="udrop">Use case 03</h6>
                       <p className='udropara'>A dynamic customer relationship management (CRM) application, meticulously crafted using low-code technology.</p>
                     </div>
                   </a>
@@ -170,7 +170,7 @@ function Navbar() {
                 <li className="usec-item pt-3" style={{ opacity: 0.5, pointerEvents: 'none', cursor: 'not-allowed' }}>
                   <a className="link" href="#">
                     <div className="platform-text us-item">
-                      <h6 className="udrop">Usecase 04</h6>
+                      <h6 className="udrop">Use case 04</h6>
                       <p className="udropara">
                         A bespoke application developed using low-code technology that redefines the process of creating, managing, and tracking quotations.
                       </p>
@@ -195,7 +195,7 @@ function Navbar() {
                   <a className='link' href="/faq">
                     <div className="platform-text rs-text">
                       <h6 className="hedrop">
-                        <i><img className='pv' src={faq} alt="" /></i>FAQs
+                        <i><img className='pv me-2' src={faq} alt="" /></i>FAQs
                       </h6>
                     </div>
                   </a>
@@ -204,7 +204,7 @@ function Navbar() {
                   <a className='link' href="/blog">
                     <div className="platform-text rs-text">
                       <h6 className="hedrop">
-                        <i><img className='pv' src={blog} alt="" /></i>Blog
+                        <i><img className='pv me-2' src={blog} alt="" /></i>Blog
                       </h6>
                     </div>
                   </a>
@@ -213,7 +213,7 @@ function Navbar() {
                   <a className='link' href="/wiki">
                     <div className="platform-text rs-text">
                       <h6 className="hedrop">
-                        <i><img className='pv' src={Wiki} alt="" /></i>Wiki
+                        <i><img className='pv me-2' src={Wiki} alt="" /></i>Wiki
                       </h6>
                     </div>
                   </a>

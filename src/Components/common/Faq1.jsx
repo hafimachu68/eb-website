@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../images/Group.png';
+import logo from '../images/faq.svg';
 import './css/faq.css';
 
 function Faq1() {
@@ -30,10 +30,13 @@ function Faq1() {
     <div>
       <div className="container pt-5">
         <div className="text-md-center mb-4 mb-md-0">
-          <h3 className="head" style={{ color: '#193054' }}>FAQs</h3>
+        <div className="logo-container">
+                <img src={logo} alt="Logo" className="logo" /> {/* Insert your logo here */}
+                <p className='pare'>FAQs</p>
+              </div>
+          <h3 className="head" style={{ color: '#193054' }}>Frequently Asked Questions</h3>
           <p className="para1 pt-4">
-            Connect your database and turn your data into attractive tables, charts, or portable reports using our futuristic Drag-n-Drop builders on the Cloud.
-          </p>
+          Wondering about something? Our FAQ holds the key!          </p>
         </div>
       </div>
       <div className="faq">

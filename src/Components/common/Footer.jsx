@@ -1,11 +1,10 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faTwitter, faLinkedin, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import { faXmark } from '@fortawesome/free-solid-svg-icons'; // Example for a generic X
-
-import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import exlog from '../images/exlog.png';
 import insta from '../images/insta.svg';
+import x from '../images/x.svg';
+
 import './css/footer.css';
 
 function Footer() {
@@ -86,7 +85,7 @@ function Footer() {
                 <FontAwesomeIcon icon={faTwitter} />
               </a>
               <a href="https://www.linkedin.com/company/expressbase-systems-private-limited/" className="me-3 text-reset circle-icon">
-                <FontAwesomeIcon icon={faLinkedin} />
+              <img src={x} alt="Instagram" />
               </a>
               <a href="https://www.youtube.com/@expressbase2443" className="me-3 text-reset circle-icon">
                 <FontAwesomeIcon icon={faYoutube} />

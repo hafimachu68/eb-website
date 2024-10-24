@@ -1,5 +1,5 @@
 import React from 'react'
-import wfimg from '../images/Gdibba.jpg';
+import wfimg from '../images/dsi.png';
 import './css/usecase.css';
 import amt from '../images/vs.png';
 import icu from '../images/icu.svg';
@@ -38,8 +38,7 @@ function Usec2() {
                <h2 className='use1 '>Challenges faced</h2>
                </div>                
                 <p className="para1 pt-2">
-                  Dibba Modern Bakery, a prominent bakery in Dubai, faced significant challenges in managing its extensive production and distribution network. With deliveries to numerous stores and hotels, keeping track of sales invoices and inventory for each customer had become a complex task. First, frequent connectivity issues in remote areas hindered sales representatives from accessing real-time data and updating sales information on the go. Second, the inefficiency of their existing van sales app impacted the productivity of the sales team, leading to customer dissatisfaction. Lastly, the app lacked integration with the company’s inventory management system, resulting in discrepancies between stock levels and orders. These collective challenges significantly hindered the effectiveness of Dibba Modern Bakery’s van sales operations, affecting both sales performance and customer service quality.
-                </p>
+                Dibba Modern Bakery, a prominent bakery in Dubai, faced significant challenges in managing its extensive production and distribution network. With deliveries to numerous stores and hotels, keeping track of sales invoices and inventory for each customer had become a complex task. First, frequent connectivity issues in remote areas hindered sales representatives from accessing real-time data and updating sales information on the go. Second, the inefficiency of their existing van sales app impacted the productivity of the sales team, leading to customer dissatisfaction. Lastly, the app lacked integration with the company’s inventory management system, resulting in discrepancies between stock levels and orders. These collective challenges significantly hindered the effectiveness of Dibba Modern Bakery’s van sales operations, affecting both sales performance and customer service quality.                </p>
               </div>
 
               <div className='pt-5'>

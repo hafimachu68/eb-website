@@ -12,7 +12,7 @@ function Aboutus() {
             <div className="row">
               <div className="col-md-12 no-padd al_bottom">
                 <h1 className="text-center ah fw-bold">Helping businesses achieve<br/>operational excellence through </h1>
-                <h1 className="text-center ah fw-bold"> Internal Automation</h1>
+                <h1 className="text-center ah fw-bold" style={{    color: '#4D86D6'}} > Internal Automation</h1>
               </div>
             </div>
           </div>

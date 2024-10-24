@@ -179,7 +179,7 @@
     /* width: 44px; */
     height: 44px;
     margin-top: 45px;
-    filter: brightness(0) saturate(100%);
+    /* filter: brightness(0) saturate(100%); */
 
 }
 .hover-container:hover .ot{

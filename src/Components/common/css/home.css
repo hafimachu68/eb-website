@@ -4,6 +4,12 @@
     font-family: Arial, Helvetica, sans-serif;
     color: #6F7174;
   }
+  .slick-prev:before, .slick-next:before {
+   
+    color: #193054;
+    
+    
+}
   
   @keyframes slideIn {
     from {

@@ -3,21 +3,21 @@ import { Link } from 'react-router-dom'; // Import Link from react-router-dom
 import './css/features.css';
 
 import chart from '../images/chart.svg';
-import charts from '../images/Charts.jpeg';
+import charts from '../images/Charts2.png';
 
 import dash from '../images/dash.svg';
-import Calender from '../images/Calender.jpeg';
+import Calender from '../images/Calender1.png';
 
 import pdf from '../images/dr.svg';
-import PDF from '../images/PDF.jpeg';
+import PDF from '../images/PDF.png';
 
 import map from '../images/map.svg';
 
 import tab from '../images/table.svg';
 import cal from '../images/cal.svg';
-import tab1 from '../images/PDFuser.jpeg';
-import dashb from '../images/Dashboard.jpeg';
-import wfimg from '../images/Gdibba.jpg';
+import tab1 from '../images/Tablev.png';
+import dashb from '../images/Dashboard1.png';
+import wfimg from '../images/Map.png';
 
 
 
@@ -56,7 +56,7 @@ function Rbox() {
     {
       image: map,
       path: '/api',
-      imageA: mainimg,
+      imageA: wfimg,
       imageB: wfimg,
       text: 'Map View',
       mainHeading: 'Seamlessly Integrate with 3rd Party software',

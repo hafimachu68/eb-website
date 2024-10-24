@@ -1,8 +1,12 @@
 import React, { useEffect, useState, useRef } from 'react';
+import Slider from "react-slick";
 import './css/home.css';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import group141 from '../images/g23.png';
 import group142 from '../images/g22.png';
 import group143 from '../images/g21.png';
+import group144 from '../images/Liwa.png';
 
 function Customer() {
   const [isVisible, setIsVisible] = useState(false);
@@ -30,25 +34,50 @@ function Customer() {
     };
   }, []);
 
+  const settings = {
+    dots: true, // Display indicators
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3, // Show 3 slides at a time
+    slidesToScroll: 1, // Scroll 1 slide at a time
+    arrows: true, // Display navigation arrows
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1, // Show 1 slide on smaller screens
+          slidesToScroll: 1,
+        }
+      }
+    ]
+  };
+
   return (
     <div className="container" ref={sectionRef}>
       <div className='cus' style={{ marginTop: '3em' }}></div>
-      <div className={`row justify-content-center fade-in-section ${isVisible ? 'is-visible' : ''}`}>
-        <div className="cr col-12 col-md-4">
-          <div className="card brd">
-            <img src={group143} className="card-img-top" alt="..." />
+      <div className={`fade-in-section ${isVisible ? 'is-visible' : ''}`}>
+        <Slider {...settings}>
+          <div className="cr">
+            <div className="card brd">
+              <img src={group143} className="card-img-top" alt="..." />
+            </div>
           </div>
-        </div>
-        <div className="cr col-12 col-md-4">
-          <div className="card brd">
-            <img src={group141} className="card-img-top" alt="..." />
+          <div className="cr">
+            <div className="card brd">
+              <img src={group141} className="card-img-top" alt="..." />
+            </div>
           </div>
-        </div>
-        <div className="cr col-12 col-md-4">
-          <div className="card brd">
-            <img src={group142} className="card-img-top" alt="..." />
+          <div className="cr">
+            <div className="card brd">
+              <img src={group142} className="card-img-top" alt="..." />
+            </div>
           </div>
-        </div>
+          <div className="cr">
+            <div className="card brd">
+              <img src={group144} className="card-img-top" alt="..." />
+            </div>
+          </div>
+        </Slider>
       </div>
       <div className='cus' style={{ marginTop: '5em' }}></div>
     </div>

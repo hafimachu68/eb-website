@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../images/Group.png'; // Import your logo file
-import wfimg from '../images/Gdibba.jpg';
+import wfimg from '../images/hsi.png';
 import './css/usecase.css';
 import amt from '../images/cm.png';
 import icu from '../images/icu.svg';
