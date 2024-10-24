@@ -2,7 +2,7 @@ import React from 'react';
 import './css/nav.css';
 import group8 from '../images/eblogo.png';
 import pv from '../images/pv.png'; // Import your logo file
-import web from '../images/wform.png'; // Import your logo file
+import web from '../images/wformg.png'; // Import your logo file
 import dument from '../images/docub.png'; // Import your logo file
 import report from '../images/reportd.png'; // Import your logo file
 import api from '../images/apid.png'; // Import your logo file
@@ -50,7 +50,7 @@ function Navbar() {
                         <a className='link' href="/webform">
                           <div className="platform-text">
                             <h6 className="hedrop">
-                              <i><img className='wpv' src={web} alt="" /></i>Web Forms
+                              <i><img className='pv' src={web} alt="" /></i>Web Forms
                             </h6>
                             <p className='dropara'>
                               Create powerful multi-lingual, multi-currency enterprise web forms.

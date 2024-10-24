@@ -226,7 +226,7 @@ color: gray;
 .usec-item {
   display: flex;
   align-items: center;
-  padding-left: 26px;
+  padding-left: 2rem;
   }
   .rsec-item {
     display: flex;

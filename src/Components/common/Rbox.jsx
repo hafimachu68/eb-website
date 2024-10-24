@@ -74,7 +74,7 @@ function Rbox() {
       image:  cal ,
       imageB: wfimg,
       imageA: Calender,
-      text: 'Calender',
+      text: 'Calender View',
       mainHeading: 'Empower Your fast growing business with Internal Mobile Apps',
       paragraph: 'Transform your organization\'s internal processes with our low-code mobile app platform. From task management to internal communications, our apps empower your team to collaborate seamlessly and stay productive from anywhere.',
     },
