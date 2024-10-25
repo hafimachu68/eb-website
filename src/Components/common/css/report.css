@@ -118,3 +118,41 @@
     position: relative;
     overflow: hidden;
 }
+
+
+
+.image-button {
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 15px 5px;
+  cursor: pointer;
+  flex: 1 1;
+  margin: 0 5px;
+  text-align: center;
+}
+
+.image-button.active {
+  background: linear-gradient(to right, #193054, #154992);
+  color: white;
+}
+
+.image-container {
+  width: 100%; /* Ensure the image container takes full width */
+  height: auto; /* Adjust height as needed */
+  overflow: hidden;
+  margin-top: 17px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto; /* Allow height to adjust automatically */
+}
+
+.image-description {
+  font-size: 14px;
+  padding: 23px 15px;
+  text-align: center;
+  background-color: #0E4695;
+  color: white;
+}

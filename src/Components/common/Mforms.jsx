@@ -78,7 +78,7 @@ function Mforms() {
           <Carousel ref={carouselRef} className='mfcrsl' interval={null}>
             {overlayData.map((data, index) => (
               <Carousel.Item key={index}>
-                <Card className="carousel-card pt-4 wf">
+                <Card className="carousel-card pt-4 mwf wf">
                   <Card.Body className="d-flex flex-column justify-content-between">
                     <div>
                       <Row>

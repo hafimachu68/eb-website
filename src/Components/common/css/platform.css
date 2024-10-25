@@ -356,21 +356,28 @@
   transform: translateX(0);
 }
 .wsright{
-  margin-top: 0;
-  margin-left: 0;
-  max-width: 100%;
+  max-width: 85%;
+  height: auto;
+  line-height: 2.5;
+  width: 91%;
+  text-align: left;
+  margin-top: 3%;
+  margin-left: 10%;
 }
 .row-container {
   display: flex;
   flex-direction: column; /* Display as column on mobile */
   align-items: center; /* Center align content */
 }
+.rc{
+  margin-bottom: 0px;
+
+}
 
 .left-content, .right-content {
   width: 100%; /* Make both left and right content take full width */
   text-align: center; /* Center align text */
-  margin-bottom: 20px; /* Add margin between left and right content */
-}
+  margin-top: 1rem;}
 .ppleft {
   margin-left: 22px;
   line-height: 2;

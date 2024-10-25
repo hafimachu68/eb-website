@@ -27,7 +27,7 @@ function Pctaheading() {
         </div>
           </div>
           <div className="col-md-5 ctmg ">
-          <div className='ctpg ' style={{marginTop:"3rem"}} >
+          <div className='  pctpg' style={{marginTop:"3rem"}} >
             <img src={ctpg} className='ctpimg ' alt="Your Image" />
             </div>
           </div>

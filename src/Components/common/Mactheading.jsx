@@ -25,7 +25,7 @@ function Mactaheading() {
         </div>
           </div>
           <div className="col-md-5 ctmg">
-          <div className='ctpg'><img src={ctpg} alt="Your Image" /></div>
+          <div className='ctpg  '><img src={ctpg} className='dimg' alt="Your Image" /></div>
           </div>
         </div>
 

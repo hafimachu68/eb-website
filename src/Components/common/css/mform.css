@@ -1,10 +1,31 @@
 .carousel-card {
     border: none;
 }
-.mcc{
-    margin-left: 7%;
-    margin-top: 1rem;
+.rwf {
+    height: 400px;
 }
+.mcc{
+    margin-left: 1%;
+    margin-top: 2rem;
+}
+
+
+
+
+/* mform.css */
+.dwbg {
+    background: rgba(255, 255, 255, 0.2); /* White background with transparency */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Light border */
+    border-radius: 15px; /* Rounded corners */
+    backdrop-filter: blur(10px); /* Glass effect */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Optional: add some padding */
+  }
+  
+  .dmwbmg {
+    border-radius: 10px; /* Rounded corners for images */
+  }
+  
 .arrow-btn {
     background: none;
     border: none;
@@ -143,6 +164,11 @@
     margin-top: 20%;   
 
 }
+.rbicon {
+    margin-left: 10%;
+    margin-top: -7%;
+    width: 24px;
+}
 .ricon {
     margin-left: 59%;
     margin-top: 20%;   
@@ -159,6 +185,14 @@
     font-family: "Blinker", sans-serif;
     font-weight: 400;
     font-size: 20px;
+    color: white;
+    font-style: normal;
+}
+.rch {
+    margin-left: -55%;
+    font-family: "Blinker", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
     color: white;
     font-style: normal;
 }
@@ -196,6 +230,7 @@
 
 .mbg{
     background-color: #193054;
+    height: 700px;
     }
     .mfbg{
 background-color: #E5F0FF;

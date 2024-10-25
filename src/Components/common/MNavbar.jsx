@@ -31,7 +31,7 @@ function MNavbar() {
     { name: 'Platform Overview', link: '/platform', icon: <img className='po' src={pv} alt="" />, description: 'Build custom applications using Low-code technology empowering your business' },
     { name: 'Web Forms', link: '/webform', icon: <img className='wpv' src={web} alt="" />, description: 'Create powerful multi-lingual, multi-currency enterprise web forms.' },
     { name: 'Documents', link: '/documents', icon: <img className='pv' src={dument} alt="" />, description: 'A document management system that seamlessly integrates into your business process.' },
-    { name: 'Reports', icon: <img className='pv' src={report} alt="" />, description: 'Gain instant access to actionable insights, putting data at your fingertips for informed decision-making.' },
+    { name: 'Reports',link: '/report', icon: <img className='pv' src={report} alt="" />, description: 'Gain instant access to actionable insights, putting data at your fingertips for informed decision-making.' },
     { name: 'APIs', icon: <img className='pv' src={api} alt="" />, description: 'Efficiently integrate third-party applications into your workflow using our futuristic API builder.' },
     { name: 'Mobile Apps', icon: <img className='mv' src={mob} alt="" />, description: 'Transform your organization\'s internal processes with our low-code mobile app platform.' },
     { name: 'Chat Bots', icon: <img className='pv' src={cb} alt="" />, description: 'Elevate customer interactions with our low-code chatbot tool.' },

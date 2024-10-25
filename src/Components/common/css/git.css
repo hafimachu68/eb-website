@@ -67,6 +67,12 @@ pbctc {
 width: 80%;
 padding: 1rem;
 }
+.pctpg {
+    /* padding-top: 80px;
+    padding-left: 50px; */
+width: 80%;
+padding: 1rem;
+}
 .rctpg {
     padding-top: 80px;
 }
@@ -149,13 +155,22 @@ padding: 1rem;
         width: 100%;
         margin-top: -3rem !important;
     }
+    .pctpg {
+        padding-left: 0rem !important;
+        width: 100%;
+        margin-top: 0 !important;
+        margin-left: 8px;
+    }
     .ctpg img{
         width: 100%;
         /* margin-left: 1rem; */
-    
+    }
+    .dimg{
+        margin-top: 4rem !important;
+        margin-left: 8px;
     }
     .ctbg {
-        height: 570px;
+        height: 650px;
     }
     .ctc{
         margin-left: 4%;
@@ -169,7 +184,7 @@ padding: 1rem;
 
     } */
     .pctbg {
-        height: 600px;
+        height: 700px;
     }
     .mgb{
         width: 91% !important;
