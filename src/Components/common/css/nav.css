@@ -277,9 +277,9 @@ color: gray;
     border-bottom: none;
     margin-left: 8rem;
 }
- .logo-img{
+ /* .logo-img{
   margin-left: -1.9rem;
- }
+ } */
  
  .navbar-toggler:focus {
   text-decoration: none;

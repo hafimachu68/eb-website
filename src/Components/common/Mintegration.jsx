@@ -62,7 +62,7 @@ function Mintegration () {
         <div className="row rint mt-5">
           <div className="col-md-6 integrate" ref={integrateRef}>
             <div className="logo-container mic">
-              <img src={icint} alt="Logo" className="icint" /> {/* Insert your logo here */}
+              <img src={icint} alt="Logo" className="incint" /> {/* Insert your logo here */}
               <p className='marei'>INTEGRATIONS</p>
             </div> 
             <h2 className='fw-bold minthh'>Seamless Connectivity to <br/> External Systems</h2>

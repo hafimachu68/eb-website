@@ -141,17 +141,17 @@ padding: 1rem;
     .ctb{
         margin-left: 14px;
         margin-top: -2rem;
-        padding: 14px 12px;
+        padding: 14px 23px;
 
     }
     .ctpg {
         padding-left: 0rem !important;
-        width: 80%;
-        margin-top: -1rem !important;
+        width: 100%;
+        margin-top: -3rem !important;
     }
     .ctpg img{
         width: 100%;
-        margin-left: 1rem;
+        /* margin-left: 1rem; */
     
     }
     .ctbg {
@@ -173,7 +173,8 @@ padding: 1rem;
     }
     .mgb{
         width: 91% !important;
-    }
+        padding: 5px !important;
+        }
 }
 
 

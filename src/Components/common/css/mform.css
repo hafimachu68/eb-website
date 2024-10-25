@@ -9,7 +9,6 @@
     background: none;
     border: none;
     margin-top: -5%;
-    font-size: 36px; /* Large font size for the angle brackets */
     color: white;    /* White color for angle brackets */
     cursor: pointer;
   }
@@ -131,7 +130,7 @@
 }
 .icon {
     margin-left: 36%;
-    margin-top: 22%;
+    margin-top: -7%;
         width: 24px;
 }
 .dicon {

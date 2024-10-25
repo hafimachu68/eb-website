@@ -28,7 +28,7 @@
   }
   @media (min-width: 768px) {
     .fmrg {
-      margin-left: 0;
+      margin-left: 0rem !important;
     }
     
     

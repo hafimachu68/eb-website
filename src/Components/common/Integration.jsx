@@ -62,7 +62,7 @@ function Integration() {
         <div className="row rint">
           <div className="col-md-6 integrate" ref={integrateRef}>
             <div className="logo-container">
-              <img src={icint} alt="Logo" className="icint" /> {/* Insert your logo here */}
+              <img src={icint} alt="Logo" className="incint" /> {/* Insert your logo here */}
               <p className='arei'>INTEGRATIONS</p>
             </div> 
             <h1 className='fw-bold inth'>Seamless<br/> Connectivity to<br/> External Systems</h1>

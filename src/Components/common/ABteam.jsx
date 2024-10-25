@@ -106,19 +106,19 @@ function ABteam() {
   </div>
   
   {/* Second Row with 3 Columns */}
-  <div className="row text-center text-white pt-5">
-    <div className="col-md-4 col-6 center blp gy">
+  <div className="row text-center text-white pt-5 justify-content-center">
+    <div className="col-md-3 col-6 center blp gy">
       <img className="team" src={Gayatri} alt="Gayatri Mayadas" />
       <p className="single-line">Gayatri Mayadas</p>
       <p className='amt'>UI/UX Designer</p>
     </div>
-    <div className="col-md-4 col-6 center blp">
+    <div className="col-md-3 col-6 center blp">
       <img className="team" src={kp} alt="Krishnaprasad K" />
       <p className="single-line">Krishnaprasad K</p>
       <p className='amt'>Implementation Executive</p>
     </div>
-    <div className="col-md-4 col-6 center blp">
-      <img className="team" src={hafi} alt="Hafeeza Mashood" />
+    <div className="col-md-3 col-6 center blp">
+      <img className="team" src={hafi} alt="Hafeeza Mashood"/>
       <p className="single-line">Hafeeza Mashood</p>
       <p className='amt'>Jr. Software Developer</p>
     </div>

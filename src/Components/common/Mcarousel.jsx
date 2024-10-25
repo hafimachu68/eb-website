@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { Carousel, Card, Button, Col, Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import { faChevronCircleLeft,faChevronCircleRight} from '@fortawesome/free-solid-svg-icons'; // Import the new icons
 import bimage1 from '../images/QM.png';
 import bimage2 from '../images/CRM.png';
 import bimage3 from '../images/VSA.png';
@@ -120,7 +120,7 @@ function Mcarousel() {
         onClick={handlePrev}
         style={{ position: 'absolute', left: '-1%', transform: 'translateY(-50%)' ,  marginTop: '-2rem' }}
       >
-        <FontAwesomeIcon icon={faChevronLeft} />
+        <FontAwesomeIcon icon={faChevronCircleLeft} /> {/* Updated Icon */}
       </Button>
 
       {/* Right Chevron Button */}
@@ -130,7 +130,7 @@ function Mcarousel() {
         onClick={handleNext}
         style={{ position: 'absolute' , right: '0', transform: 'translateY(-50%)', marginTop: '-2rem' }}
       >
-        <FontAwesomeIcon icon={faChevronRight} />
+        <FontAwesomeIcon icon={faChevronCircleRight} />
       </Button>
     </div>
   );
