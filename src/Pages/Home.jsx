@@ -22,6 +22,7 @@ import Mexdb from '../Components/common/Mexdb';
 import Mintegration from '../Components/common/Mintegration';
 import Mfcarousel from '../Components/common/Mfcarousel';
 import MNavbar from '../Components/common/MNavbar';
+import MCustomer from '../Components/common/MCustomer';
 
 function Home() {
   const [isMobile, setIsMobile] = useState(false);
@@ -58,7 +59,7 @@ function Home() {
 
         {isMobile ? <Mareyou /> : <Areyou />}
         {isMobile ? <Mtrusted /> : <Trusted />}
-        <Customer />
+        {isMobile ? <MCustomer/> : <Customer/>}
         <Features />
         {isMobile ? <Mintegration /> : <Integration />}
         {isMobile ? <Mexdb /> : <Exdb />}

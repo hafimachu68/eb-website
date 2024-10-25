@@ -6,6 +6,7 @@
     background-size: cover;
     position: relative;
     overflow: hidden;
+    margin-top: 1rem;
 }
 .cloud{
     width: 240px;

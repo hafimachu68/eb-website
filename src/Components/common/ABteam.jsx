@@ -7,6 +7,7 @@ import unni from '../images/unni11.png';
 import Febin from '../images/Febin.png';
 import Dona from '../images/DOna.png';
 import Vinayachandran from '../images/Vinayachandran.png';
+import devesh from '../images/devesh.png';
 import Gayatri from '../images/Gayatri.png';
 import kp from '../images/KP.png';
 import hafi from '../images/hafi.png';
@@ -79,43 +80,52 @@ function ABteam() {
           />
         </div>
         <div style={{ marginTop: '3em' }}></div>
-        <div className="container ">
-          <div className="row text-center blp  text-white">
-            <div className="col-md-4 col-6 center" >
-              <img className="team" src={Febin} alt="Febin Carlos" />
-              <p className="single-line">Febin Carlos</p>
-              <p className='amt'>Lead Developer</p>
-            </div>
-            <div className="col-md-4 col-6 blp  center" >
-              <img className="team" src={Dona} alt="Dona Jose" />
-              <p className="single-line">Dona Jose</p>
-              <p className='amt'>Lead Developer</p>
-            </div>
-            <div className="col-md-4 col-6 blp  center" >
-              <img className="team" src={Vinayachandran} alt="Vinayachandran V" />
-              <p className="single-line">Vinayachandran V</p>
-              <p className='amt'>Implementation Engineer</p>
-            </div>
-          </div>
-          <div className="row text-center text-white pt-5 ">
-            <div className="col-md-4 col-6 center blp  gy" >
-              <img className="team" src={Gayatri} alt="Gayatri Mayadas" />
-              <p className="single-line">Gayatri Mayadas</p>
-              <p className='amt'>UI/UX Designer</p>
-            </div>
-            <div className="col-md-4 col-6 center blp " >
-              <img className="team" src={kp} alt="Krishnaprasad K" />
-              <p className="single-line">Krishnaprasad K</p>
-              <p className='amt'>Implementation Executive</p>
-            </div>
-            <div className="col-md-4 col-6 center blp  " >
-              <img className="team" src={hafi} alt="Hafeeza Mashood" />
-              <p className="single-line">Hafeeza Mashood</p>
-              <p className='amt'>Jr. Software Developer</p>
-            </div>
-          </div>
-          
-           <div style={{ marginTop: '5rem' }}></div>
+<div className="container">
+  {/* First Row with 4 Columns */}
+  <div className="row text-center blp text-white">
+    <div className="col-md-3 col-6 center">
+      <img className="team" src={Febin} alt="Febin Carlos" />
+      <p className="single-line">Febin Carlos</p>
+      <p className='amt'>Lead Developer</p>
+    </div>
+    <div className="col-md-3 col-6 center">
+      <img className="team" src={Dona} alt="Dona Jose" />
+      <p className="single-line">Dona Jose</p>
+      <p className='amt'>Lead Developer</p>
+    </div>
+    <div className="col-md-3 col-6 center">
+      <img className="team" src={Vinayachandran} alt="Vinayachandran V" />
+      <p className="single-line">Vinayachandran V</p>
+      <p className='amt'>Implementation Engineer</p>
+    </div>
+    <div className="col-md-3 col-6 center">
+      <img className="team" src={devesh} alt="Vinayachandran V" />
+      <p className="single-line">Devesh</p>
+      <p className='amt'>Customer Success Manager</p>
+    </div>
+  </div>
+  
+  {/* Second Row with 3 Columns */}
+  <div className="row text-center text-white pt-5">
+    <div className="col-md-4 col-6 center blp gy">
+      <img className="team" src={Gayatri} alt="Gayatri Mayadas" />
+      <p className="single-line">Gayatri Mayadas</p>
+      <p className='amt'>UI/UX Designer</p>
+    </div>
+    <div className="col-md-4 col-6 center blp">
+      <img className="team" src={kp} alt="Krishnaprasad K" />
+      <p className="single-line">Krishnaprasad K</p>
+      <p className='amt'>Implementation Executive</p>
+    </div>
+    <div className="col-md-4 col-6 center blp">
+      <img className="team" src={hafi} alt="Hafeeza Mashood" />
+      <p className="single-line">Hafeeza Mashood</p>
+      <p className='amt'>Jr. Software Developer</p>
+    </div>
+  </div>
+  
+  <div style={{ marginTop: '5rem' }}></div>
+
       <h3 className='text-white blhic'><b>Contributors</b></h3>
       <div className='mt-2 pt-4'></div>
       <div className="contribute-wrapper">

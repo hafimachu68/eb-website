@@ -17,7 +17,6 @@
 
 
 .log {
-  margin-left: 3rem; /* Adjust margin as needed */
 
   /* Media query for smaller viewports */
   @media (max-width: 768px) {
@@ -204,7 +203,7 @@
   font-size: 14px;
 }
 .udropara {
-  margin-top: 0;
+  margin-top: 1rem;
   margin-left: 2px;
   font-size: 14px;
   font-weight: 400 ;

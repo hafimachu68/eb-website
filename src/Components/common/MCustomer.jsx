@@ -3,8 +3,10 @@ import './css/home.css';
 import group141 from '../images/g23.png';
 import group142 from '../images/g22.png';
 import group143 from '../images/g21.png';
+import group144 from '../images/Liwa.png';
 
-function Customer() {
+
+function MCustomer() {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null);
 
@@ -46,12 +48,12 @@ function Customer() {
         </div>
          <div className="cr col-12 col-md-4">
           <div className="card brd">
-            <img src={group141} className="card-img-top" alt="..." />
+            <img src={group142} className="card-img-top" alt="..." />
           </div>
         </div>
         <div className="cr col-12 col-md-4">
           <div className="card brd">
-            <img src={group142} className="card-img-top" alt="..." />
+            <img src={group144} className="card-img-top" alt="..." />
           </div>
         </div>
       </div>
@@ -60,4 +62,4 @@ function Customer() {
   );
 }
 
-export default Customer;
+export default MCustomer;
