@@ -8,9 +8,9 @@ import './css/mform.css';
 
 function MDcarousels() {
   return (
-    <div className="d-flex justify-content-center">
+    <div className="d-flex justify-content-center" style={{marginTop:'-1rem'}}>
       <Row className="text-center">
-        <Col md={4} className="mb-4">
+        <Col md={4} className="mt-1 p-2 px-4">
           <Card className="dwbg">
             <Card.Body className='wcbm'>
               <Card.Title className='mmainh'>Centralized Access</Card.Title>
@@ -21,7 +21,7 @@ function MDcarousels() {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={4} className="mb-4">
+        <Col md={4} className="mb-4 p-2 px-4">
           <Card className="dwbg">
             <Card.Body className='wcbm'>
               <Card.Title className='mmainh'>Enhanced Collaboration</Card.Title>
@@ -32,7 +32,7 @@ function MDcarousels() {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={4} className="mb-4">
+        <Col md={4} className="mb-4 p-2 px-4">
           <Card className="dwbg">
             <Card.Body className='wcbm'>
               <Card.Title className='mmainh'>Secure Storage</Card.Title>
@@ -43,7 +43,7 @@ function MDcarousels() {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={4} className="mb-4">
+        <Col md={4} className="mb-4 p-2 px-4">
           <Card className="dwbg">
             <Card.Body className='wcbm'>
               <Card.Title className='mmainh'>Automated Workflows</Card.Title>

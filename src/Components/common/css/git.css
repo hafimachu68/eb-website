@@ -151,9 +151,9 @@ padding: 1rem;
 
     }
     .ctpg {
-        padding-left: 0rem !important;
+        /* padding-left: 0rem !important; */
         width: 100%;
-        margin-top: -3rem !important;
+        margin-top: -2rem !important;
     }
     .pctpg {
         padding-left: 0rem !important;
@@ -166,11 +166,11 @@ padding: 1rem;
         /* margin-left: 1rem; */
     }
     .dimg{
-        margin-top: 4rem !important;
+        margin-top: 2rem ;
         margin-left: 8px;
     }
     .ctbg {
-        height: 650px;
+        height: 630px;
     }
     .ctc{
         margin-left: 4%;

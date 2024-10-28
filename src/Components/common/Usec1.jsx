@@ -12,7 +12,7 @@ import './css/usecase.css';
 
 function Usec1() {
   return (
-    <div>  <div className="container">
+    <div>  <div className="container usecc">
     <div className=" us1">
       <div className="">
         <div className="text-md-center mb-4 mb-md-0">
@@ -22,7 +22,7 @@ function Usec1() {
           </div>
           <h3 className="head" style={{ color: '#193054' }}>Attendance Management</h3>
           <div className="greenunderline"></div>
-          <p className="para1 pt-4">
+          <p className="para1 pt-4 ">
           A cutting-edge attendance management solution designed with the efficiency and simplicity in mind. Whether you're a small business, educational institution, or large corporation, this solution empowers you to effortlessly monitor attendance, streamline administrative tasks, and enhance productivity.            </p>
         
         </div>
@@ -31,18 +31,18 @@ function Usec1() {
         <div className="">
                  <img src={amt}alt="Image" className="useimg" />
 
-          <p className="para1 pt-5">
+          <p className="para1 pt-5 usep">
           Experience hassle-free attendance tracking and payment calculations with our innovative solution. Our software features an intuitive interface, powerful tools, and data-driven insights, making it easy to capture attendance, manage leaves, and receive real-time alerts. Whether you're an HR manager or an employee, you'll find our user-friendly design simple to navigate. Plus, our seamless integration capabilities provide a comprehensive view of all employee data. Ready to simplify your attendance management? Discover our software today! 📅🚀   
                  </p>  
-                  <div className='pt-5'>
+                  <div className='pt-5 usep '>
                   <div className="logo-container">
-               <img src={ict} alt="Logo" className="logo " style={{ width: '48px',height:'48px', }} /> {/* Insert your logo here */}
-               <h2 className='use1 '>Challenges faced</h2>
+               <img src={ict} alt="Logo" className="logo  mcm" style={{ width: '48px',height:'48px', }} /> {/* Insert your logo here */}
+               <h2 className='use1  '>Challenges faced</h2>
                </div>          
                  <p className="para1 pt-2">
                  Liwa Autogarages, with nearly six branches across Dubai, faced several challenges with their existing attendance management system. The main issue was the inaccurate tracking of employee working hours, including overtime and compensatory offs, which often led to payroll discrepancies. Additionally, the lack of integration between their current system and other HR processes made managing attendance across multiple branches cumbersome and inefficient. The outdated interface further complicated usage for both employees and HR staff, leading to frequent errors and frustration. These challenges negatively affected operational efficiency and employee satisfaction, making it difficult for Liwa Autogarages to manage attendance accurately across their branches.                 </p>  
                  </div>
-                 <div className='pt-5'>
+                 <div className='pt-5 usep'>
                  <div className="logo-container">
                <img src={icd} alt="Logo" className="logo"  style={{ width: '48px',height:'48px', marginTop:'-7%' }}/> {/* Insert your logo here */}
                <h2 className='use1 '>How our Attendance Management Software helped them?</h2>

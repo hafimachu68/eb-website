@@ -1,15 +1,30 @@
 .carousel-card {
     border: none;
 }
+
 .rwf {
     height: 400px;
 }
 .mcc{
-    margin-left: 1%;
-    margin-top: 2rem;
+  text-align: center;
 }
-
-
+.ctmh{
+    line-height: 2;
+}
+.carousel-title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between the title and buttons */
+    margin-bottom: -1rem; /* Add some space below the title */
+  }
+  
+  .left-arrow, .right-arrow {
+    background: transparent;
+    border: none;
+    color: #193054; /* Change to desired color */
+    /* font-size: 24px;  */
+  }
+  
 
 
 /* mform.css */
@@ -20,6 +35,13 @@
     backdrop-filter: blur(10px); /* Glass effect */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
     padding: 20px; /* Optional: add some padding */
+  }
+  .adwbg {
+    background: rgba(255, 255, 255, 0.2); /* White background with transparency */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Light border */
+    border-radius: 15px; /* Rounded corners */
+    backdrop-filter: blur(10px); /* Glass effect */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   }
   
   .dmwbmg {
@@ -81,6 +103,9 @@
     margin-left: 4%;
     margin-top: 1rem
 }
+.wfcbm{
+    margin-left: 4%;
+}
 
 .carousel-item {
     height: 100%; /* Ensure each carousel item takes the full height */
@@ -123,11 +148,19 @@
 
 }
 
+.mmgf {
+    width: 100%;
+    max-width: 350px;
+    margin-top: 1rem;
+    margin-left: 5px;
+    padding-bottom: 8rem;
+
+}
 .mmg {
     width: 100%; /* Adjust the width to 100% */
     max-width: 350px; /* Set a maximum width if needed */
     /* margin-left: -10px; */
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 }
 
 .carousel-item .carousel-card {
@@ -150,7 +183,7 @@
     margin-top: -1.2rem;
 }
 .icon {
-    margin-left: 36%;
+    margin-left: 40%;
     margin-top: -7%;
         width: 24px;
 }
@@ -165,7 +198,7 @@
 
 }
 .rbicon {
-    margin-left: 10%;
+    margin-left: 0;
     margin-top: -7%;
     width: 24px;
 }
@@ -189,13 +222,14 @@
     font-style: normal;
 }
 .rch {
-    margin-left: -55%;
+    /* margin-left: -55%; */
     font-family: "Blinker", sans-serif;
     font-weight: 400;
     font-size: 18px;
     color: white;
     font-style: normal;
 }
+ 
 .mfcrsl .icon, .mfcrsl .ricon {
     filter: brightness(0) invert(1); /* Makes the icons white */
   }
@@ -216,11 +250,30 @@
     font-family: "Fira Sans", sans-serif;
     padding-top: 1rem;
 }
+.amw{
+    font-size: 18px;
+    font-family: "Fira Sans", sans-serif;
+    padding-top: 1rem;
+    line-height: 2;
+}
+.wm{
+    font-size: 18px;
+    font-family: "Fira Sans", sans-serif;
+    padding-top: 3rem;
+}
 
 .mbtn{
     margin-left: -9rem;
     border-radius: 2rem;
 }
+.mfbtn{
+    
+    margin-left: -10rem;
+    border-radius: 25px;
+    padding: 8px 20px;
+    margin-top: 1rem;
+}
+
 .mbd{
     padding-bottom: 15px;
 }
@@ -240,6 +293,7 @@ border: none;        }
     color: black;
     border-radius: 0;
     border: none;
+    height: 800px;
 }
 
 .mbmg{
@@ -258,15 +312,15 @@ border: none;        }
 }
 .mwbmg{
     width: 100%;
-        /* height: 112% !important; */
+    /* height: 112% !important; */
     margin-left: -1rem;
-    margin-top: 10%;
+    margin-top: 2%;
     padding-bottom: 5rem;
 }
 
 .mflogo{
     margin-top: -18px;
-    margin-left: -6px;
+    margin-left: 6rem;
 }
 
 .muc{
@@ -278,6 +332,14 @@ border: none;        }
     font-family: "Blinker", sans-serif;
     font-size: 22px;
     font-weight: 700;
+    font-style: normal;
+}
+.wmainh{
+    margin-top: .5rem;
+    font-family: "Blinker", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
     font-style: normal;
 }
 
@@ -308,3 +370,16 @@ border: none;        }
     
 }
 
+.icon-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Horizontally centers the icon and text */
+    gap: 8px; /* Adjusts space between icon and text */
+    text-align: center;
+    width: 150px;
+}
+
+.icon-text-container .icon {
+    width: 24px; /* Adjust icon size as needed */
+    height: 24px;
+}

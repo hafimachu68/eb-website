@@ -8,6 +8,7 @@ import Febin from '../images/Febin.png';
 import Dona from '../images/DOna.png';
 import Vinayachandran from '../images/Vinayachandran.png';
 import Gayatri from '../images/Gayatri.png';
+import devesh from '../images/devesh.png';
 import kp from '../images/KP.png';
 import hafi from '../images/hafi.png';
 import backgroundImage from '../images/cloud.png'; // Import your image
@@ -56,7 +57,7 @@ function Mabteam() {
       <div className="container">
         <div className="row tmg" style={{ justifyContent: 'center' }}>
         <div className=" text-white text-center blhic">
-             <p className='feic'> <i> <img className='po me-3' src={bic} alt="" /> </i>TEAM </p>
+             <p className='feic'> <i> <img className='pov me-3' src={bic} alt="" /> </i>TEAM </p>
           </div>
           <div className='text-white text-center txmg'>
             <h1 className='blh'>Fusion of expertise and fresh perspectives </h1>
@@ -80,7 +81,7 @@ function Mabteam() {
         </div>
         <div style={{ marginTop: '3em' }}></div>
 <div className="container ">
-  <div className="row text-center blp text-white">
+  <div className="row text-center blp text-white justify-content-between">
     <div className="col-md-6 col-12 blp  mcenter">
       <img className="mteam k" src={Febin} alt="Febin Carlos" />
       <p className="msingle-line kp">Febin Carlos</p>
@@ -96,7 +97,12 @@ function Mabteam() {
       <p className="single-line vn">Vinayachandran V</p>
       <p className='mamt vn'>Implementation Engineer</p>
     </div>
-    <div className="col-md-6 col-12 mcenter blp ">
+    <div className="col-md-6 col-12 mcenter blp">
+      <img className="mteam" src={devesh} alt="Hafeeza Mashood" />
+      <p className="single-line">Devesh</p>
+      <p className='mamt vn'>Customer Success Manager</p>
+    </div>
+    <div className="col-md-6 col-12 mcenter blp mgy ">
       <img className="mteam" src={Gayatri} alt="Gayatri Mayadas" />
       <p className="msingle-line">Gayatri Mayadas</p>
       <p className='mamt gy'>UI/UX Designer</p>
@@ -106,7 +112,8 @@ function Mabteam() {
       <p className="msingle-line kp">Krishnaprasad K</p>
       <p className='mamt kp'>Implementation Executive</p>
     </div>
-    <div className="col-md-6 col-12 mcenter blp">
+  
+    <div className="col-md-6 col-12 mcenter blp mhf">
       <img className="mteam" src={hafi} alt="Hafeeza Mashood" />
       <p className="msingle-line">Hafeeza Mashood</p>
       <p className='mamt gy'>Jr. Software Developer</p>

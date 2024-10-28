@@ -12,7 +12,7 @@ function Mfooter() {
   return (
     <div className='Fcolor'>
       <footer className="container">
-        <div className="p-4">
+        <div className="p-5">
           <div className="col-md-6 col-sm-12 mb-4">
             <div className="align-items-center">
               <div className="col-md-12">
@@ -68,22 +68,23 @@ function Mfooter() {
               <img src={insta} alt="Instagram" />
               </a>
             </div>
-            <div className='fl row'>
-              <div className='col-sm-6 col-md-4 mb-2 mft'>
-                <p className="me-3">
-                  <a href="/termsandcodition" className="text-reset mcp">Terms of Service</a>
-                </p>
-              </div>
-              <div className='col-sm-6 col-md-4 mb-2 mfpr'>
-                <p className="me-3">
-                  <a href="/privacypolicy" className="text-reset mcp">Privacy Policy</a>
-                </p>
-              </div>
-              <div className='col-sm-6 col-md-4 mb-2 mfco'>
-                <p>
-                  <a  className="text-reset mcp">Cookie Policy</a>
-                </p>
-              </div>
+            <div className='d-flex flex-wrap justify-content-around'>
+  <div className='col-6 col-sm-4 mb-2 mft'>
+    <p className="me-3">
+      <a href="/termsandcondition" className="text-reset mcp">Terms of Service</a>
+    </p>
+  </div>
+  <div className='col-6 col-sm-4 mb-2 mfpr'>
+    <p className="me-3">
+      <a href="/privacypolicy" className="text-reset mcp">Privacy Policy</a>
+    </p>
+  </div>
+  <div className='col-6 col-sm-4 mb-2 mfco'>
+    <p>
+      <a className="text-reset mcp">Cookie Policy</a>
+    </p>
+  </div>
+
               <div className="mccp">Copyright © 2023 EXPRESSbase. All rights reserved</div>
             </div>
           </div>

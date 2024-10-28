@@ -209,9 +209,9 @@
     }
   }
   @media only screen and (max-width: 768px) {
-    .teamview{
+    /* .teamview{
       margin-top: -4rem;
-    }
+    } */
     .blh{
       font-size: 32px;
     }
@@ -253,5 +253,11 @@
 }
 .gy{
   margin-left: 18px;
+}
+.mgy{
+  margin-left: -1rem;
+}
+.mhf{
+  margin-left: 5rem;
 }
   }

@@ -25,13 +25,13 @@
     margin-top: -29px;
   }
   .mfm{
-    padding-left: 2rem;
+    padding-left: 1rem;
     margin-top: 1rem;
   }
   .mcp {
     font-size: 12px;
     padding-top: 167px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
   .mcol{
     margin-left: 65px;
@@ -54,16 +54,21 @@
     margin-top: -253px;
 }
 .mft{
-  margin-left: -34px;
+  /* margin-left: -34px; */
+  width: auto !important;
+
 }
 
 .mfpr{
-    margin-left: 80px;
-    margin-top: -49px;
+    /* margin-left: 80px;
+    margin-top: -49px; */
+    width: auto !important;
+
 }
 .mfco{
-    margin-left: 175px;
-    margin-top: -49px;
+    /* margin-left: 175px;
+    margin-top: -49px; */
+    width: auto !important;
 }
 
 .mccp{

@@ -5,7 +5,7 @@ import mobpg from '../images/bin.png';
 import mobp from '../images/mg.png';
 
 
-function Mobapp() {
+function MMobapp() {
 
   return (
     <div>
@@ -40,32 +40,37 @@ function Mobapp() {
        
       </div>
          </div>
-
-          </div>
-          </div>
-          <div className="container rc mt-5">
-      <div className="row">
-      <div className="col-md-6 p-3">
-          <div className=" mimg ">
-            <img className='mobg' src={mobpg}  />
-          </div>
-        </div>
-        <div className="col-md-6">
-          <div className="pt-5 me-4">
-            <div className= 'rm   mlchat-message'>
+         <div className="container mcntr">
+      <div className="row mt-5 mmbchat">
+      <div className="col-md-6 pt-5 mmbchat">
+      <div className= 'mchat-message'>
               <h5 className='mhead'>Ensuring Data Integrity with the Error Bin Feature</h5>
                <p>
-               The Error Bin feature in our mobile app ensures that no data is lost even when an error occurs during form submission. If data fails to be saved or an error is encountered, the information is automatically moved to the Error Bin. This allows to review the problematic data, make necessary corrections, and then successfully push it to the database. The Error Bin feature ensures data integrity and reliability, providing a safety net that captures and resolves submission issues efficiently.                </p>
+               The Error Bin feature in our mobile app ensures that no data is lost even when an error occurs during form submission. If data fails to be saved or an error is encountered, the information is automatically moved to the Error Bin. This allows to review the problematic data, make necessary corrections, and then successfully push it to the database. The Error Bin feature ensures data integrity and reliability, providing a safety net that captures and resolves submission issues efficiently.    
+                </p>
             </div>
+          
+        </div>
+        <div className="col-md-6">
+          <div className="pt-5 me-5 mmbchati">
+          <div className=" mimg ">
+
+         <img className='mobg' src={mobpg}  />
+       </div>
             
           </div>
         </div>
        
       </div>
          </div>
+          </div>
+          </div>
+          
+          
+          
 
         </div>
   )
 }
 
-export default Mobapp
+export default MMobapp

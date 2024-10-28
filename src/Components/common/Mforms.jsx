@@ -106,10 +106,10 @@ function Mforms() {
                     </div>
                     <div className="align-self-center mbd">
                       <Link to={data.path}>
-                        <Button className="mbtn my-3" variant="light">Explore</Button>
+                        <Button className="mfbtn" variant="light">Explore</Button>
                       </Link>
                     </div>
-                    <img className='mmg' src={data.imageA} alt={`${data.text} Image`} />
+                    <img className='mmgf' src={data.imageA} alt={`${data.text} Image`} />
                   </Card.Body>
                 </Card>
               </Carousel.Item>

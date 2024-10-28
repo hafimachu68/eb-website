@@ -40,11 +40,11 @@ function Mcarousel() {
                 </Col>
               </Row>    
               <Card.Title className='mmainh'>Attendance Management</Card.Title>
-              <Card.Text>
+              <Card.Text className='ctmh'>
                 A cutting-edge attendance management solution designed with efficiency and simplicity in mind. Whether you're a small business, educational institution, or large corporation, this solution empowers you to effortlessly monitor attendance, streamline administrative tasks, and enhance productivity.
               </Card.Text>
-              <Button variant="light">Explore</Button>
-              <Card.Img className='mcmg' src={bimage5} alt="First slide" />
+              <Button  className='mt-3' variant="light">Explore</Button>
+              <Card.Img className='mcmg mt-5' src={bimage5} alt="First slide" />
             </Card.Body>
           </Card>
         </Carousel.Item>
@@ -61,11 +61,11 @@ function Mcarousel() {
                 </Col>
               </Row>    
               <Card.Title className='mmainh'>Custom Van Sales App</Card.Title>
-              <Card.Text>
+              <Card.Text className='ctmh'>
                 A van sales management mobile app that can be easily customized, using low-code technology. Ideal for businesses in the distribution and retail sectors, it empowers sales teams to efficiently process orders, manage sales, and enhance customer satisfaction on the go. It works offline too!
               </Card.Text>
-              <Button variant="light">Explore</Button>
-              <Card.Img className='mcmg' src={bimage3} alt="First slide" />
+              <Button className='mt-2' variant="light">Explore</Button>
+              <Card.Img className='mcmg mt-2' src={bimage3} alt="First slide" />
             </Card.Body>
           </Card>
         </Carousel.Item>
@@ -82,10 +82,10 @@ function Mcarousel() {
                 </Col>
               </Row>    
               <Card.Title className='mmainh'>Quotation Management</Card.Title>
-              <Card.Text>
+              <Card.Text className='ctmh'>
                 A bespoke application developed using low-code technology that redefines the process of creating, managing, and tracking quotations. It empowers sales teams to streamline quotation workflows, improve accuracy, cuts down time & effort substantially, and enhance customer satisfaction with ease.
               </Card.Text>
-              <Button variant="light">Explore</Button>
+              <Button className='mt-3' variant="light">Explore</Button>
               <Card.Img className='mcmg' src={bimage5} alt="First slide" />
             </Card.Body>
           </Card>
@@ -103,10 +103,10 @@ function Mcarousel() {
                 </Col>
               </Row>    
               <Card.Title className='mmainh'>Custom CRM</Card.Title>
-              <Card.Text>
+              <Card.Text className='ctmh'>
                 A dynamic customer relationship management (CRM) application, meticulously crafted using low-code technology. With its intuitive interface and robust features, it transformed the client’s approach to customer management, enabling them to build stronger relationships, streamline sales processes, and drive effective growth strategies.
               </Card.Text>  
-              <Button variant="light">Explore</Button>
+              <Button className='mt-3' variant="light">Explore</Button>
               <Card.Img className='mcmg' src={bimage2} alt="First slide" />
             </Card.Body>
           </Card>

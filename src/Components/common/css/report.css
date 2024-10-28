@@ -35,6 +35,9 @@
     overflow: hidden;
     border: 1px solid #ccc;
     margin-top: 17px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
 }
 
 .image-container img {
@@ -155,4 +158,6 @@
   text-align: center;
   background-color: #0E4695;
   color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }

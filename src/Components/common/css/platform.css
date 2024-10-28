@@ -370,7 +370,8 @@
   align-items: center; /* Center align content */
 }
 .rc{
-  margin-bottom: 0px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 
 }
 

@@ -144,6 +144,27 @@
     font-family: "Fira Sans", sans-serif;
 
     }
+    .mcntr{
+      padding: 0 !important;
+      line-height: 2;
+    }
+    .mhead{
+      font-size: 28px;
+    }
+    .mmapp{
+      text-align: center;
+    }
+    .map1{
+      line-height: 2;
+    }
+    .mmbchat{
+    margin-top: 0 !important;
+    }
+    .mmbchati{
+      margin: 0 !important;
+      padding-top: 0 !important;
+      }
+      
   }
   
 

@@ -18,6 +18,15 @@
 }
 
  @media (max-width: 768px) {
+   .mcm{
+      margin-top: -7%;
+   }
+   .useimg{
+      margin-top: -1rem;
+   }
+   .usecc{
+      padding: 1rem !important;
+   }
    .usevdo{
       padding-top: 0 !important;
       padding-bottom: 2rem;
@@ -26,9 +35,14 @@
    .use1{
       font-size: 28px;
    }
+   
 .us1{
    padding: 0 !important;
    text-align: center;
 }
+.usep{
+   text-align: left !important;
+   line-height: 2;
+ }
 
  }
