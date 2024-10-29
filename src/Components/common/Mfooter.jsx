@@ -34,17 +34,17 @@ function Mfooter() {
               <div className="col-sm-6 col-md-4 mb-4">
                 <h6 className="fw-bold">Quick links</h6>
                 <p><a href="/webform" className="text-reset">Forms</a></p>
-                <p><a  className="text-reset">Reporting</a></p>
-                <p><a className="text-reset">API</a></p>
+                <p><a href="/report" className="text-reset">Reporting</a></p>
+                <p><a href="/api" className="text-reset">API</a></p>
                 <p><a href="/documents" className="text-reset">Documents</a></p>
-                <p><a className="text-reset">Mobile Apps</a></p>
+                <p><a href="/mobapp" className="text-reset">Mobile Apps</a></p>
                 <p><a href="/chatbot" className="text-reset">Chat Bot</a></p>
               </div>
               <div className="col-sm-6 col-md-4 mb-2 mfr">
                 <h6 className="fw-bold">Resources</h6>
-                <p><a  className="text-reset">FAQ</a></p>
-                <p><a  className="text-reset">Blog</a></p>
-                <p><a  className="text-reset">Wiki</a></p>
+                <p><a href="/faq"  className="text-reset">FAQ</a></p>
+                <p><a   className="text-reset">Blog</a></p>
+                <p><a   className="text-reset">Wiki</a></p>
               </div>
               <div className="col-sm-6 col-md-4 mb-2 mfc">
                 <h6 className="fw-bold">Company</h6>
