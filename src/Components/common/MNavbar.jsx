@@ -41,7 +41,7 @@ const usecaseItems = [
     { name: 'Usecase 1', link: '/Usecase1', description: 'A cutting-edge attendance management solution designed with efficiency and simplicity in mind.' },
     { name: 'Usecase 2', link: '/Usecase2', description: 'A van sales management mobile app that can be easily customized, using low-code technology.' },
     { name: 'Usecase 3',  link: '/Usecase3', description: 'A dynamic customer relationship management (CRM) application, meticulously crafted using low-code technology.' },
-    { name: 'Usecase 4', description: 'A bespoke application developed using low-code technology that redefines the process of creating, managing, and tracking quotations.' },
+    { name: 'Usecase 4',link: '/Usecase', description: 'A bespoke application developed using low-code technology that redefines the process of creating, managing, and tracking quotations.' },
 ];
 
 const resourceItems = [

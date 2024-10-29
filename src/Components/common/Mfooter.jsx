@@ -38,6 +38,7 @@ function Mfooter() {
                 <p><a className="text-reset">API</a></p>
                 <p><a href="/documents" className="text-reset">Documents</a></p>
                 <p><a className="text-reset">Mobile Apps</a></p>
+                <p><a href="/chatbot" className="text-reset">Chat Bot</a></p>
               </div>
               <div className="col-sm-6 col-md-4 mb-2 mfr">
                 <h6 className="fw-bold">Resources</h6>
@@ -48,7 +49,7 @@ function Mfooter() {
               <div className="col-sm-6 col-md-4 mb-2 mfc">
                 <h6 className="fw-bold">Company</h6>
                 <p><a href="/about" className="text-reset">About us</a></p>
-                <p><a  className="text-reset">Contact</a></p>
+                <p><a href='/contactus' className="text-reset">Contact</a></p>
               </div>
             </div>
             <div className='mfm row mb-3'>
@@ -71,7 +72,7 @@ function Mfooter() {
             <div className='d-flex flex-wrap justify-content-around'>
   <div className='col-6 col-sm-4 mb-2 mft'>
     <p className="me-3">
-      <a href="/termsandcondition" className="text-reset mcp">Terms of Service</a>
+      <a href="/termsandcodition" className="text-reset mcp">Terms of Service</a>
     </p>
   </div>
   <div className='col-6 col-sm-4 mb-2 mfpr'>

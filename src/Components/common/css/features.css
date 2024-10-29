@@ -16,6 +16,14 @@
     color:#193054    ;
     font-family: "Fira Sans", sans-serif;
 }
+/* features.css */
+
+.mobile-app-icon {
+    width: 70%;
+    margin: 0 auto;
+    display: block; /* Centers image within the div */
+  }
+  
 .rb{
     width: 77% !important;
     margin-left: 12% !important;
@@ -59,6 +67,12 @@
     font-size: 18px;
     font-family: "Fira Sans", sans-serif;
 }
+.mobile-app-img {
+    width: 70% !important;
+    height: auto; /* Maintain aspect ratio */
+    /* Add any additional styles you want here */
+  }
+  
 .fmh {
     padding-bottom: 1.5rem;
     font-size: 50px;
@@ -292,7 +306,7 @@ color: black;
 }
 .mainimg{
     width: 93%;
-    margin-left: 3.5%;
+    /* margin-left: 3.5%; */
     height:726px    ;
     padding-bottom: 40px;
     padding-top: 40px;

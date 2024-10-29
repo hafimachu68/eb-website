@@ -1,8 +1,8 @@
 import React, { useRef } from 'react';
 import { Carousel, Container, Row, Col, Card, Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link } from 'react-router-dom';
 import './css/mform.css';
-import mainimg from '../images/mainimg.png';
+import mainimg from '../images/mg.png';
 import web from '../images/wformg.png';
 import report from '../images/reportg.png';
 import documents from '../images/docug.png';
@@ -17,17 +17,16 @@ import docu from '../images/Docu.png';
 import api1 from '../images/API1.png';
 
 function Mforms() {
-  const carouselRef = useRef(null);  // Reference to the carousel
+  const carouselRef = useRef(null);
 
   const handlePrev = () => {
-    carouselRef.current.prev();  // Move to the previous slide
+    carouselRef.current.prev();
   };
 
   const handleNext = () => {
-    carouselRef.current.next();  // Move to the next slide
+    carouselRef.current.next();
   };
 
-  // Carousel overlay data
   const overlayData = [
     {
       image: web,
@@ -78,7 +77,7 @@ function Mforms() {
           <Carousel ref={carouselRef} className='mfcrsl' interval={null}>
             {overlayData.map((data, index) => (
               <Carousel.Item key={index}>
-                <Card className="carousel-card pt-4 mwf wf">
+                <Card className={`carousel-card pt-4 mwf wf ${data.text === 'Mobile Apps' ? 'mobile-content-style' : ''}`}>
                   <Card.Body className="d-flex flex-column justify-content-between">
                     <div>
                       <Row>
@@ -109,7 +108,7 @@ function Mforms() {
                         <Button className="mfbtn" variant="light">Explore</Button>
                       </Link>
                     </div>
-                    <img className='mmgf' src={data.imageA} alt={`${data.text} Image`} />
+                    <img className={`mmgf ${data.text === 'Mobile Apps' ? 'mobile-image-style' : ''}`} src={data.imageA} alt={`${data.text} Image`} />
                   </Card.Body>
                 </Card>
               </Carousel.Item>

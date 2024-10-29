@@ -14,7 +14,7 @@ function MDcarousels() {
           <Card className="dwbg">
             <Card.Body className='wcbm'>
               <Card.Title className='mmainh'>Centralized Access</Card.Title>
-              <Card.Text className='mw'>
+              <Card.Text className='dmw'>
                 Keep all your documents in one place, accessible anytime, anywhere.
               </Card.Text>
               <Card.Img className='dmwbmg' src={bimage1} alt="Centralized Access" />
@@ -25,7 +25,7 @@ function MDcarousels() {
           <Card className="dwbg">
             <Card.Body className='wcbm'>
               <Card.Title className='mmainh'>Enhanced Collaboration</Card.Title>
-              <Card.Text className='mw'>
+              <Card.Text className='dmw'>
                 Work together seamlessly with team members, no matter where they are.
               </Card.Text>
               <Card.Img className='dmwbmg' src={bimage2} alt="Enhanced Collaboration" />
@@ -36,7 +36,7 @@ function MDcarousels() {
           <Card className="dwbg">
             <Card.Body className='wcbm'>
               <Card.Title className='mmainh'>Secure Storage</Card.Title>
-              <Card.Text className='mw'>
+              <Card.Text className='dmw'>
                 Rest easy knowing your documents are protected with top-notch security measures.
               </Card.Text>
               <Card.Img className='dmwbmg' src={bimage3} alt="Secure Storage" />
@@ -47,7 +47,7 @@ function MDcarousels() {
           <Card className="dwbg">
             <Card.Body className='wcbm'>
               <Card.Title className='mmainh'>Automated Workflows</Card.Title>
-              <Card.Text className='mw'>
+              <Card.Text className='dmw'>
                 Simplify your processes with automated document routing and approval.
               </Card.Text>
               <Card.Img className='dmwbmg' src={bimage4} alt="Automated Workflows" />

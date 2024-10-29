@@ -214,7 +214,9 @@ color: gray;
   margin-left: 40px;
   font-size: 14px;
 }
-
+.mnlnk{
+  margin-left: -18px;
+}
 .platform-item {
   display: flex;
   padding: 15px;

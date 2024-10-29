@@ -24,8 +24,7 @@ function Contactus() {
             <div className="col-md-12 no-padd al_bottom">
               <h1 className="ch fw-bold">Contact Us </h1>
               <p className="  " >
-              Connect your database and turn your data into attractive tables, charts or <br/>
-               portable reports using our futuristic Drag-n-Drop builders on the Cloud.              </p>
+              Your path to streamlined efficiency starts here.           </p>
             </div>
           </div>
         </div>
@@ -40,7 +39,8 @@ function Contactus() {
                     <i> <img className='loc mx-5' src={cnt1} alt="" /> </i>
                     </div>
                     <div className="col-md-10">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                        <p>
+                        Integrated Startup Complex, KINFRA Hi-Tech Park, Kalamassery, Kochi 683503, INDIA.                          </p>
                     </div>
                   </div>
                   <div className="row pt-3">
@@ -48,7 +48,7 @@ function Contactus() {
                     <i> <img className='pv mx-5' src={cnt2} alt="" /> </i>
                     </div>
                     <div className="col-md-10">
-                        <p>123-456-789-0</p>
+                        <p>+91 85890 71379</p>
                     </div>
                   </div>
                   <div className="row pt-3">
@@ -56,7 +56,7 @@ function Contactus() {
                     <i> <img className='pv mx-5' src={cnt3} alt="" /> </i>
                     </div>
                     <div className="col-md-10">
-                        <p>www.xyz.com</p>
+                        <p>www.expressbase.com</p>
                     </div>
                   </div>
                   <div className="row pt-3">
@@ -75,6 +75,8 @@ function Contactus() {
                     
                   </div>
                 </div>
+                <a href="https://maps.app.goo.gl/M5pGVp96fud5Sx2RA" target="_blank" rel="noopener noreferrer">
+
                 <div className='container phone'style={{backgroundImage: `url(${bg})`}}>
                 <div className="contact-overlay">
         <div className="container lc">
@@ -86,6 +88,7 @@ function Contactus() {
         </div>
       </div>
      </div>
+     </a>
             </div>
             <div className="col-md-6">
             <div className='container cform '>

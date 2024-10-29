@@ -3,7 +3,7 @@ import React from 'react'
 function Term() {
   return (
     <div>
-      <div className="container">
+      <div className="container usep para1">
         <h1 className="pt-3 pead">Terms & Conditions</h1>
         <p>Last updated: 1st June 2024!</p>
 

@@ -51,7 +51,7 @@ function Usec2() {
                 <ol className="">
                   <li>
                     <h6> Route-Based Solutions</h6>
-                    <ul>
+                    <ul className='para1'>
                       <li>We designed personalized routes for each salesperson.</li>
                       <li>These routes optimized delivery efficiency by considering factors such as proximity, traffic, and customer demand.</li>
                       <li>Sales representatives could access their assigned routes through the app, ensuring timely visits to customers.</li>

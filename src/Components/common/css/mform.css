@@ -29,12 +29,9 @@
 
 /* mform.css */
 .dwbg {
-    background: rgba(255, 255, 255, 0.2); /* White background with transparency */
-    border: 1px solid rgba(255, 255, 255, 0.5); /* Light border */
-    border-radius: 15px; /* Rounded corners */
-    backdrop-filter: blur(10px); /* Glass effect */
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    padding: 20px; /* Optional: add some padding */
+    border: none; /* Light border */
+    padding: 0; /* Optional: add some padding */
+    margin-top: -1rem;
   }
   .adwbg {
     background: rgba(255, 255, 255, 0.2); /* White background with transparency */
@@ -250,6 +247,11 @@
     font-family: "Fira Sans", sans-serif;
     padding-top: 1rem;
 }
+.dmw{
+    font-size: 18px;
+    font-family: "Fira Sans", sans-serif;
+    /* padding-top: 1rem; */
+}
 .amw{
     font-size: 18px;
     font-family: "Fira Sans", sans-serif;
@@ -383,3 +385,12 @@ border: none;        }
     width: 24px; /* Adjust icon size as needed */
     height: 24px;
 }
+
+    .mobile-image-style {
+        width: 100%;
+        max-width: 300px;
+        margin-top: 1rem;
+        align-self: center;
+        padding-bottom: 8rem;
+    
+      }

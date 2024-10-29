@@ -10,7 +10,7 @@ import WF from '../images/Web1.png';
 import repo from '../images/Reports.png';
 import docu from '../images/Docu.png';
 import api1 from '../images/API1.png';
-import mainimg from '../images/mainimg.png';
+import mainimg from '../images/mg.png';
 
 function Forms() {
   const overlayData = [
@@ -20,7 +20,7 @@ function Forms() {
       imageA: WF,
       text: 'Web Forms',
       mainHeading: 'Build complex enterprise class Web Forms 10x faster',
-      paragraph: 'Create powerful multi-lingual,multi-currency enterprise web forms with built-in audit trail, infinite validations and RBAC security.',
+      paragraph: 'Create powerful multi-lingual, multi-currency enterprise web forms with built-in audit trail, infinite validations, and RBAC security.',
     },
     {
       image: report,
@@ -36,7 +36,7 @@ function Forms() {
       imageA: docu,
       text: 'Documents',
       mainHeading: 'Document Management for business apps like never before',
-      paragraph: 'A document management system that seamlessly integrates into your business process. Say goodbye to toggling between platforms—manage documents in-context,  ensuring seamless access to crucial information.',
+      paragraph: 'A document management system that seamlessly integrates into your business process, ensuring seamless access to crucial information.',
     },
     {
       image: api,
@@ -44,15 +44,15 @@ function Forms() {
       imageA: api1,
       text: 'APIs',
       mainHeading: 'Seamlessly Integrate with 3rd Party software',
-      paragraph: 'Efficiently integrate third-party applications into your workflow using our futuristic API builder. Simplify cross-platform connectivity and unlock new possibilities for productivity and growth.',
+      paragraph: 'Efficiently integrate third-party applications into your workflow using our futuristic API builder.',
     },
     {
       image: mobapp,
       path: '/mobileapp',
       imageA: mainimg,
       text: 'Mobile Apps',
-      mainHeading: 'Empower Your fast growing business with Internal Mobile Apps',
-      paragraph: 'Transform your organization\'s internal processes with our low-code mobile app platform. From task management to internal communications, our apps empower your team to collaborate seamlessly and stay productive from anywhere.',
+      mainHeading: 'Empower Your fast-growing business with Internal Mobile Apps',
+      paragraph: 'Transform your organization\'s internal processes with our low-code mobile app platform.',
     },
   ];
 
@@ -63,21 +63,23 @@ function Forms() {
   };
 
   useEffect(() => {
-    // Set default content to Web Forms when component mounts
     setActiveOverlayIndex(0);
-  }, []); // Empty dependency array ensures it only runs once
+  }, []);
 
   return (
-    <div className='fbg'>
-      <div className=''></div>
+    <div className="fbg">
       {activeOverlayIndex !== null && (
-        <div className="">
+        <div>
           <div className="overlays">
             {overlayData.map((data, index) => (
               <div className="col-md-2 over" key={index} onClick={() => handleClick(index)}>
                 <div className={`overlay-box text-center ${activeOverlayIndex === index ? 'active' : ''}`}>
                   <div className="hover-container">
-                    <img className="fcloud1" src={data.image} alt="" />
+                    <img
+                      className={`fcloud1 ${data.image === 'mobapp' ? 'mobile-app-icon' : ''}`}
+                      src={data.image}
+                      alt=""
+                    />
                     <p className="ot">{data.text}</p>
                   </div>
                 </div>
@@ -86,7 +88,7 @@ function Forms() {
           </div>
           <div className="rdiv">
             <div className="row content">
-              <h1 className="fw-bold fmh ">{overlayData[activeOverlayIndex].mainHeading}</h1>
+              <h1 className="fw-bold fmh">{overlayData[activeOverlayIndex].mainHeading}</h1>
               <div className="col-md-6 mainH">
                 <p className="sub">{overlayData[activeOverlayIndex].paragraph}</p>
               </div>
@@ -96,9 +98,13 @@ function Forms() {
                 </a>
               </div>
             </div>
-            <div className="">
-              <img className="mainimg" src={overlayData[activeOverlayIndex].imageA} alt="imga" />
-            </div>
+            <div className='text-center'>
+    <img
+      className={`mainimg ${activeOverlayIndex === 4 ? 'mobile-app-img' : ''}`}
+      src={overlayData[activeOverlayIndex].imageA}
+      alt="imga"
+    />
+  </div>
           </div>
         </div>
       )}
@@ -107,3 +113,4 @@ function Forms() {
 }
 
 export default Forms;
+

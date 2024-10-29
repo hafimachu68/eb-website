@@ -52,6 +52,9 @@ function Footer() {
                 <p>
                   <a href="/mobileapp" className="text-reset">Mobile Apps</a>
                 </p>
+                <p>
+                  <a href="/chatbot" className="text-reset">Chat Bot</a>
+                </p>
               </div>
               <div className="col-sm-6 col-md-4 mb-2">
                 <h6 className="fw-bold">
