@@ -17,7 +17,11 @@ function Mmessage() {
           <img src={abm1} className="img-fluid" alt="Image 1" />
         </div>
         <div className="text-col">
-        <p className='mab'> Part of Leading LATAM’s startup accelerator’s Generation-21, got awarded $35k equity-free grant</p>
+        <p className='mab'> 
+        Part of Leading LATAM’s startup accelarator’s Generation-21, got awarded $35k equity-free grant
+
+
+        </p>
         </div>
       </div>
 
@@ -26,7 +30,10 @@ function Mmessage() {
           <img src={abm2} className="img-fluid" alt="Image 2" />
         </div>
         <div className="text-col">
-        <p className='mab'> Part of Leading MEA’s startup accelerator’s cycle-2</p>
+        <p className='mab'>
+        Part of Leading MEA’s startup accelarator’s cycle-2
+
+</p>
 
         </div>
       </div>
@@ -35,7 +42,10 @@ function Mmessage() {
           <img src={abm3} className="img-fluid" alt="Image 2" />
         </div>
         <div className="text-col">
-        <p className='mab'> Part of Leading MEA’s startup accelerator’s cycle-2</p>
+        <p className='mab'>
+        Member of the Startup-Incubation program, awarded $17k scale-up grant
+
+</p>
 
         </div>
       </div>
@@ -44,7 +54,11 @@ function Mmessage() {
           <img src={abm4} className="img-fluid" alt="Image 2" />
         </div>
         <div className="text-col">
-        <p className='mab'> Part of Leading MEA’s startup accelerator’s cycle-2</p>
+        <p className='mab'> 
+        Part of NASSCOM’s 10k startups program, selected for Innotrek 2018.
+
+
+        </p>
 
         </div>
       </div>
@@ -53,7 +67,11 @@ function Mmessage() {
           <img src={abm5} className="img-fluid" alt="Image 2" />
         </div>
         <div className="text-col">
-        <p className='mab'> Part of Leading MEA’s startup accelerator’s cycle-2</p>
+        <p className='mab'> 
+        Winner of Hack for Health Hackathon by eHealth & KDISC
+
+
+        </p>
 
         </div>
       </div>
@@ -62,7 +80,10 @@ function Mmessage() {
           <img src={abm6} className="img-fluid" alt="Image 2" />
         </div>
         <div className="text-col">
-        <p className='mab'> Part of Leading MEA’s startup accelerator’s cycle-2</p>
+        <p className='mab'> 
+        Semi-finalist of the startup competition at GITEX 2021, Dubai
+
+</p>
 
         </div>
       </div>

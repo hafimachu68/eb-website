@@ -1,16 +1,11 @@
 // ABmessages.jsx
 import React from 'react';
 import './css/abmessage.css'; // Import the CSS file for styling
-import abm1 from '../images/abm1.png';
-import abm2 from '../images/abm2.png';
-import abm3 from '../images/abm3.png';
-import abm4 from '../images/abm4.png';
-import abm5 from '../images/abm5.png';
+
 import at6 from '../images/abmr6.png';
 import at7 from '../images/abmr7.png';
 import at33 from '../images/abmr3.png';
 import at5 from '../images/ambr5.png';
-import abm6 from '../images/abm6.png';
 
 import at1 from '../images/at1.png';
 import at2 from '../images/at2.png';

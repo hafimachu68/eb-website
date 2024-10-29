@@ -7,6 +7,9 @@ import Usec1 from '../Components/common/Usec1'
 import Usec3 from '../Components/common/Usec3'
 import MNavbar from '../Components/common/MNavbar'
 import Mfooter from '../Components/common/Mfooter'
+import Mactaheading from '../Components/common/Mactheading';
+import MUsec3 from '../Components/common/MUsec3';
+
 
 function Use3() {
   const [isMobile, setIsMobile] = useState(false);
@@ -30,8 +33,8 @@ function Use3() {
   return (
     <div className='rbg'>
         {isMobile ? <MNavbar/>:<Navbar />}
-        <Usec3/>
-        <Wfctaheading/>
+        {isMobile ? <MUsec3/> : <Usec3 />}
+        {isMobile ? <Mactaheading/> : <Wfctaheading />}
         {isMobile ? <Mfooter/> : <Footer />}
     </div>
   )

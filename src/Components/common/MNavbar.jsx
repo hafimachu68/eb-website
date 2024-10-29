@@ -39,13 +39,13 @@ function MNavbar() {
 
 const usecaseItems = [
     { name: 'Usecase 1', link: '/Usecase1', description: 'A cutting-edge attendance management solution designed with efficiency and simplicity in mind.' },
-    { name: 'Usecase 2', description: 'A van sales management mobile app that can be easily customized, using low-code technology.' },
-    { name: 'Usecase 3', description: 'A dynamic customer relationship management (CRM) application, meticulously crafted using low-code technology.' },
+    { name: 'Usecase 2', link: '/Usecase2', description: 'A van sales management mobile app that can be easily customized, using low-code technology.' },
+    { name: 'Usecase 3',  link: '/Usecase3', description: 'A dynamic customer relationship management (CRM) application, meticulously crafted using low-code technology.' },
     { name: 'Usecase 4', description: 'A bespoke application developed using low-code technology that redefines the process of creating, managing, and tracking quotations.' },
 ];
 
 const resourceItems = [
-    { name: 'FAQs', icon: <img className='pv ' src={faq} alt="" />, description: 'Find answers to frequently asked questions and common issues.' },
+    { name: 'FAQs', link: '/faq', icon: <img className='pv ' src={faq} alt="" />, description: 'Find answers to frequently asked questions and common issues.' },
     { name: 'Blog', icon: <img className='pv' src={blog} alt="" />, description: 'Read the latest articles, tutorials, and news on low-code development.' },
     { name: 'Wiki', icon: <img className='pv' src={Wiki} alt="" />, description: 'Access comprehensive documentation and resources to help you get started.' },
 ];

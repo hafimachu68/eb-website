@@ -6,6 +6,9 @@ import './css/home-Pg.css'
 import Usec2 from '../Components/common/Usec2'
 import MNavbar from '../Components/common/MNavbar'
 import Mfooter from '../Components/common/Mfooter'
+import Mactaheading from '../Components/common/Mactheading';
+import MUsec2 from '../Components/common/MUsec2';
+
 
 
 function Use2() {
@@ -30,8 +33,8 @@ function Use2() {
   return (
     <div className='rbg'>
         {isMobile ? <MNavbar/>:<Navbar />}
-        <Usec2/>
-        <Wfctaheading/>
+        {isMobile ? <MUsec2/> : <Usec2/>}
+        {isMobile ? <Mactaheading/> : <Wfctaheading />}
         {isMobile ? <Mfooter/> : <Footer />}
     </div>
   )
