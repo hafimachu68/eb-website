@@ -18,8 +18,8 @@ import background from '../images/bg-blue.svg'; // Import your image
 
 // import hafi from '../images/hafee.jpeg';
 
-import Contributers1 from '../images/c-1.png';
-import Contributers2 from '../images/c-2.png';
+// import Contributers1 from '../images/c-1.png';
+import Contributers2 from '../images/team.png';
 
 
 function Mabteam() {
@@ -123,7 +123,7 @@ function Mabteam() {
       <h3 className='text-white blhic'><b>Contributers</b></h3>
       <div className='mt-2 pt-4'></div>
       <div className="contribute-wrapper">
-       <img className={`contribute ${contributersVisible ? 'visible' : ''} contribute-1`} src={Contributers1} alt="Contributors" />
+       {/* <img className={`contribute ${contributersVisible ? 'visible' : ''} contribute-1`} src={Contributers1} alt="Contributors" /> */}
      <img className={`contribute ${contributersVisible ? 'visible' : ''} contribute-2`} src={Contributers2} alt="Contributors" />
      </div>
       </div>
